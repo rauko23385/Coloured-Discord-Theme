@@ -6,20 +6,28 @@
 /****IMPORTANT DISCLAIMER****/
 /*To activate a theme you must paste a link, from the list of themes below, between the brackets after "@import url"*/
 
+/*If you are having trouble getting this setup done contact me 
+@Waterin#6451 i will answer as soon as possible*/
+
 /*Theme Importing/Selector*/
+/*Change "THEME LINK HERE" with one of the theme links below*/
 @import url(THEME LINK HERE);
 
 
 /*Darker Than Red Theme*/
-/*https://tinyurl.com/ydz3758d
+/*Theme link: https://tinyurl.com/ydz3758d
+
 Default Background
-https://imgur.com/9s5zWxn.jpg*/
+Link for BG https://imgur.com/9s5zWxn.jpg
+*/
 
 
 /*Lighter Than Blue*/
-/*https://tinyurl.com/y7k6fv9b
+/*Theme Link: https://tinyurl.com/y7k6fv9b
+
 Default Background
-https://imgur.com/6c2xPlM.jpg*/
+Link for BG: https://imgur.com/6c2xPlM.jpg
+*/
 
 
 /*Neutralized Green*/
@@ -28,7 +36,7 @@ https://imgur.com/6c2xPlM.jpg*/
 
 
 /*Background*/
-/*To use your own background paste a direct link to an image between the brackets*/
+/*To use your own background replace the "LINK HERE" with one of the above or your links to set a background*/
 :root {
 	--main-bg: url(LINK HERE) !important;
 }
