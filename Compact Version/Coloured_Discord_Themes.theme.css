@@ -1,0 +1,41 @@
+//META{"name":"Coloured_Discord_Theme","description":"Coloured Discord Theme Series by Waterin.","author":"Waterin","version":"1.0"}*//
+
+
+/*Theme Settings*/
+
+/****IMPORTANT DISCLAIMER****/
+/*To activate a theme you must paste a link, from the list of themes below, between the brackets after "@import url"*/
+
+/*Theme Importing/Selector*/
+@import url(https://rawgit.com/Waterin/Coloured-Discord-Themes/1.0/Source/Lighter-than-Blue.theme.css);
+
+
+/*Darker Than Red Theme*/
+/*https://rawgit.com/Waterin/Coloured-Discord-Themes/1.0/Source/Darker-than-Red.theme.css
+Default Background
+https://c.wallhere.com/photos/81/eb/board_black_line_texture_background_wood-662366.jpg!d*/
+
+/****************************************************************************************************************************/
+/*Lighter Than Blue*/
+/*https://rawgit.com/Waterin/Coloured-Discord-Themes/1.0/Source/Lighter-than-Blue.theme.css
+Default Background
+https://c.wallhere.com/photos/bc/64/snow_snowflake_winter-626454.jpg!d*/
+
+/****************************************************************************************************************************/
+/*Neutralized Green*/
+/******Coming soon******/
+
+
+
+/*Background*/
+/*To use your own background paste a direct link to an image between the brackets*/
+:root {
+	--main-bg: url(https://c.wallhere.com/photos/bc/64/snow_snowflake_winter-626454.jpg!d) !important;
+}
+/*Adjust background brightness (0: original image, 1: black)*/
+.layers-20RVFW {
+  background: rgba(0,0,0,0.5) !important;
+}
+
+/*User Edits Zone*/
+/*Here you can make your edits to the theme at your will, pls only do those if you are sure to know what are you doing*/
