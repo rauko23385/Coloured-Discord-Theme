@@ -37,16 +37,12 @@ XGN|NFLD99#0001(Wrote some of the animations for me)
 ****************************************************************/
 /*Background*/
 .app { 
-      background-image: url(https://c.wallhere.com/photos/81/eb/board_black_line_texture_background_wood-662366.jpg!d);
+      background-image: var(--main-bg);
       background-size: cover;
       background-position: center;
 }
 .layers-20RVFW, .layer-kosS71, .container-2OU7Cz, .typing-3eiiL_ {
 	background: transparent !important;
-}
-/* optionally adjust background brightness (0: original image, 1: black) */
-.layers-20RVFW {
-  background: rgba(0,0,0,0.5) !important;
 }
 .theme-dark .noChannel-2EQ0a9,
 .channels-3g2vYe,
