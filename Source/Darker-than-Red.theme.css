@@ -338,6 +338,16 @@ transition:all 600ms ease;
 .uploadModal-2KN6Mm .inner-1-09ZV .file-XhJJS_ .icon-19bbE_.webcode-2KLdAe {
 	background-image: url(https://image.ibb.co/cVCCXH/Discord_Red_Sheet.png);
 }
+.theme-dark.contextMenu-uoJTbz {
+	background-color: rgba(120,0,0,1) !important;
+	box-shadow: 0 0 1px rgba(150,0,0,1) !important;
+}
+.theme-dark .itemGroup-oViAgA {
+	border-color: rgba(150,0,0,1) !important;
+}
+.theme-dark .item-1XYaYf {
+	color: rgba(200,200,200,1) !important;
+}
 /****************************************************************
 ****************************************************************
 ****************************************************************/
