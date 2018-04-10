@@ -7,21 +7,21 @@
 /*To activate a theme you must paste a link, from the list of themes below, between the brackets after "@import url"*/
 
 /*Theme Importing/Selector*/
-@import url(https://rawgit.com/Waterin/Coloured-Discord-Themes/1.0/Source/Lighter-than-Blue.theme.css);
+@import url(THEME LINK HERE);
 
 
 /*Darker Than Red Theme*/
-/*https://rawgit.com/Waterin/Coloured-Discord-Themes/1.0/Source/Darker-than-Red.theme.css
+/*https://rawgit.com/Waterin/Coloured-Discord-Themes/1.0/Compact%20Version/Themes%20(Can%20be%20ignored%20plus%20not%20needed)/Darker-than-Red.theme.css
 Default Background
 https://c.wallhere.com/photos/81/eb/board_black_line_texture_background_wood-662366.jpg!d*/
 
-/****************************************************************************************************************************/
+
 /*Lighter Than Blue*/
-/*https://rawgit.com/Waterin/Coloured-Discord-Themes/1.0/Source/Lighter-than-Blue.theme.css
+/*https://rawgit.com/Waterin/Coloured-Discord-Themes/1.0/Compact%20Version/Themes%20(Can%20be%20ignored%20plus%20not%20needed)/Lighter-than-Blue.theme.css
 Default Background
 https://c.wallhere.com/photos/bc/64/snow_snowflake_winter-626454.jpg!d*/
 
-/****************************************************************************************************************************/
+
 /*Neutralized Green*/
 /******Coming soon******/
 
@@ -30,7 +30,7 @@ https://c.wallhere.com/photos/bc/64/snow_snowflake_winter-626454.jpg!d*/
 /*Background*/
 /*To use your own background paste a direct link to an image between the brackets*/
 :root {
-	--main-bg: url(https://c.wallhere.com/photos/bc/64/snow_snowflake_winter-626454.jpg!d) !important;
+	--main-bg: url(LINK HERE) !important;
 }
 /*Adjust background brightness (0: original image, 1: black)*/
 .layers-20RVFW {
