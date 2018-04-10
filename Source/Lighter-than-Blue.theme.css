@@ -37,7 +37,7 @@ XGN|NFLD99#0001(Wrote some of the animations for me)
 ****************************************************************/
 /*Background*/
 .app { 
-      background-image:  var(--main-bg);
+      background-image: var(--main-bg) !important;
       background-size: cover;
       background-position: center;
 }
@@ -491,7 +491,7 @@ transition:all 600ms ease;
 	background-color: rgba(0,0,120,0.4) !important;
 }
 .theme-dark #friends .tab-bar .tab-bar-item.selected .badge {
-	background-color: #000098 !impoortant;
+	background-color: #000098 !important;
 }
 .cardPrimaryEditable-2IQ7-V[style*="border-color: rgb(114, 137, 218); background-color: rgb(114, 137, 218);"] polyline[stroke] {
     stroke: #fff;
