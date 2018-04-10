@@ -23,7 +23,7 @@ XGN|NFLD99#0001(Wrote some of the animations for me)
 [style*="avatars/288053351579648000"].avatar-large+.comment h2 strong, [style*="avatars/148059412165033984"].avatar-large+.comment h2 strong,[style*="avatars/187615613944856576"].avatar-large+.comment  h2 strong, [style*="avatars/235302947058089984"].avatar-large+.comment  h2 strong, [style*="avatars/214478470972047360"].avatar-large+.comment h2 strong, [style*="avatars/177744816665395200"].avatar-large+.comment h2 strong, [style*="avatars/392498266161414144"].avatar-large+.comment  h2 strong {
     animation: rainbow3 4s linear infinite;
 }
-keyframes rainbow3 { /* If you have Lag Problems with the theme then delete the "@" in the beggining of this line*/
+@keyframes rainbow3 { /* If you have Lag Problems with the theme then delete the "@" in the beggining of this line*/
     0%{text-shadow: 0 0 6px #ff0000, 0 0 6px #ff0000, 0 0 5px #ff0000, 0 0 4px #ff0000;} 
     20%{text-shadow: 0 0 6px orange, 0 0 6px orange, 0 0 5px orange, 0 0 4px orange;} 
     40%{text-shadow: 0 0 6px yellow, 0 0 6px yellow, 0 0 5px yellow, 0 0 4px yellow;} 
