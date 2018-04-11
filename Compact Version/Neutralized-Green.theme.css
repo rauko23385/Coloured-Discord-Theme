@@ -1,7 +1,10 @@
 //META{"name":"Neutralized-Green","description":"Coloured Discord Theme Series by Waterin.","author":"Waterin","version":"1.0"}*//
 @import url(https://tinyurl.com/ydbx3nf2);
 
+/*Contact @Waterin#6451 for further help*/
+
 /*Background*/
+/*Change the Link below to use a background of your own.*/
 :root {
 	--main-bg: url(https://imgur.com/9OXdiFH.jpg) !important;
 }

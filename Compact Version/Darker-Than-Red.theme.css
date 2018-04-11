@@ -1,7 +1,10 @@
 //META{"name":"Darker-Than-Red","description":"Coloured Discord Theme Series by Waterin.","author":"Waterin","version":"1.0"}*//
 @import url(https://tinyurl.com/ydz3758d);
 
+/*Contact @Waterin#6451 for further help*/
+
 /*Background*/
+/*Change the Link below to use a background of your own.*/
 :root {
 	--main-bg: url(https://imgur.com/9s5zWxn.jpg) !important;
 }
