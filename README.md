@@ -21,3 +21,6 @@ Feel free to suggest and request colors. I'll try to implement if it is really g
 
 ## Neutralized Green Preview
 ![alt text](https://imgur.com/JXXp6n5.jpg)
+
+## Animations added in (All working in all themes)
+![alt text](https://gyazo.com/f2044f95abcd91f7f0d3897abeb73f6f)
