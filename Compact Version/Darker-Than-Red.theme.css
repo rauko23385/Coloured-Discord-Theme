@@ -12,6 +12,20 @@
 .layers-20RVFW {
   background: rgba(0,0,0,0.5) !important;
 }
+/*Rainbow Name Animations*/
+/*Change "PUT YOUR DISCORD USER ID HERE" to your discord ID*/
+[style*="avatars/PUT YOUR DISCORD USER ID HERE"].avatar-large+.comment h2 strong {
+    animation: rainbow3 4s linear infinite;
+}
+@keyframes rainbow3 { /* If you have Lag Problems with the theme then delete the "@" in the beggining of this line*/
+    0%{text-shadow: 0 0 6px #ff0000, 0 0 6px #ff0000, 0 0 5px #ff0000, 0 0 4px #ff0000;} 
+    20%{text-shadow: 0 0 6px orange, 0 0 6px orange, 0 0 5px orange, 0 0 4px orange;} 
+    40%{text-shadow: 0 0 6px yellow, 0 0 6px yellow, 0 0 5px yellow, 0 0 4px yellow;} 
+    60%{text-shadow: 0 0 6px #00ff00, 0 0 6px #00ff00, 0 0 5px #00ff00, 0 0 4px #00ff00;} 
+    80%{text-shadow: 0 0 6px #0000ff, 0 0 6px #0000ff, 0 0 5px #0000ff, 0 0 4px #0000ff;} 
+    90%{text-shadow: 0 0 6px #ff0000, 0 0 6px #ff0000, 0 0 5px #ff0000, 0 0 4px #ff0000;}
+    100%{text-shadow: 0 0 6px #ff0000, 0 0 6px #ff0000, 0 0 5px #ff0000, 0 0 4px #ff0000;} 
+}
 
 
 /*User Edits Zone*/
