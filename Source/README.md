@@ -12,3 +12,12 @@ Regarding animations: The animations can only be disabled on Source by taking @ 
 Support and Contact: Any help needed pls contact me through discord @Waterin#6451
 
 Feel free to suggest and request colors. I'll try to implement if it is really good. ^^
+
+## Darker Than Red Preview
+![alt text](https://imgur.com/0vrbbFu.jpg)
+
+## Lighter Than Blue Preview
+![alt text](https://imgur.com/Dmt4LNU.jpg)
+
+## Neutralized Green Preview
+![alt text](https://imgur.com/JXXp6n5.jpg)
