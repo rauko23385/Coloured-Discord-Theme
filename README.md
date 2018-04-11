@@ -13,4 +13,4 @@ Support and Contact: Any help needed pls contact me through discord @Waterin#645
 
 Feel free to suggest and request colors. I'll try to implement if it is really good. ^^
 
-# https://imgur.com/0vrbbFu.jpg
+![alt text](https://imgur.com/0vrbbFu.jpg)
