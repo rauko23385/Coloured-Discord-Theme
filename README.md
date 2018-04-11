@@ -23,4 +23,4 @@ Feel free to suggest and request colors. I'll try to implement if it is really g
 ![alt text](https://imgur.com/JXXp6n5.jpg)
 
 ## Animations added in (All working in all themes)
-![alt text](https://gyazo.com/f2044f95abcd91f7f0d3897abeb73f6f)
+![alt text](https://thumb.gyazo.com/thumb/174_w/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbWciOiJmMjA0NGY5NWFiY2Q5MWY3ZjBkMzg5N2FiZWI3M2Y2ZiJ9.wFKT5pPXzMwjNciA5swT7kGhDL0vRNP72ir-hFu72qc-gif)
