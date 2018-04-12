@@ -22,6 +22,9 @@ Feel free to suggest and request colors. I'll try to implement if it is really g
 ## Neutralized Green Preview
 ![alt text](https://imgur.com/JXXp6n5.jpg)
 
+## Orchid Purple Preview
+![alt text](https://imgur.com/2B1EMVR.png)
+
 ## Animations added in (All working in all themes)
 ![alt text](https://media.giphy.com/media/9JgeHpPeaNj2hYdL73/giphy.gif)
 ![alt text](https://media.giphy.com/media/xlCJ7wgD7lZN0IBOSn/giphy.gif)
