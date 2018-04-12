@@ -900,9 +900,6 @@ filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.7)) !important;
 #bd-settingspane-container .ui-switch-item .style-description {
 	border-bottom-color: rgba(120,0,0,0.4) !important;
 }
-.content-region .CodeMirror, .content-region .cm-s-material .CodeMirror-gutters, #bd-customcss-detach-container .CodeMirror, #bd-customcss-detach-container .cm-s-material .CodeMirror-gutters, x.cm-s-material.CodeMirror {
-	background-color: rgba(30,30,30,0.4) !important;
-}
 .content-region #bd-customcss-attach-controls, #bd-customcss-detach-container #bd-customcss-attach-controls {
 	background: rgba(120,0,0,0.5) !important;
 }
@@ -919,9 +916,6 @@ filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.7)) !important;
 	margin-top: 10px;
 	border-bottom-color: rgba(150,0,0,1) !important;
 	border-top-color: rgba(150,0,0,1) !important;	
-}
-.ui-standard-sidebar-view .bda-slist .bda-description {
-	border-top: 1px solid rgba(120,0,0,0.8) !important;
 }
 .ui-standard-sidebar-view .bda-slist .bda-right button, .bd-blue .bd-pfbtn {
 	background-color: rgba(120,0,0,1) !important;
@@ -956,6 +950,21 @@ filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.7)) !important;
 }
 .theme-dark .notificationsSound-3TXEoH {
 	box-shadow: inset 0 -1px 0 0 rgba(120,0,0,0.4) !important;
+}
+.ace-monokai { /*Custom CSS Background*/
+	background-color: rgba(30,30,30,0.4) !important;
+}
+.ace-monokai .ace_gutter { /*Custom CSS Line Counter Bar*/
+	background-color: rgba(120,0,0,0.5) !important;
+}
+.ace-monokai .ace_gutter-active-line { /*Customs CSS Active Line*/
+	background-color: rgba(120,0,0,1) !important;
+}
+.bda-slist .bda-header {
+	border-bottom: 1px solid rgba(120,0,0,0.4) !important;
+}
+.bd-blue .bda-slist .bda-footer button {
+	background: rgba(140,0,0,1) !important;
 }
 /****************************************************************
 ****************************************************************
