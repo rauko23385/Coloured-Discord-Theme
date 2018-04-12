@@ -972,7 +972,7 @@ filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.7)) !important;
 /********Plugin Support*********/
 
 /*Date Viewer Plugin*/
-#dv-mount { /*Date Viewer Plugin*/
+#dv-mount {
 	background-color: rgba(120,0,0,0.7) !important;
 }
 /****************************************************************
