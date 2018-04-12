@@ -348,6 +348,23 @@ transition:all 600ms ease;
 .theme-dark .item-1XYaYf:hover {
 	background-color: rgba(0,0,160,1) !important;
 }
+.bda-dark #bda-qem-favourite-container, .bda-dark #bda-qem-twitch-container {
+	background-color: rgba(0,0,80,1) !important;
+}
+.emote-container:hover {
+	background-color: rgba(0,0,140,0.5) !important;
+}
+.bda-dark #bda-qem {
+	border-bottom-color: rgba(0,0,150,1) !important;
+}
+.bda-dark #bda-qem button {
+	background-color: rgba(0,0,80,1) !important;
+	box-shadow: rgba(0,0,150,1) 1px 0 0 0 !important;
+	border-left-color: rgba(0,0,150,1) !important;
+}
+.bda-dark #bda-qem button.active {
+	background-color: rgba(0,0,100,1) !important;
+}
 /****************************************************************
 ****************************************************************
 ****************************************************************/

@@ -346,6 +346,30 @@ transition:all 600ms ease;
 .theme-dark .item-1XYaYf:hover {
 	background-color: rgba(160,0,0,1) !important;
 }
+.bda-dark .emoji-picker .category, .bda-dark .emojiPicker-3g68GS .category-3rCtoh {
+	background-color: rgba(120,0,0,1) !important;
+	border-radius: 5px !important;
+}
+#dv-mount { /*Date Viewer Plugin*/
+	background-color: rgba(120,0,0,0.7) !important;
+}
+.bda-dark #bda-qem-favourite-container, .bda-dark #bda-qem-twitch-container {
+	background-color: rgba(80,0,0,1) !important;
+}
+.emote-container:hover {
+	background-color: rgba(140,0,0,0.5) !important;
+}
+.bda-dark #bda-qem {
+	border-bottom-color: rgba(150,0,0,1) !important;
+}
+.bda-dark #bda-qem button {
+	background-color: rgba(80,0,0,1) !important;
+	box-shadow: rgba(150,0,0,1) 1px 0 0 0 !important;
+	border-left-color: rgba(150,0,0,1) !important;
+}
+.bda-dark #bda-qem button.active {
+	background-color: rgba(100,0,0,1) !important;
+}
 /****************************************************************
 ****************************************************************
 ****************************************************************/
@@ -965,15 +989,6 @@ filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.7)) !important;
 }
 .bd-blue .bda-slist .bda-footer button {
 	background: rgba(140,0,0,1) !important;
-}
-/****************************************************************
-****************************************************************
-****************************************************************/
-/********Plugin Support*********/
-
-/*Date Viewer Plugin*/
-#dv-mount {
-	background-color: rgba(120,0,0,0.7) !important;
 }
 /****************************************************************
 ****************************************************************
