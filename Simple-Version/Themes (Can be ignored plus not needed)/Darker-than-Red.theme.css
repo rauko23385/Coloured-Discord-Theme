@@ -4,13 +4,13 @@
 @import url(https://tinyurl.com/ycdgtcef);
 @import url(https://tinyurl.com/ybuqovun);
 @import url(https://tinyurl.com/yapa5uq5);
-* { font-family: var(--theme-font) !important; }
+* { font-family: var(--theme-font) !important; } /*Change font to whatever you like*/
 /****************************************************************
 ****************************************************************
 ****************************************************************/
 /* Created by Waterin#6451
 
-Helped by: 
+Helped by:
 .intrnl#6939 <@177744816665395200>
 modder4869#1150 <@!392498266161414144> (Helped me with code and gave advises to make the theme work smoothly)
 DevilsLynAvenged#6457 <@235302947058089984> (helped me code some hard things that were hard for me as i was still learning CSS)
@@ -242,7 +242,6 @@ transition:all 600ms ease;
 .title-qAcLxz .status, .titleCall-3X0yGQ .status{
     width: 30px !important;
 }
-
 .alt-2vq4VR .item-rK1j5B .statusIconText-312Il7 {
     width: 2px !important;
     height: 25px !important;
@@ -337,9 +336,6 @@ transition:all 600ms ease;
 }
 .uploadModal-2KN6Mm .inner-1-09ZV {
 	border-color: rgba(30,30,30,1) !important;
-} 
-.uploadModal-2KN6Mm .inner-1-09ZV .file-XhJJS_ .icon-19bbE_.webcode-2KLdAe {
-	background-image: url(https://image.ibb.co/cVCCXH/Discord_Red_Sheet.png);
 }
 .theme-dark.contextMenu-uoJTbz {
 	background-color: rgba(120,0,0,1) !important;
@@ -353,13 +349,6 @@ transition:all 600ms ease;
 }
 .theme-dark .item-1XYaYf:hover {
 	background-color: rgba(160,0,0,1) !important;
-}
-.bda-dark .emoji-picker .category, .bda-dark .emojiPicker-3g68GS .category-3rCtoh {
-	background-color: rgba(120,0,0,1) !important;
-	border-radius: 5px !important;
-}
-#dv-mount { /*Date Viewer Plugin*/
-	background-color: rgba(120,0,0,0.7) !important;
 }
 .bda-dark #bda-qem-favourite-container, .bda-dark #bda-qem-twitch-container {
 	background-color: rgba(80,0,0,1) !important;
@@ -630,9 +619,9 @@ transition:all 600ms ease;
 .unread-2TDDFN {
     background-color: rgba(120,0,0,1) !important;
 }
-.unread-23Kvxk {
-	height: 70% !important;
-	margin-top: -11px !important;
+.theme-dark .unread-23Kvxk{
+    height: 70% !important;
+    margin-top: -11px !important;
 }
 /****************************************************************
 ****************************************************************
@@ -725,7 +714,7 @@ transition:all 600ms ease;
 	color: rgba(170,0,0,1) !important;
 }
 .theme-dark .message-group a {
-	color: rgba(120,0,0,1) !important;
+	color: rgba(255,255,255,1) !important;
 }
 .theme-dark .message-group:hover a { 
 	color: rgba(170,0,0,1) !important;
@@ -767,7 +756,7 @@ transition:all 600ms ease;
 	padding: 10px 103px 9px 103px;
 	background-color: rgba(120,0,0, 0.3);
 	border: 2px solid;
-	border-color: rgba(0, 0, 0, 0.4);
+	border-color: rgba(0,0,0,0.4);
 	border-radius: 5px;
 	width: 90px;
 	margin-left: 15px;
@@ -807,7 +796,7 @@ transition: all 400ms ease !important;
 border-radius: 50px !important;
 }
 .friends-icon:hover {
-background-color: rgba(120,0,0, 1); !important;
+background-color: rgba(120,0,0,1); !important;
 }
 .guilds-wrapper .guilds .guild .guild-inner:hover,
 .avatar-small:hover,
@@ -820,7 +809,7 @@ border-radius: 50px !important;
 transition: all 400ms ease !important;
 }
 .guild-inner:hover {
-background-color: rgba(180,0, 0, 1) !important;
+background-color: rgba(180,0,0,1) !important;
 }
 .scroller.messages .avatar-large{
 transform: translateX(5%);
@@ -1010,6 +999,16 @@ filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.7)) !important;
 }
 .theme-dark .typing-3eiiL_ span {
 	color: rgba(255,0,0,1) !important;
+}
+
+/****************************************************************
+****************************************************************
+****************************************************************/
+/********Plugin Support*********/
+
+/*Date Viewer Plugin*/
+#dv-mount { /*Date Viewer Plugin*/
+	background-color: rgba(120,0,0,0.7) !important;
 }
 /****************************************************************
 ****************************************************************
