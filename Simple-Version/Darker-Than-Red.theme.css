@@ -7,6 +7,7 @@
 /*Change the Link below to use a background of your own.*/
 :root {
 	--main-bg: url(https://imgur.com/9s5zWxn.jpg) !important;
+	--theme-font: ;
 }
 /*Adjust background brightness (0: original image, 1: black)*/
 .layers-20RVFW {

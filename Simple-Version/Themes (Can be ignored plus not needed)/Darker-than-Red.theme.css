@@ -4,7 +4,7 @@
 @import url(https://tinyurl.com/ycdgtcef);
 @import url(https://tinyurl.com/ybuqovun);
 @import url(https://tinyurl.com/yapa5uq5);
-* { font-family: Ubuntu !important; }
+* { font-family: var(--theme-font) !important; }
 /****************************************************************
 ****************************************************************
 ****************************************************************/
