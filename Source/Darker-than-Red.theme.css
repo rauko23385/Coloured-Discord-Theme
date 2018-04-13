@@ -379,6 +379,9 @@ transition:all 600ms ease;
 .bda-dark #bda-qem button.active {
 	background-color: rgba(100,0,0,1) !important;
 }
+.theme-dark .itemSubMenu-3ZgIw- {
+	background-color: rgba(120,0,0,1) !important;
+}
 /****************************************************************
 ****************************************************************
 ****************************************************************/
