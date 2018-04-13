@@ -249,19 +249,19 @@ transition:all 600ms ease;
 .appMount-14L89u { /*Discord Windows Bar*/
 	background-color: rgba(0,110,0,1) !important;
 }
-.bd-blue .tooltip { /*Tooltip Color Editor*/
+.tooltip { /*Tooltip Color Editor*/
 	background-color: rgba(0,120,0,0.7) !important
 }
-.bd-blue .tooltip.tooltip-bottom:after { /*Tooltip Color Editor Bottom Notch*/
+.tooltip.tooltip-bottom:after { /*Tooltip Color Editor Bottom Notch*/
 	border-bottom-color: rgba(0,120,0,0.7) !important
 }
-.bd-blue .tooltip.tooltip-right:after { /*Tooltip Color Editor Right Notch*/
+.tooltip.tooltip-right:after { /*Tooltip Color Editor Right Notch*/
 	border-right-color: rgba(0,120,0,0.7) !important
 }
-.bd-blue .tooltip.tooltip-top:after { /*Tooltip Color Editor Top Notch*/
+.tooltip.tooltip-top:after { /*Tooltip Color Editor Top Notch*/
 	border-top-color: rgba(0,120,0,0.7) !important
 }
-.bd-blue .tooltip.tooltip-left:after { /*Tooltip Color Editor Left Notch*/
+.tooltip.tooltip-left:after { /*Tooltip Color Editor Left Notch*/
 	border-left-color: rgba(0,120,0,0.7) !important
 }
 .theme-dark .iconForeground-2c7s3m, .theme-dark .title-2Ul_Rx { /*Icons*/
@@ -546,7 +546,7 @@ transition:all 600ms ease;
 	50%{box-shadow: 1px 1px 20px rgba(0,255,0,1);}
     100%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
 }
-.bd-blue *[style*="background-color: rgb(114, 137, 218)"] {
+*[style*="background-color: rgb(114, 137, 218)"] {
 	background-color: rgba(0,120,0,1) !important;
 }
 .item-rK1j5B:hover {
@@ -716,7 +716,7 @@ transition:all 600ms ease;
 .uploadModal-2KN6Mm .inner-1-09ZV .file-XhJJS_ .icon-19bbE_.image-sUU6Oh {
 	border-color: rgba(0,180,0,1) !important;
 }
-.bd-blue .chat .has-more button {
+.chat .has-more button {
 	color: rgba(255,255,255,1) !important;
 }
 .theme-dark .chat .has-more button {
@@ -907,7 +907,7 @@ filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.7)) !important;
 .barFill-18ABna {
 	background: rgba(0,190,0,1) !important;
 }
-.bd-blue *[style*="background-color: rgb(114, 137, 218)"] {
+*[style*="background-color: rgb(114, 137, 218)"] {
 	border-color: rgba(0,210,0,1) !important;
 }
 .theme-dark .select-3JqNgs .Select-option.is-selected {
@@ -922,7 +922,7 @@ filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.7)) !important;
 .content-region #bd-customcss-attach-controls, #bd-customcss-detach-container #bd-customcss-attach-controls {
 	background: rgba(0,120,0,0.5) !important;
 }
-.bd-blue .checkbox .checkbox-inner input[type=checkbox]:checked+span {
+.checkbox .checkbox-inner input[type=checkbox]:checked+span {
 	background-color: rgba(0,150,0,1) !important;
 	border-color: rgba(0,180,0,1) !important;
 }
@@ -936,7 +936,7 @@ filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.7)) !important;
 	border-bottom-color: rgba(0,150,0,1) !important;
 	border-top-color: rgba(0,150,0,1) !important;	
 }
-.ui-standard-sidebar-view .bda-slist .bda-right button, .bd-blue .bd-pfbtn {
+.ui-standard-sidebar-view .bda-slist .bda-right button, .bd-pfbtn {
 	background-color: rgba(0,120,0,1) !important;
 }
 .theme-dark .themeDefault-3M0dJU,
@@ -982,7 +982,7 @@ filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.7)) !important;
 .bda-slist .bda-header {
 	border-bottom: 1px solid rgba(0,120,0,0.4) !important;
 }
-.bd-blue .bda-slist .bda-footer button {
+.bda-slist .bda-footer button {
 	background: rgba(0,140,0,1) !important;
 }
 .theme-dark .typing-3eiiL_ span {
