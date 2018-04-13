@@ -4,10 +4,10 @@
 /*Contact @Waterin#6451 for further help*/
 
 /*Background*/
-/*Change the Link below to use a background of your own.*/
+/*Change the Link below to use a background of your own.Same for font no need to add an import just the font family name from Google Fonts*/
 :root {
 	--main-bg: url(https://imgur.com/6c2xPlM.jpg) !important;
-	--theme-font: ;
+	--theme-font: Ubuntu ;
 }
 /*Adjust background brightness (0: original image, 1: black)*/
 .layers-20RVFW {
