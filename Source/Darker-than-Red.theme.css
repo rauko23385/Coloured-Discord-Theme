@@ -600,8 +600,6 @@ transition:all 600ms ease;
 }
 .theme-dark .unread-23Kvxk { /*Unread Message dot Color*/
 	background-color: rgba(220,0,0,1) !important;
-    margin-top: -11px !important;
-	height: 70% !important;
 	animation: pulse7 2s linear infinite;
 }
 @keyframes pulse7{ /* If you have Lag Problems with the theme then delete the "@" in the beggining of this line*/
@@ -629,6 +627,9 @@ transition:all 600ms ease;
 }
 .nameCollapsed-3_ChMu, .nameDefault-Lnjrwm, .nameHovered-1YFSWq, .nameHoveredCollapsed-2c-EHI, .nameMuted-1n0LSj, .nameUnread-WKlSv- {
 	font-weight: 700 !important
+}
+.unread-2TDDFN {
+    background-color: rgba(120,0,0,1) !important;
 }
 /****************************************************************
 ****************************************************************
