@@ -244,6 +244,9 @@ transition:all 600ms ease;
 .mask-2vyqAW {
 	-webkit-mask: none;
 }
+.title-qAcLxz .status, .titleCall-3X0yGQ .status{
+    width: 30px !important;
+}
 /****************************************************************
 ****************************************************************
 ****************************************************************/
@@ -583,6 +586,8 @@ transition:all 600ms ease;
 }
 .theme-dark .unread-23Kvxk { /*Unread Message dot Color*/
 	background-color: rgba(0,0,220,1) !important;
+    margin-top: -11px !important;
+	height: 70% !important;
 	animation: pulse7 2s linear infinite;
 }
 @keyframes pulse7{ /* If you have Lag Problems with the theme then delete the "@" in the beggining of this line*/
