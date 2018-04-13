@@ -980,6 +980,10 @@ filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.7)) !important;
 .bd-blue .bda-slist .bda-footer button {
 	background: rgba(0,0,140,1) !important;
 }
+.theme-dark .typing-3eiiL_ span {
+	color: rgba(0,0,255,1) !important;
+}
+
 /****************************************************************
 ****************************************************************
 ****************************************************************/
