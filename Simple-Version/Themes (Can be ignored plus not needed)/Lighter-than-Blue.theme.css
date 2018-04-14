@@ -680,6 +680,14 @@ transition:all 600ms ease;
 .theme-dark .message-group .comment .markup pre { /*CodeBlocks Border*/
 	border-color: rgba(0,0,200,0.5) !important;
 }
+.message.message-sending .markup{
+    animation: messages-slide-up 600ms cubic-bezier(.3,0,0,1),opacity 1000ms ease infinite;
+}
+@keyframes messages-slide-up{
+    from{
+        transform: translate(0,20px);
+    }
+}
 .theme-dark .popout .messages-popout-wrap .scroller-wrap {
 	background-color: rgba(0,0,120,0.3) !important;
 }
