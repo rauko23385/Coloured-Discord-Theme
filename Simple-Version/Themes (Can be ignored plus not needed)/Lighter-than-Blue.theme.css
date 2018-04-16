@@ -784,7 +784,7 @@ transition: all 700ms ease;
 	transition: width 0.7s;
 }
 .membersWrap-3wRngy:hover{ /*SlideEffect Hovered*/
-	width:240px;
+	width:240px !important;
 	transition: width .4s;
 }
 /****************************************************************
