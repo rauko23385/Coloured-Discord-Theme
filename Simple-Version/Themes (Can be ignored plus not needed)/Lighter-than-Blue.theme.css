@@ -780,7 +780,7 @@ transition: all 700ms ease;
 .membersWrap-3wRngy{ /*SlideEffect Not Hovered*/
 	min-width:var(--disable-enable-memberlist-effect) !important;
 	max-width:240px!important;
-	width: var(--disable-enable-memberlist-effect);
+	width: var(--disable-enable-memberlist-effect) !important;
 	transition: width 0.7s;
 }
 .membersWrap-3wRngy:hover{ /*SlideEffect Hovered*/
