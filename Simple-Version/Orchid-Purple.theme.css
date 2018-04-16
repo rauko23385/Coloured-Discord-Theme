@@ -1,4 +1,4 @@
-//META{"name":"Orchid-Purple","description":"Coloured Discord Theme Series by Waterin.","author":"Waterin","version":"1.1.003"}*//
+//META{"name":"Orchid-Purple","description":"Coloured Discord Theme Series by Waterin.","author":"Waterin","version":"1.1.004"}*//
 @import url(https://tinyurl.com/y9r4td4d);
 
 /*Contact @Waterin#6451 for further help*/
@@ -8,6 +8,7 @@
 :root {
 	--main-bg: url(https://imgur.com/QgjwhXE.jpg) !important;
 	--theme-font: Ubuntu ;
+	--disable-enable-memberlist-effec: 50px /*Set 240px to Disable*/;
 }
 /*Adjust background brightness (0: original image, 1: black)*/
 .layers-20RVFW {
@@ -42,6 +43,8 @@
 /*********************************************************************************************************************************************************************************************************************/
 /* Created by Waterin#6451
 
+Color Requested by:
+Luna#1723 <@179166411015454721>
 
 Helped by:
 .intrnl#6939 <@177744816665395200>

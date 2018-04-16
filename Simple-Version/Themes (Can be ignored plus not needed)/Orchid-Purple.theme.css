@@ -785,9 +785,9 @@ border-radius: 30px;
 transition: all 700ms ease;
 }
 .membersWrap-3wRngy{ /*SlideEffect Not Hovered*/
-	min-width:50px!important;
+	min-width: var(--disable-enable-memberlist-effect)!important;
 	max-width:240px!important;
-	width:50px;
+	width: var(--disable-enable-memberlist-effect);
 	transition: width 0.7s;
 }
 .membersWrap-3wRngy:hover{ /*SlideEffect Hovered*/

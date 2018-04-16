@@ -1,4 +1,4 @@
-//META{"name":"Neutralized-Green","description":"Coloured Discord Theme Series by Waterin.","author":"Waterin","version":"1.1.003"}*//
+//META{"name":"Neutralized-Green","description":"Coloured Discord Theme Series by Waterin.","author":"Waterin","version":"1.1.004"}*//
 @import url(https://tinyurl.com/y8nuo4uc);
 
 /*Contact @Waterin#6451 for further help*/
@@ -8,6 +8,7 @@
 :root {
 	--main-bg: url(https://imgur.com/9OXdiFH.jpg) !important;
 	--theme-font: Ubuntu ;
+	--disable-enable-memberlist-effec: 50px /*Set 240px to Disable*/;
 }
 /*Adjust background brightness (0: original image, 1: black)*/
 .layers-20RVFW {
