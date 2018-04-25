@@ -1,4 +1,4 @@
-	//META{"name":"Darker-Than-Red","description":"Coloured Discord Theme Series by Waterin.","author":"Waterin","version":"1.1.007"}*//{}
+	//META{"name":"Darker-Than-Red","description":"Coloured Discord Theme Series by Waterin.","author":"Waterin","version":"1.1.008"}*//{}
 @import url(https://tinyurl.com/ycj7nv43);
 
 /*Contact Waterin#6451 <@288053351579648000> for further help*/
@@ -9,6 +9,7 @@
 	--main-bg: url(https://imgur.com/9s5zWxn.jpg) !important;
 	--theme-font: Ubuntu ;
 	--disable-enable-memberlist-effect: 50px /*Set 240px to Disable*/;
+	--on-off-rainbow-animation: 4s; /*Set 0s to disable and 4s to enable*/
 }
 /*Adjust background brightness (0: original image, 1: black)*/
 .layers-20RVFW {
@@ -17,7 +18,7 @@
 /*Rainbow Name Animations*/
 /*Change "PUT YOUR DISCORD USER ID HERE" to your discord ID*/
 [style*="avatars/PUT YOUR DISCORD USER ID HERE"].avatar-large+.comment h2 strong {
-    animation: rainbow3 4s linear infinite;
+    animation: rainbow3 var(--on-off-rainbow-animation) linear infinite;
 }
 @keyframes rainbow3 { /* If you have Lag Problems with the theme then delete the "@" in the beggining of this line*/
     0%{text-shadow: 0 0 6px #ff0000, 0 0 6px #ff0000, 0 0 5px #ff0000, 0 0 4px #ff0000;} 
