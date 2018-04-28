@@ -1,5 +1,5 @@
 /*Fonts*/
-@import url(https://rawgit.com/Waterin/Fonts/1.0/Fonts.css);
+@import url(https://rawgit.com/Waterin/Fonts/1.0/Fonts.css); /**/
 * { font-family: var(--theme-font) !important; } /*Change font to whatever you like*/
 /****************************************************************
 ****************************************************************
@@ -36,30 +36,88 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
     background-size: cover;
     background-position: center;
 }
-.layers-20RVFW, .layer-kosS71, .container-2OU7Cz, .typing-3eiiL_ {
-	background: transparent !important;
+.ui-standard-sidebar-view .sidebar-region {
+	background: rgba(0,0,0,0) !important;
 }
-.theme-dark .noChannel-2EQ0a9,
-.channels-3g2vYe,
-.theme-dark .title-qAcLxz,
-.container-RYiLUQ,
-.container-2OU7Cz,
-.guilds-wrapper,
-.theme-dark .chat form .typing,
-.theme-dark .chat form,
-.theme-dark .chat>.content,
-.theme-dark .chat,
-.chat .messages,
-.theme-dark .friends-table, .theme-dark .messages-wrapper,
-.theme-dark .members-1bid1J,
-.theme-dark #friends,
-.theme-dark .headerBar-cxbhPD,
-.theme-dark .ui-standard-sidebar-view { /*Layer Transparency*/
-    background-color: transparent;
+.layers-3iHuyZ, .layer-3QrUeG, .container-PNkimc, .typing-2GQL18 {
+	background: rgba(0,0,0,0) !important;
 }
-.theme-dark .ui-standard-sidebar-view .content-region,
-.theme-dark .ui-standard-sidebar-view .sidebar-region  {
-    background: rgba(0,0,0,0.2);
+/* optionally adjust background brightness (0: original image, 1: black) */
+.layers-3iHuyZ {
+	background: rgba(0,0,0,var(--bg-brightness)) !important;
+}
+/*Layer Transparency*/
+.content .flex-spacer,
+.content-region,	
+.headerBar-UHpsPw { 
+    background-color: rgba(0,0,0,0) !important;
+}
+.noChannel-2EQ0a9 { 
+    background-color: rgba(0,0,0,0) !important;
+}
+.channels-Ie2l6A { 
+    background-color: rgba(0,0,0,0) !important;
+}
+.title-qAcLxz {
+    background-color: rgba(0,0,0,0) !important;
+}
+.container-2Thooq { 
+    background-color: rgba(0,0,0,0) !important;
+}
+.container-PNkimc,
+.container-GLDMJI { 
+    background-color: rgba(0,0,0,0) !important;
+}
+.guilds-wrapper { 
+    background-color: rgba(0,0,0,0) !important;
+}
+.chat form.typing-2GQL18 { 
+    background-color: rgba(0,0,0,0) !important;
+}
+.chat form { 
+    background-color: rgba(0,0,0,0) !important;
+}
+.chat>.content { 
+    background-color: rgba(0,0,0,0) !important;
+}
+.chat { 
+    background-color: rgba(0,0,0,0) !important;
+}
+.chat .messages { 
+    background-color: rgba(0,0,0,0) !important;
+}
+.friends-table, .messages-wrapper { 
+    background-color: rgba(0,0,0,0) !important;
+}
+.members-1998pB { 
+    background-color: rgba(0,0,0,0) !important;
+}
+#friends { 
+    background-color: rgba(0,0,0,0) !important;
+}
+.title-3qD0b- { 
+    background-color: rgba(0,0,0,0) !important;
+}
+.ui-standard-sidebar-view { 
+    background-color: rgba(0,0,0,0) !important;
+}
+.ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller,
+.ui-standard-sidebar-view .content-region .content-region-scroller-wrap  {
+    background: rgba(0,0,0,0.4);
+}
+.container-2lgZY8 {
+	background-color: rgba(0,0,0,0) !important;
+}
+.wordmark-2iDDfm:after {
+	content: 'Version: 1.1.009';
+	position: relative;
+	font-size: 10px;
+	font-weight: bolder;
+	color: rgba(170,0,0,1);
+	font-family: Uni Sans Heavy CAPS;
+	display: block;
+	top: -8px;
+	left: 56px;
 }
 /****************************************************************
 ****************************************************************
@@ -578,11 +636,11 @@ transition:all 600ms ease;
 .theme-dark .content-2mSKOj:hover { /*Channel Highlight Hovered*/
 	background-color: rgba(120,0,0,0.2) !important;
 }
-.theme-dark .contentSelectedText-3j5CXt { /*Selected Channel Highlight*/
+.theme-dark .contentSelectedText-3wUhMi { /*Selected Channel Highlight*/
 	background-color: rgba(150,0,0,0.5) !important;
 	border-left: 4px solid rgba(255,0,0,0.5) !important;
 }
-.theme-dark .unread-23Kvxk { /*Unread Message dot Color*/
+.theme-dark .unread-1Dp-OI { /*Unread Message dot Color*/
 	background-color: rgba(220,0,0,1) !important;
 	animation: pulse7 2s linear infinite;
 }
@@ -591,7 +649,7 @@ transition:all 600ms ease;
 	50%{box-shadow: 1px 1px 20px rgba(255,0,0,1);}
     100%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
 }
-.contentHoveredText-2HYGIY { /*Trash Layer (KeepTransparent*/
+.contentHoveredText-2HYGIY { /*Trash Layer (KeepTransparent)*/
 	background-color: rgba(120,0,0,0.2) !important;
 }
 .theme-dark .member-2FrNV0:hover .content-3JzEqq {
@@ -606,10 +664,18 @@ transition:all 600ms ease;
 	background-color: rgba(120,0,0,0.2) !important;
 	border-bottom: 1px solid rgba(30,30,30,0.5) !important;
 }
-.iconHovered-3PRzOR, .iconHoveredCollapsed-jNYgOD, .nameHovered-1YFSWq, .nameHoveredCollapsed-2c-EHI { /*Category Font Color Hovered*/
+.iconHovered-2L3-fB,
+.iconHoveredCollapsed-3caIIZ,
+.nameHovered-1gxhWH,
+.nameHoveredCollapsed-2orEWB { /*Category Font Color Hovered*/
 	color: rgba(170,0,0,1) !important;
 }
-.nameCollapsed-3_ChMu, .nameDefault-Lnjrwm, .nameHovered-1YFSWq, .nameHoveredCollapsed-2c-EHI, .nameMuted-1n0LSj, .nameUnread-WKlSv- {
+.nameCollapsed-3_ChMu,
+.nameDefault-Lnjrwm,
+.nameHovered-1gxhWH,
+.nameHoveredCollapsed-2orEWB,
+.nameMuted-1n0LSj,
+.nameUnread-WKlSv- {
 	font-weight: 700 !important
 }
 .unread-2TDDFN {
@@ -651,7 +717,7 @@ transition:all 600ms ease;
 	50%{box-shadow: 1px 1px 20px rgba(255,0,0,1);}
     100%{box-shadow: 1px 1px 20px rgba(0,0,0,0);} 
 }
-.theme-dark .inner-3if5cm { /*Texting Box*/
+.theme-dark .inner-zqa7da { /*Texting Box*/
 	background-color: rgba(150,0,0,0.6) !important;
 }
 .message-group { /*Message Separators*/
@@ -743,15 +809,15 @@ transition:all 600ms ease;
 ****************************************************************
 ****************************************************************/
 /*Members List*/
-.theme-dark .memberOnline-1xn3V8 { /*Member Not Hovered*/
+.theme-dark .memberOnline-1CIh-0 { /*Member Not Hovered*/
 	color: rgba(120,0,0,1) !important;
 }
-.theme-dark .member-2FrNV0:hover .content-3JzEqq { /*Member Hovered*/
+.theme-dark .member-3W1lQa:hover .content-OzHfo4 { /*Member Hovered*/
     background-color: rgba(150,0,0,0.5) !important;
     color: #fff;
 	border-left: 4px solid rgba(255,0,0,1) !important;
 }
-.membersGroup-3_dP5E { /*Roles Separator Not Hovered*/
+.membersGroup-v9BXpm { /*Roles Separator Not Hovered*/
 	color: rgba(150,150,150,1) !important;
 	font-size: 11px;
 	text-transform: uppercase;
@@ -769,17 +835,17 @@ transition:all 600ms ease;
 	align-items: center;
 	justify-content: center;
 }
-.membersGroup-3_dP5E:hover { /*Roles Separator Hover*/
+.membersGroup-v9BXpm:hover { /*Roles Separator Hover*/
 border-radius: 30px;
 transition: all 700ms ease;
 }
-.membersWrap-3wRngy{ /*SlideEffect Not Hovered*/
+.membersWrap-2h-GB4{ /*SlideEffect Not Hovered*/
 	min-width: var(--disable-enable-memberlist-effect) !important;
 	max-width:240px!important;
 	width: var(--disable-enable-memberlist-effect) !important;
 	transition: width 0.7s;
 }
-.membersWrap-3wRngy:hover{ /*SlideEffect Hovered*/
+.membersWrap-2h-GB4:hover{ /*SlideEffect Hovered*/
 	width:240px !important;
 	transition: width .4s;
 }
