@@ -31,7 +31,7 @@ XGN|NFLD99#0001(Wrote some of the animations for me)
 ****************************************************************
 ****************************************************************/
 /*Background*/
-.app { 
+body { 
       background-image: var(--main-bg);
       background-size: cover;
       background-position: center;
