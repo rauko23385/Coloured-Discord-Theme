@@ -6,7 +6,7 @@
 /*Background*/
 /*Change the Link below to use a background of your own.Same for font no need to add an import just the font family name from Google Fonts*/
 :root {
-	--main-bg: url(https://imgur.com/9s5zWxn.jpg) !important;
+	--main-bg: url('https://imgur.com/9s5zWxn.jpg') !important;
 	--theme-font: Ubuntu ;
 	--disable-enable-memberlist-effect: 50px /*Set 240px to Disable*/;
 	--on-off-rainbow-animation: 4s; /*Set 0s to disable and 4s to enable*/
