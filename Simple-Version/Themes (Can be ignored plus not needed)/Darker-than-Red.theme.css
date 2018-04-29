@@ -35,16 +35,15 @@ body {
     background-image: var(--main-bg) !important;
     background-size: cover;
     background-position: center;
+}/* optionally adjust background brightness (0: original image, 1: black) */
+.layers-3iHuyZ {
+	background: rgba(0,0,0,var(--bg-brightness)) !important;
 }
 .ui-standard-sidebar-view .sidebar-region {
 	background: rgba(0,0,0,0) !important;
 }
 .layers-3iHuyZ, .layer-3QrUeG, .container-PNkimc, .typing-2GQL18 {
 	background: rgba(0,0,0,0) !important;
-}
-/* optionally adjust background brightness (0: original image, 1: black) */
-.layers-3iHuyZ {
-	background: rgba(0,0,0,var(--bg-brightness)) !important;
 }
 /*Layer Transparency*/
 .content .flex-spacer,
