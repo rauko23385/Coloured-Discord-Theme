@@ -9,7 +9,7 @@
 
 * **Regarding animations:** Some animations can only be disabled on Source by taking @ that's before "keyframes" but if you think the animation should be able to be turned off in the compact version pls suggest it.
 
-* **Support and Contact:** Any help needed pls contact me through discord **@Waterin#6451** or **@𝓦𝓪𝓽𝓮𝓻𝓲𝓷#6451**
+* **Support and Contact:** Any help needed pls contact me through discord **@Waterin#6451** or **@𝓦𝓪𝓽𝓮𝓻𝓲𝓷#6451** or join my [Support Server](https://discord.gg/ADn3Mqd)
 
 * Feel free to suggest. I'll try to implement if it is really good. ^^
 
