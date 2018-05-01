@@ -1,4 +1,4 @@
-//META{"name":"Darker-Than-Red","description":"Coloured Discord Theme Series by Waterin.","author":"Waterin","version":"1.1.010"}*//{}
+//META{"name":"Darker-Than-Red","description":"Coloured Discord Theme Series by Waterin.","author":"Waterin","version":"1.1.011"}*//{}
 @import url(https://tinyurl.com/ycj7nv43);
 
 /*Contact Waterin#6451 <@288053351579648000> for further help*/
@@ -7,14 +7,24 @@
 /*Change the Link below to use a background of your own.Same for font no need to add an import just the font family name from Google Fonts*/
 :root {
 	--main-bg: url('https://imgur.com/9s5zWxn.jpg') !important;
+	
 	--theme-font: Ubuntu ;
+	
 	--disable-enable-memberlist-effect: 50px /*Set 240px to Disable*/;
+	
 	--on-off-rainbow-animation: 4s; /*Set 0s to disable and 4s to enable*/
+	
 	--status-pulse-speed: 2.5s; /*Set 0s to disable*/
+	
+	--bg-brightness: 0.3; /*Adjust background brightness (0: original image, 1: black)*/
+	
 }
-/*Adjust background brightness (0: original image, 1: black)*/
-.layers-20RVFW {
-  background: rgba(0,0,0,0.5) !important;
+
+
+
+/*********************************************************************************************************************************************************************************************************************/
+.layers-3iHuyZ {
+  background: rgba(0,0,0,var(--bg-brightness)) !important;
 }
 /*Rainbow Name Animations*/
 /*Change "PUT YOUR DISCORD USER ID HERE" to your discord ID*/
