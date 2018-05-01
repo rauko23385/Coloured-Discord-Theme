@@ -14,15 +14,19 @@ Support and Contact: Any help needed pls contact me through discord @Waterin#645
 Feel free to suggest and request colors. I'll try to implement if it is really good. ^^
 
 ## Darker Than Red Preview
+[Download](https://betterdiscord.net/ghdl?id=1599)
 ![alt text](https://imgur.com/0vrbbFu.jpg)
 
 ## Lighter Than Blue Preview
+[Download](https://betterdiscord.net/ghdl?id=1600)
 ![alt text](https://imgur.com/Dmt4LNU.jpg)
 
 ## Neutralized Green Preview
+[Download](https://betterdiscord.net/ghdl?id=1601)
 ![alt text](https://imgur.com/JXXp6n5.jpg)
 
 ## Orchid Purple Preview
+[Download](https://betterdiscord.net/ghdl?id=1602)
 ![alt text](https://imgur.com/79qYE0j.jpg)
 
 ## Animations added in (All working in all themes)
