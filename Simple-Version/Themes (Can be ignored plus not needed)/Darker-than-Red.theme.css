@@ -153,7 +153,6 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
 .status-se,
 .status-oxiHuE,
 .image-33JSyf,
-.guild-inner,
 .guilds-add,
 .guilds-error,
 .guild-placeholder,
@@ -164,19 +163,19 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
   border-radius: 20% !important;
 }
 .status,
-.member-3W1lQa .status-2s6iDp,
+.member-3W1lQa .status-2Devx1,
 .avatarStatus-3jMZl_ {
-  width: 100% !important;
-  height: 100% !important;
+  width: 95% !important;
+  height: 97% !important;
   background: transparent;
   top: -2px !important;
-  left: -2px !important;
+  left: -1px !important;
 }
 .status-online,
 .member-3W1lQa .statusOnline-1FlpW_,
 .xsmall-3afG_L .statusOnline-1FlpW_ {
   border: 2px solid #43B581 !important;
-  animation: pulse1 3s linear infinite;
+  animation: pulse1 var(--status-pulse-speed) linear infinite;
 }
 @keyframes pulse1{ /* If you have Lag Problems with the theme then delete the "@" in the beggining of this line*/
     0%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
@@ -187,7 +186,7 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
 .member-3W1lQa .statusIdle-1XoSCz,
 .xsmall-3afG_L .statusIdle-1XoSCz {
   border: 2px solid #FAA61A !important;
-  animation: pulse2 3s linear infinite;
+  animation: pulse2 var(--status-pulse-speed) linear infinite;
 }
 @keyframes pulse2{ /* If you have Lag Problems with the theme then delete the "@" in the beggining of this line*/
     0%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
@@ -198,7 +197,7 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
 .member-3W1lQa .statusDnd-2DDKST,
 .xsmall-3afG_L .statusDnd-2DDKST {
   border: 2px solid #F04747 !important;
-  animation: pulse3 3s linear infinite;
+  animation: pulse3 var(--status-pulse-speed) linear infinite;
 }
 @keyframes pulse3{ /* If you have Lag Problems with the theme then delete the "@" in the beggining of this line*/
     0%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
@@ -206,14 +205,18 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
     100%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
 }
 .status-invisible,
-.status-offline,
 .member-3W1lQa .statusInvisible-23hZKw,
+.xsmall-3afG_L .statusInvisible-23hZKw {
+  border: 2px solid #747F8D !important;
+  display: block !important;
+  animation: pulse4 var(--status-pulse-speed) linear infinite;
+}
+.status-offline,
 .member-3W1lQa .avatarOffline-3GF27z,
-.xsmall-3afG_L .statusInvisible-23hZKw,
 .xsmall-3afG_L .statusOffline-3R-4Bv {
   border: 2px solid #747F8D !important;
   display: block !important;
-  animation: pulse4 3s linear infinite;
+  animation: pulse4 var(--status-pulse-speed) linear infinite;
 }
 keyframes pulse4{ /* If you have Lag Problems with the theme then delete the "@" in the beggining of this line*/
     0%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
@@ -223,10 +226,9 @@ keyframes pulse4{ /* If you have Lag Problems with the theme then delete the "@"
 .memberOffline-2lN7gt {
   margin-left: -2px;
 }
-.member
--2FrNV0 .statusStreaming-2eqoUF {
+.member-3W1lQa .statusStreaming-2eqoUF {
   border: 2px solid #593695 !important;
-  animation: pulse5 3s linear infinite;
+  animation: pulse5 var(--status-pulse-speed) linear infinite;
 }
 @keyframes pulse5{ /* If you have Lag Problems with the theme then delete the "@" in the beggining of this line*/
     0%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
@@ -234,11 +236,11 @@ keyframes pulse4{ /* If you have Lag Problems with the theme then delete the "@"
     100%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
 }
 .status-oxiHuE {
-  width: 100% !important;
-  height: 100% !important;
+  width: 98% !important;
+  height: 97% !important;
   background: transparent;
-  top: -3px;
-  left: -3px;
+  top: -1px;
+  left: -1px;
 }
 .large-3ChYtB .statusOnline-1FlpW_ {
   border: 3px solid #43B581 !important;
@@ -285,10 +287,6 @@ keyframes pulse4{ /* If you have Lag Problems with the theme then delete the "@"
   box-shadow: none !important;
   box-shadow: none !important;
 }
-.avatar-small:hover .status {
-border-radius: 50px !important;
-transition:all 600ms ease;
-}
 .mask-3OgeRz {
 	-webkit-mask: none;
 }
@@ -298,6 +296,15 @@ transition:all 600ms ease;
 .alt-3btY0e .item-1GzJrl .statusIconText-3b4TkH {
     width: 2px !important;
     height: 25px !important;
+}
+.avatar-small:hover,
+.avatar-small:hover .status,
+.status-2s6iDp:hover,
+.status-oxiHuE:hover,
+#app-mount [class*="avatarWrapper-"]:hover,
+#app-mount [class*="avatar-"]:hover [class*="image-"] {
+	border-radius: 50px !important;
+	transition:all var(--on-off-transitions) ease-in-out !important;
 }
 /****************************************************************
 ****************************************************************
