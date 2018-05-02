@@ -27,14 +27,47 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
     90%{text-shadow: 0 0 6px #ff0000, 0 0 6px #ff0000, 0 0 5px #ff0000, 0 0 4px #ff0000;}
     100%{text-shadow: 0 0 6px #ff0000, 0 0 6px #ff0000, 0 0 5px #ff0000, 0 0 4px #ff0000;} 
 }
+/*Theme Creator Badge*/
+.message-group:not(.compact) .avatar-large[style*="288053351579648000"] ~ .comment .message h2 span.username-wrapper::after,
+.channel-members .member .avatar-small[style*="288053351579648000"] ~ .member-inner .member-username .member-username-inner::after{
+	content:"Theme Developer";
+	background: rgba(0,0,0,0.4);
+	color:darkred;
+	border-radius:5px;
+	border: 1px solid rgba(0,0,0,0.4);
+	margin-left:6px;
+	font-size:11px;
+	font-weight:600;
+	padding:1px 4px;
+	text-transform:uppercase;
+	vertical-align:bottom;
+	line-height:13px;
+	-webkit-flex-shrink:0;
+	flex-shrink:0;
+	text-shadow: 0px 1px 3px #000;
+	animation: Tag 3s linear infinite;
+}
+@keyframes Tag { /* If you have Lag Problems with the theme then delete the "@" in the beggining of this line*/
+	0%{box-shadow: 0px 0px 0px rgba(0,0,0,0);}
+	12%{box-shadow: 0px 0px 2px rgba(255,255,0,1);}
+	24%{box-shadow: 0px 0px 3px rgba(255,170,0,1);}
+	36%{box-shadow: 0px 0px 3px rgba(255,100,0,1);}    
+	50%{box-shadow: 0px 0px 4px rgba(255,0,0,1);}
+	64%{box-shadow: 0px 0px 3px rgba(255,100,0,1);}
+	76%{box-shadow: 0px 0px 2px rgba(253,170,0,1);}
+	88%{box-shadow: 0px 0px 1px rgba(255,255,0,1);}    
+	100%{box-shadow: 0px 0px 0px rgba(0,0,0,0);} 
+}
 /****************************************************************
 ****************************************************************
 ****************************************************************/
 /*Background*/
-body { 
+.app { 
     background-image: var(--main-bg) !important;
     background-size: cover;
-    background-position: center;
+    background-position: center;}
+.layers-3iHuyZ {
+	background: rgba(0,0,0,var(--bg-brightness)) !important;
 }
 .ui-standard-sidebar-view .sidebar-region {
 	background: rgba(0,0,0,0) !important;
@@ -42,23 +75,19 @@ body {
 .layers-3iHuyZ, .layer-3QrUeG, .container-PNkimc, .typing-2GQL18 {
 	background: rgba(0,0,0,0) !important;
 }
-/* optionally adjust background brightness (0: original image, 1: black) */
-.layers-3iHuyZ {
-	background: rgba(0,0,0,var(--bg-brightness)) !important;
-}
 /*Layer Transparency*/
 .content .flex-spacer,
 .content-region,	
 .headerBar-UHpsPw { 
     background-color: rgba(0,0,0,0) !important;
 }
-.noChannel-2EQ0a9 { 
+.noChannel-Z1DQK7{ 
     background-color: rgba(0,0,0,0) !important;
 }
 .channels-Ie2l6A { 
     background-color: rgba(0,0,0,0) !important;
 }
-.title-qAcLxz {
+.title-3qD0b- {
     background-color: rgba(0,0,0,0) !important;
 }
 .container-2Thooq { 
@@ -109,11 +138,11 @@ body {
 	background-color: rgba(0,0,0,0) !important;
 }
 .wordmark-2iDDfm:after {
-	content: 'Version: 1.1.009';
+	content: 'Version: 1.1.011';
 	position: relative;
 	font-size: 10px;
 	font-weight: bolder;
-	color: rgba(170,0,0,1);
+	color: white;
 	font-family: Uni Sans Heavy CAPS;
 	display: block;
 	top: -8px;
@@ -127,57 +156,56 @@ body {
     width: 1% !important;
     height: 1%: hsla(0, 0%, 0%, 0);
 }
-.theme-dark .headerNormal-3Vn9nT {
+.theme-dark .headerNormal-T_seeN {
 	background-color: rgba(0,100,0,1) !important;
 }
-.theme-dark .body-3ljq11, .theme-dark .footer-2wFs91 {
+.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
 	background-color: rgba(0,150,0,1) !important;
 }
-.theme-dark .footer-2wFs91 {
+.theme-dark .footer-1fjuF6 {
 	background-color: rgba(0,150,0,1) !important;
 }
-.theme-dark .quickMessage-OCo-Q0 {
+.theme-dark .quickMessage-1yeL4E {
 	background-color: rgba(0,180,0,1) !important;
 }
-.header-2Lg0Oe {
+.header-QKLPzZ {
 	background-color: rgba(0,100,0,1) !important;
 }
-.tabBarContainer-3RVZc- {
+.tabBarContainer-1s1u-z {
 	background-color: rgba(0,150,0,1) !important;
 }
-.theme-dark .body-3_tdh6 {
+.theme-dark .body-3ND3kc {
 	background-color: rgba(0,150,0,1) !important;
 }
 /*Avatars and Statuses*/
 [class*="avatar"],
 .status,
 .status-se,
-.status-3jUEha,
-.image-EVRGPw,
-.guild-inner,
+.status-oxiHuE,
+.image-33JSyf,
 .guilds-add,
 .guilds-error,
 .guild-placeholder,
-.embedAuthorIcon-S7s7pw,
-.icon-1RgidT,
-.emptyUser-34aCrC,
-.partyMemberUnknown-25cHNU {
+.embedAuthorIcon--1zR3L,
+.icon-3o6xvg,
+.emptyUser-3FRJaF,
+.partyMemberUnknown-1OsCPU {
   border-radius: 20% !important;
 }
 .status,
-.member-2FrNV0 .status-2Devx1,
-.avatarStatus-3VdB8Y {
-  width: 100% !important;
-  height: 100% !important;
+.member-3W1lQa .status-2Devx1,
+.avatarStatus-3jMZl_ {
+  width: 95% !important;
+  height: 97% !important;
   background: transparent;
   top: -2px !important;
-  left: -2px !important;
+  left: -1px !important;
 }
 .status-online,
-.member-2FrNV0 .statusOnline-1Mp2_H,
-.xsmall-2rXiD4 .statusOnline-1Mp2_H {
+.member-3W1lQa .statusOnline-1FlpW_,
+.xsmall-3afG_L .statusOnline-1FlpW_ {
   border: 2px solid #43B581 !important;
-  animation: pulse1 3s linear infinite;
+  animation: pulse1 var(--status-pulse-speed) linear infinite;
 }
 @keyframes pulse1{ /* If you have Lag Problems with the theme then delete the "@" in the beggining of this line*/
     0%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
@@ -185,10 +213,10 @@ body {
     100%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
 }
 .status-idle,
-.member-2FrNV0 .statusIdle-2AQdvu,
-.xsmall-2rXiD4 .statusIdle-2AQdvu {
+.member-3W1lQa .statusIdle-1XoSCz,
+.xsmall-3afG_L .statusIdle-1XoSCz {
   border: 2px solid #FAA61A !important;
-  animation: pulse2 3s linear infinite;
+  animation: pulse2 var(--status-pulse-speed) linear infinite;
 }
 @keyframes pulse2{ /* If you have Lag Problems with the theme then delete the "@" in the beggining of this line*/
     0%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
@@ -196,10 +224,10 @@ body {
     100%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
 }
 .status-dnd,
-.member-2FrNV0 .statusDnd-35xAXU,
-.xsmall-2rXiD4 .statusDnd-35xAXU {
+.member-3W1lQa .statusDnd-2DDKST,
+.xsmall-3afG_L .statusDnd-2DDKST {
   border: 2px solid #F04747 !important;
-  animation: pulse3 3s linear infinite;
+  animation: pulse3 var(--status-pulse-speed) linear infinite;
 }
 @keyframes pulse3{ /* If you have Lag Problems with the theme then delete the "@" in the beggining of this line*/
     0%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
@@ -207,55 +235,58 @@ body {
     100%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
 }
 .status-invisible,
-.status-offline,
-.member-2FrNV0 .statusInvisible-2ci18Q,
-.member-2FrNV0 .avatarOffline-YdYOwX,
-.xsmall-2rXiD4 .statusInvisible-2ci18Q,
-.xsmall-2rXiD4 .statusOffline-jZXr_u {
+.member-3W1lQa .statusInvisible-23hZKw,
+.xsmall-3afG_L .statusInvisible-23hZKw {
   border: 2px solid #747F8D !important;
   display: block !important;
-  animation: pulse4 3s linear infinite;
+  animation: pulse4 var(--status-pulse-speed) linear infinite;
+}
+.status-offline,
+.member-3W1lQa .avatarOffline-3GF27z,
+.xsmall-3afG_L .statusOffline-3R-4Bv {
+  border: 2px solid #747F8D !important;
+  display: block !important;
+  animation: pulse4 var(--status-pulse-speed) linear infinite;
 }
 keyframes pulse4{ /* If you have Lag Problems with the theme then delete the "@" in the beggining of this line*/
     0%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
 	50%{box-shadow: 1px 1px 20px #747F8D;}
     100%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
 }
-.memberOffline-lvMbAs {
+.memberOffline-2lN7gt {
   margin-left: -2px;
 }
-.member
--2FrNV0 .statusStreaming-1bZ3Hq {
+.member-3W1lQa .statusStreaming-2eqoUF {
   border: 2px solid #593695 !important;
-  animation: pulse5 3s linear infinite;
+  animation: pulse5 var(--status-pulse-speed) linear infinite;
 }
 @keyframes pulse5{ /* If you have Lag Problems with the theme then delete the "@" in the beggining of this line*/
     0%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
 	50%{box-shadow: 1px 1px 20px #593695;}
     100%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
 }
-.status-3jUEha {
-  width: 100% !important;
-  height: 100% !important;
+.status-oxiHuE {
+  width: 98% !important;
+  height: 97% !important;
   background: transparent;
-  top: -3px;
-  left: -3px;
+  top: -1px;
+  left: -1px;
 }
-.large-3yh-62 .statusOnline-1Mp2_H {
+.large-3ChYtB .statusOnline-1FlpW_ {
   border: 3px solid #43B581 !important;
 }
-.large-3yh-62 .statusIdle-2AQdvu {
+.large-3ChYtB .statusIdle-1XoSCz {
   border: 3px solid #FAA61A !important;
 }
-.large-3yh-62 .statusDnd-35xAXU {
+.large-3ChYtB .statusDnd-2DDKST {
   border: 3px solid #F04747 !important;
 }
-.large-3yh-62 .statusInvisible-2ci18Q,
-.large-3yh-62 .statusOffline-jZXr_u {
+.large-3ChYtB .statusInvisible-23hZKw,
+.large-3ChYtB .statusOffline-3R-4Bv {
   border: 3px solid #747F8D !important;
   display: block !important;
 }
-.statusProfile-29OBzn {
+.statusProfile-3ynqtt {
   width: 100% !important;
   height: 100% !important;
   background: transparent;
@@ -263,48 +294,53 @@ keyframes pulse4{ /* If you have Lag Problems with the theme then delete the "@"
   left: -4px !important;
   pointer-events: none;
 }
-.statusOnlineProfile-2tnPUH {
+.statusOnlineProfile-C7N-xU {
   border: 4px solid #43B581 !important;
   box-shadow: none !important;
 }
-.statusIdleProfile-2QT8cN {
+.statusIdleProfile-3lQI6a {
   border: 4px solid #FAA61A !important;
   box-shadow: none !important;
 }
-.statusDndProfile-3KCGdy {
+.statusDndProfile-33i43o {
   border: 4px solid #F04747 !important;
   box-shadow: none !important;
 }
-.statusInvisibleProfile-LRuFr_,
-.statusOfflineProfile-1wnfgz {
+.statusInvisibleProfile-3iFEOq,
+.statusOfflineProfile-9tGGr- {
   border: 4px solid #747F8D !important;
   box-shadow: none !important;
 }
-.headerStreaming-lmgoma .statusProfile-29OBzn,
-.topSectionStreaming-3rIBIm .statusProfile-29OBzn {
+.headerStreaming-2FjmGz .statusProfile-3ynqtt,
+.topSectionStreaming-1Tpf5X .statusProfile-3ynqtt {
   border: 4px solid #593695 !important;
   box-shadow: none !important;
   box-shadow: none !important;
 }
-.avatar-small:hover .status {
-border-radius: 50px !important;
-transition:all 600ms ease;
-}
-.mask-2vyqAW {
+.mask-3OgeRz {
 	-webkit-mask: none;
 }
-.title-qAcLxz .status, .titleCall-3X0yGQ .status{
+.title-3qD0b- .status, .titleCall-_b9o8P .status{
     width: 30px !important;
 }
-.alt-2vq4VR .item-rK1j5B .statusIconText-312Il7 {
+.alt-3btY0e .item-1GzJrl .statusIconText-3b4TkH {
     width: 2px !important;
     height: 25px !important;
+}
+.avatar-small:hover,
+.avatar-small:hover .status,
+.status-2s6iDp:hover,
+.status-oxiHuE:hover,
+#app-mount [class*="avatarWrapper-"]:hover,
+#app-mount [class*="avatar-"]:hover [class*="image-"] {
+	border-radius: 50px !important;
+	transition:all var(--on-off-transitions) ease-in-out !important;
 }
 /****************************************************************
 ****************************************************************
 ****************************************************************/
 /*Others*/
-.appMount-14L89u { /*Discord Windows Bar*/
+.appMount-3VJmYg { /*Discord Windows Bar*/
 	background-color: rgba(0,110,0,1) !important;
 }
 .tooltip { /*Tooltip Color Editor*/
@@ -322,13 +358,13 @@ transition:all 600ms ease;
 .tooltip.tooltip-left:after { /*Tooltip Color Editor Left Notch*/
 	border-left-color: rgba(0,120,0,0.7) !important
 }
-.theme-dark .iconForeground-2c7s3m, .theme-dark .title-2Ul_Rx { /*Icons*/
+.theme-dark .iconForeground-3y9f0B, .theme-dark .title-1aVOXw { /*Icons*/
 	color: rgba(0,180,0,1) !important;
 }
-.menu-3BZuDT { /*Server Pull Down Menu*/
+.menu-Sp6bN1 { /*Server Pull Down Menu*/
 	background-color: rgba(0,120,0,0.9) !important;
 }
-.separator-1hpa3S { /*Server Pull Down Menu Separators*/
+.separator-2zcjq8 { /*Server Pull Down Menu Separators*/
 	border-bottom: 1px solid rgba(30,30,30,0.5) !important;
 }	
 .popout section {
@@ -340,16 +376,16 @@ transition:all 600ms ease;
 .popout.popout-top-right section:after, .popout.popout-top section:after {
 	border-top-color: rgba(0,140,0,0.7) !important;
 }
-.container-1WaXoH hr {
+.container-3nXdBP hr {
 	border: 1px solid rgba(0,255,0,1) !important;
 }
-.name-3gtcmp {
+.name-3YKhmS {
 	color: rgba(0,180,0,1) !important;
 }
-.channelName-1G03vu.private-38vo6h {
+.channelName-3stJzi.private-26pLvW {
 	color: rgba(0,140,0,1) !important;
 }
-.emojiPicker-3g68GS {
+.emojiPicker-3m1S-j {
 	background-color: rgba(0,80,0,1) !important;
 }
 .search-bar.search-bar-light {
@@ -358,50 +394,50 @@ transition:all 600ms ease;
 .search-bar.search-bar-light .search-bar-inner {
 	background-color: rgba(0,120,0,1) !important;
 }
-.emojiPicker-3g68GS .categories-jw8z2h .item-lsWB-j.selected-1LQfcZ {
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.selected-39BZ4S {
 	border-bottom-color: rgba(0,180,0,1) !important;
 }
-.emojiPicker-3g68GS .stickyHeader-3LjM5X {
+.emojiPicker-3m1S-j .stickyHeader-1SS0JU {
 	background-color: rgba(0,80,0,1) !important;
 }
-.downloadLink-wANcd8 { /*Image Viewer "Open Original" Button*/
+.downloadLink-2oSgiF { /*Image Viewer "Open Original" Button*/
 	color: rgba(0,190,0,1) !important;
 }
-.weightMedium-13x9Y8 { /*"Open Original" Font Weight*/
+.weightMedium-2iZe9B { /*"Open Original" Font Weight*/
 	font-weight: 700
 }
-.theme-dark .attachment-1Vom9D {
+.theme-dark .attachment-33OFj0 {
 	background-color: rgba(0,120,0,0.3) !important;
 	border-color: rgba(0,150,0,0.5) !important;
 }
-.uploadModal-2KN6Mm {
+.uploadModal-2ifh8j {
 	background-color: rgba(0,120,0,1) !important;
 }
-.uploadModal-2KN6Mm .footer-4pOKm8 {
+.uploadModal-2ifh8j .footer-3mqk7D {
 	background-color: rgba(30,30,30,1) !important;
 }
-.uploadModal-2KN6Mm .footer-4pOKm8 .button {
+.uploadModal-2ifh8j .footer-3mqk7D .button {
 	background-color: rgba(110,110,110,1) !important;
 }
-.uploadModal-2KN6Mm .footer-4pOKm8 .button-primary {
+.uploadModal-2ifh8j .footer-3mqk7D .button-primary {
 	background-color: rgba(0,150,0,1) !important;
 	color: rgba(255,255,255,1) !important;
 	left: -1px !important;
 }
-.uploadModal-2KN6Mm .inner-1-09ZV {
+.uploadModal-2ifh8j .inner-3nWsbo {
 	border-color: rgba(30,30,30,1) !important;
 }
-.theme-dark.contextMenu-uoJTbz {
+.theme-dark.contextMenu-HLZMGh {
 	background-color: rgba(0,120,0,1) !important;
 	box-shadow: 0 0 1px rgba(0,150,0,1) !important;
 }
-.theme-dark .itemGroup-oViAgA {
+.theme-dark .itemGroup-1tL0uz {
 	border-color: rgba(0,150,0,1) !important;
 }
-.theme-dark .item-1XYaYf {
+.theme-dark .item-1Yvehc {
 	color: rgba(200,200,200,1) !important;
 }
-.theme-dark .item-1XYaYf:hover {
+.theme-dark .item-1Yvehc:hover {
 	background-color: rgba(0,160,0,1) !important;
 }
 .bda-dark #bda-qem-favourite-container, .bda-dark #bda-qem-twitch-container {
@@ -421,7 +457,7 @@ transition:all 600ms ease;
 .bda-dark #bda-qem button.active {
 	background-color: rgba(0,100,0,1) !important;
 }
-.theme-dark .itemSubMenu-3ZgIw- {
+.theme-dark .itemSubMenu-1vN_Yn {
 	background-color: rgba(0,120,0,1) !important;
 }
 /****************************************************************
@@ -498,7 +534,7 @@ transition:all 600ms ease;
 .search-popout .option.selected:after {
 	background: transparent
 }
-.quickswitcher-2NdiGJ {
+.quickswitcher-3JagVE {
 	background-color: rgba(0,150,0,0.7) !important;
 }
 /****************************************************************
@@ -508,10 +544,10 @@ transition:all 600ms ease;
 .search-bar .search-bar-inner { /*Search Bar Color*/
 	background-color: rgba(0,120,0,0.3) !important;
 }
-.container-iksrDt { /*User Dock Background*/
+.container-2Thooq { /*User Dock Background*/
 	background-color: rgba(0,120,0,0.2) !important;
 }
-.button-1aU9q1:hover { /*User Dock Hovered*/
+.button-2b6hmh:hover { /*User Dock Hovered*/
 	background-color: rgba(0,150,0,0.7) !important;
 }
 .private-channels .channel:hover a {
@@ -520,7 +556,7 @@ transition:all 600ms ease;
 .private-channels .channel.selected a {
 	background-color: rgba(0,150,0,0.5) !important;
 }
-.theme-dark .callAvatarWrapper-u74Q16 .ripple-2djlB0 {
+.theme-dark .callAvatarWrapper-TICyxO .ripple-16ZT2p {
     background-color: rgba(0,0,0,0);
 }
 .theme-dark #friends .friends-table .friends-row:hover {
@@ -551,7 +587,7 @@ transition:all 600ms ease;
 .theme-dark .private-channel-call {
     background-color: transparent !important;
 }
-.video-3lOWa6 {
+.video-1FfuMD {
 	background-color: rgba(0,120,0,0.05) !important;
 	margin: 8px !important;
 	border-radius: 10px;
@@ -572,25 +608,25 @@ transition:all 600ms ease;
 	background: rgba(0,140,0,1) !important;
 	color: rgba(170,170,170,1) !important;
 }
-.theme-dark .wrapper-uAa07y {
+.theme-dark .wrapper-35wsBm {
 	background: rgba(0,130,0,0.4) !important;
 	border-color: rgba(0,150,0,0.5) !important;
 }
-.theme-dark .embedInner-t4ag7g {
+.theme-dark .embedInner-1-fpTo {
 	background: rgba(0,130,0,0.4) !important;
 	border-color: rgba(0,150,0,0.5) !important;
 }
-.wrapper-2ldvyE {
+.wrapper-2NJDcI {
 	background-color: rgba(0,120,0,0.4) !important;
 }
 .theme-dark #friends .tab-bar .tab-bar-item.selected .badge {
 	background-color: #000098 !important;
 }
-.cardPrimaryEditable-2IQ7-V[style*="border-color: rgb(114, 137, 218); background-color: rgb(114, 137, 218);"] polyline[stroke] {
+.cardPrimaryEditable-3KtE4g[style*="border-color: rgb(114, 137, 218); background-color: rgb(114, 137, 218);"] polyline[stroke] {
     stroke: #fff;
     stroke-width: 2;
 }
-.ghostPill-1yup5q {
+.ghostPill-2-KUPM {
 	background-color: rgba(0,120,0,0.4) !important;
 	color: rgba(255,255,255,1) !important;
 }
@@ -633,14 +669,14 @@ transition:all 600ms ease;
 ****************************************************************
 ****************************************************************/
 /*Channel's List*/
-.theme-dark .content-2mSKOj:hover { /*Channel Highlight Hovered*/
+.theme-dark .content-20Aix8:hover { /*Channel Highlight Hovered*/
 	background-color: rgba(0,120,0,0.2) !important;
 }
-.theme-dark .contentSelectedText-3j5CXt { /*Selected Channel Highlight*/
+.theme-dark .contentSelectedText-3wUhMi { /*Selected Channel Highlight*/
 	background-color: rgba(0,150,0,0.5) !important;
 	border-left: 4px solid rgba(0,255,0,0.5) !important;
 }
-.theme-dark .unread-23Kvxk { /*Unread Message dot Color*/
+.theme-dark .unread-1Dp-OI { /*Unread Message dot Color*/
 	background-color: rgba(0,220,0,1) !important;
 	animation: pulse7 2s linear infinite;
 }
@@ -649,31 +685,31 @@ transition:all 600ms ease;
 	50%{box-shadow: 1px 1px 20px rgba(0,255,0,1);}
     100%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
 }
-.contentHoveredText-2HYGIY { /*Trash Layer (KeepTransparent*/
+.contentHoveredText-2D9B-x { /*Trash Layer (KeepTransparent*/
 	background-color: rgba(0,120,0,0.2) !important;
 }
-.theme-dark .member-2FrNV0:hover .content-3JzEqq {
+.theme-dark .member-3W1lQa:hover .content-OzHfo4 {
 	box-shadow: 0 0 rgba(0,120,0,1) !important;
 	background-color: rgba(0,100,0,1) !important;	
 	
 }
-.nameHovered-28u_Fz, .nameSpeaking-3ROx9q {
+.nameHovered-21k1eo,.nameSpeaking-3UhoEZ {
 	color: rgba(0,200,0,1) !important;
 }
-.container-3lnMWU {
+.container-1UB9sr {
 	background-color: rgba(0,120,0,0.2) !important;
 	border-bottom: 1px solid rgba(30,30,30,0.5) !important;
 }
-.iconHovered-3PRzOR, .iconHoveredCollapsed-jNYgOD, .nameHovered-1YFSWq, .nameHoveredCollapsed-2c-EHI { /*Category Font Color Hovered*/
+.iconHovered-3PRzOR,.iconHoveredCollapsed-jNYgOD, .nameHovered-1gxhWH,.nameHoveredCollapsed-2orEWB { /*Category Font Color Hovered*/
 	color: rgba(0,170,0,1) !important;
 }
-.nameCollapsed-3_ChMu, .nameDefault-Lnjrwm, .nameHovered-1YFSWq, .nameHoveredCollapsed-2c-EHI, .nameMuted-1n0LSj, .nameUnread-WKlSv- {
+.nameCollapsed-34uFWo,.nameDefault-2DI02H,.nameHovered-1gxhWH,.nameHoveredCollapsed-2orEWB,.nameMuted-1MCOt4,.nameUnread-njOjIS {
 	font-weight: 700 !important
 }
-.unread-2TDDFN {
+.unread-1xRYoj {
     background-color: rgba(0,120,0,1) !important;
 }
-.theme-dark .unread-23Kvxk{
+.theme-dark .unread-1Dp-OI{
     height: 70% !important;
     margin-top: -11px !important;
 }
@@ -709,7 +745,7 @@ transition:all 600ms ease;
 	50%{box-shadow: 1px 1px 20px rgba(0,255,0,1);}
     100%{box-shadow: 1px 1px 20px rgba(0,0,0,0);} 
 }
-.theme-dark .inner-3if5cm { /*Texting Box*/
+.theme-dark .inner-zqa7da { /*Texting Box*/
 	background-color: rgba(0,150,0,0.6) !important;
 }
 .message-group { /*Message Separators*/
@@ -722,10 +758,10 @@ transition:all 600ms ease;
 	margin: 12px 13px 0px 20px;
 	background-color: rgba(0,120,0,0.07) !important;
 }
-.theme-dark .autocomplete-1TnWNR, .autocompleteInner-N7OQf1 { /*AutoComplete List*/
+.theme-dark .autocomplete-1vrmpx, .autocompleteInner-zh20B_ { /*AutoComplete List*/
 	background-color: rgba(0,90,0,0.8) !important;
 }
-.theme-dark .selectorSelected-2M0IGv { /*AutoComplete List Selected/Hovered*/
+.theme-dark .selectorSelected-1_M1WV { /*AutoComplete List Selected/Hovered*/
 	background-color: rgba(0,150,0,1) !important;
 }
 .theme-dark .message-group .comment .markup code.inline, .theme-dark .message-group .comment .markup pre code { /*CodeBlocks Background*/
@@ -769,10 +805,10 @@ transition:all 600ms ease;
 .theme-dark .mention:hover {
 	background-color: rgba(0,150,0,0.5) !important;
 }
-.theme-dark .topic-1KFf6J a {
+.theme-dark .topic-2QX7LI a {
 	color: rgba(0,120,0,1) !important;
 }
-.theme-dark .topic-1KFf6J:hover a {
+.theme-dark .topic-2QX7LI:hover a {
 	color: rgba(0,170,0,1) !important;
 }
 .theme-dark .message-group a {
@@ -781,13 +817,13 @@ transition:all 600ms ease;
 .theme-dark .message-group:hover a { 
 	color: rgba(0,170,0,1) !important;
 }
-.theme-dark .attachPopout-gjwHsr {
+.theme-dark .attachPopout-1n-ZKM {
 	background-color: rgba(0,140,0,1) !important;
 }
-.theme-dark .attachPopoutRow-elxASe:hover {
+.theme-dark .attachPopoutRow-KrE-f6:hover {
 	background-color: rgba(0,200,0,1) !important;
 }
-.uploadModal-2KN6Mm .inner-1-09ZV .file-XhJJS_ .icon-19bbE_.image-sUU6Oh {
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j {
 	border-color: rgba(0,180,0,1) !important;
 }
 .chat .has-more button {
@@ -801,15 +837,15 @@ transition:all 600ms ease;
 ****************************************************************
 ****************************************************************/
 /*Members List*/
-.theme-dark .memberOnline-1xn3V8 { /*Member Not Hovered*/
+.theme-dark .memberOnline-1CIh-0 { /*Member Not Hovered*/
 	color: rgba(0,120,0,1) !important;
 }
-.theme-dark .member-2FrNV0:hover .content-3JzEqq { /*Member Hovered*/
+.theme-dark .member-3W1lQa:hover .content-OzHfo4 { /*Member Hovered*/
     background-color: rgba(0,150,0,0.5) !important;
     color: #fff;
 	border-left: 4px solid rgba(0,255,0,1) !important;
 }
-.membersGroup-3_dP5E { /*Roles Separator Not Hovered*/
+.membersGroup-v9BXpm { /*Roles Separator Not Hovered*/
 	color: rgba(150,150,150,1) !important;
 	font-size: 11px;
 	text-transform: uppercase;
@@ -827,17 +863,17 @@ transition:all 600ms ease;
 	align-items: center;
 	justify-content: center;
 }
-.membersGroup-3_dP5E:hover { /*Roles Separator Hover*/
+.membersGroup-v9BXpm:hover { /*Roles Separator Hover*/
 border-radius: 30px;
 transition: all 700ms ease;
 }
-.membersWrap-3wRngy{ /*SlideEffect Not Hovered*/
+.membersWrap-2h-GB4{ /*SlideEffect Not Hovered*/
 	min-width: var(--disable-enable-memberlist-effect) !important;
 	max-width:240px!important;
 	width: var(--disable-enable-memberlist-effect) !important;
 	transition: width 0.7s;
 }
-.membersWrap-3wRngy:hover{ /*SlideEffect Hovered*/
+.membersWrap-2h-GB4:hover{ /*SlideEffect Hovered*/
 	width:240px !important;
 	transition: width .4s;
 }
@@ -893,19 +929,19 @@ filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.7)) !important;
 ****************************************************************
 ****************************************************************/
 /*Settings Menu*/
-.side-2nYO0F .header-1-f9X5:first-child { /*User Settings Font*/
+.side-8zPYf6 .header-2RyJ0Y:first-child { /*User Settings Font*/
 	color: rgba(0,150,0,1) !important;
 	font-weight: 700 !important;
 }
-.side-2nYO0F .header-1-f9X5 { /*User Settings Font*/
+.side-8zPYf6 .header-2RyJ0Y { /*User Settings Font*/
 	color: rgba(0,150,0,1) !important;
 	font-weight: 700 !important;
 }
-.side-2nYO0F .itemSelected-3XxAMf {
+.side-8zPYf6 .itemSelected-1qLhcL {
 	background-color: rgba(0,150,0,1) !important;
 	border-left: 4px solid rgba(0,255,0,1) !important;
 }
-.theme-dark .separator-3z7STW {
+.theme-dark .separator-gCa7yv {
 	background-color: rgba(0,120,0,0.4) !important;
 }
 #bd-settings-sidebar .ui-tab-bar-header {
@@ -922,69 +958,69 @@ filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.7)) !important;
 .ui-standard-sidebar-view, .ui-standard-sidebar-view * a {
 	color: rgba(0,150,0,1) !important;
 }
-.side-2nYO0F .item-3879bf:hover {
+.side-8zPYf6 .item-PXvHYJ:hover {
 	background-color: rgba(0,120,0,0.3) !important;
 }
-.theme-dark .cardPrimary-ZVL9Jr {
+.theme-dark .cardPrimary-1Hv-to {
 	background-color: rgba(0,120,0,0.6) !important;
 	border-color: rgba(0,200,0,0.5) !important;
 }
-.lookFilled-luDKDo.colorBrand-3PmwCE {
+.lookFilled-1Gx00P.colorBrand-3pXr91 {
 	background-color: rgba(0,140,0,1) !important;
 }
-.lookFilled-luDKDo.colorBrand-3PmwCE:hover {
+.lookFilled-1Gx00P.colorBrand-3pXr91:hover {
 	background-color: rgba(0,120,0,1) !important;
 }
-.theme-dark .cardPrimaryOutline-2YyAz2 {
+.theme-dark .cardPrimaryOutline-29Ujqw {
 	background-color: rgba(0,120,0,0.6) !important;
 	border-color: rgba(0,200,0,0.5) !important;
 }
-.theme-dark .accountBtnInner-3zsU2z {
+.theme-dark .accountBtnInner-sj5jLs {
 	background-color: rgba(0,120,0,1) !important;
 	border-color: rgba(0,200,0,0.5) !important;
 }
-.theme-dark .accountBtnInner-3zsU2z:hover {
+.theme-dark .accountBtnInner-sj5jLs:hover {
 	background-color: rgba(0,140,0,1) !important;
 	border-color: rgba(0,200,0,0.5) !important;
 }
-.theme-dark .cardPrimaryEditable-2IQ7-V {
+.theme-dark .cardPrimaryEditable-3KtE4g {
 	background-color: rgba(0,120,0,0.6) !important;
 }
-.theme-dark .modal-3HOjGZ {
+.theme-dark .modal-3HD5ck {
 	background-color: rgba(0,150,0,1) !important;
 }
-.theme-dark .footer-1PYmcw {
+.theme-dark .footer-2yfCgX {
 	background-color: rgba(0,100,0,1) !important;
 }
-.theme-dark .item-3tXG-o {
+.theme-dark .item-3eFBNF {
 	box-shadow: inset 0 -1px 0 0 rgba(0,120,0,0.4) !important;
 }
-.theme-dark .questionMark-1R8WLs {
+.theme-dark .questionMark-CWEQZn {
 	background-color: rgba(0,130,0,1) !important;
 }
 .avatar-uploader .remove-button {
 	color: rgba(0,230,0,1) !important;
 }
-.lookOutlined-1c5nhl.colorRed-3HTNPV {
+.lookOutlined-3sRXeN.colorRed-1TFJan {
 	color: rgba(0,230,0,1) !important;
 	border-color: rgba(0,210,0,1) !important;
 }
-.theme-dark .input-2YozMi.focused-xL_GX6 {
+.theme-dark .input-cIJ7To.focused-1mmYsC {
 	border-color: rgba(0,210,0,1) !important;
 }
-.theme-dark .divider-1G01Z9 {
+.theme-dark .divider-3573oO {
 	background-color: rgba(0,120,0,0.4) !important;
 }
-.theme-dark .bar-2cFRGz {
+.theme-dark .bar-2Qqk5Z {
 	background: rgba(100,100,100,1) !important;
 }
-.barFill-18ABna {
+.barFill-23-gu- {
 	background: rgba(0,190,0,1) !important;
 }
 *[style*="background-color: rgb(114, 137, 218)"] {
 	border-color: rgba(0,210,0,1) !important;
 }
-.theme-dark .select-3JqNgs .Select-option.is-selected {
+.theme-dark .select-2TCrqx .Select-option.is-selected {
 	background-color: rgba(0,120,0,1) !important;
 }
 .theme-dark .user-settings-games .game {
@@ -1013,31 +1049,31 @@ filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.7)) !important;
 .ui-standard-sidebar-view .bda-slist .bda-right button, .bd-pfbtn {
 	background-color: rgba(0,120,0,1) !important;
 }
-.theme-dark .themeDefault-3M0dJU,
+.theme-dark .themeDefault-24hCdX,
 #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch {
     background-color: gray;
 }
 
-.theme-dark .themeDefault-3M0dJU.valueChecked-3Bzkbm,
+.theme-dark .themeDefault-24hCdX.valueChecked-m-4IJZ,
 #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked {
     background-color: rgba(0,80,0,1) !important;
 }
-.theme-dark .userSettingsVoice-TvPQ80 .previewOverlay-2vHj3H {
+.theme-dark .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC {
 	background-color: rgba(0,100,0,1) !important;
 }
-.theme-dark .checked-2TahvT {
+.theme-dark .checked-3_4uQ9 {
 	border-color: rgba(0,180,0,1) !important;
 	color: rgba(0,180,0,1) !important;
 }
-.theme-dark .checked-2TahvT[style*="border-color: rgb(114, 137, 218);"] {
+.theme-dark .checked-3_4uQ9[style*="border-color: rgb(114, 137, 218);"] {
     background-color: rgba(0,120,0,1) !important;
 	border-color: rgba(0,150,0,1) !important;
 }
-.theme-dark .select-3JqNgs .Select-menu-outer {
+.theme-dark .select-2TCrqx .Select-menu-outer {
 	background-color: rgba(0,120,0,1)!important;
 	border-color:; 
 }
-.theme-dark .card-11ynQk:before {
+.theme-dark .card-FDVird:before {
 	background: rgba(0,120,0,1) !important;
 	border-color: rgba(0,180,0,1) !important;
 }
@@ -1059,7 +1095,7 @@ filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.7)) !important;
 .bda-slist .bda-footer button {
 	background: rgba(0,140,0,1) !important;
 }
-.theme-dark .typing-3eiiL_ span {
+.theme-dark .typing-2GQL18 span {
 	color: rgba(0,255,0,1) !important;
 }
 
