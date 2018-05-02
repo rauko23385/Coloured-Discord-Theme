@@ -133,7 +133,7 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
 }
 .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller,
 .ui-standard-sidebar-view .content-region .content-region-scroller-wrap  {
-    background: rgba(0,0,0,0.4);
+    background: rgba(0,0,0,0.4) !important;
 }
 .container-2lgZY8 {
 	background-color: rgba(0,0,0,0) !important;
