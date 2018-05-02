@@ -13,7 +13,7 @@
 
 * Feel free to suggest. I'll try to implement if it is really good. ^^
 
-# [Donate](paypal.me/Waterin)
+* [Donate](paypal.me/Waterin)
 
 ## Darker Than Red Preview - [Download](https://betterdiscord.net/ghdl?id=1599)
 ![alt text](https://imgur.com/0vrbbFu.jpg)
