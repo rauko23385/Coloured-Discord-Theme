@@ -1,6 +1,6 @@
 ## Coloured-Discord-Themes
 
-#Some themes focused in one color each.
+# Some themes focused in one color each.
 
 * **Compact-Version:** Will get updates and fixes without having to redownload. Unless it's a file update (Don't happen often)
 
@@ -12,6 +12,8 @@
 * **Support and Contact:** Any help needed pls contact me through discord **@Waterin#6451** or **@𝓦𝓪𝓽𝓮𝓻𝓲𝓷#6451** or join my [Support Server](https://discord.gg/ADn3Mqd)
 
 * Feel free to suggest. I'll try to implement if it is really good. ^^
+
+* [Donate](https://www.paypal.me/Waterin)
 
 ## Darker Than Red Preview - [Download](https://betterdiscord.net/ghdl?id=1599)
 ![alt text](https://imgur.com/0vrbbFu.jpg)
