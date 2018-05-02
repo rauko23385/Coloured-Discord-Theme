@@ -138,16 +138,17 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
 .container-2lgZY8 {
 	background-color: rgba(0,0,0,0) !important;
 }
+/*Theme Version*/
 .wordmark-2iDDfm:after {
 	content: 'Version: 1.1.011';
-	position: relative;
+	position: absolute;
 	font-size: 10px;
 	font-weight: bolder;
 	color: white;
 	font-family: Uni Sans Heavy CAPS;
 	display: block;
-	top: -8px;
-	left: 56px;
+	top: 2px;
+	left: 65px;
 }
 /****************************************************************
 ****************************************************************
@@ -342,7 +343,7 @@ keyframes pulse4{ /* If you have Lag Problems with the theme then delete the "@"
 ****************************************************************/
 /*Others*/
 .appMount-3VJmYg { /*Discord Windows Bar*/
-	background-color: transparent !important;
+	background-color: rgba(110,0,0,1) !important;
 }
 .tooltip { /*Tooltip Color Editor*/
 	background-color: rgba(120,0,0,0.7) !important

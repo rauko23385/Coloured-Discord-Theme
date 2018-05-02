@@ -108,16 +108,17 @@ body {
 .container-2lgZY8 {
 	background-color: rgba(0,0,0,0) !important;
 }
+/*Theme Version*/
 .wordmark-2iDDfm:after {
-	content: 'Version: 1.1.009';
-	position: relative;
+	content: 'Version: 1.1.011';
+	position: absolute;
 	font-size: 10px;
 	font-weight: bolder;
-	color: rgba(170,0,0,1);
+	color: white;
 	font-family: Uni Sans Heavy CAPS;
 	display: block;
-	top: -8px;
-	left: 56px;
+	top: 2px;
+	left: 65px;
 }
 /****************************************************************
 ****************************************************************
