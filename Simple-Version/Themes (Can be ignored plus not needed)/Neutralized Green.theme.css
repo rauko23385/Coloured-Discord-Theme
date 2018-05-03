@@ -14,19 +14,6 @@ Mixter213#5731 <@214478470972047360>
 uri#0001 <@148059412165033984>
 XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
 */
-/*And a little gift for them*/
-[style*="avatars/288053351579648000"].avatar-large+.comment h2 strong, [style*="avatars/148059412165033984"].avatar-large+.comment h2 strong,[style*="avatars/187615613944856576"].avatar-large+.comment  h2 strong, [style*="avatars/235302947058089984"].avatar-large+.comment  h2 strong, [style*="avatars/214478470972047360"].avatar-large+.comment h2 strong, [style*="avatars/177744816665395200"].avatar-large+.comment h2 strong, [style*="avatars/392498266161414144"].avatar-large+.comment  h2 strong {
-    animation: rainbow3 var(--on-off-rainbow-animation) linear infinite;
-}
-@keyframes rainbow3 { /* If you have Lag Problems with the theme then delete the "@" in the beggining of this line*/
-    0%{text-shadow: 0 0 6px #ff0000, 0 0 6px #ff0000, 0 0 5px #ff0000, 0 0 4px #ff0000;} 
-    20%{text-shadow: 0 0 6px orange, 0 0 6px orange, 0 0 5px orange, 0 0 4px orange;} 
-    40%{text-shadow: 0 0 6px yellow, 0 0 6px yellow, 0 0 5px yellow, 0 0 4px yellow;} 
-    60%{text-shadow: 0 0 6px #00ff00, 0 0 6px #00ff00, 0 0 5px #00ff00, 0 0 4px #00ff00;} 
-    80%{text-shadow: 0 0 6px #0000ff, 0 0 6px #0000ff, 0 0 5px #0000ff, 0 0 4px #0000ff;} 
-    90%{text-shadow: 0 0 6px #ff0000, 0 0 6px #ff0000, 0 0 5px #ff0000, 0 0 4px #ff0000;}
-    100%{text-shadow: 0 0 6px #ff0000, 0 0 6px #ff0000, 0 0 5px #ff0000, 0 0 4px #ff0000;} 
-}
 /*Theme Creator Badge*/
 .message-group:not(.compact) .avatar-large[style*="288053351579648000"] ~ .comment .message h2 span.username-wrapper::after,
 .channel-members .member .avatar-small[style*="288053351579648000"] ~ .member-inner .member-username .member-username-inner::after{
@@ -45,17 +32,11 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
 	-webkit-flex-shrink:0;
 	flex-shrink:0;
 	text-shadow: 0px 1px 3px #000;
-	animation: Tag 3s linear infinite;
+	animation: Tag var(--Tag-VFX-on-off) linear infinite;
 }
 @keyframes Tag { /* If you have Lag Problems with the theme then delete the "@" in the beggining of this line*/
-	0%{box-shadow: 0px 0px 0px rgba(0,0,0,0);}
-	12%{box-shadow: 0px 0px 2px rgba(255,255,0,1);}
-	24%{box-shadow: 0px 0px 3px rgba(255,170,0,1);}
-	36%{box-shadow: 0px 0px 3px rgba(255,100,0,1);}    
-	50%{box-shadow: 0px 0px 4px rgba(255,0,0,1);}
-	64%{box-shadow: 0px 0px 3px rgba(255,100,0,1);}
-	76%{box-shadow: 0px 0px 2px rgba(253,170,0,1);}
-	88%{box-shadow: 0px 0px 1px rgba(255,255,0,1);}    
+	0%{box-shadow: 0px 0px 0px rgba(0,0,0,0);}   
+	50%{box-shadow: 0px 0px 4px rgba(255,0,0,1);}   
 	100%{box-shadow: 0px 0px 0px rgba(0,0,0,0);} 
 }
 /****************************************************************
@@ -139,7 +120,7 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
 }
 /*Theme Version*/
 .wordmark-2iDDfm:after {
-	content: 'Version: 1.1.011';
+	content: 'Version: 1.1.012';
 	position: absolute;
 	font-size: 10px;
 	font-weight: bolder;
