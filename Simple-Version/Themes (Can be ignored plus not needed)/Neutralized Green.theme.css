@@ -120,7 +120,7 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
 }
 /*Theme Version*/
 .wordmark-2iDDfm:after {
-	content: 'Version: 1.1.012';
+	content: 'Version: 1.1.013';
 	position: absolute;
 	font-size: 10px;
 	font-weight: bolder;
@@ -703,8 +703,8 @@ keyframes pulse4{ /* If you have Lag Problems with the theme then delete the "@"
 	background-color: rgba(0,120,0,1) !important;
 }
 .message-group .avatar-large { /*Profile Image Animation Not Hovered*/
-   width           : 40px !important;
-   height          : 40px !important;
+   width           : var(--chatavatar-size) !important;
+   height          : var(--chatavatar-size) !important;
    border          : 5px solid rgba(0,120,0,0.2);
    border-radius   : 1 !important;
    background-size : cover !important;
@@ -713,8 +713,8 @@ keyframes pulse4{ /* If you have Lag Problems with the theme then delete the "@"
 }
 
 .message-group .avatar-large:hover { /*Profile Image Animation Hovered*/
-	width           : 70px !important;
-	height          : 70px !important;
+	width           : var(--chatavatar-size-on-hover) !important;
+	height          : var(--chatavatar-size-on-hover) !important;
 	border          : 1px solid (0,0,0,0) !important;
 	border-radius   : 0px !important;
 	background-size : cover !important;

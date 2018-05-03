@@ -1,24 +1,30 @@
-//META{"name":"Lighter-Than-Blue","description":"Support Server: https://discord.gg/ADn3Mqd","author":"Waterin","version":"1.1.012"}*//{}
+//META{"name":"Lighter-Than-Blue","description":"Support Server: https://discord.gg/ADn3Mqd","author":"Waterin","version":"1.1.013"}*//{}
 @import url(https://tinyurl.com/ydx4d3w2);
 
 /*Contact Waterin#6451 <@288053351579648000> or join https://discord.gg/ADn3Mqd for further help*/
 
-/*Background*/
-/*Change the Link below to use a background of your own.Same for font no need to add an import just the font family name from Google Fonts*/
 :root {
+	/*Background*/
+	/*Change the Link below to use a background*/
 	--main-bg: url(https://imgur.com/6c2xPlM.jpg) !important;
 	
+	--bg-brightness: 0.5; /*Adjust background brightness (0: original image, 1: black)*/
+	
 	--theme-font: Ubuntu ;
+	
+	/*Animation Settings*/
 	
 	--disable-enable-memberlist-effect: 50px /*Set 240px to Disable*/;
 	
 	--on-off-rainbow-animation: 4s; /*Set 0s to disable and 4s to enable*/
 	
 	--status-pulse-speed: 2.5s; /*Set 0s to disable*/
-	
-	--bg-brightness: 0.5; /*Adjust background brightness (0: original image, 1: black)*/
-	
+
 	--Tag-VFX-on-off: 3s; /*Set 0s to disable and 3s to enable*/
+	
+	--chatavatar-size: 40px; /*Default: 40px*/
+	
+	--chatavatar-size-on-hover: 70px; /*Default: 70px*/
 }
 
 
