@@ -120,7 +120,7 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
 }
 /*Theme Version*/
 .wordmark-2iDDfm:after {
-	content: 'Version: 1.1.013';
+	content: 'Version: 1.1.014';
 	position: absolute;
 	font-size: 10px;
 	font-weight: bolder;
@@ -1154,18 +1154,26 @@ img[alt*=":sparkling_heart:"] { animation: heartbeat 1s infinite;}
 /*Sun        */ img[alt*=":sunny:"] {animation: rotate 2s infinite;}
 /*Hourglass  */ img[alt*=":hourglass:"] {animation: hourglass 2s infinite;}
 /*mmLol      */ .emoji[alt*="mmLol"] {animation: mmlol 5s infinite;}
-.emoji.jumboable { transition: all .6s ease; }
+.emoji.jumboable { 
+	width: var(--emoji-size);
+	height: var(--emoji-size);
+	transition: all .6s ease; 
+}
 .emoji.jumboable:hover {
 resize: both;
-width: 42pt;
-height: 42pt;
+width: var(--emoji-size-on-hover);
+height: var(--emoji-size-on-hover);
 -webkit-filter: drop-shadow(0 0 5px black);
 }
-.emoji { transition: all .6s ease; }
+.emoji { 
+	width: var(--emoji-size);
+	height: var(--emoji-size);
+	transition: all .6s ease; 
+}
 .emoji:hover {
 resize: both;
-width: 32pt;
-height: 32pt;
+width: var(--emoji-size-on-hover);
+height: var(--emoji-size-on-hover);
 -webkit-filter: drop-shadow(0 0 5px black);
 }
 0%{
