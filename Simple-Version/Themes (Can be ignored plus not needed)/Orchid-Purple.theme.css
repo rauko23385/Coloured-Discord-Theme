@@ -137,7 +137,7 @@ XGN|NFLD99#0001(Wrote some of the animations for me)
 /*User Sheet/Profile*/
 #friends .friends-table .friends-row .friends-column-status .status{
     width: 1% !important;
-    height: 1%: hsla(0, 0%, 0%, 0);
+    height: 1% hsla(0, 0%, 0%, 0);
 }
 .theme-dark .headerNormal-T_seeN {
 	background-color: rgba(116,44,194,1) !important;
@@ -231,11 +231,6 @@ XGN|NFLD99#0001(Wrote some of the animations for me)
   display: block !important;
   animation: pulse4 var(--status-pulse-speed) linear infinite;
 }
-keyframes pulse4{ /* If you have Lag Problems with the theme then delete the "@" in the beggining of this line*/
-    0%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
-	50%{box-shadow: 1px 1px 20px #747F8D;}
-    100%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
-}
 .memberOffline-2lN7gt {
   margin-left: -2px;
 }
@@ -302,6 +297,7 @@ keyframes pulse4{ /* If you have Lag Problems with the theme then delete the "@"
 }
 .mask-3OgeRz {
 	-webkit-mask: none;
+	mask: none;
 }
 .title-3qD0b- .status, .titleCall-_b9o8P .status{
     width: 30px !important;
@@ -610,7 +606,7 @@ keyframes pulse4{ /* If you have Lag Problems with the theme then delete the "@"
 	background-color: rgba(145,56,243,0.4) !important;
 }
 .theme-dark #friends .tab-bar .tab-bar-item.selected .badge {
-	background-color: #000098 !impoortant;
+	background-color: #000098 !important;
 }
 .cardPrimaryEditable-3KtE4g[style*="border-color: rgb(114, 137, 218); background-color: rgb(114, 137, 218);"] polyline[stroke] {
     stroke: #fff;
@@ -884,7 +880,7 @@ transition: all 400ms ease !important;
 border-radius: 50px !important;
 }
 .friends-icon:hover {
-background-color: rgba(145,56,243,1); !important;
+background-color: rgba(145,56,243,1) !important;
 }
 .guilds-wrapper .guilds .guild .guild-inner:hover,
 .avatar-small:hover,
@@ -1067,7 +1063,6 @@ filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.7)) !important;
 }
 .theme-dark .select-2TCrqx .Select-menu-outer {
 	background-color: rgba(145,56,243,1)!important;
-	border-color:; 
 }
 .theme-dark .card-11ynQk:before {
 	background: rgba(145,56,243,1) !important;
@@ -1154,6 +1149,7 @@ resize: both;
 width: var(--emoji-size-on-hover);
 height: var(--emoji-size-on-hover);
 -webkit-filter: drop-shadow(0 0 5px black);
+filter: drop-shadow(0 0 5px black);
 }
 .emoji { 
 	width: var(--emoji-size);
@@ -1165,31 +1161,15 @@ resize: both;
 width: var(--emoji-size-on-hover);
 height: var(--emoji-size-on-hover);
 -webkit-filter: drop-shadow(0 0 5px black);
+filter: drop-shadow(0 0 5px black);
 }
+@keyframes some1 {
 0%{
 filter: drop-shadow(0 0 0 rgba(0,111,114,0));
 }
 100%{
 filter: drop-shadow(0 0 5px rgba(0,114,114,1)) drop-shadow(0 0 5px rgba(0,0,114,1)) drop-shadow(0 0 5px rgba(0,114,114,1)) saturate(200%);
 }
-}
-/*Hue*/
-@-webkit-keyframes hue {
-0%{ -webkit-filter: hue-rotate(0deg); }
-100%{ -webkit-filter: hue-rotate(360deg); }
-}
-/*Working*/
-@-webkit-keyframes working {
-25%{ content: "Working";   }
-50%{ content: "Working.";  }
-75%{ content: "Working.."; }
-100%{content: "Working...";}
-}
-@keyframes working {
-25%{ content: "Working";   }
-50%{ content: "Working.";  }
-75%{ content: "Working.."; }
-100%{content: "Working...";}
 }
 @keyframes fadeScreen {
 from { opacity: 0;   }
@@ -1207,9 +1187,10 @@ to {   opacity: 100; }
 @keyframes eyes     {0%,25%,75%{transform:scaleX(1)}50%,100%{transform:scaleX(-1)}}
 @keyframes mmlol    {0% { transform: rotate(0deg); }69% { transform: rotate(0deg); }70% { transform: rotate(-90deg); }99% { transform: rotate(-90deg); }100% { transform: rotate(0deg); }}
 @keyframes vibrate  {25%{transform: translateX(3px) translateY(-2px)}50%{transform: translateX(-1px) translateY(3px)}75%{transform: translateX(-4px) translateY(-2px)}100%{transform: translateX(2px) translateY(-1px)}}
+@keyframes some {
 0%, 60%, 75%, 100% {
--webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+-webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000)  !important;
+transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000)  !important;
 }
 0% {
 opacity: 0;
@@ -1230,60 +1211,4 @@ transform: translate3d(0, 5px, 0);
 -webkit-transform: translate3d(0, 0, 0);
 transform: translate3d(0, 0, 0);
 }
-}
-/*modalanim*/
-@-webkit-keyframes modalanim {
-from {
--webkit-transform: scale(1));
-transform: scale(1));
-opacity: 0;
-}
-to {
--webkit-transform: scale(1);
-transform: scale(1);
-opacity: 1;
-}
-}
-@keyframes modalanim {
-from {
--webkit-transform: scale(1));
-transform: scale(1));
-opacity: 0;
-}
-to {
--webkit-transform: scale(1);
-transform: scale(1);
-opacity: 1;
-}
-}
-/*bg-in*/
-@-webkit-keyframes bg-in {
-0% { opacity: 0; }
-100% {}
-}
-/*bg-in*/
-@keyframes bg-in {
-0% { opacity: 0; }
-100% {}
-}
-/* Code assisted by http://www.cssnewbie.com/pure-css-bouncing-ball/#.WG1LYi_QdhE */
-@keyframes moveX {
-from { left: -1%; } to { left: 62%; }
-}
-@keyframes moveY {
-from { top: -4%; } to { top: 84%; }
-}
-@-webkit-keyframes spinner {
-from { -webkit-transform: rotateY(0deg);    }
-to   { -webkit-transform: rotateY(-360deg); }
-}
-@keyframes spinner {
-from { -moz-transform: rotateY(0deg);
--ms-transform: rotateY(0deg);
-transform: rotateY(0deg);
-}
-to {
--moz-transform: rotateY(-360deg);
--ms-transform: rotateY(-360deg);
-transform: rotateY(-360deg);
 }
