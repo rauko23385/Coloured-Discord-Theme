@@ -1,18 +1,18 @@
-/*//META{"name":"Lighter-Than-Blue","description":"Support Server: https://discord.gg/ADn3Mqd","author":"Waterin","version":"1.2.002"}*//**/
+/*//META{"name":"Lighter-Than-Blue","description":"Support Server: https://discord.gg/ADn3Mqd","author":"Waterin","version":"1.2.003"}*//**/
 /*Theme*/
 @import url(https://tinyurl.com/ydx4d3w2);
 /*Fonts*/ /*Change link to be able to use your own font*/
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 /*Tags*/
-@import url(https://cdn.rawgit.com/Waterin/Tags/master/Tags.css);
+@import url(https://rawgit.com/Waterin/Tags/master/Tags.css);
 /*Emoji Module*/ 
-@import url(https://cdn.rawgit.com/Waterin/Animations-Module/b27741e1/Emojis.css);
+/*@import url(https://rawgit.com/Waterin/Animations-Module/master/Emojis.css);*/
 /*Avatar Module*/
-@import url(https://cdn.rawgit.com/Waterin/Animations-Module/3dbc05a0/Lighter-than-Blue-Avatar-Animations.css);
+@import url(https://rawgit.com/Waterin/Animations-Module/master/Lighter-than-Blue-Avatar-Animations.css);
 /*Unread Module*/
-@import url(https://cdn.rawgit.com/Waterin/Animations-Module/3dbc05a0/Lighter-than-Blue-Unread-Animations.css);
+@import url(https://rawgit.com/Waterin/Animations-Module/master/Lighter-than-Blue-Unread-Animations.css);
 /*Status Animations Module*/
-@import url(https://cdn.rawgit.com/Waterin/Animations-Module/3dbc05a0/Coloured-Discord-Status-Animations.css);
+@import url(https://rawgit.com/Waterin/Animations-Module/master/Coloured-Discord-Status-Animations.css);
 
 /*Example on how to disable a module*/
 /*@import url(https://cdn.rawgit.com/Waterin/Animations-Module/b27741e1/Ignited-Discord-Avatar-Animations.css);*/
