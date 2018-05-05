@@ -1,8 +1,10 @@
-/*//META{"name":"Orchid-Purple","description":"Support Server: https://discord.gg/ADn3Mqd","author":"Waterin","version":"1.2.001"}*//**/
+/*//META{"name":"Orchid-Purple","description":"Support Server: https://discord.gg/ADn3Mqd","author":"Waterin","version":"1.2.002"}*//**/
 /*Theme*/
 @import url(https://tinyurl.com/y9r4td4d);
 /*Fonts*/ /*Change link to be able to use your own font*/
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
+/*Tags*/
+@import url(https://cdn.rawgit.com/Waterin/Tags/master/Tags.css);
 /*Emoji Module*/ 
 @import url(https://cdn.rawgit.com/Waterin/Animations-Module/b27741e1/Emojis.css);
 /*Avatar Module*/

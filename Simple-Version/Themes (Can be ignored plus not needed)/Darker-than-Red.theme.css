@@ -13,8 +13,6 @@ Mixter213#5731 <@214478470972047360>
 uri#0001 <@148059412165033984>
 XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
 */
-/*Tags*/
-@import url(https://cdn.rawgit.com/Waterin/Tags/master/Tags.css);
 /****************************************************************
 ****************************************************************
 ****************************************************************/
@@ -97,7 +95,7 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
 }
 /*Theme Version*/
 .wordmark-2iDDfm:after {
-	content: 'Version: 1.2.001';
+	content: 'Version: 1.2.002';
 	position: absolute;
 	font-size: 10px;
 	font-weight: bolder;
@@ -120,16 +118,16 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
     width: 1% !important;
     height: 1% hsla(0, 0%, 0%, 0);
 }
-.theme-dark .headerNormal-T_seeN {
+#app-mount .headerNormal-T_seeN {
 	background-color: rgba(100,0,0,1) !important;
 }
-.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
+#app-mount .body-3iLsc4, #app-mount .footer-1fjuF6 {
 	background-color: rgba(150,0,0,1) !important;
 }
-.theme-dark .footer-1fjuF6 {
+#app-mount .footer-1fjuF6 {
 	background-color: rgba(150,0,0,1) !important;
 }
-.theme-dark .quickMessage-1yeL4E {
+#app-mount .quickMessage-1yeL4E {
 	background-color: rgba(180,0,0,1) !important;
 }
 .header-QKLPzZ {
@@ -138,7 +136,7 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
 .tabBarContainer-1s1u-z {
 	background-color: rgba(150,0,0,1) !important;
 }
-.theme-dark .body-3ND3kc {
+#app-mount .body-3ND3kc {
 	background-color: rgba(150,0,0,1) !important;
 }
 /*Avatars and Statuses*/
@@ -294,7 +292,7 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
 .tooltip.tooltip-left:after { /*Tooltip Color Editor Left Notch*/
 	border-left-color: rgba(120,0,0,0.7) !important
 }
-.theme-dark .iconForeground-3y9f0B, .theme-dark .title-1aVOXw { /*Icons*/
+#app-mount .iconForeground-3y9f0B, #app-mount .title-1aVOXw { /*Icons*/
 	color: rgba(180,0,0,1) !important;
 }
 .menu-Sp6bN1 { /*Server Pull Down Menu*/
@@ -342,7 +340,7 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
 .weightMedium-2iZe9B { /*"Open Original" Font Weight*/
 	font-weight: 700
 }
-.theme-dark .attachment-33OFj0 {
+#app-mount .attachment-33OFj0 {
 	background-color: rgba(120,0,0,0.3) !important;
 	border-color: rgba(150,0,0,0.5) !important;
 }
@@ -363,17 +361,17 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
 .uploadModal-2ifh8j .inner-3nWsbo {
 	border-color: rgba(30,30,30,1) !important;
 }
-.theme-dark.contextMenu-HLZMGh {
+#app-mount.contextMenu-HLZMGh {
 	background-color: rgba(120,0,0,1) !important;
 	box-shadow: 0 0 1px rgba(150,0,0,1) !important;
 }
-.theme-dark .itemGroup-1tL0uz {
+#app-mount .itemGroup-1tL0uz {
 	border-color: rgba(150,0,0,1) !important;
 }
-.theme-dark .item-1Yvehc {
+#app-mount .item-1Yvehc {
 	color: rgba(200,200,200,1) !important;
 }
-.theme-dark .item-1Yvehc:hover {
+#app-mount .item-1Yvehc:hover {
 	background-color: rgba(160,0,0,1) !important;
 }
 .bda-dark #bda-qem-favourite-container, .bda-dark #bda-qem-twitch-container {
@@ -393,7 +391,7 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
 .bda-dark #bda-qem button.active {
 	background-color: rgba(100,0,0,1) !important;
 }
-.theme-dark .itemSubMenu-1vN_Yn {
+#app-mount .itemSubMenu-1vN_Yn {
 	background-color: rgba(120,0,0,1) !important;
 }
 /****************************************************************
@@ -427,7 +425,7 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
 ::-webkit-scrollbar-track:active {
 	display: none !important;
 }
-.theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-track-piece, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-track-piece {
+#app-mount .friends-table .scroller-wrap ::-webkit-scrollbar-track-piece, #app-mount .messages-wrapper .scroller-wrap ::-webkit-scrollbar-track-piece {
     background-color: transparent !important;
     border-color: transparent !important;
 }
@@ -435,27 +433,27 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
 ****************************************************************
 ****************************************************************/
 /*Search Bar/Results*/
-.theme-dark .search-results-wrap {
+#app-mount .search-results-wrap {
 	background-color: rgba(70,0,0,0.7) !important;
 }
-.theme-dark .search-results-wrap .search-header {
+#app-mount .search-results-wrap .search-header {
 	background-color: rgba(70,0,0,0.7) !important;
 }
-.theme-dark .search-results-wrap .channel-separator .channel-name {
+#app-mount .search-results-wrap .channel-separator .channel-name {
 	background-color: rgba(70,0,0,1) !important;
 	border-left: 40px rgba(0,0,0,0.8) !important;
 }
-.theme-dark .search-results-wrap .search-result .search-result-message.hit {
+#app-mount .search-results-wrap .search-result .search-result-message.hit {
 	background-color: rgba(150,0,0,1) !important;
 }
-.theme-dark .search-results-wrap .search-result .hit {
+#app-mount .search-results-wrap .search-result .hit {
 	box-shadow: 0 0 10px 6px rgba(120,0,0,1) !important;
 }
-.search-results-wrap .search-result:before, .theme-dark .search-results-wrap .search-result:after {
+.search-results-wrap .search-result:before, #app-mount .search-results-wrap .search-result:after {
 	box-shadow: 0 0 rgba(120,0,0,1) !important;
 	background-image: none !important;
 }
-.theme-dark .search .search-bar {
+#app-mount .search .search-bar {
 	background-color: rgba(120,0,0,0.2) !important;
 }
 .search-popout {
@@ -492,35 +490,35 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
 .private-channels .channel.selected a {
 	background-color: rgba(150,0,0,0.5) !important;
 }
-.theme-dark .callAvatarWrapper-TICyxO .ripple-16ZT2p {
+#app-mount .callAvatarWrapper-TICyxO .ripple-16ZT2p {
     background-color: rgba(0,0,0,0);
 }
-.theme-dark #friends .friends-table .friends-row:hover {
+#app-mount #friends .friends-table .friends-row:hover {
 	background: rgba(120,0,0,0.3) !important;
 }
-.theme-dark #friends .friends-table .friends-row+.friends-row {
+#app-mount #friends .friends-table .friends-row+.friends-row {
 	border-top-color: rgba(100,0,0,0.4) !important;
 }
-.theme-dark #friends .friends-table .friends-table-header {
+#app-mount #friends .friends-table .friends-table-header {
 	border-bottom-color: rgba(100,0,0,0.4) !important;
 }
-.theme-dark #friends .tab-bar .tab-bar-separator{
+#app-mount #friends .tab-bar .tab-bar-separator{
 	background-color: rgba(100,0,0,0.4) !important;
 }
-.theme-dark #friends .friends-table .friends-table-header .friends-column-separator {
+#app-mount #friends .friends-table .friends-table-header .friends-column-separator {
 	background-color: rgba(100,0,0,0.4) !important;
 }
-.theme-dark #friends .tab-bar .tab-bar-item:hover:not(.selected) {
+#app-mount #friends .tab-bar .tab-bar-item:hover:not(.selected) {
 	background-color: rgba(100,0,0,0.4) !important;
 }
-.theme-dark #friends .tab-bar .tab-bar-item.selected {
+#app-mount #friends .tab-bar .tab-bar-item.selected {
 	color: rgba(255,255,255,1)!important;
 	background-color: rgba(180,0,0,0.4) !important;
 }
-.theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary {
+#app-mount #friends .tab-bar .tab-bar-item.tab-bar-item-primary {
 	background-color: rgba(120,0,0,1) !important;
 }
-.theme-dark .private-channel-call {
+#app-mount .private-channel-call {
     background-color: transparent !important;
 }
 .video-36_NdB {
@@ -529,33 +527,33 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
 	border-radius: 10px;
 	border-bottom: 2px solid rgba(150,0,0,0.4) !important;
 }
-.theme-dark .private-channel-call.minimum .private-channel-call-actions .center {
+#app-mount .private-channel-call.minimum .private-channel-call-actions .center {
 	background-color: rgba(120,0,0,0.4) !important;
 	border-radius: 40px !important;
 	border-color: rgba(150,0,0,0.4) !important;
 }
-.theme-dark .themed-popout .header {
+#app-mount .themed-popout .header {
 	background-color: rgba(90,0,0,1) !important;
 }
-.theme-dark .themed-popout .footer {
+#app-mount .themed-popout .footer {
 	background-color: rgba(90,0,0,1) !important;
 }
-.theme-dark .friends-table .messages .divider:not(.red) span, .theme-dark .messages-wrapper .messages .divider:not(.red) span,.theme-dark .friends-table .messages .divider:not(.red) div, .theme-dark .messages-wrapper .messages .divider:not(.red) div {
+#app-mount .friends-table .messages .divider:not(.red) span, #app-mount .messages-wrapper .messages .divider:not(.red) span,#app-mount .friends-table .messages .divider:not(.red) div, #app-mount .messages-wrapper .messages .divider:not(.red) div {
 	background: rgba(140,0,0,1) !important;
 	color: rgba(170,170,170,1) !important;
 }
-.theme-dark .wrapper-35wsBm {
+#app-mount .wrapper-35wsBm {
 	background: rgba(130,0,0,0.4) !important;
 	border-color: rgba(150,0,0,0.5) !important;
 }
-.theme-dark .embedInner-1-fpTo {
+#app-mount .embedInner-1-fpTo {
 	background: rgba(130,0,0,0.4) !important;
 	border-color: rgba(150,0,0,0.5) !important;
 }
 .wrapper-2NJDcI {
 	background-color: rgba(120,0,0,0.4) !important;
 }
-.theme-dark #friends .tab-bar .tab-bar-item.selected .badge {
+#app-mount #friends .tab-bar .tab-bar-item.selected .badge {
 	background-color: #980000 !important;
 }
 .cardPrimaryEditable-3KtE4g[style*="border-color: rgb(114, 137, 218); background-color: rgb(114, 137, 218);"] polyline[stroke] {
@@ -571,7 +569,7 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
 ****************************************************************/
 /*Server's List*/
 .guilds-wrapper .guilds .guild.unread:before {/*Guild selected/unread dot*/
-	background-color: rgba(220,0,0,1) !important;
+	background-color: rgba(220,0,0,1);
 }
 *[style*="background-color: rgb(114, 137, 218)"] {
 	background-color: rgba(120,0,0,1) !important;
@@ -599,20 +597,20 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
 ****************************************************************
 ****************************************************************/
 /*Channel's List*/
-.theme-dark .content-20Aix8:hover { /*Channel Highlight Hovered*/
+#app-mount .content-20Aix8:hover { /*Channel Highlight Hovered*/
 	background-color: rgba(120,0,0,0.2) !important;
 }
-.theme-dark .contentSelectedText-3wUhMi { /*Selected Channel Highlight*/
+#app-mount .contentSelectedText-3wUhMi { /*Selected Channel Highlight*/
 	background-color: rgba(150,0,0,0.5) !important;
 	border-left: 4px solid rgba(255,0,0,0.5) !important;
 }
-.theme-dark .unread-1Dp-OI { /*Unread Message dot Color*/
-	background-color: rgba(220,0,0,1) !important;
+#app-mount .unread-1Dp-OI { /*Unread Message dot Color*/
+	background-color: rgba(220,0,0,1);
 }
 .contentHoveredText-2D9B-x { /*Trash Layer (KeepTransparent)*/
 	background-color: rgba(120,0,0,0.2) !important;
 }
-.theme-dark .member-3W1lQa:hover .content-OzHfo4 {
+#app-mount .member-3W1lQa:hover .content-OzHfo4 {
 	box-shadow: 0 0 rgba(120,0,0,1) !important;
 	background-color: rgba(100,0,0,1) !important;	
 	
@@ -638,10 +636,10 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
 .nameUnread-njOjIS {
 	font-weight: 700 !important
 }
-.unread-1xRYoj {
-    background-color: rgba(120,0,0,1) !important;
+#app-mount .unread-1xRYoj {
+    background-color: rgba(120,0,0,1);
 }
-.theme-dark .unread-1Dp-OI{
+#app-mount .unread-1Dp-OI{
     height: 70% !important;
     margin-top: -11px !important;
 }
@@ -661,16 +659,7 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
    transition      : all .4s ease !important;
    opacity         : 1 !important;
 }
-.message-group .avatar-large:hover { /*Profile Image Animation Hovered*/
-	width           : var(--chatavatar-size-on-hover) !important;
-	height          : var(--chatavatar-size-on-hover) !important;
-	border          : 1px solid (0,0,0,0) !important;
-	border-radius   : 0px !important;
-	background-size : cover !important;
-	transition      : all .4s ease !important;
-	opacity         : 1 !important;
-}
-.theme-dark .inner-zqa7da { /*Texting Box*/
+#app-mount .inner-zqa7da { /*Texting Box*/
 	background-color: rgba(150,0,0,0.6) !important;
 }
 .message-group { /*Message Separators*/
@@ -683,16 +672,16 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
 	margin: 12px 13px 0px 20px;
 	background-color: rgba(120,0,0,0.07) !important;
 }
-.theme-dark .autocomplete-1vrmpx, .autocompleteInner-zh20B_ { /*AutoComplete List*/
+#app-mount .autocomplete-1vrmpx, .autocompleteInner-zh20B_ { /*AutoComplete List*/
 	background-color: rgba(90,0,0,0.8) !important;
 }
-.theme-dark .selectorSelected-1_M1WV { /*AutoComplete List Selected/Hovered*/
+#app-mount .selectorSelected-1_M1WV { /*AutoComplete List Selected/Hovered*/
 	background-color: rgba(150,0,0,1) !important;
 }
-.theme-dark .message-group .comment .markup code.inline, .theme-dark .message-group .comment .markup pre code { /*CodeBlocks Background*/
+#app-mount .message-group .comment .markup code.inline, #app-mount .message-group .comment .markup pre code { /*CodeBlocks Background*/
 	background-color: rgba(120,0,0,0.60) !important;
 }
-.theme-dark .message-group .comment .markup pre { /*CodeBlocks Border*/
+#app-mount .message-group .comment .markup pre { /*CodeBlocks Border*/
 	border-color: rgba(200,0,0,0.5) !important;
 }
 .message.message-sending .markup{
@@ -703,49 +692,49 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
         transform: translate(0,20px);
     }
 }
-.theme-dark .popout .messages-popout-wrap .scroller-wrap {
+#app-mount .popout .messages-popout-wrap .scroller-wrap {
 	background-color: rgba(120,0,0,0.3) !important;
 }
-.theme-dark .popout .messages-popout-wrap .header {
+#app-mount .popout .messages-popout-wrap .header {
 	background-color: rgba(90,0,0,1) !important;
 	box-shadow: 0px 0px 0 rgba(0,0,0,0) !important;
 }
-.theme-dark .popout .messages-popout-wrap .footer {
+#app-mount .popout .messages-popout-wrap .footer {
 	background-color: rgba(90,0,0,1) !important;
 	box-shadow: 0px 0px 0 rgba(0,0,0,0) !important;
 }
-.theme-dark .popout .messages-popout-wrap {
+#app-mount .popout .messages-popout-wrap {
 	background-color: transparent !important;
 }
-.theme-dark .popout .messages-popout-wrap .messages-popout .message-group:hover .action-buttons {
+#app-mount .popout .messages-popout-wrap .messages-popout .message-group:hover .action-buttons {
 	background-color: rgba(130,0,0,1) !important;
 	box-shadow: 0 0 6px 4px rgba(110,0,0,0.5) !important;
 }
-.theme-dark .popout .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button {
+#app-mount .popout .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button {
 	background-color: rgba(130,0,0,1) !important;
 }
-.theme-dark .mention {
+#app-mount .mention {
 	background-color: rgba(100,0,0,0.5) !important;
 }
-.theme-dark .mention:hover {
+#app-mount .mention:hover {
 	background-color: rgba(150,0,0,0.5) !important;
 }
-.theme-dark .topic-2QX7LI a {
+#app-mount .topic-2QX7LI a {
 	color: rgba(120,0,0,1) !important;
 }
-.theme-dark .topic-2QX7LI:hover a {
+#app-mount .topic-2QX7LI:hover a {
 	color: rgba(170,0,0,1) !important;
 }
-.theme-dark .message-group a {
+#app-mount .message-group a {
 	color: rgba(255,255,255,1) !important;
 }
-.theme-dark .message-group:hover a { 
+#app-mount .message-group:hover a { 
 	color: rgba(170,0,0,1) !important;
 }
-.theme-dark .attachPopout-1n-ZKM {
+#app-mount .attachPopout-1n-ZKM {
 	background-color: rgba(140,0,0,1) !important;
 }
-.theme-dark .attachPopoutRow-KrE-f6:hover {
+#app-mount .attachPopoutRow-KrE-f6:hover {
 	background-color: rgba(200,0,0,1) !important;
 }
 .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j {
@@ -754,7 +743,7 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
 .chat .has-more button {
 	color: rgba(255,255,255,1) !important;
 }
-.theme-dark .chat .has-more button {
+#app-mount .chat .has-more button {
 	background: rgba(120,0,0,0.5) !important;
 	border-color: rgba(150,0,0,1) !important;
 }
@@ -762,10 +751,10 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
 ****************************************************************
 ****************************************************************/
 /*Members List*/
-.theme-dark .memberOnline-1CIh-0 { /*Member Not Hovered*/
+#app-mount .memberOnline-1CIh-0 { /*Member Not Hovered*/
 	color: rgba(120,0,0,1) !important;
 }
-.theme-dark .member-3W1lQa:hover .content-OzHfo4 { /*Member Hovered*/
+#app-mount .member-3W1lQa:hover .content-OzHfo4 { /*Member Hovered*/
     background-color: rgba(150,0,0,0.5) !important;
     color: #fff;
 	border-left: 4px solid rgba(255,0,0,1) !important;
@@ -847,7 +836,7 @@ filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.7)) !important;
 .option-popout .btn-item {
 	color: rgba(210,210,210,1) !important;
 }
-.theme-dark #friends .friends-table .friends-table-header .friends-column {
+#app-mount #friends .friends-table .friends-table-header .friends-column {
 	color: rgba(210,210,210,1) !important;
 }
 /****************************************************************
@@ -866,7 +855,7 @@ filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.7)) !important;
 	background-color: rgba(150,0,0,1) !important;
 	border-left: 4px solid rgba(255,0,0,1) !important;
 }
-.theme-dark .separator-gCa7yv {
+#app-mount .separator-gCa7yv {
 	background-color: rgba(120,0,0,0.4) !important;
 }
 #bd-settings-sidebar .ui-tab-bar-header {
@@ -886,7 +875,7 @@ filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.7)) !important;
 .side-8zPYf6 .item-PXvHYJ:hover {
 	background-color: rgba(120,0,0,0.3) !important;
 }
-.theme-dark .cardPrimary-1Hv-to {
+#app-mount .cardPrimary-1Hv-to {
 	background-color: rgba(120,0,0,0.6) !important;
 	border-color: rgba(200,0,0,0.5) !important;
 }
@@ -896,31 +885,31 @@ filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.7)) !important;
 .lookFilled-1Gx00P.colorBrand-3pXr91:hover {
 	background-color: rgba(120,0,0,1) !important;
 }
-.theme-dark .cardPrimaryOutline-29Ujqw {
+#app-mount .cardPrimaryOutline-29Ujqw {
 	background-color: rgba(120,0,0,0.6) !important;
 	border-color: rgba(200,0,0,0.5) !important;
 }
-.theme-dark .accountBtnInner-sj5jLs {
+#app-mount .accountBtnInner-sj5jLs {
 	background-color: rgba(120,0,0,1) !important;
 	border-color: rgba(200,0,0,0.5) !important;
 }
-.theme-dark .accountBtnInner-sj5jLs:hover {
+#app-mount .accountBtnInner-sj5jLs:hover {
 	background-color: rgba(140,0,0,1) !important;
 	border-color: rgba(200,0,0,0.5) !important;
 }
-.theme-dark .cardPrimaryEditable-3KtE4g {
+#app-mount .cardPrimaryEditable-3KtE4g {
 	background-color: rgba(120,0,0,0.6) !important;
 }
-.theme-dark .modal-3HD5ck {
+#app-mount .modal-3HD5ck {
 	background-color: rgba(150,0,0,1) !important;
 }
-.theme-dark .footer-2yfCgX {
+#app-mount .footer-2yfCgX {
 	background-color: rgba(100,0,0,1) !important;
 }
-.theme-dark .item-3eFBNF {
+#app-mount .item-3eFBNF {
 	box-shadow: inset 0 -1px 0 0 rgba(120,0,0,0.4) !important;
 }
-.theme-dark .questionMark-CWEQZn {
+#app-mount .questionMark-CWEQZn {
 	background-color: rgba(130,0,0,1) !important;
 }
 .avatar-uploader .remove-button {
@@ -930,13 +919,13 @@ filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.7)) !important;
 	color: rgba(230,0,0,1) !important;
 	border-color: rgba(210,0,0,1) !important;
 }
-.theme-dark .input-cIJ7To.focused-1mmYsC {
+#app-mount .input-cIJ7To.focused-1mmYsC {
 	border-color: rgba(210,0,0,1) !important;
 }
-.theme-dark .divider-3573oO {
+#app-mount .divider-3573oO {
 	background-color: rgba(120,0,0,0.4) !important;
 }
-.theme-dark .bar-2Qqk5Z {
+#app-mount .bar-2Qqk5Z {
 	background: rgba(100,100,100,1) !important;
 }
 .barFill-23-gu- {
@@ -945,10 +934,10 @@ filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.7)) !important;
 *[style*="background-color: rgb(114, 137, 218)"] {
 	border-color: rgba(210,0,0,1) !important;
 }
-.theme-dark .select-2TCrqx .Select-option.is-selected {
+#app-mount .select-2TCrqx .Select-option.is-selected {
 	background-color: rgba(120,0,0,1) !important;
 }
-.theme-dark .user-settings-games .game {
+#app-mount .user-settings-games .game {
 	box-shadow: 0 1px 0 0 rgba(120,0,0,0.4) !important;
 }
 #bd-settingspane-container .ui-switch-item .style-description {
@@ -974,34 +963,34 @@ filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.7)) !important;
 .ui-standard-sidebar-view .bda-slist .bda-right button, .bd-pfbtn {
 	background-color: rgba(120,0,0,1) !important;
 }
-.theme-dark .themeDefault-24hCdX,
+#app-mount .themeDefault-24hCdX,
 #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch {
     background-color: gray;
 }
 
-.theme-dark .themeDefault-24hCdX.valueChecked-m-4IJZ,
+#app-mount .themeDefault-24hCdX.valueChecked-m-4IJZ,
 #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked {
     background-color: darkred;
 }
-.theme-dark .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC {
+#app-mount .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC {
 	background-color: rgba(100,0,0,1) !important;
 }
-.theme-dark .checked-3_4uQ9 {
+#app-mount .checked-3_4uQ9 {
 	border-color: rgba(180,0,0,1) !important;
 	color: rgba(180,0,0,1) !important;
 }
-.theme-dark .checked-3_4uQ9[style*="border-color: rgb(114, 137, 218);"] {
+#app-mount .checked-3_4uQ9[style*="border-color: rgb(114, 137, 218);"] {
     background-color: rgba(120,0,0,1) !important;
 	border-color: rgba(150,0,0,1) !important;
 }
-.theme-dark .select-2TCrqx .Select-menu-outer {
+#app-mount .select-2TCrqx .Select-menu-outer {
 	background-color: rgba(120,0,0,1)!important;
 }
-.theme-dark .card-FDVird:before {
+#app-mount .card-FDVird:before {
 	background: rgba(120,0,0,1) !important;
 	border-color: rgba(180,0,0,1) !important;
 }
-.theme-dark .notificationsSound-27jFSh {
+#app-mount .notificationsSound-27jFSh {
 	box-shadow: inset 0 -1px 0 0 rgba(120,0,0,0.4) !important;
 }
 .ace-monokai { /*Custom CSS Background*/
@@ -1019,7 +1008,7 @@ filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.7)) !important;
 .bda-slist .bda-footer button {
 	background: rgba(140,0,0,1) !important;
 }
-.theme-dark .typing-2GQL18 span {
+#app-mount .typing-2GQL18 span {
 	color: rgba(255,0,0,1) !important;
 }
 /****************************************************************

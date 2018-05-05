@@ -13,8 +13,6 @@ Mixter213#5731 <@214478470972047360>
 uri#0001 <@148059412165033984>
 XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
 */
-/*Tags*/
-@import url(https://cdn.rawgit.com/Waterin/Tags/master/Tags.css);
 /****************************************************************
 ****************************************************************
 ****************************************************************/
@@ -96,7 +94,7 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
 }
 /*Theme Version*/
 .wordmark-2iDDfm:after {
-	content: 'Version: 1.2.001';
+	content: 'Version: 1.2.002';
 	position: absolute;
 	font-size: 10px;
 	font-weight: bolder;
@@ -670,15 +668,6 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
    background-size : cover !important;
    transition      : all .4s ease !important;
    opacity         : 1 !important;
-}
-.message-group .avatar-large:hover { /*Profile Image Animation Hovered*/
-	width           : var(--chatavatar-size-on-hover) !important;
-	height          : var(--chatavatar-size-on-hover) !important;
-	border          : 1px solid (0,0,0,0) !important;
-	border-radius   : 0px !important;
-	background-size : cover !important;
-	transition      : all .4s ease !important;
-	opacity         : 1 !important;
 }
 .theme-dark .inner-zqa7da { /*Texting Box*/
 	background-color: rgba(0,0,150,0.6) !important;
