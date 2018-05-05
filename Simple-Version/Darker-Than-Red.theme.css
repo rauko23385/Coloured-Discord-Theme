@@ -1,4 +1,4 @@
-/*//META{"name":"Darker-Than-Red","description":"Support Server: https://discord.gg/ADn3Mqd","author":"Waterin","version":"1.2.000"}*//**/
+/*//META{"name":"Darker-Than-Red","description":"Support Server: https://discord.gg/ADn3Mqd","author":"Waterin","version":"1.2.001"}*//**/
 /*Theme*/
 @import url(https://tinyurl.com/ycj7nv43);
 /*Fonts*/ /*Change link to be able to use your own font*/
@@ -22,7 +22,7 @@
 
 :root {
     /*Background Image*/
-	--main-bg: url('https://imgur.com/9s5zWxn.jpg') !important;
+	--main-bg: url(https://imgur.com/9s5zWxn.jpg) !important;
 	/*Background Brightness*/
 	--bg-brightness: 0.1; /*Adjust background brightness (0: original image, 1: black)*/
 	/*Font Family Settings*/
