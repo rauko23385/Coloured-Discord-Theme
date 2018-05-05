@@ -1,58 +1,46 @@
-/*//META{"name":"Darker-Than-Red","description":"Support Server: https://discord.gg/ADn3Mqd","author":"Waterin","version":"1.1.014"}*//**/
+/*//META{"name":"Darker-Than-Red","description":"Support Server: https://discord.gg/ADn3Mqd","author":"Waterin","version":"1.2.000"}*//**/
+/*Theme*/
 @import url(https://tinyurl.com/ycj7nv43);
+/*Fonts*/ /*Change link to be able to use your own font*/
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+/*Emoji Module*/ 
+@import url(https://cdn.rawgit.com/Waterin/Animations-Module/b27741e1/Emojis.css);
+/*Avatar Module*/
+@import url(https://cdn.rawgit.com/Waterin/Animations-Module/3dbc05a0/Darker-than-Red-Avatar-Animations.css);
+/*Unread Module*/
+@import url(https://cdn.rawgit.com/Waterin/Animations-Module/3dbc05a0/Darker-than-Red-Unread-Animations.css);
+/*Status Animations Module*/
+@import url(https://cdn.rawgit.com/Waterin/Animations-Module/3dbc05a0/Coloured-Discord-Status-Animations.css);
+
+/*Example on how to disable a module*/
+/*@import url(https://cdn.rawgit.com/Waterin/Animations-Module/b27741e1/Ignited-Discord-Avatar-Animations.css);*/
+/*Must be done with the links above and not just add */
+
+/*#*/ /*This symbol indicates what might cause major lag*/
 
 /*Contact Waterin#6451 <@288053351579648000> or join https://discord.gg/ADn3Mqd for further help*/
 
 :root {
-	/*Background*/
-	/*Change the Link below to use a background*/
+    /*Background Image*/
 	--main-bg: url('https://imgur.com/9s5zWxn.jpg') !important;
-	
-	--bg-brightness: 0.3; /*Adjust background brightness (0: original image, 1: black)*/
-	
-	--theme-font: Ubuntu ;
-	
-	/*Animation Settings*/
-	
-	--disable-enable-memberlist-effect: 50px /*Set 240px to Disable*/;
-	
-	--on-off-rainbow-animation: 4s; /*Set 0s to disable and 4s to enable*/
-	
-	--status-pulse-speed: 2.5s; /*Set 0s to disable*/
-
-	--Tag-VFX-on-off: 3s; /*Set 0s to disable and 3s to enable*/
-	
+	/*Background Brightness*/
+	--bg-brightness: 0.1; /*Adjust background brightness (0: original image, 1: black)*/
+	/*Font Family Settings*/
+	--theme-font: 'Ubuntu';
+	/*Size of the avatar in chat*/
 	--chatavatar-size: 40px; /*Default: 40px*/
-	
+	/*Size of the avatar in chat when hovered*/
 	--chatavatar-size-on-hover: 70px; /*Default: 70px*/
-	
-	--emoji-size: 24pt; /*Default: 24pt*/
-	
-	--emoji-size-on-hover: 32pt; /*Default: 32pt*/ /* Set 0pt to disable*/
+	/*Member List Animation*/
+	--disable-enable-memberlist-effect: 50px /*Set 240px to Disable*/;
 }
-
-
-
 /*********************************************************************************************************************************************************************************************************************/
-.layers-3iHuyZ {
-  background: rgba(0,0,0,var(--bg-brightness)) !important;
-}
 /*Rainbow Name Animations*/
 /*Change "PUT YOUR DISCORD USER ID HERE" to your discord ID*/
 [style*="avatars/PUT YOUR DISCORD USER ID HERE"].avatar-large+.comment h2 strong {
-    animation: rainbow3 var(--on-off-rainbow-animation) linear infinite;
+    animation: rainbow3 4s linear infinite;
 }
-@keyframes rainbow3 { /* If you have Lag Problems with the theme then delete the "@" in the beggining of this line*/
-    0%{text-shadow: 0 0 6px #ff0000, 0 0 6px #ff0000, 0 0 5px #ff0000, 0 0 4px #ff0000;} 
-    20%{text-shadow: 0 0 6px orange, 0 0 6px orange, 0 0 5px orange, 0 0 4px orange;} 
-    40%{text-shadow: 0 0 6px yellow, 0 0 6px yellow, 0 0 5px yellow, 0 0 4px yellow;} 
-    60%{text-shadow: 0 0 6px #00ff00, 0 0 6px #00ff00, 0 0 5px #00ff00, 0 0 4px #00ff00;} 
-    80%{text-shadow: 0 0 6px #0000ff, 0 0 6px #0000ff, 0 0 5px #0000ff, 0 0 4px #0000ff;} 
-    90%{text-shadow: 0 0 6px #ff0000, 0 0 6px #ff0000, 0 0 5px #ff0000, 0 0 4px #ff0000;}
-    100%{text-shadow: 0 0 6px #ff0000, 0 0 6px #ff0000, 0 0 5px #ff0000, 0 0 4px #ff0000;} 
-}
-
-
+/*********************************************************************************************************************************************************************************************************************/
 /*User Edits Zone*/
 /*Here you can make your edits to the theme at your will, pls only do those if you are sure to know what are you doing*/
 
@@ -64,6 +52,15 @@
 
 
 /*********************************************************************************************************************************************************************************************************************/
+@keyframes rainbow3 { /* If you have Lag Problems with the theme then delete the "@" in the beggining of this line*/
+    0%{text-shadow: 0 0 6px #ff0000, 0 0 6px #ff0000, 0 0 5px #ff0000, 0 0 4px #ff0000;} 
+    20%{text-shadow: 0 0 6px orange, 0 0 6px orange, 0 0 5px orange, 0 0 4px orange;} 
+    40%{text-shadow: 0 0 6px yellow, 0 0 6px yellow, 0 0 5px yellow, 0 0 4px yellow;} 
+    60%{text-shadow: 0 0 6px #00ff00, 0 0 6px #00ff00, 0 0 5px #00ff00, 0 0 4px #00ff00;} 
+    80%{text-shadow: 0 0 6px #0000ff, 0 0 6px #0000ff, 0 0 5px #0000ff, 0 0 4px #0000ff;} 
+    90%{text-shadow: 0 0 6px #ff0000, 0 0 6px #ff0000, 0 0 5px #ff0000, 0 0 4px #ff0000;}
+    100%{text-shadow: 0 0 6px #ff0000, 0 0 6px #ff0000, 0 0 5px #ff0000, 0 0 4px #ff0000;} 
+}
 /* Created by Waterin#6451 <@288053351579648000>
 
 

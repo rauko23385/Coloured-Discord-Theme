@@ -1,6 +1,5 @@
 /*Fonts*/
-@import url(https://rawgit.com/Waterin/Fonts/1.0/Fonts.css); /**/
-*{ font-family: var(--theme-font) !important;} /*Change font to whatever you like*/
+*{font-family: var(--theme-font) !important;} /*Change font to whatever you like*/
 /****************************************************************
 ****************************************************************
 ****************************************************************/
@@ -14,31 +13,8 @@ Mixter213#5731 <@214478470972047360>
 uri#0001 <@148059412165033984>
 XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
 */
-/*Theme Creator Badge*/
-.message-group:not(.compact) .avatar-large[style*="288053351579648000"] ~ .comment .message h2 span.username-wrapper::after,
-.channel-members .member .avatar-small[style*="288053351579648000"] ~ .member-inner .member-username .member-username-inner::after{
-	content:"Theme Developer";
-	background: rgba(0,0,0,0.4);
-	color:darkred;
-	border-radius:5px;
-	border: 1px solid rgba(0,0,0,0.4);
-	margin-left:6px;
-	font-size:11px;
-	font-weight:600;
-	padding:1px 4px;
-	text-transform:uppercase;
-	vertical-align:bottom;
-	line-height:13px;
-	-webkit-flex-shrink:0;
-	flex-shrink:0;
-	text-shadow: 0px 1px 3px #000;
-	animation: Tag var(--Tag-VFX-on-off) linear infinite;
-}
-@keyframes Tag { /* If you have Lag Problems with the theme then delete the "@" in the beggining of this line*/
-	0%{box-shadow: 0px 0px 0px rgba(0,0,0,0);}   
-	50%{box-shadow: 0px 0px 4px rgba(255,0,0,1);}   
-	100%{box-shadow: 0px 0px 0px rgba(0,0,0,0);} 
-}
+/*Tags*/
+@import url(https://cdn.rawgit.com/Waterin/Tags/master/Tags.css);
 /****************************************************************
 ****************************************************************
 ****************************************************************/
@@ -47,14 +23,14 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
     background-image: var(--main-bg) !important;
     background-size: cover;
     background-position: center;
-}/* optionally adjust background brightness (0: original image, 1: black) */
+}
 .layers-3iHuyZ {
 	background: rgba(0,0,0,var(--bg-brightness)) !important;
 }
 .ui-standard-sidebar-view .sidebar-region {
 	background: rgba(0,0,0,0) !important;
 }
-.layers-3iHuyZ, .layer-3QrUeG, .container-PNkimc, .typing-2GQL18 {
+.layer-3QrUeG, .container-PNkimc, .typing-2GQL18 {
 	background: rgba(0,0,0,0) !important;
 }
 /*Layer Transparency*/
@@ -121,7 +97,7 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
 }
 /*Theme Version*/
 .wordmark-2iDDfm:after {
-	content: 'Version: 1.1.014';
+	content: 'Version: 1.2.000';
 	position: absolute;
 	font-size: 10px;
 	font-weight: bolder;
@@ -131,6 +107,11 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
 	top: 2px;
 	left: 65px;
 }
+/****************************************************************
+****************************************************************
+****************************************************************/
+/*Popotut*/
+
 /****************************************************************
 ****************************************************************
 ****************************************************************/
@@ -188,60 +169,36 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
 .member-3W1lQa .statusOnline-1FlpW_,
 .xsmall-3afG_L .statusOnline-1FlpW_ {
   border: 2px solid #43B581 !important;
-  animation: pulse1 var(--status-pulse-speed) linear infinite;
-}
-@keyframes pulse1{ /* If you have Lag Problems with the theme then delete the "@" in the beggining of this line*/
-    0%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
-	50%{box-shadow: 1px 1px 20px #43B581;}
-    100%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
 }
 .status-idle,
 .member-3W1lQa .statusIdle-1XoSCz,
 .xsmall-3afG_L .statusIdle-1XoSCz {
   border: 2px solid #FAA61A !important;
-  animation: pulse2 var(--status-pulse-speed) linear infinite;
 }
-@keyframes pulse2{ /* If you have Lag Problems with the theme then delete the "@" in the beggining of this line*/
-    0%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
-	50%{box-shadow: 1px 1px 20px #FAA61A;}
-    100%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
 }
 .status-dnd,
 .member-3W1lQa .statusDnd-2DDKST,
 .xsmall-3afG_L .statusDnd-2DDKST {
   border: 2px solid #F04747 !important;
-  animation: pulse3 var(--status-pulse-speed) linear infinite;
 }
-@keyframes pulse3{ /* If you have Lag Problems with the theme then delete the "@" in the beggining of this line*/
-    0%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
-	50%{box-shadow: 1px 1px 20px #F04747;}
-    100%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
 }
 .status-invisible,
 .member-3W1lQa .statusInvisible-23hZKw,
 .xsmall-3afG_L .statusInvisible-23hZKw {
   border: 2px solid #747F8D !important;
   display: block !important;
-  animation: pulse4 var(--status-pulse-speed) linear infinite;
 }
 .status-offline,
 .member-3W1lQa .avatarOffline-3GF27z,
 .xsmall-3afG_L .statusOffline-3R-4Bv {
   border: 2px solid #747F8D !important;
   display: block !important;
-  animation: pulse4 var(--status-pulse-speed) linear infinite;
 }
 .memberOffline-2lN7gt {
   margin-left: -2px;
 }
 .member-3W1lQa .statusStreaming-2eqoUF {
   border: 2px solid #593695 !important;
-  animation: pulse5 var(--status-pulse-speed) linear infinite;
-}
-@keyframes pulse5{ /* If you have Lag Problems with the theme then delete the "@" in the beggining of this line*/
-    0%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
-	50%{box-shadow: 1px 1px 20px #593695;}
-    100%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
 }
 .status-oxiHuE {
   width: 98% !important;
@@ -615,12 +572,6 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
 /*Server's List*/
 .guilds-wrapper .guilds .guild.unread:before {/*Guild selected/unread dot*/
 	background-color: rgba(220,0,0,1) !important;
-	animation: pulse6 2s linear infinite;
-}
-@keyframes pulse6{ /* If you have Lag Problems with the theme then delete the "@" in the beggining of this line*/
-    0%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
-	50%{box-shadow: 1px 1px 20px rgba(255,0,0,1);}
-    100%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
 }
 *[style*="background-color: rgb(114, 137, 218)"] {
 	background-color: rgba(120,0,0,1) !important;
@@ -657,12 +608,6 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
 }
 .theme-dark .unread-1Dp-OI { /*Unread Message dot Color*/
 	background-color: rgba(220,0,0,1) !important;
-	animation: pulse7 2s linear infinite;
-}
-@keyframes pulse7{ /* If you have Lag Problems with the theme then delete the "@" in the beggining of this line*/
-    0%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
-	50%{box-shadow: 1px 1px 20px rgba(255,0,0,1);}
-    100%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
 }
 .contentHoveredText-2D9B-x { /*Trash Layer (KeepTransparent)*/
 	background-color: rgba(120,0,0,0.2) !important;
@@ -716,7 +661,6 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
    transition      : all .4s ease !important;
    opacity         : 1 !important;
 }
-
 .message-group .avatar-large:hover { /*Profile Image Animation Hovered*/
 	width           : var(--chatavatar-size-on-hover) !important;
 	height          : var(--chatavatar-size-on-hover) !important;
@@ -725,12 +669,6 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
 	background-size : cover !important;
 	transition      : all .4s ease !important;
 	opacity         : 1 !important;
-	animation       : pulse 2.5s linear infinite;
-}
-@keyframes pulse{ /* If you have Lag Problems with the theme then delete the "@" in the beggining of this line*/
-    0%{box-shadow: 1px 1px 20px rgba(0,0,0,0);} 
-	50%{box-shadow: 1px 1px 20px rgba(255,0,0,1);}
-    100%{box-shadow: 1px 1px 20px rgba(0,0,0,0);} 
 }
 .theme-dark .inner-zqa7da { /*Texting Box*/
 	background-color: rgba(150,0,0,0.6) !important;
@@ -1084,7 +1022,62 @@ filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.7)) !important;
 .theme-dark .typing-2GQL18 span {
 	color: rgba(255,0,0,1) !important;
 }
-
+/****************************************************************
+****************************************************************
+****************************************************************/
+/*Lazy Updating*/
+#app-mount .searchPopout-1vUlP3 {
+	background: rgba(120,0,0,1);
+}
+#app-mount .option-96V44q.selected-rZcOL- {
+	background: rgba(150,0,0,0.7);
+}
+#app-mount .searchAnswer-3Dz2-q, #app-mount .searchFilter-2ESiM3 {
+	background: rgba(120,0,0,1);
+}
+#app-mount .search-results-wrap .action-buttons .jump-button {
+	background: rgba(120,0,0,1);
+}
+#app-mount .search-results-wrap .search-result .search-result-message.hit,
+#app-mount .search-results-wrap .search-result.expanded {
+	border-color: transparent;
+}
+#app-mount .search-results-wrap .search-result .hit {
+	box-shadow: 0 0 0px 0px rgba(0,0,0,0) !important;
+	background: rgba(120,0,0,0.2) !important;
+	border-radius: 10px;
+}
+#app-mount .messagesPopoutWrap-1MQ1bW .header-ykumBX {
+	background: rgba(120,0,0,1)
+}
+#app-mount .messagesPopoutWrap-1MQ1bW {
+	background: rgba(100,0,0,0.5)
+}
+.messagesPopout-24nkyi .message-group {
+	border: 2px solid rgba(120,0,0,0.4) !important;
+}
+.actionButtons-1sUUug, .actionButtons-1sUUug .jumpButton-3DTcS_ {
+	background: transparent !important;
+	box-shadow: 0 0 0px 0px rgba(0,0,0,0) !important;
+}
+#app-mount .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group .actionButtons-1sUUug .jumpButton-3DTcS_ {
+	background: rgba(120,0,0,1) !important;
+}
+#app-mount .messagesPopoutWrap-1MQ1bW .footer-1kmXd4 {
+	background: transparent !important;
+}
+.themeDark-3Ap_7i {
+	background: transparent !important;
+	background-image: var(--main-bg) !important;
+}
+#app-mount .input-2VB9rf {
+	background: rgba(160,0,0,0.6)
+}
+#app-mount .keybindShortcut-1BD6Z1 span {
+	background: rgba(120,0,0,1);
+	border-color: rgba(0,0,0,1);
+	box-shadow: inset 0 -4px 0 rgba(0,0,0,0);
+}
 /****************************************************************
 ****************************************************************
 ****************************************************************/
@@ -1093,141 +1086,4 @@ filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.7)) !important;
 /*Date Viewer Plugin*/
 #dv-mount { /*Date Viewer Plugin*/
 	background-color: rgba(120,0,0,0.7) !important;
-}
-/****************************************************************
-****************************************************************
-****************************************************************/
-/*Animations*/
-.tooltip,
-.guild,
-.section,
-.context-menu,
-.friends-row,
-.channel,.user-settings-modal,
-.channel-voice-states,
-.selected:before,
-.markdown-modal,
-.icon-muted,
-.icon-deafened,
-.empty-message,
-.popout-menu,
-.channel-members,
-.user-popout,
-.emoji-picker,
-.popout,
-.option-popout {
-    animation: fadeScreen 0.5s;
-}
-/*Hearts*/
-img[alt*=":heart:"], 
-img[alt*=":hearts:"], 
-img[alt*=":green_heart:"], 
-img[alt*=":blue_heart:"], 
-img[alt*=":purple_heart:"],
-img[alt*=":yellow_heart:"], 
-img[alt*=":heartbeat:"], 
-img[alt*=":heartpulse:"], 
-img[alt*=":black_heart:"], 
-img[alt*=":sparkling_heart:"] { animation: heartbeat 1s infinite;}
-/*Emojis     */
-/*Money Wings*/ img[alt*=":money_with_wings:"] {animation: wobble 2s infinite;}
-/*Kiss       */ img[alt*=":kiss:"] {animation: heartbeat 1s infinite;}
-/*Hammer     */ img[alt*=":hammer:"] {animation: wobble 0.5s infinite;}
-/*Pickaxe    */ img[alt*=":pick:"] {animation: wobble 0.5s infinite;}
-/*Bomb       */ img[alt*=":bomb:"] {animation: bomb 2s infinite;}
-/*Boom       */ img[alt*=":boom:"] {animation: boom 2s infinite;}
-/*Eyes       */ img[alt*=":eyes:"] {animation: eyes 4s infinite;animation-timing-function:steps(1);}
-/*Laughing   */ img[alt*=":laughing:"] {transform: rotate(-90deg);}
-/*Heart Eyes */ img[alt*=":heart_eyes:"] {animation: heartbeat 1s infinite;}
-/*Joyful     */ img[alt*=":joy:"] {animation: joy 2s infinite;}
-/*Upside Down*/ img[alt*=":upside_down:"] {animation: wobble 2s infinite;}
-/*Scream     */ img[alt*=":scream:"], img[alt*=":scream_cat:"] {animation: scare 2s infinite;}
-/*ROFL       */ img[alt*=":rofl:"] {animation: rofl 2s infinite;}
-/*Sneezing   */ img[alt*=":sneezing_face:"] {animation: wobble 1s infinite;}
-/*Joyful Cat */ img[alt*=":joy_cat:"] {animation: joy 2s infinite;}
-/*Heart Eyes */ img[alt*=":heart_eyes_cat:"] {animation: heartbeat 1s infinite;}
-/*Waving     */ img[alt*=":wave:"] {animation: wobble 2s infinite;}
-/*Angry      */ img[alt*=":angry:"], .emoji[alt*="Angery"], .emoji[alt*="Thonkery"] {animation: vibrate 0.2s infinite;}
-/*Soccer     */ img[alt*=":soccer:"] {animation: rotate 2s infinite;} 
-/*Basketball */ img[alt*=":basketball:"] {animation: rotate 2s infinite;}
-/*Baseball   */ img[alt*=":baseball:"] {animation: rotate 2s infinite;} 
-/*Tennis     */ img[alt*=":tennis:"] {animation: rotate 2s infinite;}
-/*Gear       */ img[alt*=":gear:"] {animation: rotate 2s infinite;}
-/*Disc & CD  */ img[alt*=":cd:"], img[alt*=":dvd:"] {animation: rotate 2s infinite;} 
-/*Snowflake  */ img[alt*=":snowflake:"] {animation: rotate 2s infinite;}
-/*Sun        */ img[alt*=":sunny:"] {animation: rotate 2s infinite;}
-/*Hourglass  */ img[alt*=":hourglass:"] {animation: hourglass 2s infinite;}
-/*mmLol      */ .emoji[alt*="mmLol"] {animation: mmlol 5s infinite;}
-.emoji.jumboable { 
-	width: var(--emoji-size);
-	height: var(--emoji-size);
-	transition: all .6s ease; 
-}
-.emoji.jumboable:hover {
-resize: both;
-width: var(--emoji-size-on-hover);
-height: var(--emoji-size-on-hover);
--webkit-filter: drop-shadow(0 0 5px black);
-filter: dropshadow(0 0 5px black);
-}
-.emoji { 
-	width: var(--emoji-size);
-	height: var(--emoji-size);
-	transition: all .6s ease; 
-}
-.emoji:hover {
-resize: both;
-width: var(--emoji-size-on-hover);
-height: var(--emoji-size-on-hover);
--webkit-filter: drop-shadow(0 0 5px black);
-filter: drop-shadow(0 0 5px black);
-}
-@keyframes some1 {
-0%{
-filter: drop-shadow(0 0 0 rgba(0,111,114,0));
-}
-100%{
-filter: drop-shadow(0 0 5px rgba(0,114,114,1)) drop-shadow(0 0 5px rgba(0,0,114,1)) drop-shadow(0 0 5px rgba(0,114,114,1)) saturate(200%);
-}
-}
-@keyframes fadeScreen {
-from { opacity: 0;   }
-to {   opacity: 100; }
-}
-@keyframes wobble   {0%,100%{transform:rotate(20deg)}50%{transform:rotate(-20deg)}}
-@keyframes scare    {0%,100%{transform:rotate(9deg)}50%{transform:rotate(-9deg)}}
-@keyframes hourglass{0%,100%,41%{transform:rotate(0)}20%,40%{transform:rotate(-180deg)}}
-@keyframes rotate   {0%{transform:rotate(0)}100%{transform:rotate(360deg)}}
-@keyframes rofl     {0%{transform:rotate(45deg)}100%{transform:rotate(404deg)}}
-@keyframes heartbeat{0%,100%,40%,80%{transform:scale(.75)}20%,60%{transform:scale(1)}}
-@keyframes joy      {0%,100%,50%{transform:scale(.9)}25%,75%{transform:scale(1)}}
-@keyframes boom     {0% {transform:scale(.1)}20% {transform:scale(1)}80% {transform:scale(1);opacity: 1;}100%{opacity: 0;}}
-@keyframes bomb     {0%,100%,20%{transform:scale(1)}90%{transform:scale(.6)}95%{transform:scale(1.5)}}
-@keyframes eyes     {0%,25%,75%{transform:scaleX(1)}50%,100%{transform:scaleX(-1)}}
-@keyframes mmlol    {0% { transform: rotate(0deg); }69% { transform: rotate(0deg); }70% { transform: rotate(-90deg); }99% { transform: rotate(-90deg); }100% { transform: rotate(0deg); }}
-@keyframes vibrate  {25%{transform: translateX(3px) translateY(-2px)}50%{transform: translateX(-1px) translateY(3px)}75%{transform: translateX(-4px) translateY(-2px)}100%{transform: translateX(2px) translateY(-1px)}}
-@keyframes some {
-0%, 60%, 75%, 100% {
--webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000)  !important;
-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000)  !important;
-}
-0% {
-opacity: 0;
--webkit-transform: translate3d(0, 100px, 0);
-transform: translate3d(0, 100px, 0);
-}
-60% {
-opacity: 0.5;
--webkit-transform: translate3d(0, 7px, 0);
-transform: translate3d(0, 7px, 0);
-}
-75% {
-opacity: 1;
--webkit-transform: translate3d(0, 5px, 0);
-transform: translate3d(0, 5px, 0);
-}
-100% {
--webkit-transform: translate3d(0, 0, 0);
-transform: translate3d(0, 0, 0);
-}
 }
