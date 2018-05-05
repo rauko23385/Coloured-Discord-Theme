@@ -1,10 +1,9 @@
 /*Fonts*/
-* {font-family: var(--theme-font) !important; } /*Change font to whatever you like*/
+*{font-family: var(--theme-font) !important;} /*Change font to whatever you like*/
 /****************************************************************
 ****************************************************************
 ****************************************************************/
 /* Created by Waterin#6451 <@288053351579648000>
-
 Helped by:
 .intrnl#6939 <@177744816665395200>
 modder4869(Helped me with code and gave advises to make the theme work smoothly)
@@ -18,9 +17,10 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
 ****************************************************************/
 /*Background*/
 .app { 
-    background-image: var(--main-bg) !important;
-    background-size: cover;
-    background-position: center;}
+	background-image: var(--main-bg) !important;
+	background-size: cover;
+	background-position: center;
+}
 .layers-3iHuyZ {
 	background: rgba(0,0,0,var(--bg-brightness)) !important;
 }
@@ -34,60 +34,60 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
 .content .flex-spacer,
 .content-region,	
 .headerBar-UHpsPw { 
-    background-color: rgba(0,0,0,0) !important;
+	background-color: rgba(0,0,0,0) !important;
 }
 .noChannel-Z1DQK7{ 
-    background-color: rgba(0,0,0,0) !important;
+	background-color: rgba(0,0,0,0) !important;
 }
 .channels-Ie2l6A { 
-    background-color: rgba(0,0,0,0) !important;
+	background-color: rgba(0,0,0,0) !important;
 }
 .title-3qD0b- {
-    background-color: rgba(0,0,0,0) !important;
+	background-color: rgba(0,0,0,0) !important;
 }
 .container-2Thooq { 
-    background-color: rgba(0,0,0,0) !important;
+	background-color: rgba(0,0,0,0) !important;
 }
 .container-PNkimc,
 .container-GLDMJI { 
-    background-color: rgba(0,0,0,0) !important;
+	background-color: rgba(0,0,0,0) !important;
 }
 .guilds-wrapper { 
-    background-color: rgba(0,0,0,0) !important;
+	background-color: rgba(0,0,0,0) !important;
 }
 .chat form.typing-2GQL18 { 
-    background-color: rgba(0,0,0,0) !important;
+	background-color: rgba(0,0,0,0) !important;
 }
 .chat form { 
-    background-color: rgba(0,0,0,0) !important;
+	background-color: rgba(0,0,0,0) !important;
 }
 .chat>.content { 
-    background-color: rgba(0,0,0,0) !important;
+	background-color: rgba(0,0,0,0) !important;
 }
 .chat { 
-    background-color: rgba(0,0,0,0) !important;
+	background-color: rgba(0,0,0,0) !important;
 }
 .chat .messages { 
-    background-color: rgba(0,0,0,0) !important;
+	background-color: rgba(0,0,0,0) !important;
 }
 .friends-table, .messages-wrapper { 
-    background-color: rgba(0,0,0,0) !important;
+	background-color: rgba(0,0,0,0) !important;
 }
 .members-1998pB { 
-    background-color: rgba(0,0,0,0) !important;
+	background-color: rgba(0,0,0,0) !important;
 }
 #friends { 
-    background-color: rgba(0,0,0,0) !important;
+	background-color: rgba(0,0,0,0) !important;
 }
 .title-3qD0b- { 
-    background-color: rgba(0,0,0,0) !important;
+	background-color: rgba(0,0,0,0) !important;
 }
 .ui-standard-sidebar-view { 
-    background-color: rgba(0,0,0,0) !important;
+	background-color: rgba(0,0,0,0) !important;
 }
 .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller,
 .ui-standard-sidebar-view .content-region .content-region-scroller-wrap  {
-    background: rgba(0,0,0,0.4);
+	background: rgba(0,0,0,0.4) !important;
 }
 .container-2lgZY8 {
 	background-color: rgba(0,0,0,0) !important;
@@ -107,12 +107,16 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
 /****************************************************************
 ****************************************************************
 ****************************************************************/
+/*Popotut*/
+/****************************************************************
+****************************************************************
+****************************************************************/
 /*User Sheet/Profile*/
-#friends .friends-table .friends-row .friends-column-status .status{
-    width: 1% !important;
-    height: 1% hsla(0, 0%, 0%, 0);
+#friends .friends-table .friends-row .friends-column-status .status {
+width: 1% !important;
+	height: 1% hsla(0, 0%, 0%, 0);
 }
-#app-mount .headerNormal-3Vn9nT {
+#app-mount .headerNormal-T_seeN {
 	background-color: rgba(0,0,100,1) !important;
 }
 #app-mount .body-3iLsc4, #app-mount .footer-1fjuF6 {
@@ -161,60 +165,34 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
 .member-3W1lQa .statusOnline-1FlpW_,
 .xsmall-3afG_L .statusOnline-1FlpW_ {
   border: 2px solid #43B581 !important;
-  animation: pulse1 var(--status-pulse-speed) linear infinite;
-}
-@keyframes pulse1{ /* If you have Lag Problems with the theme then delete the "@" in the beggining of this line*/
-    0%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
-	50%{box-shadow: 1px 1px 20px #43B581;}
-    100%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
 }
 .status-idle,
 .member-3W1lQa .statusIdle-1XoSCz,
 .xsmall-3afG_L .statusIdle-1XoSCz {
   border: 2px solid #FAA61A !important;
-  animation: pulse2 var(--status-pulse-speed) linear infinite;
-}
-@keyframes pulse2{ /* If you have Lag Problems with the theme then delete the "@" in the beggining of this line*/
-    0%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
-	50%{box-shadow: 1px 1px 20px #FAA61A;}
-    100%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
 }
 .status-dnd,
 .member-3W1lQa .statusDnd-2DDKST,
 .xsmall-3afG_L .statusDnd-2DDKST {
   border: 2px solid #F04747 !important;
-  animation: pulse3 var(--status-pulse-speed) linear infinite;
-}
-@keyframes pulse3{ /* If you have Lag Problems with the theme then delete the "@" in the beggining of this line*/
-    0%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
-	50%{box-shadow: 1px 1px 20px #F04747;}
-    100%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
 }
 .status-invisible,
 .member-3W1lQa .statusInvisible-23hZKw,
 .xsmall-3afG_L .statusInvisible-23hZKw {
   border: 2px solid #747F8D !important;
   display: block !important;
-  animation: pulse4 var(--status-pulse-speed) linear infinite;
 }
 .status-offline,
 .member-3W1lQa .avatarOffline-3GF27z,
 .xsmall-3afG_L .statusOffline-3R-4Bv {
   border: 2px solid #747F8D !important;
   display: block !important;
-  animation: pulse4 var(--status-pulse-speed) linear infinite;
 }
 .memberOffline-2lN7gt {
   margin-left: -2px;
 }
 .member-3W1lQa .statusStreaming-2eqoUF {
   border: 2px solid #593695 !important;
-  animation: pulse5 var(--status-pulse-speed) linear infinite;
-}
-@keyframes pulse5{ /* If you have Lag Problems with the theme then delete the "@" in the beggining of this line*/
-    0%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
-	50%{box-shadow: 1px 1px 20px #593695;}
-    100%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
 }
 .status-oxiHuE {
   width: 98% !important;
@@ -273,11 +251,11 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
 	mask: none;
 }
 .title-3qD0b- .status, .titleCall-_b9o8P .status{
-    width: 30px !important;
+	width: 30px !important;
 }
 .alt-3btY0e .item-1GzJrl .statusIconText-3b4TkH {
-    width: 2px !important;
-    height: 25px !important;
+	width: 2px !important;
+	height: 25px !important;
 }
 .avatar-small:hover,
 .avatar-small:hover .status,
@@ -310,7 +288,7 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
 .tooltip.tooltip-left:after { /*Tooltip Color Editor Left Notch*/
 	border-left-color: rgba(0,0,120,0.7) !important
 }
-#app-mount .iconForeground-3y9f0B,#app-mount .title-1aVOXw { /*Icons*/
+#app-mount .iconForeground-3y9f0B, #app-mount .title-1aVOXw { /*Icons*/
 	color: rgba(0,0,180,1) !important;
 }
 .menu-Sp6bN1 { /*Server Pull Down Menu*/
@@ -444,8 +422,8 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
 	display: none !important;
 }
 #app-mount .friends-table .scroller-wrap ::-webkit-scrollbar-track-piece, #app-mount .messages-wrapper .scroller-wrap ::-webkit-scrollbar-track-piece {
-    background-color: transparent !important;
-    border-color: transparent !important;
+	background-color: transparent !important;
+	border-color: transparent !important;
 }
 /****************************************************************
 ****************************************************************
@@ -509,7 +487,7 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
 	background-color: rgba(0,0,150,0.5) !important;
 }
 #app-mount .callAvatarWrapper-TICyxO .ripple-16ZT2p {
-    background-color: rgba(0,0,0,0);
+	background-color: rgba(0,0,0,0);
 }
 #app-mount #friends .friends-table .friends-row:hover {
 	background: rgba(0,0,120,0.3) !important;
@@ -537,9 +515,9 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
 	background-color: rgba(0,0,120,1) !important;
 }
 #app-mount .private-channel-call {
-    background-color: transparent !important;
+	background-color: transparent !important;
 }
-.video-1FfuMD {
+.video-36_NdB {
 	background-color: rgba(0,0,120,0.05) !important;
 	margin: 8px !important;
 	border-radius: 10px;
@@ -572,11 +550,11 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
 	background-color: rgba(0,0,120,0.4) !important;
 }
 #app-mount #friends .tab-bar .tab-bar-item.selected .badge {
-	background-color: #000098 !important;
+	background-color: #980000 !important;
 }
 .cardPrimaryEditable-3KtE4g[style*="border-color: rgb(114, 137, 218); background-color: rgb(114, 137, 218);"] polyline[stroke] {
-    stroke: #fff;
-    stroke-width: 2;
+	stroke: #fff;
+	stroke-width: 2;
 }
 .ghostPill-2-KUPM {
 	background-color: rgba(0,0,120,0.4) !important;
@@ -587,7 +565,7 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
 ****************************************************************/
 /*Server's List*/
 .guilds-wrapper .guilds .guild.unread:before {/*Guild selected/unread dot*/
-	background-color: rgba(0,0,220,1) !important;
+	background-color: rgba(0,0,220,1);
 }
 *[style*="background-color: rgb(114, 137, 218)"] {
 	background-color: rgba(0,0,120,1) !important;
@@ -623,9 +601,9 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
 	border-left: 4px solid rgba(0,0,255,0.5) !important;
 }
 #app-mount .unread-1Dp-OI { /*Unread Message dot Color*/
-	background-color: rgba(0,0,220,1) !important;
+	background-color: rgba(0,0,220,1);
 }
-.contentHoveredText-2D9B-x { /*Trash Layer (KeepTransparent*/
+.contentHoveredText-2D9B-x { /*Trash Layer (KeepTransparent)*/
 	background-color: rgba(0,0,120,0.2) !important;
 }
 #app-mount .member-3W1lQa:hover .content-OzHfo4 {
@@ -640,18 +618,26 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
 	background-color: rgba(0,0,120,0.2) !important;
 	border-bottom: 1px solid rgba(30,30,30,0.5) !important;
 }
-.iconHovered-2L3-fB,.iconHoveredCollapsed-3caIIZ, .nameHovered-1gxhWH,.nameHoveredCollapsed-2orEWB { /*Category Font Color Hovered*/
+.iconHovered-2L3-fB,
+.iconHoveredCollapsed-3caIIZ,
+.iconMuted-1HVBGH,
+.iconUnread-2eGkvX { /*Category Font Color Hovered*/
 	color: rgba(0,0,170,1) !important;
 }
-.nameCollapsed-34uFWo,.nameDefault-2DI02H, .nameHovered-1gxhWH,.nameHoveredCollapsed-2orEWB, .nameMuted-1MCOt4,.nameUnread-njOjIS {
+.nameCollapsed-34uFWo,
+.nameDefault-2DI02H,
+.nameHovered-1gxhWH,
+.nameHoveredCollapsed-2orEWB,
+.nameMuted-1MCOt4,
+.nameUnread-njOjIS {
 	font-weight: 700 !important
 }
-.unread-1xRYoj {
-    background-color: rgba(0,0,120,1) !important;
+#app-mount .unread-1xRYoj {
+	background-color: rgba(0,0,120,1);
 }
 #app-mount .unread-1Dp-OI{
-    height: 70% !important;
-    margin-top: -11px !important;
+	height: 70% !important;
+	margin-top: -11px !important;
 }
 /****************************************************************
 ****************************************************************
@@ -665,7 +651,7 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
    height          : var(--chatavatar-size) !important;
    border          : 5px solid rgba(0,0,120,0.2);
    border-radius   : 1 !important;
-   background-size : cover !important;
+  background-size : cover !important;
    transition      : all .4s ease !important;
    opacity         : 1 !important;
 }
@@ -695,12 +681,12 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
 	border-color: rgba(0,0,200,0.5) !important;
 }
 .message.message-sending .markup{
-    animation: messages-slide-up 600ms cubic-bezier(.3,0,0,1),opacity 1000ms ease infinite;
+	animation: messages-slide-up 600ms cubic-bezier(.3,0,0,1),opacity 1000ms ease infinite;
 }
 @keyframes messages-slide-up{
-    from{
-        transform: translate(0,20px);
-    }
+	from{
+	transform: translate(0,20px);
+	}
 }
 #app-mount .popout .messages-popout-wrap .scroller-wrap {
 	background-color: rgba(0,0,120,0.3) !important;
@@ -764,9 +750,9 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
 #app-mount .memberOnline-1CIh-0 { /*Member Not Hovered*/
 	color: rgba(0,0,120,1) !important;
 }
-#app-mount .member-3W1lQa:hover .content-3JzEqq { /*Member Hovered*/
-    background-color: rgba(0,0,150,0.5) !important;
-    color: #fff;
+#app-mount .member-3W1lQa:hover .content-OzHfo4 { /*Member Hovered*/
+	background-color: rgba(0,0,150,0.5) !important;
+	color: #fff;
 	border-left: 4px solid rgba(0,0,255,1) !important;
 }
 .membersGroup-v9BXpm { /*Roles Separator Not Hovered*/
@@ -792,7 +778,7 @@ border-radius: 30px;
 transition: all 700ms ease;
 }
 .membersWrap-2h-GB4{ /*SlideEffect Not Hovered*/
-	min-width:var(--disable-enable-memberlist-effect) !important;
+	min-width: var(--disable-enable-memberlist-effect) !important;
 	max-width:240px!important;
 	width: var(--disable-enable-memberlist-effect) !important;
 	transition: width 0.7s;
@@ -925,7 +911,7 @@ filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.7)) !important;
 .avatar-uploader .remove-button {
 	color: rgba(0,0,230,1) !important;
 }
-.lookOutlined-3sRXeN.colorBrand-3pXr91 {
+.lookOutlined-3sRXeN.colorRed-1TFJan {
 	color: rgba(0,0,230,1) !important;
 	border-color: rgba(0,0,210,1) !important;
 }
@@ -975,14 +961,13 @@ filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.7)) !important;
 }
 #app-mount .themeDefault-24hCdX,
 #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch {
-    background-color: gray;
+	background-color: gray;
 }
-
 #app-mount .themeDefault-24hCdX.valueChecked-m-4IJZ,
 #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked {
-    background-color: darkblue;
+	background-color: darkblue;
 }
-#app-mount .userSettingsVoice-TvPQ80 .previewOverlay-2O7_KC {
+#app-mount .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC {
 	background-color: rgba(0,0,100,1) !important;
 }
 #app-mount .checked-3_4uQ9 {
@@ -990,7 +975,7 @@ filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.7)) !important;
 	color: rgba(0,0,180,1) !important;
 }
 #app-mount .checked-3_4uQ9[style*="border-color: rgb(114, 137, 218);"] {
-    background-color: rgba(0,0,120,1) !important;
+	background-color: rgba(0,0,120,1) !important;
 	border-color: rgba(0,0,150,1) !important;
 }
 #app-mount .select-2TCrqx .Select-menu-outer {
@@ -1081,7 +1066,6 @@ filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.7)) !important;
 ****************************************************************
 ****************************************************************/
 /********Plugin Support*********/
-
 /*Date Viewer Plugin*/
 #dv-mount { /*Date Viewer Plugin*/
 	background-color: rgba(0,0,120,0.7) !important;
