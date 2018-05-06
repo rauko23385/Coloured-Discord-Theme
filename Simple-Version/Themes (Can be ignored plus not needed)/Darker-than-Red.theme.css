@@ -152,47 +152,47 @@ width: 1% !important;
 .partyMemberUnknown-1OsCPU {
   border-radius: 20% !important;
 }
-.status,
-.member-3W1lQa .status-2Devx1,
-.avatarStatus-3jMZl_ {
+#app-mount .status,
+#app-mount .member-3W1lQa .status-2Devx1,
+#app-mount .avatarStatus-3jMZl_ {
   width: 95% !important;
   height: 97% !important;
   background: transparent;
   top: -2px !important;
   left: -1px !important;
 }
-.status-online,
-.member-3W1lQa .statusOnline-1FlpW_,
-.xsmall-3afG_L .statusOnline-1FlpW_ {
-  border: 2px solid #43B581 !important;
+#app-mount .status-online,
+#app-mount .member-3W1lQa .statusOnline-1FlpW_,
+#app-mount .xsmall-3afG_L .statusOnline-1FlpW_ {
+  border: 2px solid #43B581;
 }
-.status-idle,
-.member-3W1lQa .statusIdle-1XoSCz,
-.xsmall-3afG_L .statusIdle-1XoSCz {
-  border: 2px solid #FAA61A !important;
+#app-mount .status-idle,
+#app-mount .member-3W1lQa .statusIdle-1XoSCz,
+#app-mount .xsmall-3afG_L .statusIdle-1XoSCz {
+  border: 2px solid #FAA61A;
 }
-.status-dnd,
-.member-3W1lQa .statusDnd-2DDKST,
-.xsmall-3afG_L .statusDnd-2DDKST {
-  border: 2px solid #F04747 !important;
+#app-mount .status-dnd,
+#app-mount .member-3W1lQa .statusDnd-2DDKST,
+#app-mount .xsmall-3afG_L .statusDnd-2DDKST {
+  border: 2px solid #F04747;
 }
-.status-invisible,
-.member-3W1lQa .statusInvisible-23hZKw,
-.xsmall-3afG_L .statusInvisible-23hZKw {
-  border: 2px solid #747F8D !important;
-  display: block !important;
+#app-mount .status-invisible,
+#app-mount .member-3W1lQa .statusInvisible-23hZKw,
+#app-mount .xsmall-3afG_L .statusInvisible-23hZKw {
+  border: 2px solid #747F8D;
+  display: block;
 }
-.status-offline,
-.member-3W1lQa .avatarOffline-3GF27z,
-.xsmall-3afG_L .statusOffline-3R-4Bv {
-  border: 2px solid #747F8D !important;
-  display: block !important;
+#app-mount .status-offline,
+#app-mount .member-3W1lQa .avatarOffline-3GF27z,
+#app-mount .xsmall-3afG_L .statusOffline-3R-4Bv {
+  border: 2px solid #747F8D;
+  display: block;
 }
-.memberOffline-2lN7gt {
+#app-mount .memberOffline-2lN7gt {
   margin-left: -2px;
 }
-.member-3W1lQa .statusStreaming-2eqoUF {
-  border: 2px solid #593695 !important;
+#app-mount .member-3W1lQa .statusStreaming-2eqoUF {
+  border: 2px solid #593695;
 }
 .status-oxiHuE {
   width: 98% !important;
