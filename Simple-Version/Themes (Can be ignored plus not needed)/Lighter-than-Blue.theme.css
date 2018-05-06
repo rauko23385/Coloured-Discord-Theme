@@ -16,82 +16,34 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
 ****************************************************************
 ****************************************************************/
 /*Background*/
-.app { 
-	background-image: var(--main-bg) !important;
-	background-size: cover;
-	background-position: center;
-}
-.layers-3iHuyZ {
-	background: rgba(0,0,0,var(--bg-brightness)) !important;
-}
-.ui-standard-sidebar-view .sidebar-region {
-	background: rgba(0,0,0,0) !important;
-}
-.layer-3QrUeG, .container-PNkimc, .typing-2GQL18 {
-	background: rgba(0,0,0,0) !important;
-}
+.app {background: var(--main-bg);background-position: center;background-size: cover;}
+.layers-3iHuyZ, .layer-3QrUeG, .container-PNkimc, .typing-2GQL18 {background: rgba(0,0,0,0) !important;}
+/* optionally adjust background brightness (0: original image, 1: black) */
+.layers-3iHuyZ{background: rgba(0,0,0,var(--bg-brightness)) !important;}
 /*Layer Transparency*/
-.content .flex-spacer,
-.content-region,	
-.headerBar-UHpsPw { 
-	background-color: rgba(0,0,0,0) !important;
-}
-.noChannel-Z1DQK7{ 
-	background-color: rgba(0,0,0,0) !important;
-}
-.channels-Ie2l6A { 
-	background-color: rgba(0,0,0,0) !important;
-}
-.title-3qD0b- {
-	background-color: rgba(0,0,0,0) !important;
-}
-.container-2Thooq { 
-	background-color: rgba(0,0,0,0) !important;
-}
-.container-PNkimc,
-.container-GLDMJI { 
-	background-color: rgba(0,0,0,0) !important;
-}
-.guilds-wrapper { 
-	background-color: rgba(0,0,0,0) !important;
-}
-.chat form.typing-2GQL18 { 
-	background-color: rgba(0,0,0,0) !important;
-}
-.chat form { 
-	background-color: rgba(0,0,0,0) !important;
-}
-.chat>.content { 
-	background-color: rgba(0,0,0,0) !important;
-}
-.chat { 
-	background-color: rgba(0,0,0,0) !important;
-}
-.chat .messages { 
-	background-color: rgba(0,0,0,0) !important;
-}
-.friends-table, .messages-wrapper { 
-	background-color: rgba(0,0,0,0) !important;
-}
-.members-1998pB { 
-	background-color: rgba(0,0,0,0) !important;
-}
-#friends { 
-	background-color: rgba(0,0,0,0) !important;
-}
-.title-3qD0b- { 
-	background-color: rgba(0,0,0,0) !important;
-}
-.ui-standard-sidebar-view { 
-	background-color: rgba(0,0,0,0) !important;
-}
-.ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller,
-.ui-standard-sidebar-view .content-region .content-region-scroller-wrap  {
-	background: rgba(0,0,0,0.4) !important;
-}
-.container-2lgZY8 {
-	background-color: rgba(0,0,0,0) !important;
-}
+.content .flex-spacer{background-color: rgba(0,0,0,0) !important;}
+.content-region{background-color: rgba(0,0,0,0) !important;}	
+.headerBar-UHpsPw{background-color: rgba(0,0,0,0) !important;}
+.noChannel-2EQ0a9{background-color: rgba(0,0,0,0) !important;}
+.channels-Ie2l6A{background-color: rgba(0,0,0,0) !important;}
+.title-qAcLxz{background-color: rgba(0,0,0,0) !important;}
+.container-2Thooq{background-color: rgba(0,0,0,0) !important;}
+.container-PNkimc{background-color: rgba(0,0,0,0) !important;}
+.container-GLDMJI{background-color: rgba(0,0,0,0) !important;}
+.guilds-wrapper{background-color: rgba(0,0,0,0) !important;}
+.chat form.typing-2GQL18{background-color: rgba(0,0,0,0) !important;}
+.chat form{background-color: rgba(0,0,0,0) !important;}
+.chat>.content{background-color: rgba(0,0,0,0) !important;}
+.chat{background-color:rgba(0,0,0,0)!important;}
+.chat .messages{background-color: rgba(0,0,0,0) !important;}
+.friends-table, .messages-wrapper{background-color: rgba(0,0,0,0) !important;}
+.members-1998pB{background-color: rgba(0,0,0,0) !important;}
+#friends{background-color: rgba(0,0,0,0) !important;}
+.title-3qD0b-{background-color: rgba(0,0,0,0) !important;}
+.ui-standard-sidebar-view{background-color: rgba(0,0,0,0) !important;}
+.ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller,.ui-standard-sidebar-view .content-region .content-region-scroller-wrap{background: rgba(0,0,0,0.4);}
+.ui-standard-sidebar-view .sidebar-region {background: rgba(0,0,0,0) !important;}
+.container-2lgZY8{background-color: rgba(0,0,0,0) !important;}
 /*Theme Version*/
 .wordmark-2iDDfm:after {
 	content: 'Version: 1.2.003';

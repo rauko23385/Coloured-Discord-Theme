@@ -31,10 +31,13 @@
 	--theme-font: 'Ubuntu';
 	/*Size of the avatar in chat*/
 	--chatavatar-size: 40px; /*Default: 40px*/
-	/*Size of the avatar in chat when hovered*/
-	--chatavatar-size-on-hover: 70px; /*Default: 70px*/
 	/*Member List Animation*/
 	--disable-enable-memberlist-effect: 50px /*Set 240px to Disable*/;
+	
+	/*Size of the avatar in chat when hovered*/
+	/*/////Works only with the Avatar Module Enabled/////*/
+	--chatavatar-size-on-hover: 70px; /*Default: 70px*/
+
 }
 /*********************************************************************************************************************************************************************************************************************/
 /*Rainbow Name Animations*/

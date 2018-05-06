@@ -24,17 +24,20 @@
 
 :root {
     /*Background Image*/
-	--main-bg: url(https://imgur.com/9s5zWxn.jpg) !important;
+	--main-bg: url(https://i.imgur.com/QgjwhXE.jpg) !important;
 	/*Background Brightness*/
-	--bg-brightness: 0.1; /*Adjust background brightness (0: original image, 1: black)*/
+	--bg-brightness: 0.5; /*Adjust background brightness (0: original image, 1: black)*/
 	/*Font Family Settings*/
 	--theme-font: 'Ubuntu';
 	/*Size of the avatar in chat*/
 	--chatavatar-size: 40px; /*Default: 40px*/
-	/*Size of the avatar in chat when hovered*/
-	--chatavatar-size-on-hover: 70px; /*Default: 70px*/
 	/*Member List Animation*/
 	--disable-enable-memberlist-effect: 50px /*Set 240px to Disable*/;
+	
+	/*Size of the avatar in chat when hovered*/
+	/*/////Works only with the Avatar Module Enabled/////*/
+	--chatavatar-size-on-hover: 70px; /*Default: 70px*/
+
 }
 /*********************************************************************************************************************************************************************************************************************/
 /*Rainbow Name Animations*/
