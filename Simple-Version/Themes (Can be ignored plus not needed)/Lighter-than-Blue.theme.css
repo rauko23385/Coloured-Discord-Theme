@@ -64,9 +64,11 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
 ****************************************************************
 ****************************************************************/
 /*User Sheet/Profile*/
-#friends .friends-table .friends-row .friends-column-status .status,
+#friends .friends-table .friends-row .friends-column-status .status {
+	width: 1% !important;
+	height: 1% hsla(0, 0%, 0%, 0);
+}
 .headerSpotify-zpWxgT {
-width: 1% !important;
 	height: 1% hsla(0, 0%, 0%, 0);
 }
 #app-mount .headerNormal-T_seeN,
