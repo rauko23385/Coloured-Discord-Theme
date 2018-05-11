@@ -212,7 +212,7 @@ XGN|NFLD99#0001(Wrote some of the animations for me)
   animation: pulse4 var(--status-pulse-speed) linear infinite;
 }
 .memberOffline-2lN7gt {
-  margin-left: -2px;
+  margin-left: 6px;
 }
 .member-3W1lQa .statusStreaming-2eqoUF {
   border: 2px solid #593695 !important;
