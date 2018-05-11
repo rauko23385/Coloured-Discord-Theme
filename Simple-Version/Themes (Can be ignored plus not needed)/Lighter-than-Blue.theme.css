@@ -64,11 +64,13 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
 ****************************************************************
 ****************************************************************/
 /*User Sheet/Profile*/
-#friends .friends-table .friends-row .friends-column-status .status {
+#friends .friends-table .friends-row .friends-column-status .status,
+.headerSpotify-zpWxgT {
 width: 1% !important;
 	height: 1% hsla(0, 0%, 0%, 0);
 }
-#app-mount .headerNormal-T_seeN {
+#app-mount .headerNormal-T_seeN,
+.headerTop-3C2Zn0 {
 	background-color: rgba(0,0,100,1) !important;
 }
 #app-mount .body-3iLsc4, #app-mount .footer-1fjuF6 {
@@ -88,6 +90,10 @@ width: 1% !important;
 }
 #app-mount .body-3ND3kc {
 	background-color: rgba(0,0,150,1) !important;
+}
+.activity-1ythUs,
+.activity-11LB_k {
+	background: rgba(60,60,60,1)
 }
 /*Avatars and Statuses*/
 [class*="avatar"],
