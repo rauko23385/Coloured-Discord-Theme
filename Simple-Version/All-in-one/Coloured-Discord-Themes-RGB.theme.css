@@ -1181,3 +1181,7 @@ filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.7)) !important;
 .bd-blue .private-channel-recipients-invite .footer button{
     background: rgba(calc(140 * var(--Darker-than-Red)),calc(140 * var(--Neutralized-Green)),calc(140 * var(--Lighter-than-Blue)),1);
 }
+.video-1kutKI,
+.video-1FfuMD {
+	background: transparent;
+}
