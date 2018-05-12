@@ -24,9 +24,9 @@
 
 :root {
     /*Theme Selector*/
-    --Darker-than-Red: 0;    /***********************************************/
+    --Darker-than-Red: 1;    /***********************************************/
     --Lighter-than-Blue: 1;  /*Values are 1 for enabling and 0 for disabling*/
-    --Neutralized-Green: 0;  /***********************************************/
+    --Neutralized-Green: 1;  /***********************************************/
     /*Background Image*/
 	--main-bg: url(https://imgur.com/9s5zWxn.jpg) !important;
 	/*Background Brightness*/
