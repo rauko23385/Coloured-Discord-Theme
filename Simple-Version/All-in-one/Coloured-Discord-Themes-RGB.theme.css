@@ -365,7 +365,7 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
 .uploadModal-2ifh8j .inner-3nWsbo {
 	border-color: rgba(30,30,30,1) !important;
 }
-#app-mount.contextMenu-HLZMGh {
+#app-mount .contextMenu-HLZMGh {
 	background-color: rgba(calc(120 * var(--Darker-than-Red)),calc(120 * var(--Neutralized-Green)),calc(120* var(--Lighter-than-Blue)),1) !important;
 	box-shadow: 0 0 1px rgba(calc(150 * var(--Darker-than-Red)),calc(150 * var(--Neutralized-Green)),calc(150 * var(--Lighter-than-Blue)),1) !important;
 }
@@ -1161,4 +1161,23 @@ filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.7)) !important;
 /*Change button server settings/overview*/
 .lookGhost-2Fn_0-.colorGrey-2DXtkV {
 	background: rgba(calc(120 * var(--Darker-than-Red)),calc(120 * var(--Neutralized-Green)),calc(120* var(--Lighter-than-Blue)),.4);
+}
+/*New DM Popout*/
+#app-mount .private-channel-recipients-invite .friend {
+    background: transparent;
+}
+.private-channel-recipients-invite .body {
+    background: rgba(calc(100 * var(--Darker-than-Red)),calc(100 * var(--Neutralized-Green)),calc(100 * var(--Lighter-than-Blue)),1);
+}
+#app-mount .private-channel-recipients-invite .friend.selected, #app-mount .private-channel-recipients-invite .friend:hover {
+    background: rgba(calc(120 * var(--Darker-than-Red)),calc(120 * var(--Neutralized-Green)),calc(120 * var(--Lighter-than-Blue)),1);
+}
+#app-mount .themed-popout {
+    background: transparent;
+}
+.private-channel-recipients-invite .header .search-bar {
+    background: transparent;
+}
+.bd-blue .private-channel-recipients-invite .footer button{
+    background: rgba(calc(140 * var(--Darker-than-Red)),calc(140 * var(--Neutralized-Green)),calc(140 * var(--Lighter-than-Blue)),1);
 }
