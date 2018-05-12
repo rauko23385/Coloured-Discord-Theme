@@ -15,17 +15,8 @@
 
 * [Donate](https://www.patreon.com/Waterin) [Or Here](https://www.paypal.me/Waterin)
 
-## Darker Than Red Preview - [Download](https://betterdiscord.net/ghdl?id=1599)
-![alt text](https://imgur.com/0vrbbFu.jpg)
-
-## Lighter Than Blue Preview - [Download](https://betterdiscord.net/ghdl?id=1600)
-![alt text](https://imgur.com/Dmt4LNU.jpg)
-
-## Neutralized Green Preview - [Download](https://betterdiscord.net/ghdl?id=1601)
-![alt text](https://imgur.com/JXXp6n5.jpg)
-
-## Orchid Purple Preview - [Download](https://betterdiscord.net/ghdl?id=1602)
-![alt text](https://imgur.com/79qYE0j.jpg)
+## Sample version Theme Preview - [Download](https://betterdiscord.net/ghdl?id=1885)
+![alt text](https://imgur.com/jU2lhQW.jpg)
 
 ## Animations added in (All working in all themes)
 ![alt text](https://media.giphy.com/media/9JgeHpPeaNj2hYdL73/giphy.gif)
