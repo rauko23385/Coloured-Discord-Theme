@@ -733,6 +733,7 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
 }
 #app-mount .mention {
 	background-color: rgba(0,100,0,0.5) !important;
+	color: white;
 }
 #app-mount .mention:hover {
 	background-color: rgba(0,150,0,0.5) !important;
