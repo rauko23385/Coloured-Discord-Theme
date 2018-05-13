@@ -31,8 +31,9 @@
 	--main-bg: url(https://imgur.com/9s5zWxn.jpg) !important;
 	/*Background Brightness*/
 	--bg-brightness: 0.1; /*Adjust background brightness (0: original image, 1: black)*/
-	/*Font Family Settings*/
-	--theme-font: 'Ubuntu';
+	/*Font Settings*/
+    --theme-font: 'Ubuntu';
+    --font-color:; /*Example: black */
 	/*Size of the avatar in chat*/
 	--chatavatar-size: 40px; /*Default: 40px*/
 	/*Member List Animation*/
