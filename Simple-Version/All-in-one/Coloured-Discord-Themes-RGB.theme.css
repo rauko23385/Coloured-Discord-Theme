@@ -1282,3 +1282,26 @@ filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.7)) !important;
 .video-1FfuMD {
 	background: transparent;
 }
+.colorMutedText-36M8WR,
+.colorMutedVoice-3ghIuw {
+    background-image: url("https://rawgit.com/Waterin/Material-Icons/1.0/icons/volume_off.svg") !important;
+	transform: scale(0.7);
+    background-position: center;
+    color:rgba(120,120,120,0.6)
+}
+.nameDefaultText-24KCy5,
+.nameDefaultVoice-3WUH7s,
+.nameHoveredText-1uO31y,
+.nameHoveredVoice-YJ1Vfd,
+.nameLockedText-3pqQcL,
+.nameLockedVoice-26MhB1,
+.nameSelectedText-sp_EUw,
+.nameSelectedVoice-1qSph5,
+.nameUnreadText-DfkrI4,
+.nameUnreadVoice-EVo-wI {
+    color: rgba(calc(120 * var(--Darker-than-Red)),calc(120 * var(--Neutralized-Green)),calc(120* var(--Lighter-than-Blue)),1)
+}
+#app-mount .message-2qRu38 {
+    background: transparent;
+    box-shadow: 0 0 0 0px transparent, 0 0px 0px 0 transparent; 
+}
