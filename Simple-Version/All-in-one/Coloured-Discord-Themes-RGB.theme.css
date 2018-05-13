@@ -1,5 +1,8 @@
 /*Fonts*/
-*{font-family: var(--theme-font) !important;color: var(--font-color)!important} /*Change font to whatever you like*/
+*{
+	font-family: var(--theme-font) !important;
+	font-weight: var(--font-thickness) !important;
+}
 /****************************************************************
 ****************************************************************
 ****************************************************************/
@@ -94,12 +97,12 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
 }
 /*Theme Version*/
 .wordmark-2iDDfm:after {
-	content: 'Version: 2.1.013';
+	content: 'Version: 2.11.017';
 	position: absolute;
 	font-size: 10px;
 	font-weight: bolder;
 	color: white;
-	font-family: Uni Sans Heavy CAPS;
+	font-family: Titan One;
 	display: block;
 	top: 2px;
 	left: 65px;
