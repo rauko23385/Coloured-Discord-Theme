@@ -16,7 +16,7 @@
 ## Sample version Theme Preview - [Download](https://betterdiscord.net/ghdl?id=1885)
 ![alt text](https://imgur.com/jU2lhQW.jpg)
 
-## Animations added in (All working in all themes)
+## Animations
 ![alt text](https://media.giphy.com/media/9JgeHpPeaNj2hYdL73/giphy.gif)
 ![alt text](https://media.giphy.com/media/xlCJ7wgD7lZN0IBOSn/giphy.gif)
 ![alt text](https://media.giphy.com/media/1zR9vbCbpuyZRXiRQE/giphy.gif)
