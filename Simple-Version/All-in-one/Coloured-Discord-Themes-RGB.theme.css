@@ -97,7 +97,7 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
 }
 /*Theme Version*/
 .wordmark-2iDDfm:after {
-	content: 'Version: 2.11.017';
+	content: 'Version: 2.11.018';
 	position: absolute;
 	font-size: 10px;
 	font-weight: bolder;
@@ -1310,4 +1310,8 @@ filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.7)) !important;
 #app-mount .message-2qRu38 {
     background: transparent;
     box-shadow: 0 0 0 0px transparent, 0 0px 0px 0 transparent; 
+}
+#app-mount .friends-table .messages .message-group-blocked.revealed, #app-mount .messages-wrapper .messages .message-group-blocked.revealed {
+    background: transparent;
+    border-color: transparent;
 }
