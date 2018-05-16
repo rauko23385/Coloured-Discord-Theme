@@ -97,7 +97,7 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
 }
 /*Theme Version*/
 .wordmark-2iDDfm:after {
-	content: 'Version: 2.11.018';
+	content: 'Version: 2.11.019';
 	position: absolute;
 	font-size: 10px;
 	font-weight: bolder;
@@ -243,7 +243,7 @@ XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
 }
 .activity-1ythUs,
 .activity-11LB_k {
-	background: rgba(60,60,60,1)
+	background: linear-gradient(to top ,rgba(calc(150 * var(--Darker-than-Red)),calc(150 * var(--Neutralized-Green)),calc(150* var(--Lighter-than-Blue)),1) ,rgba(calc(100 * var(--Darker-than-Red)),calc(100 * var(--Neutralized-Green)),calc(100* var(--Lighter-than-Blue)),1)) !important;
 }
 /*Avatars and Statuses*/
 [class*="avatar"],
