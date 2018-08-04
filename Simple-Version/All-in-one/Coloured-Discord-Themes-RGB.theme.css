@@ -97,7 +97,7 @@ Zerebos#7790 <@249746236008169473> (Helped me a ton to get my themes back workin
 .ui-standard-sidebar-view {
 	background-color: rgba(0,0,0,0) !important;
 }
-.theme-dark .chat-3bRxxu {
+.chat-3bRxxu {
 	background-color: rgba(0,0,0,0) !important;
 }
 .chat-3bRxxu form {
@@ -761,7 +761,7 @@ Zerebos#7790 <@249746236008169473> (Helped me a ton to get my themes back workin
 	background-color: rgba(calc(90 * var(--Red)),calc(90 * var(--Green)),calc(90 * var(--Blue)),1) !important;
 }
 
-.theme-dark .divider-3gKybi.dividerRed-MKoLlr>span, .theme-dark .divider-3gKybi:before, .theme-dark .divider-3gKybi:not(.red-1YQ4s7) span  {
+.divider-3gKybi.dividerRed-MKoLlr>span, .divider-3gKybi:before, .divider-3gKybi:not(.red-1YQ4s7) span  {
 	background: rgba(calc(140 * var(--Red)),calc(140 * var(--Green)),calc(140* var(--Blue)),1) !important;
 	color: rgba(170,170,170,1) !important;
 }
@@ -926,7 +926,7 @@ Zerebos#7790 <@249746236008169473> (Helped me a ton to get my themes back workin
 #app-mount .message-group .comment .markup code.inline, #app-mount .message-group .comment .markup pre code { /*CodeBlocks Background*/
 	background-color: rgba(calc(120 * var(--Red)),calc(120 * var(--Green)),calc(120* var(--Blue)),0.60) !important;
 }
-.theme-dark .markup-2BOw-j code, .theme-dark .markup-2BOw-j code.inline {
+.markup-2BOw-j code, .markup-2BOw-j code.inline {
 	background-color: rgba(calc(120 * var(--Red)),calc(120 * var(--Green)),calc(120* var(--Blue)),0.60) !important;
 }
 #app-mount .message-group .comment .markup pre { /*CodeBlocks Border*/
@@ -1204,7 +1204,7 @@ filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.7)) !important;
 #app-mount .divider-3573oO {
 	background-color: rgba(calc(120 * var(--Red)),calc(120 * var(--Green)),calc(120* var(--Blue)),0.4) !important;
 }
-.theme-dark .divider-3gKybi:not(.red-1YQ4s7) div, .theme-dark .divider-3gKybi span, .theme-dark .divider-3gKybi:not(.red-1YQ4s7) div {
+.divider-3gKybi:not(.red-1YQ4s7) div, .divider-3gKybi span, .divider-3gKybi:not(.red-1YQ4s7) div {
 	background-color: rgba(calc(120 * var(--Red)),calc(120 * var(--Green)),calc(120* var(--Blue)),0.4) !important;
 }
 #app-mount .bar-2Qqk5Z {
