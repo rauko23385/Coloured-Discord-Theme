@@ -3,7 +3,7 @@
 @import url('https://rawgit.com/Waterin/Coloured-Discord-Themes/1.0/Simple-Version/All-in-one/Coloured-Discord-Themes-RGB.theme.css');
 /*Fonts*/ /*Change link to be able to use your own font*/
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
-/*Emoji Module*/ 
+/*Emoji Module*/
 @import url(https://rawgit.com/Waterin/Animations-Module/master/Emojis.css);
 /*Avatar Module*/
 @import url(https://rawgit.com/Waterin/Animations-Module/master/Coloured-Discord-Themes-RGB-Avatar-Animations.css);
@@ -35,7 +35,7 @@
 	--chatavatar-size: 40px; /*Default: 40px*/
 	/*Member List Animation*/
 	--disable-enable-memberlist-effect: 50px /*Set 240px to Disable*/;
-    
+
 /*Avatar Settings*/ /*#*/
     /*Size of the avatar in chat when hovered*/
 	/*/////Works only with the Avatar Module Enabled/////*/
