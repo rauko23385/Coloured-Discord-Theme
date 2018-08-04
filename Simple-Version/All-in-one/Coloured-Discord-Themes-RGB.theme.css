@@ -20,12 +20,12 @@ Zerebos#7790 <@249746236008169473> (Helped me a ton to get my themes back workin
 ****************************************************************
 ****************************************************************/
 /*Background*/
-.app.theme-dark { 
+.app.theme-dark {
 	background: var(--main-bg-dark) !important;
 	background-size: cover !important;
 	background-position: center !important;
 }
-.app.theme-light { 
+.app.theme-light {
 	background: var(--main-bg-light) !important;
 	background-size: cover !important;
 	background-position: center !important;
@@ -41,60 +41,75 @@ Zerebos#7790 <@249746236008169473> (Helped me a ton to get my themes back workin
 }
 /*Layer Transparency*/
 .content .flex-spacer,
-.content-region,	
-.headerBar-UHpsPw { 
+.content-region,
+.headerBar-UHpsPw {
 	background-color: rgba(0,0,0,0) !important;
 }
-.noChannel-Z1DQK7{ 
+.noChannel-Z1DQK7{
 	background-color: rgba(0,0,0,0) !important;
 }
-.channels-Ie2l6A { 
+.channels-Ie2l6A {
 	background-color: rgba(0,0,0,0) !important;
 }
 .title-3qD0b- {
 	background-color: rgba(0,0,0,0) !important;
 }
-.container-2Thooq { 
+.container-2Thooq {
 	background-color: rgba(0,0,0,0) !important;
 }
 .container-PNkimc,
-.container-GLDMJI { 
+.container-GLDMJI {
 	background-color: rgba(0,0,0,0) !important;
 }
-.guilds-wrapper { 
+.guilds-wrapper {
 	background-color: rgba(0,0,0,0) !important;
 }
-.chat form.typing-2GQL18 { 
+.chat form.typing-2GQL18 {
 	background-color: rgba(0,0,0,0) !important;
 }
-.chat form { 
+.chat form {
 	background-color: rgba(0,0,0,0) !important;
 }
-.chat>.content { 
+.chat>.content {
 	background-color: rgba(0,0,0,0) !important;
 }
-.chat { 
+.chat {
 	background-color: rgba(0,0,0,0) !important;
 }
-.chat .messages { 
+.chat .messages {
 	background-color: rgba(0,0,0,0) !important;
 }
-.friends-table, .messages-wrapper { 
+.friends-table, .messages-wrapper {
 	background-color: rgba(0,0,0,0) !important;
 }
-.activityFeed-28jde9 { 
+.activityFeed-28jde9 {
 	background-color: rgba(0,0,0,0) !important;
 }
-.members-1998pB { 
+.members-1998pB {
 	background-color: rgba(0,0,0,0) !important;
 }
-#friends { 
+#friends {
 	background-color: rgba(0,0,0,0) !important;
 }
-.title-3qD0b- { 
+.title-3qD0b- {
 	background-color: rgba(0,0,0,0) !important;
 }
-.ui-standard-sidebar-view { 
+.ui-standard-sidebar-view {
+	background-color: rgba(0,0,0,0) !important;
+}
+.theme-dark .chat-3bRxxu {
+	background-color: rgba(0,0,0,0) !important;
+}
+.chat-3bRxxu form {
+	background-color: rgba(0,0,0,0) !important;
+}
+.content-yTz4x3 {
+	background-color: rgba(0,0,0,0) !important;
+}
+.messagesWrapper-3lZDfY {
+	background-color: rgba(0,0,0,0) !important;
+}
+.guildsWrapper-5TJh6A {
 	background-color: rgba(0,0,0,0) !important;
 }
 .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller,
@@ -184,7 +199,7 @@ Zerebos#7790 <@249746236008169473> (Helped me a ton to get my themes back workin
     -webkit-animation:cv-fade 2s ease-out;
     animation:cv-fade 3.5s ease-out
 }
-@-webkit-keyframes cv-fade{ 
+@-webkit-keyframes cv-fade{
     0%{opacity:0;-webkit-filter:blur(10px);filter:blur(10px)}
     70%{-webkit-filter:blur(0px);filter:blur(0px)}
     100%{opacity:1}}
@@ -215,8 +230,8 @@ Zerebos#7790 <@249746236008169473> (Helped me a ton to get my themes back workin
     0%{background-color:rgba(calc(120 * var(--Red)),calc(120 * var(--Green)),calc(120* var(--Blue)),.5)}
     72%{background-color:rgba(calc(120 * var(--Red)),calc(120 * var(--Green)),calc(120* var(--Blue)),.5)}
     100%{background-color:transparent}
-    } 
-#app-mount::after{ 
+    }
+#app-mount::after{
     content:"";
     position:absolute;
     top:0;
@@ -229,7 +244,7 @@ Zerebos#7790 <@249746236008169473> (Helped me a ton to get my themes back workin
     text-align:center;
     line-height:100vh;
     opacity:0;
-    z-index:9999; 
+    z-index:9999;
     pointer-events:none;
     -webkit-animation:cv-init 3s ease-in-out;
     animation:cv-init 3s ease-in-out
@@ -326,25 +341,10 @@ Zerebos#7790 <@249746236008169473> (Helped me a ton to get my themes back workin
 .partyMemberUnknown-1OsCPU {
   border-radius: 20% !important;
 }
-#app-mount .status,
-#app-mount .member-3W1lQa .status-2Devx1,
-#app-mount .avatarStatus-3jMZl_ {
-  width: 95% !important;
-  height: 97% !important;
-  background: transparent;
-  top: -2px !important;
-  left: -1px !important;
-}
 #app-mount .online-2S838R,
 #app-mount .member-3W1lQa .status-2s6iDp.online-2S838R,
 #app-mount .xsmall-3afG_L .status-2s6iDp.online-2S838R {
   border: 2px solid #43B581;
-  animation: pulse1 2.5 linear infinite !important;
-}
-@keyframes pulse1{     
-    0%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
-	50%{box-shadow: 1px 1px 20px #43B581;}
-    100%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
 }
 #app-mount .idle-3DEnRT,
 #app-mount .member-3W1lQa .status-2s6iDp.idle-3DEnRT,
@@ -373,13 +373,6 @@ Zerebos#7790 <@249746236008169473> (Helped me a ton to get my themes back workin
 }
 #app-mount .member-3W1lQa .status-2s6iDp.streaming-2_dnHe {
   border: 2px solid #593695;
-}
-.status-oxiHuE {
-  width: 98% !important;
-  height: 97% !important;
-  background: transparent;
-  top: -1px;
-  left: -1px;
 }
 .large-3ChYtB .status-2s6iDp.online-2S838R {
   border: 3px solid #43B581 !important;
@@ -477,7 +470,7 @@ Zerebos#7790 <@249746236008169473> (Helped me a ton to get my themes back workin
 }
 .separator-2zcjq8 { /*Server Pull Down Menu Separators*/
 	border-bottom: 1px solid rgba(30,30,30,0.5) !important;
-}	
+}
 .popout section {
 	background-color: rgba(calc(140 * var(--Red)),calc(140 * var(--Green)),calc(140* var(--Blue)),0.7) !important;
 }
@@ -570,6 +563,12 @@ Zerebos#7790 <@249746236008169473> (Helped me a ton to get my themes back workin
 }
 #app-mount .itemSubMenu-1vN_Yn {
 	background-color: rgba(calc(120 * var(--Red)),calc(120 * var(--Green)),calc(120* var(--Blue)),1) !important;
+}
+.guildInner-3DSoA4 {
+	background-color: rgba(calc(120 * var(--Red)),calc(120 * var(--Green)),calc(120* var(--Blue)),1) !important;
+}
+.guildInner-3DSoA4:hover {
+	background-color: rgba(calc(150 * var(--Red)),calc(150 * var(--Green)),calc(150* var(--Blue)),1) !important;
 }
 /****************************************************************
 ****************************************************************
@@ -761,7 +760,8 @@ Zerebos#7790 <@249746236008169473> (Helped me a ton to get my themes back workin
 #app-mount .themed-popout .footer {
 	background-color: rgba(calc(90 * var(--Red)),calc(90 * var(--Green)),calc(90 * var(--Blue)),1) !important;
 }
-#app-mount .friends-table .messages .divider:not(.red) span, #app-mount .messages-wrapper .messages .divider:not(.red) span,#app-mount .friends-table .messages .divider:not(.red) div, #app-mount .messages-wrapper .messages .divider:not(.red) div {
+
+.theme-dark .divider-3gKybi.dividerRed-MKoLlr>span, .theme-dark .divider-3gKybi:before, .theme-dark .divider-3gKybi:not(.red-1YQ4s7) span  {
 	background: rgba(calc(140 * var(--Red)),calc(140 * var(--Green)),calc(140* var(--Blue)),1) !important;
 	color: rgba(170,170,170,1) !important;
 }
@@ -836,8 +836,8 @@ Zerebos#7790 <@249746236008169473> (Helped me a ton to get my themes back workin
 }
 #app-mount .member-3W1lQa:hover .content-OzHfo4 {
 	box-shadow: 0 0 rgba(calc(120 * var(--Red)),calc(120 * var(--Green)),calc(120* var(--Blue)),1) !important;
-	background-color: rgba(calc(100 * var(--Red)),calc(100 * var(--Green)),calc(100* var(--Blue)),1) !important;	
-	
+	background-color: rgba(calc(100 * var(--Red)),calc(100 * var(--Green)),calc(100* var(--Blue)),1) !important;
+
 }
 .nameHovered-21k1eo,.nameSpeaking-3UhoEZ {
 	color: rgba(calc(200 * var(--Red)),calc(200 * var(--Green)),calc(200 * var(--Blue)),1) !important;
@@ -876,7 +876,7 @@ Zerebos#7790 <@249746236008169473> (Helped me a ton to get my themes back workin
 ****************************************************************
 ****************************************************************/
 /*Message Chat*/
-.chat .new-messages-bar { /*Unread Message counter Bar*/
+.newMessagesBar-mujexs { /*Unread Message counter Bar*/
 	background-color: rgba(calc(120 * var(--Red)),calc(120 * var(--Green)),calc(120* var(--Blue)),1) !important;
 }
 .message-group .wrapper-2F3Zv8 > .avatar-large { /*Profile Image Animation Not Hovered*/
@@ -900,9 +900,9 @@ Zerebos#7790 <@249746236008169473> (Helped me a ton to get my themes back workin
 	animation       : pulse 2.5s linear infinite!;
 }
 @keyframes pulse{
-    0%{box-shadow: 1px 1px 20px rgba(0,0,0,0);} 
+    0%{box-shadow: 1px 1px 20px rgba(0,0,0,0);}
 	50%{box-shadow: 1px 1px 20px rgba(calc(255 * var(--Red)),calc(255 * var(--Green)),calc(255 * var(--Blue)),1);}
-    100%{box-shadow: 1px 1px 20px rgba(0,0,0,0);} 
+    100%{box-shadow: 1px 1px 20px rgba(0,0,0,0);}
 }
 #app-mount .inner-zqa7da { /*Texting Box*/
 	background-color: rgba(calc(150 * var(--Red)),calc(150 * var(--Green)),calc(150 * var(--Blue)),0.6) !important;
@@ -924,6 +924,9 @@ Zerebos#7790 <@249746236008169473> (Helped me a ton to get my themes back workin
 	background-color: rgba(calc(150 * var(--Red)),calc(150 * var(--Green)),calc(150 * var(--Blue)),1) !important;
 }
 #app-mount .message-group .comment .markup code.inline, #app-mount .message-group .comment .markup pre code { /*CodeBlocks Background*/
+	background-color: rgba(calc(120 * var(--Red)),calc(120 * var(--Green)),calc(120* var(--Blue)),0.60) !important;
+}
+.theme-dark .markup-2BOw-j code, .theme-dark .markup-2BOw-j code.inline {
 	background-color: rgba(calc(120 * var(--Red)),calc(120 * var(--Green)),calc(120* var(--Blue)),0.60) !important;
 }
 #app-mount .message-group .comment .markup pre { /*CodeBlocks Border*/
@@ -974,7 +977,7 @@ Zerebos#7790 <@249746236008169473> (Helped me a ton to get my themes back workin
 #app-mount .message-group a {
 	color: rgba(255,255,255,1) !important;
 }
-#app-mount .message-group:hover a { 
+#app-mount .message-group:hover a {
 	color: rgba(calc(170 * var(--Red)),calc(170 * var(--Green)),calc(170 * var(--Blue)),1) !important;
 }
 #app-mount .attachPopout-1n-ZKM {
@@ -1063,7 +1066,7 @@ transition: all 700ms ease;
 border-radius: 11px !important;
 transition: all 400ms ease !important;
 }
-.guild:hover { 
+.guild:hover {
 border-radius: 50px !important;
 }
 .friends-icon:hover {
@@ -1083,9 +1086,9 @@ transition: all 400ms ease !important;
 background-color: rgba(calc(180 * var(--Red)),calc(180 * var(--Green)),calc(180 * var(--Blue)),1) !important;
 }
 @keyframes pulse{
-    0%{box-shadow: 1px 1px 20px rgba(0,0,0,0);} 
+    0%{box-shadow: 1px 1px 20px rgba(0,0,0,0);}
 	50%{box-shadow: 1px 1px 20px rgba(calc(255 * var(--Red)),calc(255 * var(--Green)),calc(255 * var(--Blue)),1);}
-    100%{box-shadow: 1px 1px 20px rgba(0,0,0,0);} 
+    100%{box-shadow: 1px 1px 20px rgba(0,0,0,0);}
 }
 .message-group .edit-message.edit-first-message .avatar-large {
 	display:none;
@@ -1201,6 +1204,9 @@ filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.7)) !important;
 #app-mount .divider-3573oO {
 	background-color: rgba(calc(120 * var(--Red)),calc(120 * var(--Green)),calc(120* var(--Blue)),0.4) !important;
 }
+.theme-dark .divider-3gKybi:not(.red-1YQ4s7) div, .theme-dark .divider-3gKybi span, .theme-dark .divider-3gKybi:not(.red-1YQ4s7) div {
+	background-color: rgba(calc(120 * var(--Red)),calc(120 * var(--Green)),calc(120* var(--Blue)),0.4) !important;
+}
 #app-mount .bar-2Qqk5Z {
 	background: rgba(100,100,100,1) !important;
 }
@@ -1234,7 +1240,7 @@ filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.7)) !important;
 	border-radius: 10px;
 	margin-top: 10px;
 	border-bottom-color: rgba(calc(150 * var(--Red)),calc(150 * var(--Green)),calc(150 * var(--Blue)),1) !important;
-	border-top-color: rgba(calc(150 * var(--Red)),calc(150 * var(--Green)),calc(150 * var(--Blue)),1) !important;	
+	border-top-color: rgba(calc(150 * var(--Red)),calc(150 * var(--Green)),calc(150 * var(--Blue)),1) !important;
 }
 .ui-standard-sidebar-view .bda-slist .bda-right button, .bd-pfbtn {
 	background-color: rgba(calc(120 * var(--Red)),calc(120 * var(--Green)),calc(120* var(--Blue)),1) !important;
@@ -1360,7 +1366,7 @@ filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.7)) !important;
 .item-26Dhrx.marginBottom8-AtZOdT.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.cardPrimaryEditable-3KtE4g.card-3Qj_Yx {
 	border-color: transparent !important;
 }
-.bd-blue *[style*="background-color: rgb(114, 137, 218)"].guild-inner{
+.bd-blue *[style*="background-color: rgb(114, 137, 218)"]{
 	background: rgb(calc(150 * var(--Red)),calc(150 * var(--Green)),calc(150 * var(--Blue))) !important;
 }
 .bd-blue .need-help-modal .header,
@@ -1396,7 +1402,7 @@ filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.7)) !important;
 .bd-blue .create-guild-container h5 {
 	color: white;
 }
-.form-deprecated .form-actions, 
+.form-deprecated .form-actions,
 .form.deprecated .form-actions,
 .create-guild-container.deprecated .form-actions .btn-default {
 	background: rgba(30,30,30,1);
@@ -1479,7 +1485,7 @@ filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.7)) !important;
 }
 #app-mount .message-2qRu38 {
     background: transparent;
-    box-shadow: 0 0 0 0px transparent, 0 0px 0px 0 transparent; 
+    box-shadow: 0 0 0 0px transparent, 0 0px 0px 0 transparent;
 }
 #app-mount .friends-table .messages .message-group-blocked.revealed, #app-mount .messages-wrapper .messages .message-group-blocked.revealed {
     background: transparent;
@@ -1499,7 +1505,7 @@ filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.7)) !important;
 }
 .message-group.compact .message .timestamp,
 .message-group.compact.message-group .timestamp {
-	
+
 }
 .message-group.compact .message:hover .timestamp,
 .message-group.compact.message-group:hover .timestamp {
