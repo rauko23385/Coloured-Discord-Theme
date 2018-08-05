@@ -253,7 +253,6 @@ Zerebos#7790 <@249746236008169473> (Helped me a ton to get my themes back workin
     --load1:"Loading Theme";
     --load2:"Loading Animations";
     --load3:"Finished loading"
-}
 @-webkit-keyframes cv-init{
     0%{content:var(--load1);-webkit-transform:scale(.7);transform:scale(.7),}
     25%{opacity:0;-webkit-transform:scale(.7);transform:scale(.7)}
@@ -981,10 +980,10 @@ Zerebos#7790 <@249746236008169473> (Helped me a ton to get my themes back workin
 .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j {
 	border-color: rgba(calc(180 * var(--Red)),calc(180 * var(--Green)),calc(180 * var(--Blue)),1) !important;
 }
-.chat .has-more button {
+#app-mount .hasMore-3e72_v button {
 	color: rgba(255,255,255,1) !important;
 }
-#app-mount .chat .has-more button,
+#app-mount .hasMore-3e72_v button,
 .channelNotices-41mJbj .channelNotice-1-XFjC .message-3SOT5P .btn-11C5_u {
 	background: rgba(calc(120 * var(--Red)),calc(120 * var(--Green)),calc(120* var(--Blue)),0.5) !important;
 	border-color: rgba(calc(150 * var(--Red)),calc(150 * var(--Green)),calc(150 * var(--Blue)),1) !important;
