@@ -430,6 +430,9 @@ Zerebos#7790 <@249746236008169473> (Helped me a ton to get my themes back workin
 	border-radius: 50px !important;
 	transition:all var(--on-off-transitions) ease-in-out !important;
 }
+.wrapper-2F3Zv8.small-5Os1Bb.avatar-small.da-wrapper.da-small.da-avatarSmall:hover > .avatar-3JE4B3.avatar-small.animate {
+    z-index: 1;
+}
 /****************************************************************
 ****************************************************************
 ****************************************************************/
