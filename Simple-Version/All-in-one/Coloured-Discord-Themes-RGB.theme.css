@@ -342,76 +342,68 @@ Zerebos#7790 <@249746236008169473> (Helped me a ton to get my themes back workin
   border-radius: 20% !important;
 }
 #app-mount .online-2S838R,
-#app-mount .member-3W1lQa .status-2s6iDp.online-2S838R,
-#app-mount .xsmall-3afG_L .status-2s6iDp.online-2S838R {
-  border: 2px solid #43B581;
+#app-mount .status-oxiHuE.online-2S838R {
+  border:       1px solid #43B581 !important;
+  box-shadow:   inset 0px 0px 1px 1px #43B581 !important;
+}
+#app-mount .status-oxiHuE.online-2S838R.da-statusProfile {
+  border:       2px solid #43B581 !important;
+  box-shadow:   inset 0px 0px 1px 2px #43B581 !important;
 }
 #app-mount .idle-3DEnRT,
-#app-mount .member-3W1lQa .status-2s6iDp.idle-3DEnRT,
-#app-mount .xsmall-3afG_L .status-2s6iDp.idle-3DEnRT {
-  border: 2px solid #FAA61A;
+#app-mount .status-2s6iDp.idle-3DEnRT {
+  border:       1px solid #FAA61A !important;
+  box-shadow:   inset 0px 0px 1px 1px #FAA61A !important;
+}
+#app-mount .status-2s6iDp.idle-3DEnRT.da-statusProfile {
+  border:       2px solid #FAA61A !important;
+  box-shadow:   inset 0px 0px 1px 2px #FAA61A !important;
 }
 #app-mount .dnd-1_xrcq,
-#app-mount .member-3W1lQa .status-2s6iDp.dnd-1_xrcq,
-#app-mount .xsmall-3afG_L .status-2s6iDp.dnd-1_xrcq {
-  border: 2px solid #F04747;
+#app-mount .status-oxiHuE.dnd-1_xrcq {
+  border:       1px solid #F04747 !important;
+  box-shadow:   inset 0px 0px 1px 1px #F04747 !important;
+}
+#app-mount .status-oxiHuE.dnd-1_xrcq.da-statusProfile {
+  border:       2px solid #F04747 !important;
+  box-shadow:   inset 0px 0px 1px 2px #F04747 !important;
 }
 #app-mount .status-invisible,
-#app-mount .member-3W1lQa .statusInvisible-23hZKw,
-#app-mount .xsmall-3afG_L .statusInvisible-23hZKw {
-  border: 2px solid #747F8D;
-  display: block;
+#app-mount .status-oxiHuE.invisible-1kp8Z0 {
+  border:       1px solid #747F8D !important;
+  box-shadow:   inset 0px 0px 1px 1px #747F8D !important;
+}
+#app-mount .status-oxiHuE.invisible-1kp8Z0.da-statusProfile {
+  border:       2px solid #747F8D !important;
+  box-shadow:   inset 0px 0px 1px 2px #747F8D !important;
 }
 #app-mount .status-offline,
-#app-mount .member-3W1lQa .avatarOffline-3GF27z,
-#app-mount .xsmall-3afG_L .statusOffline-3R-4Bv {
-  border: 2px solid #747F8D;
-  display: block;
+#app-mount .status-oxiHuE.offline-3qoTek {
+  border:       1px solid #747F8D !important;
+  box-shadow:   inset 0px 0px 1px 1px #747F8D !important;
 }
-#app-mount .memberOffline-2lN7gt {
-  margin-left: 6px;
+#app-mount .status-oxiHuE.offline-3qoTek.da-statusProfile {
+  border:       2px solid #747F8D !important;
+  box-shadow:   inset 0px 0px 1px 2px #747F8D !important;
+}
+.small-5Os1Bb .status, .status-2s6iDp {
+    height: 100% !important;
+    width: 100% !important;
+    border-radius: 20% !important;
+    background-color: rgba(0,0,0,0)!important;
+    top: -2px;
+    left: -2px;
 }
 #app-mount .member-3W1lQa .status-2s6iDp.streaming-2_dnHe {
   border: 2px solid #593695;
-}
-.large-3ChYtB .status-2s6iDp.online-2S838R {
-  border: 3px solid #43B581 !important;
-}
-.large-3ChYtB .statusIdle-1XoSCz {
-  border: 3px solid #FAA61A !important;
-}
-.large-3ChYtB .statusDnd-2DDKST {
-  border: 3px solid #F04747 !important;
-}
-.large-3ChYtB .statusInvisible-23hZKw,
-.large-3ChYtB .statusOffline-3R-4Bv {
-  border: 3px solid #747F8D !important;
-  display: block !important;
 }
 .statusProfile-3ynqtt {
   width: 100% !important;
   height: 100% !important;
   background: transparent;
-  top: -4px !important;
-  left: -4px !important;
+  top: -1px !important;
+  left: -1px !important;
   pointer-events: none !important;
-}
-.statusOnlineProfile-C7N-xU {
-  border: 4px solid #43B581 !important;
-  box-shadow: none !important;
-}
-.statusIdleProfile-3lQI6a {
-  border: 4px solid #FAA61A !important;
-  box-shadow: none !important;
-}
-.statusDndProfile-33i43o {
-  border: 4px solid #F04747 !important;
-  box-shadow: none !important;
-}
-.statusInvisibleProfile-3iFEOq,
-.statusOfflineProfile-9tGGr- {
-  border: 4px solid #747F8D !important;
-  box-shadow: none !important;
 }
 .headerStreaming-2FjmGz .statusProfile-3ynqtt,
 .topSectionStreaming-1Tpf5X .statusProfile-3ynqtt {
@@ -879,25 +871,25 @@ Zerebos#7790 <@249746236008169473> (Helped me a ton to get my themes back workin
 .newMessagesBar-mujexs { /*Unread Message counter Bar*/
 	background-color: rgba(calc(120 * var(--Red)),calc(120 * var(--Green)),calc(120* var(--Blue)),1) !important;
 }
-.message-group .wrapper-2F3Zv8 > .avatar-large { /*Profile Image Animation Not Hovered*/
+#app-mount .da-message .wrapper-2F3Zv8 > .da-large { /*Profile Image Animation Not Hovered*/
 	width           : var(--chatavatar-size);
 	height          : var(--chatavatar-size);
 	border          : 5px solid rgba(calc(120 * var(--Red)),calc(120 * var(--Green)),calc(120* var(--Blue)),0.2);
-	border-radius   : 1;
-	background-size : cover;
-	transition      : all .4s ease;
-	opacity         : 1;
-	margin          : 0;
+	border-radius   : 1!important;
+	background-size : cover!important;
+	transition      : all .4s ease !important;
+	opacity         : 1!important;
+	margin          : 0!important;
 }
-.message-group .wrapper-2F3Zv8 > .avatar-large:hover { /*Profile Image Animation Hovered*/
-	width           : var(--chatavatar-size-on-hover);
+#app-mount .da-message .wrapper-2F3Zv8 > .da-large:hover { /*Profile Image Animation Hovered*/
+	/* width           : var(--chatavatar-size-on-hover);
 	height          : var(--chatavatar-size-on-hover);
-	border          : 1px solid (0,0,0,0);
-	border-radius   : 0px;
-	background-size : cover;
-	transition      : all .4s ease;
-	opacity         : 1;
-	animation       : pulse 2.5s linear infinite!;
+	border          : 1px solid rgba(0,0,0,0)!important;
+	border-radius   : 0px!important;
+	background-size : cover!important;
+	transition      : all .4s ease!important;
+	opacity         : 1!important;
+	animation       : pulse 2.5s linear infinite !important; FIXME: needs to be fixed before enabling again*/
 }
 @keyframes pulse{
     0%{box-shadow: 1px 1px 20px rgba(0,0,0,0);}
