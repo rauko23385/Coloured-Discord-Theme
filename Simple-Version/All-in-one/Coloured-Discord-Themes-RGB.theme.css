@@ -124,7 +124,7 @@ Zerebos#7790 <@249746236008169473> (Helped me a ton to get my themes back workin
 }
 /*Theme Version*/
 .wordmark-2iDDfm:after {
-	content: 'Version: 2.20.005';
+	content: 'Version: 2.20.006';
 	position: absolute;
 	font-size: 10px;
 	font-weight: bolder;
@@ -431,10 +431,10 @@ Zerebos#7790 <@249746236008169473> (Helped me a ton to get my themes back workin
 .status-oxiHuE:hover,
 #app-mount [class*="avatarWrapper-"]:hover,
 #app-mount [class*="avatar-"]:hover [class*="image-"] {
-	border-radius: 50px !important;
+	border-radius: 0px !important;
 	transition:all var(--on-off-transitions) ease-in-out !important;
 }
-.wrapper-2F3Zv8.small-5Os1Bb.avatar-small.da-wrapper.da-small.da-avatarSmall:hover > .avatar-3JE4B3.avatar-small.animate {
+.wrapper-2F3Zv8.small-5Os1Bb:hover > .avatar-3JE4B3.animate {
     z-index: 1;
 }
 /****************************************************************
@@ -886,21 +886,6 @@ Zerebos#7790 <@249746236008169473> (Helped me a ton to get my themes back workin
 	transition      : all .4s ease !important;
 	opacity         : 1!important;
 	margin          : 0!important;
-}
-#app-mount .da-message .wrapper-2F3Zv8 > .da-large:hover { /*Profile Image Animation Hovered*/
-	/* width           : var(--chatavatar-size-on-hover);
-	height          : var(--chatavatar-size-on-hover);
-	border          : 1px solid rgba(0,0,0,0)!important;
-	border-radius   : 0px!important;
-	background-size : cover!important;
-	transition      : all .4s ease!important;
-	opacity         : 1!important;
-	animation       : pulse 2.5s linear infinite !important; FIXME: needs to be fixed before enabling again*/
-}
-@keyframes pulse{
-    0%{box-shadow: 1px 1px 20px rgba(0,0,0,0);}
-	50%{box-shadow: 1px 1px 20px rgba(calc(255 * var(--Red)),calc(255 * var(--Green)),calc(255 * var(--Blue)),1);}
-    100%{box-shadow: 1px 1px 20px rgba(0,0,0,0);}
 }
 #app-mount .inner-zqa7da { /*Texting Box*/
 	background-color: rgba(calc(150 * var(--Red)),calc(150 * var(--Green)),calc(150 * var(--Blue)),0.6) !important;
