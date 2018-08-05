@@ -334,7 +334,7 @@ Zerebos#7790 <@249746236008169473> (Helped me a ton to get my themes back workin
 .status-se,
 .status-oxiHuE,
 .image-33JSyf,
-.guilds-add,
+.da-guildsAdd,
 .guilds-error,
 .guild-placeholder,
 .embedAuthorIcon--1zR3L,
@@ -798,7 +798,7 @@ Zerebos#7790 <@249746236008169473> (Helped me a ton to get my themes back workin
 .item-1GzJrl:hover {
 	background-color: rgba(calc(140 * var(--Red)),calc(140 * var(--Green)),calc(140* var(--Blue)),1) !important;
 }
-.guilds-wrapper .guilds-add {
+#app-mount .guildsAdd-21_IdK {
 	border: 1px dashed rgba(calc(120 * var(--Red)),calc(120 * var(--Green)),calc(120* var(--Blue)),1) !important;
 	color: rgba(calc(120 * var(--Red)),calc(120 * var(--Green)),calc(120* var(--Blue)),1) !important;
 }
@@ -1057,7 +1057,7 @@ transition: all 700ms ease;
 .guildInner-3DSoA4,
 .avatar-small,
 .guilds-error,
-.guilds .guilds-add,
+#app-mount .da-guildsAdd,
 .icon-friends,
 .avatar-popout {
 border-radius: 11px !important;
@@ -1073,7 +1073,7 @@ background-color: rgba(calc(120 * var(--Red)),calc(120 * var(--Green)),calc(120*
 .avatar-small:hover,
 .avatar-small.animate:hover,
 .guilds-error:hover,
-.guilds .guilds-add:hover,
+#app-mount .da-guildsAdd:hover,
 .icon-friends:hover,
 .avatar-popout:hover {
 border-radius: 50px !important;
