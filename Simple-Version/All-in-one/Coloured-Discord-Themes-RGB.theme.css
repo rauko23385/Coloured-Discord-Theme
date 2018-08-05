@@ -255,7 +255,7 @@ Zerebos#7790 <@249746236008169473> (Helped me a ton to get my themes back workin
 :root{
     --load1:"Loading Theme";
     --load2:"Loading Animations";
-    --load3:"Finished loading"
+    --load3:"Finished loading";
 @-webkit-keyframes cv-init{
     0%{content:var(--load1);-webkit-transform:scale(.7);transform:scale(.7),}
     25%{opacity:0;-webkit-transform:scale(.7);transform:scale(.7)}
