@@ -806,7 +806,7 @@ Zerebos#7790 <@249746236008169473> (Helped me a ton to get my themes back workin
 .guilds-wrapper .guilds .friends-icon {
 	background-color: rgba(calc(120 * var(--Red)),calc(120 * var(--Green)),calc(120* var(--Blue)),1) !important;
 }
-.guild-inner {
+.guildInner-3DSoA4 {
 	background-color: rgba(calc(120 * var(--Red)),calc(120 * var(--Green)),calc(120* var(--Blue)),1) !important;
 }
 /****************************************************************
@@ -1064,7 +1064,7 @@ border-radius: 50px !important;
 .friends-icon:hover {
 background-color: rgba(calc(120 * var(--Red)),calc(120 * var(--Green)),calc(120* var(--Blue)),1) !important;
 }
-.guilds-wrapper .guilds .guild .guild-inner:hover,
+.guildInner-3DSoA4:hover,
 .avatar-small:hover,
 .avatar-small.animate:hover,
 .guilds-error:hover,
@@ -1074,7 +1074,7 @@ background-color: rgba(calc(120 * var(--Red)),calc(120 * var(--Green)),calc(120*
 border-radius: 50px !important;
 transition: all 400ms ease !important;
 }
-.guild-inner:hover {
+.guildInner-3DSoA4:hover {
 background-color: rgba(calc(180 * var(--Red)),calc(180 * var(--Green)),calc(180 * var(--Blue)),1) !important;
 }
 @keyframes pulse{
