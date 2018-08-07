@@ -124,7 +124,7 @@ Zerebos#7790 <@249746236008169473> (Helped me a ton to get my themes back workin
 }
 /*Theme Version*/
 .wordmark-2iDDfm:after {
-	content: 'Version: 2.20.006';
+	content: 'Version: 2.20.007';
 	position: absolute;
 	font-size: 10px;
 	font-weight: bolder;
@@ -1476,6 +1476,14 @@ filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.7)) !important;
 #app-mount .friends-table .messages .message-group-blocked.revealed, #app-mount .messages-wrapper .messages .message-group-blocked.revealed {
     background: transparent;
     border-color: transparent;
+}
+#app-mount .messageGroupBlocked-3wrQQX {
+	background: transparent;
+	border-color: transparent;
+}
+#app-mount .messageGroupBlockedBtn-1PBBh- {
+	background: rgba(calc(120 * var(--Red)),calc(120 * var(--Green)),calc(120* var(--Blue)),0.4);
+  border-radius: 5px;
 }
 #app-mount .title-3qD0b- {
 	box-shadow: 0 1px 0 rgba(0,0,0,.2), 0 2px 0 rgba(0,0,0,.06);
