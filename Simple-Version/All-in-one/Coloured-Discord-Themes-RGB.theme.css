@@ -1477,6 +1477,14 @@ filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.7)) !important;
     background: transparent;
     border-color: transparent;
 }
+#app-mount .messageGroupBlocked-3wrQQX {
+	background: transparent;
+	border-color: transparent;
+}
+#app-mount .messageGroupBlockedBtn-1PBBh- {
+	background: rgba(calc(120 * var(--Red)),calc(120 * var(--Green)),calc(120* var(--Blue)),0.4);
+  border-radius: 5px;
+}
 #app-mount .title-3qD0b- {
 	box-shadow: 0 1px 0 rgba(0,0,0,.2), 0 2px 0 rgba(0,0,0,.06);
 }
