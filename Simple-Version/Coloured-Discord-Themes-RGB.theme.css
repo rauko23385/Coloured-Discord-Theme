@@ -1,4 +1,4 @@
-/*//META{"name":"Coloured-Discord-Themes-RGB","description":"Support Server: https://discord.gg/ADn3Mqd","author":"Waterin","version":"2.20"}*//**/
+/*//META{"name":"Coloured-Discord-Themes-RGB","description":"Support Server: https://discord.gg/ADn3Mqd","author":"Waterin","version":"2.21"}*//**/
 /*Theme*/
 @import url('https://rawgit.com/Waterin/Coloured-Discord-Themes/1.0/Simple-Version/All-in-one/Coloured-Discord-Themes-RGB.theme.css');
 /*Fonts*/ /*Change link to be able to use your own font*/
@@ -35,6 +35,7 @@
 	--chatavatar-size: 40px; /*Default: 40px*/
 	/*Member List Animation*/
 	--disable-enable-memberlist-effect: 50px /*Set 240px to Disable*/;
+     --disable-blockedmsgs:; /*Leave blank to show blocked messages, Set 'none' to disable*/
 
 /*Avatar Settings*/ /*#*/
     /*Size of the avatar in chat when hovered*/
@@ -61,3 +62,4 @@ Mixter213#5731 <@214478470972047360>
 uri#0001 <@148059412165033984>
 XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)*/
 }
+#app-mount .messageGroupBlocked-3wrQQX{display:var(--disable-blockedmsgs, none);}
