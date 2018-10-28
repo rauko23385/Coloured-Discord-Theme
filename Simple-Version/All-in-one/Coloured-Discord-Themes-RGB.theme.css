@@ -127,7 +127,7 @@ Zerebos#7790 <@249746236008169473> (Helped me a ton to get my themes back workin
 }
 /*Theme Version*/
 .wordmark-2iDDfm:after {
-	content: 'Version: 2.22.000';
+	content: 'Version: 2.22.001';
 	position: absolute;
 	font-size: 10px;
 	font-weight: bolder;
@@ -444,6 +444,9 @@ Zerebos#7790 <@249746236008169473> (Helped me a ton to get my themes back workin
 ****************************************************************
 ****************************************************************/
 /*Others*/
+#app-mount .keyboardShortcutsModal-3piNz7{/*Keyboard combos*/
+	background: rgba(calc(80 * var(--Red)),calc(80 * var(--Green)),calc(80 * var(--Blue)),1);
+}
 .appMount-3VJmYg { /*Discord Windows Bar*/
 	background-color: rgba(calc(110 * var(--Red)),calc(110 * var(--Green)),calc(110* var(--Blue)),1) !important;
 }
