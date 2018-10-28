@@ -115,16 +115,19 @@ Zerebos#7790 <@249746236008169473> (Helped me a ton to get my themes back workin
 .guildsWrapper-5TJh6A {
 	background-color: rgba(0,0,0,0) !important;
 }
-.ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller,
-.ui-standard-sidebar-view .content-region .content-region-scroller-wrap  {
+#app-mount .contentRegion-3nDuYy,
+#app-mount .sidebarRegion-VFTUkN  {
 	background: rgba(0,0,0,0.4) !important;
+}
+#app-mount .standardSidebarView-3F1I7i{
+	background: transparent;
 }
 .container-2lgZY8 {
 	background-color: rgba(0,0,0,0) !important;
 }
 /*Theme Version*/
 .wordmark-2iDDfm:after {
-	content: 'Version: 2.21.008';
+	content: 'Version: 2.22.000';
 	position: absolute;
 	font-size: 10px;
 	font-weight: bolder;
@@ -529,7 +532,8 @@ Zerebos#7790 <@249746236008169473> (Helped me a ton to get my themes back workin
 .uploadModal-2ifh8j .inner-3nWsbo {
 	border-color: rgba(30,30,30,1) !important;
 }
-#app-mount .contextMenu-HLZMGh {
+#app-mount .contextMenu-HLZMGh,
+#app-mount .container-3cGP6G {
 	background-color: rgba(calc(120 * var(--Red)),calc(120 * var(--Green)),calc(120* var(--Blue)),1) !important;
 	box-shadow: 0 0 1px rgba(calc(150 * var(--Red)),calc(150 * var(--Green)),calc(150 * var(--Blue)),1) !important;
 }
@@ -539,7 +543,8 @@ Zerebos#7790 <@249746236008169473> (Helped me a ton to get my themes back workin
 #app-mount .item-1Yvehc {
 	color: rgba(200,200,200,1) !important;
 }
-#app-mount .item-1Yvehc:hover {
+#app-mount .item-1Yvehc:hover,
+#app-mount .item-2J1YMK:hover {
 	background-color: rgba(calc(160 * var(--Red)),calc(160 * var(--Green)),calc(160 * var(--Blue)),1) !important;
 }
 .bda-dark #bda-qem-favourite-container, .bda-dark #bda-qem-twitch-container {
@@ -759,9 +764,10 @@ Zerebos#7790 <@249746236008169473> (Helped me a ton to get my themes back workin
 	background-color: rgba(calc(90 * var(--Red)),calc(90 * var(--Green)),calc(90 * var(--Blue)),1) !important;
 }
 
-.divider-3gKybi.dividerRed-MKoLlr>span, .divider-3gKybi:before, .divider-3gKybi:not(.red-1YQ4s7) span  {
-	background: rgba(calc(140 * var(--Red)),calc(140 * var(--Green)),calc(140* var(--Blue)),1) !important;
-	color: rgba(170,170,170,1) !important;
+.divider-3gKybi.dividerRed-MKoLlr>span, .dividerContent-2L12VI:before,.dividerContent-2L12VI:after, .divider-3gKybi:not(.red-1YQ4s7) span  {
+
+	border-color: rgba(calc(140 * var(--Red)),calc(140 * var(--Green)),calc(140* var(--Blue)),1) !important;
+	background: rgba(170,170,170,0) !important;
 }
 #app-mount .wrapper-35wsBm {
 	background: rgba(calc(130 * var(--Red)),calc(130 * var(--Green)),calc(130* var(--Blue)),0.4) !important;
@@ -800,8 +806,7 @@ Zerebos#7790 <@249746236008169473> (Helped me a ton to get my themes back workin
 	background-color: rgba(calc(140 * var(--Red)),calc(140 * var(--Green)),calc(140* var(--Blue)),1) !important;
 }
 #app-mount .guildsAdd-21_IdK {
-	border: 1px dashed rgba(calc(120 * var(--Red)),calc(120 * var(--Green)),calc(120* var(--Blue)),1) !important;
-	color: rgba(calc(120 * var(--Red)),calc(120 * var(--Green)),calc(120* var(--Blue)),1) !important;
+	background: rgba(calc(120 * var(--Red)),calc(120 * var(--Green)),calc(120* var(--Blue)),1) !important;
 }
 .guilds-wrapper .guild-separator:after {
 	background: rgba(calc(100 * var(--Red)),calc(100 * var(--Green)),calc(100* var(--Blue)),0.4) !important;
@@ -923,6 +928,7 @@ Zerebos#7790 <@249746236008169473> (Helped me a ton to get my themes back workin
 	transform: translate(0,20px);
 	}
 }
+#app-mount .messageGroupBlocked-3wrQQX{display:var(--disable-blockedmsgs, none);}
 #app-mount .popout .messages-popout-wrap .scroller-wrap {
 	background-color: rgba(calc(120 * var(--Red)),calc(120 * var(--Green)),calc(120* var(--Blue)),0.3) !important;
 }
@@ -978,7 +984,7 @@ Zerebos#7790 <@249746236008169473> (Helped me a ton to get my themes back workin
 #app-mount .hasMore-3e72_v button,
 .channelNotices-41mJbj .channelNotice-1-XFjC .message-3SOT5P .btn-11C5_u {
 	background: rgba(calc(120 * var(--Red)),calc(120 * var(--Green)),calc(120* var(--Blue)),0.5) !important;
-	border-color: rgba(calc(150 * var(--Red)),calc(150 * var(--Green)),calc(150 * var(--Blue)),1) !important;
+	border-color: rgba(calc(150 * var(--Red)),calc(150 * var(--Green)),calc(150 * var(--Blue)),0) !important;
 }
 #app-mount .everyonePopout-nEbJY3 {
 	background: transparent;
@@ -991,6 +997,9 @@ Zerebos#7790 <@249746236008169473> (Helped me a ton to get my themes back workin
 .lookOutlined-3sRXeN.colorBrand-3pXr91 {
 	color: rgba(calc(230 * var(--Red)),calc(230 * var(--Green)),calc(230 * var(--Blue)),1) !important;
 	border-color: rgba(calc(210 * var(--Red)),calc(210 * var(--Green)),calc(210 * var(--Blue)),1) !important
+}
+#app-mount .jumpToPresentBar-9P20AM{
+	background: rgba(calc(120 * var(--Red)),calc(120 * var(--Green)),calc(120* var(--Blue)),0.7);
 }
 /****************************************************************
 ****************************************************************
@@ -1279,11 +1288,14 @@ filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.7)) !important;
 ****************************************************************
 ****************************************************************/
 /*Lazy Updating*/
-#app-mount .searchPopout-1vUlP3 {
+#app-mount .resultsGroup-r_nuzN{
 	background: rgba(calc(120 * var(--Red)),calc(120 * var(--Green)),calc(120* var(--Blue)),1);
 }
 #app-mount .option-96V44q.selected-rZcOL- {
 	background: rgba(calc(150 * var(--Red)),calc(150 * var(--Green)),calc(150 * var(--Blue)),0.7);
+}
+#app-mount .option-96V44q:after{
+	background: rgba(calc(150 * var(--Red)),calc(150 * var(--Green)),calc(150 * var(--Blue)),0);
 }
 #app-mount .searchAnswer-3Dz2-q, #app-mount .searchFilter-2ESiM3 {
 	background: rgba(calc(120 * var(--Red)),calc(120 * var(--Green)),calc(120* var(--Blue)),1);
@@ -1355,16 +1367,18 @@ filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.7)) !important;
 .bd-blue *[style*="background-color: rgb(114, 137, 218)"]{
 	background: rgb(calc(150 * var(--Red)),calc(150 * var(--Green)),calc(150 * var(--Blue))) !important;
 }
-.bd-blue .need-help-modal .header,
+.need-help-modal.form.deprecated .header{
+	background: rgb(calc(80 * var(--Red)),calc(80 * var(--Green)),calc(80* var(--Blue)));
+}
 .need-help-modal.deprecated .form-inner.loading {
 	background: rgb(calc(120 * var(--Red)),calc(120 * var(--Green)),calc(120* var(--Blue)));
 }
-.need-help-modal.deprecated .header input[type=text]{
+.need-help-modal.form.deprecated .header input[type=text]{
 	box-shadow: 0 2px 1px rgba(0,0,0,0);
-	background: rgb(calc(170 * var(--Red)),calc(170 * var(--Green)),calc(170 * var(--Blue)));
+	background: rgb(calc(120 * var(--Red)),calc(120 * var(--Green)),calc(120 * var(--Blue)));
 	border-color: transparent;
 }
-.need-help-modal.deprecated .footer {
+.need-help-modal.form.deprecated .footer {
 	background: rgba(30,30,30,1);
 	border-color: transparent;
 }
