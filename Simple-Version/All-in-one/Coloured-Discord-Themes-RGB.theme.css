@@ -127,7 +127,7 @@ Zerebos#7790 <@249746236008169473> (Helped me a ton to get my themes back workin
 }
 /*Theme Version*/
 .wordmark-2iDDfm:after {
-	content: 'Version: 2.22.001';
+	content: 'Version: 2.22.002';
 	position: absolute;
 	font-size: 10px;
 	font-weight: bolder;
@@ -775,6 +775,9 @@ Zerebos#7790 <@249746236008169473> (Helped me a ton to get my themes back workin
 #app-mount .wrapper-35wsBm {
 	background: rgba(calc(130 * var(--Red)),calc(130 * var(--Green)),calc(130* var(--Blue)),0.4) !important;
 	border-color: rgba(calc(150 * var(--Red)),calc(150 * var(--Green)),calc(150 * var(--Blue)),0.5) !important;
+}
+#app-mount .wrapper-29NfPK {
+	background:transparent;
 }
 #app-mount .embedInner-1-fpTo {
 	background: rgba(calc(130 * var(--Red)),calc(130 * var(--Green)),calc(130* var(--Blue)),0.4) !important;
