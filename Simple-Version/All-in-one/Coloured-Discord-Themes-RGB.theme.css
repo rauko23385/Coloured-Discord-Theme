@@ -133,7 +133,7 @@ Zerebos#7790 <@249746236008169473> (Helped me a ton to get my themes back workin
 }
 /*Theme Version*/
 .wordmark-2iDDfm:after {
-	content: 'Version: 2.22.003';
+	content: 'Version: 2.22.004';
 	position: absolute;
 	font-size: 10px;
 	font-weight: bolder;
@@ -906,8 +906,8 @@ Zerebos#7790 <@249746236008169473> (Helped me a ton to get my themes back workin
 ****************************************************************
 ****************************************************************/
 /*Server's List*/
-.guilds-wrapper .guilds .guild-1EfMGQ .unread-qLkInr:before {/*Guild selected/unread dot*/
-	background-color: rgba(calc(220 * var(--Red)),calc(220 * var(--Green)),calc(220 * var(--Blue)),1);
+#app-mount .guild-1EfMGQ.unread-qLkInr:before {/*Guild selected/unread dot*/
+	background: rgb(calc(150 * var(--Red)),calc(150 * var(--Green)),calc(150 * var(--Blue)))!important;
 }
 *[style*="background-color: rgb(114, 137, 218)"] {
 	background-color: rgba(calc(120 * var(--Red)),calc(120 * var(--Green)),calc(120* var(--Blue)),1);
