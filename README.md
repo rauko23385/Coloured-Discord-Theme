@@ -7,7 +7,7 @@
 * **Source Version:** Source needs to be downloaded again to update the file so Simple version is recommended unless you want to edit source on your own!
 * **Join my Support server for source editing help**
 
-* **Support and Contact:** Any help needed pls contact me through discord **@Waterin#6451** or **@𝓦𝓪𝓽𝓮𝓻𝓲𝓷#6451** or join my [Support Server](https://discord.gg/ADn3Mqd)
+* **Support and Contact:** Any help needed pls contact me through discord **@Waterin#6451** or **@Sly Jonas#6451** or join my [Support Server](https://discord.gg/ADn3Mqd)
 
 * Feel free to suggest in the [Discord Server](https://discord.gg/ADn3Mqd) . I'll try to implement if it is really good. ^^
 
