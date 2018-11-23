@@ -21,8 +21,8 @@
 :root {
     /*Theme Selector*/
     --Red: 1;   /****************************************************/
-    --Blue: 0;  /*Values are 1 or 2 for enabling and 0 for disabling*/
-    --Green: 0; /****************************************************/
+    --Green: 0; /*Values are 1 or 2 for enabling and 0 for disabling*/
+    --Blue: 0;  /****************************************************/
     /*Background Image*/
 	--main-bg-dark: url(https://imgur.com/9s5zWxn.jpg) !important;
 	--main-bg-light: url(https://imgur.com/WcBzzCn.jpg) !important;
