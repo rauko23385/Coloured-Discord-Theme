@@ -1,4 +1,4 @@
-/*//META{"name":"Coloured-Discord-Themes-RGB","description":"Support Server: https://discord.gg/ADn3Mqd","author":"Waterin","version":"2.22"}*//**/
+/*//META{"name":"Coloured-Discord-Themes-RGB","description":"Support Server: https://discord.gg/ADn3Mqd","author":"Waterin","version":"3.00"}*//**/
 /*Theme*/
 @import url('https://rawgit.com/Waterin/Coloured-Discord-Themes/1.0/Simple-Version/All-in-one/Coloured-Discord-Themes-RGB.theme.css');
 /*Fonts*/ /*Change link to be able to use your own font*/
@@ -20,11 +20,11 @@
 
 :root {
     /*Theme Selector*/
-    --Red: 1;   /****************************************************/
-    --Green: 0; /*Values are 1 or 2 for enabling and 0 for disabling*/
-    --Blue: 0;  /****************************************************/
+	--Red: 120;   /*********************************************/
+    --Green: 0; /*Values are from 0 to 255 like in a RGB code*/
+    --Blue: 0;    /*********************************************/
     /*Background Image*/
-	--main-bg-dark: url(https://imgur.com/9s5zWxn.jpg) !important;
+	--main-bg-dark: url(https://i.imgur.com/9s5zWxn.jpg) !important;
 	--main-bg-light: url(https://imgur.com/WcBzzCn.jpg) !important;
 	/*Background Brightness*/
 	--bg-brightness: 0.1; /*Adjust background brightness (0: original image, 1: black)*/
@@ -32,7 +32,7 @@
     --theme-font: 'Ubuntu';
     --font-thickness: 900;
 	/*Size of the avatar in chat*/
-	--chatavatar-size: 40px; /*Default: 40px*/
+    --chatavatar-size: 40px; /*Default: 40px*/
 	/*Member List Animation*/
 	--disable-enable-memberlist-effect: 50px /*Set 240px to Disable*/;
     --disable-blockedmsgs:; /*Leave blank to show blocked messages, Set 'none' to disable*/
@@ -61,4 +61,3 @@ DevilsLynAvenged#6457 <@235302947058089984> (helped me code some hard things tha
 Mixter213#5731 <@214478470972047360>
 uri#0001 <@148059412165033984>
 XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)*/
-}
