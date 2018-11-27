@@ -3,23 +3,6 @@
 	font-family: var(--theme-font) !important;
 	font-weight: var(--font-thickness) !important;
 }
-/****************************************************************
-****************************************************************
-****************************************************************/
-/* Created by Waterin#6451 <@288053351579648000>
-Helped by:
-Mitchell#6410 <@124989722668957700> Helped me update the theme and fix when I was unable too and supports my Patreon <3.
-.intrnl#6939 <@177744816665395200>
-modder4869(Helped me with code and gave advises to make the theme work smoothly)
-DevilsLynAvenged#6457 <@235302947058089984> (helped me code some hard things that were hard for me as i was still learning CSS)
-Mixter213#5731 <@214478470972047360>
-uri#0001 <@148059412165033984>
-XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
-Zerebos#7790 <@249746236008169473> (Helped me a ton to get my themes back working after some class renaming and restructuration)
-*/
-/****************************************************************
-****************************************************************
-****************************************************************/
 /*Background*/
 .app.theme-dark {
 	background: var(--main-bg-dark) !important;	
@@ -134,7 +117,7 @@ Zerebos#7790 <@249746236008169473> (Helped me a ton to get my themes back workin
 }
 /*Theme Version*/
 .wordmark-2iDDfm:after {
-	content: 'Version: 3.00.001';
+	content: 'Version: 3.02.003';
 	position: absolute;
 	font-size: 10px;
 	font-weight: bolder;
