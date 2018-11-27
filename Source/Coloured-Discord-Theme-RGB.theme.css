@@ -8,6 +8,7 @@
 ****************************************************************/
 /* Created by Waterin#6451 <@288053351579648000>
 Helped by:
+Mitchell#6410 <@124989722668957700> Helped me update the theme and fix when I was unable too and supports my Patreon <3.
 .intrnl#6939 <@177744816665395200>
 modder4869(Helped me with code and gave advises to make the theme work smoothly)
 DevilsLynAvenged#6457 <@235302947058089984> (helped me code some hard things that were hard for me as i was still learning CSS)
@@ -459,6 +460,7 @@ Zerebos#7790 <@249746236008169473> (Helped me a ton to get my themes back workin
 .tooltip { /*Tooltip Color Editor*/
 	background-color: rgba(var(--Red),var(--Green),var(--Blue),0.7) !important;
 	-webkit-filter: hue-rotate(var(--color-shift));
+	filter: hue-rotate(var(--color-shift));
 }
 .tooltip.tooltip-bottom:after { /*Tooltip Color Editor Bottom Notch*/
 	border-bottom-color: rgba(var(--Red),var(--Green),var(--Blue),0.7) !important
@@ -852,7 +854,7 @@ Zerebos#7790 <@249746236008169473> (Helped me a ton to get my themes back workin
 #app-mount .private-channel-call {
 	background-color: transparent !important;
 }
-.video-36_NdB {
+.da-video {
 	background-color: rgba(var(--Red),var(--Green),var(--Blue),0.05) !important;
 	margin: 8px !important;
 	border-radius: 10px;
@@ -1051,25 +1053,21 @@ Zerebos#7790 <@249746236008169473> (Helped me a ton to get my themes back workin
 	}
 }
 #app-mount .messageGroupBlocked-3wrQQX{display:var(--disable-blockedmsgs, none);}
-#app-mount .popout .messages-popout-wrap .scroller-wrap {
+#app-mount .messagesPopoutWrap-1MQ1bW {
 	background-color: rgba(var(--Red),var(--Green),var(--Blue),0.3) !important;
 }
-#app-mount .popout .messages-popout-wrap .header {
+#app-mount .header-ykumBX {
 	background-color: rgba(calc(var(--Red) - 20),calc(var(--Green) - 20),calc(var(--Blue) - 20),1) !important;
 	box-shadow: 0px 0px 0 rgba(0,0,0,0) !important;
 }
-#app-mount .popout .messages-popout-wrap .footer {
-	background-color: rgba(calc(var(--Red) - 20),calc(var(--Green) - 20),calc(var(--Blue) - 20),1) !important;
-	box-shadow: 0px 0px 0 rgba(0,0,0,0) !important;
-}
-#app-mount .popout .messages-popout-wrap {
+#app-mount .messageGroupWrapper-o-Zw7G {
 	background-color: transparent !important;
 }
-#app-mount .popout .messages-popout-wrap .messages-popout .message-group:hover .action-buttons {
+#app-mount .containerCozyBounded-1rKFAn:hover .actionButtons-1sUUug {
 	background-color: rgba(calc(var(--Red) + 10),calc(var(--Green) + 10),calc(var(--Blue) + 10),1) !important;
 	box-shadow: 0 0 6px 4px rgba(calc(var(--Red) - 10),calc(var(--Green) - 10),calc(var(--Blue) - 10),0.5) !important;
 }
-#app-mount .popout .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button {
+#app-mount .jumpButton-3DTcS_ {
 	background-color: rgba(calc(var(--Red) + 10),calc(var(--Green) + 10),calc(var(--Blue) + 10),1) !important;
 }
 #app-mount .mention {
@@ -1118,10 +1116,7 @@ Zerebos#7790 <@249746236008169473> (Helped me a ton to get my themes back workin
 }
 .lookOutlined-3sRXeN.colorBrand-3pXr91 {
 	color: rgba(calc(var(--Red) + 60),calc(var(--Green) + 60),calc(var(--Blue) + 60),1) !important;
-	border-color: rgba(calc(var(--Red) + 50),calc(var(--Green) + 50),calc(var(--Blue) + 50) !important
-}
-#app-mount .jumpToPresentBar-9P20AM{
-	background: rgba(var(--Red),var(--Green),var(--Blue),0.7);
+	border-color: rgba(calc(var(--Red) + 50),calc(var(--Green) + 50),calc(var(--Blue) + 50)) !important;
 }
 /****************************************************************
 ****************************************************************
@@ -1310,10 +1305,10 @@ filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.7)) !important;
 }
 .lookOutlined-3sRXeN.colorRed-1TFJan {
 	color: rgba(calc(var(--Red) + 60),calc(var(--Green) + 60),calc(var(--Blue) + 60),1) !important;
-	border-color: rgba(calc(var(--Red) + 50),calc(var(--Green) + 50),calc(var(--Blue) + 50) !important;
+	border-color: rgba(calc(var(--Red) + 50),calc(var(--Green) + 50),calc(var(--Blue) + 50)) !important;
 }
 #app-mount .input-cIJ7To.focused-1mmYsC {
-	border-color: rgba(calc(var(--Red) + 50),calc(var(--Green) + 50),calc(var(--Blue) + 50) !important;
+	border-color: rgba(calc(var(--Red) + 50),calc(var(--Green) + 50),calc(var(--Blue) + 50)) !important;
 }
 #app-mount .divider-3573oO {
 	background-color: rgba(var(--Red),var(--Green),var(--Blue),0.4) !important;
@@ -1328,7 +1323,7 @@ filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.7)) !important;
 	background: rgba(calc(var(--Red) + 50),calc(var(--Green) + 50),calc(var(--Blue) + 50),1) !important;
 }
 *[style*="background-color: rgb(114, 137, 218)"] {
-	border-color: rgba(calc(var(--Red) + 50),calc(var(--Green) + 50),calc(var(--Blue) + 50) !important;
+	border-color: rgba(calc(var(--Red) + 50),calc(var(--Green) + 50),calc(var(--Blue) + 50)) !important;
 }
 #app-mount .select-2TCrqx .Select-option.is-selected {
 	background-color: rgba(var(--Red),var(--Green),var(--Blue),1) !important;

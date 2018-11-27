@@ -1,6 +1,6 @@
-/*//META{"name":"Coloured-Discord-Themes-RGB","description":"Support Server: https://discord.gg/ADn3Mqd","author":"Waterin","version":"3.00"}*//**/
+/*//META{"name":"Coloured-Discord-Theme-RGB","description":"Support Server: https://discord.gg/ADn3Mqd","author":"Waterin","version":"3.00"}*//**/
 /*Theme*/
-@import url('https://rawgit.com/Waterin/Coloured-Discord-Themes/1.0/Simple-Version/All-in-one/Coloured-Discord-Themes-RGB.theme.css');
+@import url('https://rawgit.com/Waterin/Coloured-Discord-Themes/3.0/Source/Coloured-Discord-Theme-RGB.theme.css');
 /*Fonts*/ /*Change link to be able to use your own font*/
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 /*Emoji Module*/
@@ -24,8 +24,8 @@
     --Green: 0; /*Values are from 0 to 255 like in a RGB code*/
     --Blue: 0;    /*********************************************/
     /*Background Image*/
-	--main-bg-dark: url(https://i.imgur.com/9s5zWxn.jpg) !important;
-	--main-bg-light: url(https://imgur.com/WcBzzCn.jpg) !important;
+	--main-bg-dark: url(https://i.imgur.com/9s5zWxn.jpg) !important;  /*RGB input allowed*/
+	--main-bg-light: url(https://i.imgur.com/WcBzzCn.jpg) !important; /*RGB input allowed*/
 	/*Background Brightness*/
 	--bg-brightness: 0.1; /*Adjust background brightness (0: original image, 1: black)*/
 	/*Font Settings*/
@@ -35,7 +35,7 @@
     --chatavatar-size: 40px; /*Default: 40px*/
 	/*Member List Animation*/
 	--disable-enable-memberlist-effect: 50px /*Set 240px to Disable*/;
-    --disable-blockedmsgs:; /*Leave blank to show blocked messages, Set 'none' to disable*/
+    --disable-blockedmsgs:; /*Leave blank to show blocked people messages, Set 'none' to hide*/
 
 /*Avatar Settings*/ /*#*/
     /*Size of the avatar in chat when hovered*/
@@ -55,6 +55,7 @@
 
 
 Helped by:
+Mitchell#6410 <@124989722668957700> Helped me update the theme and fix when I was unable too and supports my Patreon <3.
 .intrnl#6939 <@177744816665395200>
 modder4869(Helped me with code and gave advises to make the theme work smoothly)
 DevilsLynAvenged#6457 <@235302947058089984> (helped me code some hard things that were hard for me as i was still learning CSS)
