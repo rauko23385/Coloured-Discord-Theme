@@ -117,7 +117,7 @@
 }
 /*Theme Version*/
 .wordmark-2iDDfm:after {
-	content: 'Version: 3.02.003';
+	content: 'Version: 3.02.004';
 	position: absolute;
 	font-size: 10px;
 	font-weight: bolder;
@@ -184,6 +184,8 @@
 #app-mount #memberCount:hover {
 	transform: translateY(0px);
 }
+/*Plugin Update Notice*/
+.noticeInfo-3_iTE1{background:rgba(var(--Red),var(--Green),var(--Blue),.5)}
 /****************************************************************
 ****************************************************************
 ****************************************************************/
