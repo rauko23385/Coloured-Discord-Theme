@@ -5,7 +5,7 @@
 }
 /*Background*/
 .app.theme-dark {
-	background: var(--main-bg-dark) !important;	
+	background: var(--main-bg-dark) !important;
 	background-size: cover !important;
 	background-position: center !important;
 }
@@ -711,7 +711,7 @@
 }
 #app-mount .lookFilled-1Gx00P.hoverBrand-1_Fxlk.hasHover-3X1-zV:hover {
 	background: rgba(calc(var(--Red) + 20),calc(var(--Green) + 20),calc(var(--Blue) + 20),0.4);
-}	
+}
 #app-mount .body-SKIE6r {
 	background: rgba(calc(var(--Red) + 20),calc(var(--Green) + 20),calc(var(--Blue) + 20),0.4);
 }
@@ -795,6 +795,9 @@
 /*Friends*/
 .search-bar .search-bar-inner { /*Search Bar Color*/
 	background-color: rgba(var(--Red),var(--Green),var(--Blue),0.3) !important;
+}
+.container-3gCOGc { /*Friends list (all/online/pending/blocked)*/
+	background-color: rgba(var(--Red),var(--Green),var(--Blue),0.2) !important;
 }
 .container-2Thooq { /*User Dock Background*/
 	background-color: rgba(var(--Red),var(--Green),var(--Blue),0.2) !important;
