@@ -4,15 +4,18 @@
 	font-weight: var(--font-thickness) !important;
 }
 /*Background*/
-#app-mount.bda-dark {
+.appMount-3lHmkl .theme-dark.da-app  {
 	background: var(--main-bg-dark) !important;
 	background-size: cover !important;
 	background-position: center !important;
 }
-#app-mount.bda-light {
+.appMount-3lHmkl .theme-light.da-app  {
 	background: var(--main-bg-light) !important;
 	background-size: cover !important;
 	background-position: center !important;
+}
+.appMount-3lHmkl {
+	background-color: rgba(var(--Red),var(--Green),var(--Blue),1)!important;
 }
 .layers-3iHuyZ {
 	background: rgba(0,0,0,var(--bg-brightness)) !important;
@@ -117,7 +120,7 @@
 }
 /*Theme Version*/
 .wordmark-2iDDfm:after {
-	content: 'Version: 3.02.008';
+	content: 'Version: 3.02.009';
 	position: absolute;
 	font-size: 10px;
 	font-weight: bolder;
