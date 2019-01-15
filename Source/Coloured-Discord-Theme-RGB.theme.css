@@ -4,12 +4,12 @@
 	font-weight: var(--font-thickness) !important;
 }
 /*Background*/
-.app.theme-dark {
+#app-mount.bda-dark {
 	background: var(--main-bg-dark) !important;
 	background-size: cover !important;
 	background-position: center !important;
 }
-.app.theme-light {
+#app-mount.bda-light {
 	background: var(--main-bg-light) !important;
 	background-size: cover !important;
 	background-position: center !important;
@@ -1435,10 +1435,6 @@ filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.7)) !important;
 }
 #app-mount .messagesPopoutWrap-1MQ1bW .footer-1kmXd4 {
 	background: transparent !important;
-}
-.themeDark-3Ap_7i {
-	background: transparent !important;
-	background-image: var(--main-bg) !important;
 }
 #app-mount .input-2VB9rf {
 	background: rgba(calc(var(--Red) + 20),calc(var(--Green) + 20),calc(var(--Blue) + 20),0.6)
