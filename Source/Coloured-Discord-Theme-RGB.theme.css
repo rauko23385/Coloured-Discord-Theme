@@ -117,7 +117,7 @@
 }
 /*Theme Version*/
 .wordmark-2iDDfm:after {
-	content: 'Version: 3.02.007';
+	content: 'Version: 3.02.008';
 	position: absolute;
 	font-size: 10px;
 	font-weight: bolder;
@@ -608,23 +608,23 @@
 ****************************************************************
 ****************************************************************/
 /*Search Bar/Results*/
-#app-mount .search-results-wrap {
+#app-mount .searchResultsWrap-2DKFzt {
 	background-color: rgba(calc(var(--Red) - 30),calc(var(--Green) - 30),calc(var(--Blue) - 30),0.7) !important;
 }
-#app-mount .search-results-wrap .search-header {
+#app-mount .searchResultsWrap-2DKFzt .searchHeader-1l-wpR {
 	background-color: rgba(calc(var(--Red) - 30),calc(var(--Green) - 30),calc(var(--Blue) - 30),0.7) !important;
 }
-#app-mount .search-results-wrap .channel-separator .channel-name {
+#app-mount .searchResultsWrap-2DKFzt .channel-separator .channel-name {
 	background-color: rgba(calc(var(--Red) - 30),calc(var(--Green) - 30),calc(var(--Blue) - 30),1) !important;
 	border-left: 40px rgba(0,0,0,0.8) !important;
 }
-#app-mount .search-results-wrap .search-result .search-result-message.hit {
+#app-mount .searchResultsWrap-2DKFzt .searchResultMessage-2VxO12.hit-NLlWXA {
 	background-color: rgba(calc(var(--Red) + 20),calc(var(--Green) + 20),calc(var(--Blue) + 20),1) !important;
 }
-#app-mount .search-results-wrap .search-result .hit {
+#app-mount .searchResultsWrap-2DKFzt .searchResultMessage-2VxO12 .hit {
 	box-shadow: 0 0 10px 6px rgba(var(--Red),var(--Green),var(--Blue),1) !important;
 }
-.search-results-wrap .search-result:before, #app-mount .search-results-wrap .search-result:after {
+.searchResultsWrap-2DKFzt .searchResultMessage-2VxO12:before, #app-mount .searchResultsWrap-2DKFzt .searchResultMessage-2VxO12:after {
 	box-shadow: 0 0 rgba(var(--Red),var(--Green),var(--Blue),1) !important;
 	background-image: none !important;
 }
@@ -1405,14 +1405,14 @@ filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.7)) !important;
 #app-mount .searchAnswer-3Dz2-q, #app-mount .searchFilter-2ESiM3 {
 	background: rgba(var(--Red),var(--Green),var(--Blue),1);
 }
-#app-mount .search-results-wrap .action-buttons .jump-button {
+#app-mount .searchResultsWrap-2DKFzt .action-buttons .jump-button {
 	background: rgba(var(--Red),var(--Green),var(--Blue),1);
 }
-#app-mount .search-results-wrap .search-result .search-result-message.hit,
-#app-mount .search-results-wrap .search-result.expanded {
+#app-mount .searchResultsWrap-2DKFzt .search-result .search-result-message.hit,
+#app-mount .searchResultsWrap-2DKFzt .search-result.expanded {
 	border-color: transparent;
 }
-#app-mount .search-results-wrap .search-result .hit {
+#app-mount .searchResultsWrap-2DKFzt .search-result .hit {
 	box-shadow: 0 0 0px 0px rgba(0,0,0,0) !important;
 	background: rgba(var(--Red),var(--Green),var(--Blue),0.2) !important;
 	border-radius: 10px;
