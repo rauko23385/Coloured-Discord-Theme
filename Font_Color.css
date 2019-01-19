@@ -9,3 +9,15 @@
 #app-mount .membersGroup-v9BXpm {
 	color: var(--Font-Color);
 }
+/*Theme Version*/
+.wordmark-2iDDfm:after {
+	content: 'Testing Font Color';
+	position: absolute;
+	font-size: 10px;
+	font-weight: bolder;
+	color: white;
+	font-family: Titan One;
+	display: block;
+	top: 2px;
+	left: 65px;
+}
