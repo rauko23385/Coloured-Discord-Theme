@@ -1,0 +1,11 @@
+/*Font Color*/
+#app-mount .markup-2BOw-j,
+#app-mount .embedDescription-1Cuq9a,
+#app-mount .embedFieldValue-nELq2s,
+#app-mount .embedFooterText-28V_Wb,
+#app-mount .embedProvider-3k5pfl,
+#app-mount .itemDefault-3Jdr52,
+#app-mount .itemHover-EnbcjT,
+#app-mount .membersGroup-v9BXpm {
+	color: var(--Font-Color);
+}
