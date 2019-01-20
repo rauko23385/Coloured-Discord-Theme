@@ -5,7 +5,7 @@
   display: block;
   padding-top: 5px;
   margin-bottom: -10px;
-  content: "CDT v3.03.000 by Waterin"; }
+  content: "CDT v3.03.001 by Waterin"; }
 /*Font*/
 ::-webkit-input-placeholder, body, button, input, select, textarea{
 	font-family: var(--theme-font) !important;
@@ -839,7 +839,7 @@ transition: all 700ms ease;
 ****************************************************************
 ****************************************************************/
 /*Unread Crap*/
-#app-mount .guild-1EfMGQ .guildInner-3DSoA4{
+/*#app-mount .guild-1EfMGQ .guildInner-3DSoA4{
 	border-radius:50px!important;
 }
 .guild-1EfMGQ::before {
@@ -858,7 +858,7 @@ transition: all 700ms ease;
 	box-shadow: 0 0 0 2px var(--notify-color) inset, 0 0 0 20px rgba(var(--Red),var(--Green),var(--Blue),1), 0 0 0 23px rgba(255, 255, 255, 0), 0 2px 24px rgba(0, 0, 0, 0.1) !important;}
 .dms-rcsEnV .guild-1EfMGQ a::after {
   box-shadow: 0 0 0 -2px rgba(var(--Red),var(--Green),var(--Blue),1) inset, 0 0 0 -2px rgba(var(--Red),var(--Green),var(--Blue),1), 0 0 0 23px rgba(255, 255, 255, 0), 0 2px 24px rgba(0, 0, 0, 0.1) !important;
-}
+}*/
 /****************************************************************
 ****************************************************************
 ****************************************************************/
