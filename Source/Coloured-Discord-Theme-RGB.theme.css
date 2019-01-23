@@ -5,7 +5,7 @@
   display: block;
   padding-top: 5px;
   margin-bottom: -10px;
-  content: "CDT v3.03.001 by Waterin"; }
+  content: "CDT v3.03.002 by Waterin"; }
 /*Font*/
 ::-webkit-input-placeholder, body, button, input, select, textarea{
 	font-family: var(--theme-font) !important;
@@ -577,7 +577,7 @@
 #app-mount .inner-zqa7da { /*Texting Box*/
 	background-color: rgba(calc(var(--Red) + 20),calc(var(--Green) + 20),calc(var(--Blue) + 20),0.6) !important;
 }
-.message-group { /*Message Separators*/
+.containerCozy-jafyvG { /*Message Separators*/
 	border-bottom: 2px solid rgba(var(--Red),var(--Green),var(--Blue),0.4) !important;
 	border-top: 2px solid rgba(var(--Red),var(--Green),var(--Blue),0.4) !important;
 	border-radius: 10px !important;
@@ -593,13 +593,13 @@
 #app-mount .selectorSelected-1_M1WV { /*AutoComplete List Selected/Hovered*/
 	background-color: rgba(calc(var(--Red) + 20),calc(var(--Green) + 20),calc(var(--Blue) + 20),1) !important;
 }
-#app-mount .message-group .comment .markup code.inline, #app-mount .message-group .comment .markup pre code { /*CodeBlocks Background*/
+#app-mount .containerCozy-jafyvG .comment .markup code.inline, #app-mount .message-group .comment .markup pre code { /*CodeBlocks Background*/
 	background-color: rgba(var(--Red),var(--Green),var(--Blue),0.60) !important;
 }
 .markup-2BOw-j code, .markup-2BOw-j code.inline {
 	background-color: rgba(var(--Red),var(--Green),var(--Blue),0.60) !important;
 }
-#app-mount .message-group .comment .markup pre { /*CodeBlocks Border*/
+#app-mount .containerCozy-jafyvG .comment .markup pre { /*CodeBlocks Border*/
 	border-color: rgba(calc(var(--Red) + 50),calc(var(--Green) + 50),calc(var(--Blue) + 50),0.5) !important;
 }
 .message.message-sending .markup{
