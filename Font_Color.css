@@ -71,6 +71,10 @@
 [style="font-size: 12px; font-weight: 600; color: rgb(114, 118, 125); padding: 2px 10px;"]{
 	color: var(--Font-Color);
 }
+.da-markup .repoUtils {
+	color: var(--Font-Color) !important;
+	filter:invert(1);
+}
 /*Theme Version*/
 .wordmark-2iDDfm:after {
 	content: 'Testing Font Color';
