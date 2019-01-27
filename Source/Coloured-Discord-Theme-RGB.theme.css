@@ -5,7 +5,7 @@
   display: block;
   padding-top: 5px;
   margin-bottom: -10px;
-  content: "CDT v3.03.004 by Waterin"; }
+  content: "CDT v3.03.005 by Waterin"; }
 /*Font*/
 ::-webkit-input-placeholder, body, button, input, select, textarea{
 	font-family: var(--theme-font) !important;
@@ -19,7 +19,7 @@
     background-color: rgba(24, 27, 33, 0.3)!important;
 }
 #app-mount .layer-3QrUeG, #app-mount .layers-3iHuyZ, .typeWindows-15E0Ys {
-    background: rgba(0, 0, 0, var(--bg-brightness)) !important;
+    background: rgba(0, 0, 0, calc(1 - (var(--bg-brightness)/100))) !important;
 }
 /*Background*/
 .appMount-3lHmkl .theme-dark.da-app  { /*Background Dark Theme*/
