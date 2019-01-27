@@ -5,7 +5,7 @@
   display: block;
   padding-top: 5px;
   margin-bottom: -10px;
-  content: "CDT v3.03.003 by Waterin"; }
+  content: "CDT v3.03.004 by Waterin"; }
 /*Font*/
 ::-webkit-input-placeholder, body, button, input, select, textarea{
 	font-family: var(--theme-font) !important;
@@ -1167,9 +1167,6 @@ transition: all 700ms ease;
 }
 #app-mount .game-1ipmAa {
 	box-shadow:0 1px 0 0 rgba(var(--Red),var(--Green),var(--Blue),0.4) !important;
-}
-.repoUtils {
-	color: rgba(calc(var(--Red) + 20),calc(var(--Green) + 20),calc(var(--Blue) + 20),1) !important;
 }
 .bda-links .repoUtils {
 	color: #fff !important;
