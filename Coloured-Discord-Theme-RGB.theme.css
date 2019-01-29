@@ -1,4 +1,4 @@
-/*//META{"name":"Coloured-Discord-Theme-RGB","description":"Support Server: https://discord.gg/ADn3Mqd","author":"Waterin","version":"3.03"}*//**/
+/*//META{"name":"Coloured-Discord-Theme-RGB","description":"Support Server: https://discord.gg/ADn3Mqd","author":"Waterin","version":"3.04"}*//**/
 /*Theme*/
 @import url('https://waterin.github.io/Coloured-Discord-Theme/Source/Coloured-Discord-Theme-RGB.theme.css');
 /*Fonts*/ /*Change link to be able to use your own font*/
@@ -28,7 +28,7 @@
 	--main-bg-dark: url(https://i.imgur.com/9s5zWxn.jpg) !important;  /*RGB input allowed*/
 	--main-bg-light: url(https://i.imgur.com/WcBzzCn.jpg) !important; /*RGB input allowed*/
 	/*Background Brightness*/
-	--bg-brightness: 0.1; /*Adjust background brightness (0: original image, 1: black)*/
+	--bg-brightness: 90; /*Adjust background brightness (0: no brightness, 100: max brightness)*/
 	/*Font Settings*/
     --theme-font: 'Ubuntu';
     --font-thickness: 900;
