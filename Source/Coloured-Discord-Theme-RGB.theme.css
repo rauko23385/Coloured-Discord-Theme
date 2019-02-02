@@ -5,7 +5,7 @@
   display: block;
   padding-top: 5px;
   margin-bottom: -10px;
-  content: "CDT v3.04.002 by Waterin"; }
+  content: "CDT v3.04.003 by Waterin"; }
 /*Font*/
 ::-webkit-input-placeholder, body, button, input, select, textarea{
 	font-family: var(--theme-font) !important;
@@ -1181,21 +1181,19 @@ transition: all 700ms ease;
 .appMount-3VJmYg { /*Discord Windows Bar*/
 	background-color: rgba(calc(var(--Red) - 10),calc(var(--Green) - 10),calc(var(--Blue) - 10),1) !important;
 }
-.tooltip { /*Tooltip Color Editor*/
+.tooltip-1OS-Ti.black-2bmmnj { /*Tooltip Color Editor*/
 	background-color: rgba(var(--Red),var(--Green),var(--Blue),0.7) !important;
-	-webkit-filter: hue-rotate(var(--color-shift));
-	filter: hue-rotate(var(--color-shift));
 }
-.tooltip.tooltip-bottom:after { /*Tooltip Color Editor Bottom Notch*/
+.tooltip-1OS-Ti.bottom-19kp6S:after { /*Tooltip Color Editor Bottom Notch*/
 	border-bottom-color: rgba(var(--Red),var(--Green),var(--Blue),0.7) !important
 }
-.tooltip.tooltip-right:after { /*Tooltip Color Editor Right Notch*/
+.tooltip-1OS-Ti.right-KM_vfY:after { /*Tooltip Color Editor Right Notch*/
 	border-right-color: rgba(var(--Red),var(--Green),var(--Blue),0.7) !important
 }
-.tooltip.tooltip-top:after { /*Tooltip Color Editor Top Notch*/
+.tooltip-1OS-Ti.top-1pTh1F:after { /*Tooltip Color Editor Top Notch*/
 	border-top-color: rgba(var(--Red),var(--Green),var(--Blue),0.7) !important
 }
-.tooltip.tooltip-left:after { /*Tooltip Color Editor Left Notch*/
+.tooltip-1OS-Ti.left-1wV7VO:after { /*Tooltip Color Editor Top Notch*/
 	border-left-color: rgba(var(--Red),var(--Green),var(--Blue),0.7) !important
 }
 #app-mount .iconForeground-3y9f0B, #app-mount .title-1aVOXw { /*Icons*/
@@ -1499,7 +1497,7 @@ filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.7)) !important;
   border-radius: 0;
   overflow: visible;
   transform-origin: 50% -10%;
-  background: #ff3030 !important; }
+  background: rgba(var(--Red),var(--Green),var(--Blue),1) !important; }
 
 @keyframes popoutanim-inner {
   0% {
