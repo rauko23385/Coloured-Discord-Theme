@@ -5,7 +5,7 @@
   display: block;
   padding-top: 5px;
   margin-bottom: -10px;
-  content: "CDT v3.04.000 by Waterin"; }
+  content: "CDT v3.04.001 by Waterin"; }
 /*Font*/
 ::-webkit-input-placeholder, body, button, input, select, textarea{
 	font-family: var(--theme-font) !important;
@@ -23,14 +23,14 @@
 }
 /*Background*/
 .appMount-3lHmkl .theme-dark.da-app  { /*Background Dark Theme*/
-	background: var(--main-bg-dark) !important;
-	background-size: cover !important;
-	background-position: center !important;
+	background: var(--main-bg-dark);
+	background-size: cover;
+	background-position: center;
 }
 .appMount-3lHmkl .theme-light.da-app  { /*Background Light Theme*/
-	background: var(--main-bg-light) !important;
-	background-size: cover !important;
-	background-position: center !important;
+	background: var(--main-bg-light);
+	background-size: cover;
+	background-position: center;
 }
 .appMount-3lHmkl {
 	background-color: rgba(var(--Red),var(--Green),var(--Blue),1)!important;
