@@ -71,13 +71,45 @@
 [style="font-size: 12px; font-weight: 600; color: rgb(114, 118, 125); padding: 2px 10px;"]{
 	color: var(--Font-Color);
 }
-.da-markup .repoUtils {
+.da-markup .repoUtils{
 	color: var(--Font-Color) !important;
 	filter:invert(1);
 }
+#app-mount .membersGroup-v9BXpm {
+    color:var(--Font-Color)!important;
+}
+#app-mount .spoilerText-3p6IlD.hidden-HHr2R9,
+#app-mount .spoilerText-3p6IlD{
+    background: rgba(var(--Red), var(--Green), var(--Blue),1);
+}
+#app-mount .spoilerText-3p6IlD.hidden-HHr2R9:hover {
+    background: rgba(var(--Red), var(--Green), var(--Blue),1);
+}
+#app-mount .spoilerText-3p6IlD.hidden-HHr2R9{
+    opacity:0.57;
+}
+#app-mount .spoilerText-3p6IlD.hidden-HHr2R9:hover{
+    animation: pulsespoiler 1.8s infinite ease-in-out;
+}
+@keyframes pulsespoiler {
+    0%{opacity:0.5;}
+    50%{opacity:1;}
+    100%{opacity:0.5;}
+}
+#app-mount .spoilerText-3p6IlD.hidden-HHr2R9:before {
+    content:"Spoiler - Click to reveal";
+    color:var(--Font-Color);
+    /*pointer-events: none;*/
+    /*justify-content: center;*/
+    /*display: flex;*/
+    position: relative;
+    /*text-align: center;*/
+    /*width: 90%;*/
+    opacity:1 !important;
+}
 /*Theme Version*/
 .wordmark-2iDDfm:after {
-	content: 'Testing Font Color';
+	content: 'Test Version';
 	position: absolute;
 	font-size: 10px;
 	font-weight: bolder;
