@@ -32,26 +32,6 @@
 .headerCozyMeta-rdohGq span {
     display: contents;
 }
-
-.avatar-17mtNa .image-33JSyf::after {
-    content: 'Nitro';
-    font-weight: bold !important;
-    border-radius: 3px;
-    border-style:solid;
-    border-width: 0px;
-    border-color: transparent;
-    flex-shrink: 0;
-    font-size: .675em;
-    font-weight: 500;
-    line-height: 1.3;
-    margin-left: 1ch;
-    padding: 1px 2px;
-    text-transform: uppercase;
-    vertical-align: middle;
-    background: #7289da;
-    color: #fff;
-    order: 2;
-}
 .avatar-17mtNa .image-33JSyf[style*='/a_']::after{
     content: 'Nitro';
     font-weight: bold !important;
