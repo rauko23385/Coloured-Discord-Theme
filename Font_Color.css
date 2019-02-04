@@ -15,14 +15,14 @@
 }
 /*Theme Version*/
 .wordmark-2iDDfm:after {
-	content: 'Welp#7';
+	content: 'Welp#8';
 	position: absolute;
-	font-size: 10px;
+	font-size: 17px;
 	font-weight: bolder;
 	color: white;
-	font-family: Titan One;
+	font-family: Ubuntu;
 	display: block;
-	top: 2px;
+	top: 4px;
 	left: 65px;
 }
 /*Tags*/
