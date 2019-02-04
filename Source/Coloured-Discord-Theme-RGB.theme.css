@@ -5,7 +5,7 @@
   display: block;
   padding-top: 5px;
   margin-bottom: -10px;
-  content: "CDT v3.04.004 by Waterin"; }
+  content: "CDT v3.04.005 by Waterin"; }
 /*Font*/
 .da-button[tabindex="3"]{
     display:none;
@@ -680,6 +680,31 @@
 .lookOutlined-3sRXeN.colorBrand-3pXr91 {
 	color: rgba(calc(var(--Red) + 60),calc(var(--Green) + 60),calc(var(--Blue) + 60),1) !important;
 	border-color: rgba(calc(var(--Red) + 50),calc(var(--Green) + 50),calc(var(--Blue) + 50)) !important;
+}
+/*Spoiler Tags*/
+#app-mount .spoilerText-3p6IlD.hidden-HHr2R9{    
+    background: rgb(var(--Red), var(--Green), var(--Blue));
+    opacity:0.50;
+}        
+#app-mount .spoilerText-3p6IlD{    
+    background: rgba(var(--Red), var(--Green), var(--Blue),0);    
+}
+#app-mount .spoilerText-3p6IlD.hidden-HHr2R9:hover{
+	background: rgb(var(--Red), var(--Green), var(--Blue));
+    animation: pulsespoiler 1.8s infinite;    
+}    
+@keyframes pulsespoiler {    
+    0%{opacity:0.5;}    
+    25%{opacity:0.75;}
+    50%{opacity:1;}  
+    75%{opacity:0.75;}      
+    100%{opacity:0.5;}    
+}
+#app-mount .spoilerText-3p6IlD.hidden-HHr2R9:before {    
+    content:"Spoiler - Click to reveal";    
+    color:var(--Font-Color);   
+    display: flex;    
+    position: relative;
 }
 /****************************************************************
 ****************************************************************
