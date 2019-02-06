@@ -5,11 +5,8 @@
   display: block;
   padding-top: 5px;
   margin-bottom: -10px;
-  content: "CDT v3.04.005 by Waterin"; }
+  content: "CDT v3.04.006 by Waterin"; }
 /*Font*/
-.da-button[tabindex="3"]{
-    display:none;
-}
 ::-webkit-input-placeholder, body, button, input, select, textarea{
 	font-family: var(--theme-font) !important;
 	font-weight: var(--font-thickness) !important;
