@@ -12,7 +12,7 @@
 }
 /*Change Log*/
 #bd-settingspane-container .bda-slist::before {
-  content:"Change Log - CDT 3.04.006 | Welp#10\A\A 1• Added a Change Log to theme settings.\A 2• Customized Mitchell's Patron Tag.\A 3• Added Role Color BG to member's in members list.\A 4• Changed Creator tag to Theme Dev.\A 5• Changed '--Tag-Anim' variable to '--Tag-Anim1-Default' and '--Tag-Anim2-Default'.\A\A Support Server: https://discord.gg/ADn3Mqd";
+  content:"Change Log - CDT 3.04.007 | Welp#10\A\A 1• Added a Change Log to theme settings.\A 2• Customized Mitchell's Patron Tag.\A 3• Added Role Color BG to member's in members list.\A 4• Changed Creator tag to Theme Dev.\A 5• Changed '--Tag-Anim' variable to '--Tag-Anim1-Default' and '--Tag-Anim2-Default'.\A\A Support Server: https://discord.gg/ADn3Mqd";
   font-family: Indie Flower;
   display: block;
   line-height:24px;
