@@ -99,7 +99,8 @@
 	margin-right:-12px;
 }
 /*Sly's Tag*/
-.avatar-17mtNa .image-33JSyf[style*='avatars/288053351579648000']::after {
+.avatar-17mtNa .image-33JSyf[style*='avatars/288053351579648000']::after,
+.avatar-17mtNa .image-33JSyf[style*='avatars/427475965384589332']::after{
     content: 'Theme Dev';
     font-weight: bold !important;
     border-radius: 3px;
