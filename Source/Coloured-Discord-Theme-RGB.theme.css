@@ -22,10 +22,6 @@ body{
 #app-mount .card-2WxYqG {
     background-color: rgba(24, 27, 33, 0.3)!important;
 }
-/*Background*/
-.appMount-3lHmkl {
-	background-color: rgba(var(--Red),var(--Green),var(--Blue),1)!important;
-}
 /*Loading Screen*/
 .layers,.layer{
     background:transparent!important
