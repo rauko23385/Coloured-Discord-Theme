@@ -1,6 +1,6 @@
 /*Theme Version*/
 .wordmark-2iDDfm:after {
-	content: 'Welp#10';
+	content: 'Welp#11';
 	position: absolute;
 	font-size: 17px;
 	font-weight: bolder;
@@ -128,14 +128,14 @@
 	animation: creatortag var(--Tag-Anim1-Default, var(--Tag-Anim1)) ease infinite;
 	background-size: 700% 120%;
 }
-@keyframes creatortag { 
+@keyframes creatortag {
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
 }
 /*Mitchell's Tag*/
 .avatar-17mtNa .image-33JSyf[style*='avatars/124989722668957700']::after {
-    content: 'Patron';
+    content: 'Taxpayer';
     font-weight: bold !important;
     border-radius: 3px;
     border-style:solid;
@@ -156,7 +156,7 @@
     -webkit-animation: patrontag1 var(--Tag-Anim1, var(--Tag-Anim1-Default)) ease infinite,patrontag2 var(--Tag-Anim2, var(--Tag-Anim2-Default)) ease infinite;
     background-size: 500% 120%;
 	}
-	@-webkit-keyframes patrontag1 { 
+	@-webkit-keyframes patrontag1 {
 		0%{background-position:0% 50%;}
 		50%{background-position:100% 50%;}
 		100%{background-position:0% 50%;}
@@ -254,9 +254,9 @@
     transition: all .25s ease-in-out;
 }
 @keyframes pulse{
-    0%{box-shadow: 1px 1px 20px rgba(0,0,0,0);} 
+    0%{box-shadow: 1px 1px 20px rgba(0,0,0,0);}
 	50%{box-shadow: 1px 1px 20px rgba(var(--Red),var(--Green),var(--Blue),1);}
-    100%{box-shadow: 1px 1px 20px rgba(0,0,0,0);} 
+    100%{box-shadow: 1px 1px 20px rgba(0,0,0,0);}
 }
 .userPopout-3XzG_A {
     display:relative;
