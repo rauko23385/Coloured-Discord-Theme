@@ -5,22 +5,34 @@
   display: block;
   padding-top: 5px;
   margin-bottom: -10px;
-  content: "CDT v3.04.007 by Waterin"; }
+  content: "CDT v3.04.006 by Waterin"; }
 /*Font*/
 ::-webkit-input-placeholder, body, button, input, select, textarea{
 	font-family: var(--theme-font) !important;
 	font-weight: var(--font-thickness) !important;
 }
 /*Transparency*/
-.appMount-3lHmkl, #app-mount .layer-3QrUeG, #app-mount .layers-3iHuyZ, .typeWindows-15E0Ys,#app-mount .root-1BQpZw,.titleWrapper-1l0xT9,#app-mount .container-3gCOGc, #app-mount .activityFeed-28jde9, #app-mount .headerBar-UHpsPw, #app-mount .header-39GIC8,#voice-connection,#friends, .friends-header, .friends-table, .guilds-wrapper, .guild-header header, .channels-wrap, .private-channels .search-bar, .private-channels, .guild-channels, .account, .friend-table-add-header,.chat, .content, .title-wrap:not(.search-bar), .messages-wrapper, .messages .divider span, .messages .divider:before, .content, .message-group-blocked, .is-local-bot-message,.channel-members-loading, .channel-members-loading .heading, .channel-members-loading .member, .typing, .container-RYiLUQ, #app-mount .ui-standard-sidebar-view, #app-mount .ui-standard-sidebar-view .sidebar-region,#app-mount .ui-standard-sidebar-view .content-region,#app-mount .channel-members,.container-2OU7Cz,#app-mount .chat form, .channels-3g2vYe, #app-mount .friends-table, #app-mount .messages-wrapper,.content .flex-spacer, #app-mount .chat>.content, #app-mount .chat, .channel-members, .search .search-bar, .container-iksrDt, .container-3lnMWU, #app-mount .title-qAcLxz, #app-mount .typing-3eiiL_,#app-mount .activityFeed-HeiGwL,#app-mount .headerBar-cxbhPD,#app-mount .lfg-3xoFkI,.video-3lOWa6,#app-mount .private-channel-call,.appMount-3VJmYg,.container-2lgZY8,.channels-Ie2l6A,.container-PNkimc,.container-2Thooq,.container-3gC0Gc,#app-mount .title-3qD0b-,#app-mount .typing-2GQL18,.search-bar.search-bar-light,.emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S,#app-mount .members-1998pB,#app-mount .chat-3bRxxu,#app-mount .content-yTz4x3,#app-mount .messagesWrapper-3lZDfY,#app-mount .chat-3bRxxu form ,#app-mount .guildsWrapper-5TJh6A,#app-mount .applicationStore-1pNvnv,#app-mount .gameLibrary-TTDw4Y,#app-mount .sidebarRegion-VFTUkN,#app-mount .standardSidebarView-3F1I7i,#app-mount .contentRegion-3nDuYy,.scroller-2FKFPG, .sidebarRegion-VFTUkN, .standardSidebarView-3F1I7i,#app-mount .contentRegion-3nDuYy {
+#app-mount .layer-3QrUeG, #app-mount .layers-3iHuyZ, .typeWindows-15E0Ys,#app-mount .root-1BQpZw,.titleWrapper-1l0xT9,#app-mount .container-3gCOGc, #app-mount .activityFeed-28jde9, #app-mount .headerBar-UHpsPw, #app-mount .header-39GIC8,#voice-connection,#friends, .friends-header, .friends-table, .guilds-wrapper, .guild-header header, .channels-wrap, .private-channels .search-bar, .private-channels, .guild-channels, .account, .friend-table-add-header,.chat, .content, .title-wrap:not(.search-bar), .messages-wrapper, .messages .divider span, .messages .divider:before, .content, .message-group-blocked, .is-local-bot-message,.channel-members-loading, .channel-members-loading .heading, .channel-members-loading .member, .typing, .container-RYiLUQ, #app-mount .ui-standard-sidebar-view, #app-mount .ui-standard-sidebar-view .sidebar-region,#app-mount .ui-standard-sidebar-view .content-region,#app-mount .channel-members,.container-2OU7Cz,#app-mount .chat form, .channels-3g2vYe, #app-mount .friends-table, #app-mount .messages-wrapper,.content .flex-spacer, #app-mount .chat>.content, #app-mount .chat, .channel-members, .search .search-bar, .container-iksrDt, .container-3lnMWU, #app-mount .title-qAcLxz, #app-mount .typing-3eiiL_,#app-mount .activityFeed-HeiGwL,#app-mount .headerBar-cxbhPD,#app-mount .lfg-3xoFkI,.video-3lOWa6,#app-mount .private-channel-call,.appMount-3VJmYg,.container-2lgZY8,.channels-Ie2l6A,.container-PNkimc,.container-2Thooq,.container-3gC0Gc,#app-mount .title-3qD0b-,#app-mount .typing-2GQL18,.search-bar.search-bar-light,.emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S,#app-mount .members-1998pB,#app-mount .chat-3bRxxu,#app-mount .content-yTz4x3,#app-mount .messagesWrapper-3lZDfY,#app-mount .chat-3bRxxu form ,#app-mount .guildsWrapper-5TJh6A,#app-mount .applicationStore-1pNvnv,#app-mount .gameLibrary-TTDw4Y,#app-mount .sidebarRegion-VFTUkN,#app-mount .standardSidebarView-3F1I7i,#app-mount .contentRegion-3nDuYy,.scroller-2FKFPG, .sidebarRegion-VFTUkN, .standardSidebarView-3F1I7i,#app-mount .contentRegion-3nDuYy {
   background: transparent !important;
-}
-body{
-    background: var(--main-bg-dark);
-    filter:brightness(calc((var(--bg-brightness)/100)));
 }
 #app-mount .card-2WxYqG {
     background-color: rgba(24, 27, 33, 0.3)!important;
+}
+#app-mount .layer-3QrUeG, #app-mount .layers-3iHuyZ, .typeWindows-15E0Ys {
+    background: rgba(0, 0, 0, calc(1 - (var(--bg-brightness)/100))) !important;
+}
+.appMount-3lHmkl .theme-dark.da-app  { /*Background Dark Theme*/
+	background: var(--main-bg-dark);
+	background-size: cover;
+	background-position: center;
+}
+.appMount-3lHmkl .theme-light.da-app  { /*Background Light Theme*/
+	background: var(--main-bg-light);
+	background-size: cover;
+	background-position: center;
+}
+.appMount-3lHmkl {
+	background-color: rgba(var(--Red),var(--Green),var(--Blue),1)!important;
 }
 /*Loading Screen*/
 .layers,.layer{
