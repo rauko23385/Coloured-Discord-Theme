@@ -64,13 +64,20 @@
   opacity: 0.2;
 }
 /*Role Color Members*/
-.memberInner-2CPc3V .nameTag-3p0yK- .usernameOnline-3jr_0Y {
+.memberInner-2CPc3V .nameTag-3p0yK- {
   position: relative;
   overflow: hidden;
   padding: 2px 5px;
   border-radius: 5px;
+  display: inline-block;
 }
-.memberInner-2CPc3V .nameTag-3p0yK- .usernameOnline-3jr_0Y::before {
+.memberInner-2CPc3V .nameTag-3p0yK- .username-1cB_5E {
+  color: white;
+  text-shadow: -3px -3px 5px #000, 3px 3px 5px #000, -3px 3px 5px #000, 3px -3px 5px #000;
+  z-index: 1;
+  position: relative;
+}
+.memberInner-2CPc3V .nameTag-3p0yK-:before {
   content: "";
   color: inherit;
   background: currentColor;
@@ -79,7 +86,7 @@
   height: 200vh;
   top: -50vh;
   left: -50vw;
-  opacity: 0.2;
+  opacity: 1;
   pointer-events: none;
 }
 /*Tags*/
@@ -118,7 +125,7 @@
     background: linear-gradient(270deg, #ff0000, #0000ff);
     color: #fff;
     order: 2;
-	animation: creatortag var(--Tag-Anim1-Default) ease infinite;
+	animation: creatortag var(--Tag-Anim1-Default, var(--Tag-Anim1)) ease infinite;
 	background-size: 700% 120%;
 }
 @keyframes creatortag { 
