@@ -711,28 +711,28 @@ body,#app-mount .titleBar-AC4pGV {background: var(--main-bg)}
 	border-color: rgba(calc(var(--Red) + 50),calc(var(--Green) + 50),calc(var(--Blue) + 50)) !important;
 }
 /*Spoiler Tags*/
-#app-mount .spoilerText-3p6IlD.hidden-HHr2R9{    
+#app-mount .spoilerText-3p6IlD.hidden-HHr2R9{
     background: rgb(var(--Red), var(--Green), var(--Blue));
     opacity:0.50;
-}        
-#app-mount .spoilerText-3p6IlD{    
-    background: rgba(var(--Red), var(--Green), var(--Blue),0);    
+}
+#app-mount .spoilerText-3p6IlD{
+    background: rgba(var(--Red), var(--Green), var(--Blue),0);
 }
 #app-mount .spoilerText-3p6IlD.hidden-HHr2R9:hover{
 	background: rgb(var(--Red), var(--Green), var(--Blue));
-    animation: pulsespoiler 1.8s infinite;    
-}    
-@keyframes pulsespoiler {    
-    0%{opacity:0.5;}    
-    25%{opacity:0.75;}
-    50%{opacity:1;}  
-    75%{opacity:0.75;}      
-    100%{opacity:0.5;}    
+    animation: pulsespoiler 1.8s infinite;
 }
-#app-mount .spoilerText-3p6IlD.hidden-HHr2R9:before {    
-    content:"Spoiler - Click to reveal";    
-    color:var(--Font-Color);   
-    display: flex;    
+@keyframes pulsespoiler {
+    0%{opacity:0.5;}
+    25%{opacity:0.75;}
+    50%{opacity:1;}
+    75%{opacity:0.75;}
+    100%{opacity:0.5;}
+}
+#app-mount .spoilerText-3p6IlD.hidden-HHr2R9:before {
+    content:"Spoiler - Click to reveal";
+    color:var(--Font-Color);
+    display: flex;
     position: relative;
 }
 /****************************************************************
@@ -2008,7 +2008,7 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {
     -webkit-animation: raukotag1 var(--Tag-Anim1, var(--Tag-Anim1-Default)) ease infinite,raukotag2 var(--Tag-Anim2, var(--Tag-Anim2-Default)) ease infinite;
     background-size: 300% 120%;
 }
-@-webkit-keyframes raukotag1 { 
+@-webkit-keyframes raukotag1 {
     0%{background-position:0% 50%;}
     25%{background-position:0% 50%;    color: darkred;    content: 'Contributor';}
     50%{background-position:100% 50%;    color: teal;    content: 'Tester';}
