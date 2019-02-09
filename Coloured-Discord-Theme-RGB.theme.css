@@ -1,4 +1,4 @@
-/*//META{"name":"Coloured-Discord-Theme-RGB","description":"Support Server: https://discord.gg/ADn3Mqd","author":"Waterin","version":"3.04"}*//**/
+/*//META{"name":"Coloured-Discord-Theme-RGB","description":"Support Server: https://discord.gg/ADn3Mqd","author":"Waterin","version":"3.05"}*//**/
 /*Theme*/
 @import url('https://waterin.github.io/Coloured-Discord-Theme/Source/Coloured-Discord-Theme-RGB.theme.css');
 /*Fonts*/ /*Change link to be able to use your own font*/
@@ -19,26 +19,30 @@
 /*Contact Waterin#1301 <@288053351579648000> or join https://discord.gg/ADn3Mqd for further help*/
 
 :root {
-    /*Theme Selector*/
-    --Red: 120;   /*********************************************/
+ 	/*Theme Selector*/
+    --Red: 120;   /*Values are from 0 to 255 like in a RGB code*/
     --Green: 120; /*Values are from 0 to 255 like in a RGB code*/
-    --Blue: 120;    /*********************************************/
-    --Notify-color: #ffd700; /*Adjust notification color*/
-    /*Background Image*/
-	--main-bg-dark: url(https://i.imgur.com/9s5zWxn.jpg) !important;  /*RGB input allowed*/
-	--main-bg-light: url(https://i.imgur.com/WcBzzCn.jpg) !important; /*RGB input allowed*/
+    --Blue: 120;    /*Values are from 0 to 255 like in a RGB code*/
+	/*Background Image*/
+    --main-bg: url(https://i.imgur.com/9s5zWxn.jpg) !important;  /*RGB input allowed*/
 	/*Background Brightness*/
-	--bg-brightness: 90; /*Adjust background brightness (0: no brightness, 100: max brightness)*/
+    --bg-brightness: 90; /*Adjust background brightness (0: no brightness, 100: max brightness)*/
 	/*Font Settings*/
     --theme-font: 'Ubuntu';
     --font-thickness: 900;
 	/*Size of the avatar in chat*/
     --chatavatar-size: 40px; /*Default: 40px*/
 	/*Member List Animation*/
-	--disable-enable-memberlist-effect: 50px /*Set 240px to Disable*/;
+    --disable-enable-memberlist-effect: 50px /*Set 240px to Disable*/;
     --disable-blockedmsgs:; /*Leave blank to show blocked people messages, Set 'none' to hide*/
-
-/*Avatar Settings*/ /*#*/
+	/*Role Color Message backgrounds*/
+    --Message-RoleColor:currentColor; /*Set 'none' to disable | Set currentColor to enable*/
+	/*Tag Animations*/
+    --Tag-Anim1:;/*Some tags have animations | Blank to default, 0s to disable, Xs to enable with a user set time*/
+    --Tag-Anim2:;/*Some tags have animations | Blank to default, 0s to disable, Xs to enable with a user set time*/
+	
+	
+	/*Avatar Settings*/ /*#*/
     /*Size of the avatar in chat when hovered*/
 	/*/////Works only with the Avatar Module Enabled/////*/
 	--chatavatar-size-on-hover: 70px; /*Default: 70px*/
@@ -66,7 +70,4 @@ Mixter213#5731 <@214478470972047360> |
 uri#0001 <@148059412165033984> |
 XGN|NFLD99#0001 <@187615613944856576> | Wrote some of the animations for me.
 Zerebos#7790 <@249746236008169473> | Helped me a ton to get my themes back working after some class renaming and restructuration.
-
-Hate list:
-Discord web designers
 */
