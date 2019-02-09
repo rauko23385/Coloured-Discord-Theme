@@ -5,11 +5,11 @@
   display: block;
   padding-top: 5px;
   margin-bottom: -10px;
-  content: "CDT v3.05.002 by Waterin"; }
+  content: "CDT v3.05.004 by Waterin"; }
 /*Change Log*/
 #bd-settingspane-container .bda-slist::before,
 .app-2rEoOp button #bd-settingspane-container .bda-slist::before{
-  content:"Change Log - CDT 3.05.002\A\A 1• Added a Change Log to theme settings.\A 2• Updated Transparency.\A 3• Added Theme Dev | Patron | Contributor | Rauko's | Mitchell's | Nitro Tags to\A re-establish patron gifts.\A 4• Added Role Message Color.\A 5• Added a fix for reply icon from the plugin Reply System by Zerebos.\A 6• Added a PFP Fix temporarily.\A 7• New settings added to the theme.\A\A Support Server: https://discord.gg/ADn3Mqd";
+  content:"Change Log - CDT 3.05.004\A\A 1• Added a Change Log to theme settings.\A 2• Updated Transparency.\A 3• Added Theme Dev | Patron | Contributor | Rauko's | Mitchell's | Nitro Tags to\A re-establish patron gifts.\A 4• Added Role Message Color.\A 5• Added a fix for reply icon from the plugin Reply System by Zerebos.\A 6• Added a PFP Fix temporarily.\A 7• New settings added to the theme.\A\A Support Server: https://discord.gg/ADn3Mqd";
   font-family: Indie Flower;
   display: block;
   line-height:24px;
@@ -218,6 +218,13 @@ body,#app-mount .titleBar-AC4pGV {background: var(--main-bg)}
     position:relative;
     left:5px;
     top:-3px;
+}
+.reply-list {
+    background: rgba(calc(var(--Red) - 30),calc(var(--Green) - 30),calc(var(--Blue) - 30),0.8);
+}
+.reply-item {
+    text-shadow: 0 0 4px black;
+    background:rgba(calc(var(--Red) - 0),calc(var(--Green) - 0),calc(var(--Blue) - 0),1);
 }
 /****************************************************************
 ****************************************************************
@@ -1922,7 +1929,9 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {
 	padding-top:4px;
 	padding-bottom:3px;
 	padding-left:3px;
-	margin-right:-12px;
+	margin-top:-1px;
+	margin-right:0px;
+	margin-left: 10px;
 }
 /*Tag Fix*/
 .avatar-17mtNa .image-33JSyf::after {
