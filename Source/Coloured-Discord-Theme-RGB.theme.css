@@ -5,11 +5,11 @@
   display: block;
   padding-top: 5px;
   margin-bottom: -10px;
-  content: "CDT v3.05.004 by Waterin"; }
+  content: "CDT v3.05.005 by Waterin"; }
 /*Change Log*/
 #bd-settingspane-container .bda-slist::before,
 .app-2rEoOp button #bd-settingspane-container .bda-slist::before{
-  content:"Change Log - CDT 3.05.004\A\A 1• Added a Change Log to theme settings.\A 2• Updated Transparency.\A 3• Added Theme Dev | Patron | Contributor | Rauko's | Mitchell's | Nitro Tags to\A re-establish patron gifts.\A 4• Added Role Message Color.\A 5• Added a fix for reply icon from the plugin Reply System by Zerebos.\A 6• Added a PFP Fix temporarily.\A 7• New settings added to the theme.\A\A Support Server: https://discord.gg/ADn3Mqd";
+  content:"Change Log - CDT 3.05.005\A\A 1• Added a Change Log to theme settings.\A 2• Updated Transparency.\A 3• Added Theme Dev | Patron | Contributor | Rauko's | Mitchell's | Nitro Tags to\A re-establish patron gifts.\A 4• Added Role Message Color.\A 5• Added a fix for reply icon from the plugin Reply System by Zerebos.\A 6• Added a PFP Fix temporarily.\A 7• New settings added to the theme.\A\A Support Server: https://discord.gg/ADn3Mqd";
   font-family: Indie Flower;
   display: block;
   line-height:24px;
@@ -151,7 +151,7 @@ body,#app-mount .titleBar-AC4pGV {background: var(--main-bg)}
 ****************************************************************
 ****************************************************************/
 /*Plugin Support*/
-/*Role Members Plugin*/
+/*Role Members Plugin by Zerebos*/
 #app-mount .popoutList-T9CKZQ {
 	background:rgba(var(--Red),var(--Green),var(--Blue),.7);
 	border: 1px solid rgba(calc(var(--Red) + 20),calc(var(--Green) + 20),calc(var(--Blue) + 20),0.5);
@@ -182,7 +182,8 @@ body,#app-mount .titleBar-AC4pGV {background: var(--main-bg)}
 .ml-tab-button:hover, .ml-filter-help-button:hover {
 	background: rgba(calc(var(--Red) + 10),calc(var(--Green) + 10),calc(var(--Blue) + 10),.5)!important;
 }
-#app-mount #memberCount {
+/*Member Count by Arashiryuu*/
+#app-mount #MemberCount {
 	color: rgba(150,150,150,1);
 	font-size: 11px;
 	text-transform: uppercase;
@@ -200,7 +201,7 @@ body,#app-mount .titleBar-AC4pGV {background: var(--main-bg)}
 	transform: translateY(-26px);
 	transition: all 0.2s ease-in-out;
 }
-#app-mount #memberCount:hover {
+#app-mount #MemberCount:hover {
 	transform: translateY(0px);
 }
 /*Plugin Update Notice*/
@@ -212,7 +213,7 @@ body,#app-mount .titleBar-AC4pGV {background: var(--main-bg)}
 #pluginNotice {
 	background: rgba(var(--Red),var(--Green),var(--Blue),1);
 }
-/*Reply System*/
+/*Reply System by Zerebos*/
 .reply-icon {
     order:3;
     position:relative;
