@@ -5,11 +5,11 @@
   display: block;
   padding-top: 5px;
   margin-bottom: -10px;
-  content: "CDT v3.05.007 by Waterin"; }
+  content: "CDT v3.05.008 by Waterin"; }
 /*Change Log*/
 #bd-settingspane-container .bda-slist::before,
 .app-2rEoOp button #bd-settingspane-container .bda-slist::before{
-  content:"Change Log - CDT 3.05.006\A\A 1• Added a Change Log to theme settings.\A 2• Updated Transparency.\A 3• Added Theme Dev | Patron | Contributor | Rauko's | Mitchell's | Nitro Tags to\A re-establish patron gifts.\A 4• Added Role Message Color.\A 5• Added a fix for reply icon from the plugin Reply System by Zerebos.\A 6• Added a PFP Fix temporarily.\A 7• New settings added to the theme.\A\A Support Server: https://discord.gg/ADn3Mqd";
+  content:"Change Log - CDT 3.05.008\A\A 1• Added a Change Log to theme settings.\A 2• Updated Transparency.\A 3• Added Theme Dev | Patron | Contributor | Rauko's | Mitchell's | Nitro Tags to\A re-establish patron gifts.\A 4• Added Role Message Color.\A 5• Added a fix for reply icon from the plugin Reply System by Zerebos.\A 6• Added a PFP Fix temporarily.\A 7• New settings added to the theme.\A\A Support Server: https://discord.gg/ADn3Mqd";
   font-family: Indie Flower;
   display: block;
   line-height:24px;
@@ -2067,4 +2067,15 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {
     0%{box-shadow: 1px 1px 20px rgba(0,0,0,0);}
 	50%{box-shadow: 1px 1px 20px rgba(var(--Red),var(--Green),var(--Blue),1);}
     100%{box-shadow: 1px 1px 20px rgba(0,0,0,0);}
+}
+/****************************************************************
+****************************************************************
+****************************************************************/
+/*Discord BS*/
+#app-mount .theme-dark .pageWrapper-1PgVDX {
+    background-color: transparant!important;
+    color: var(--Font-Color);
+}
+#app-mount .bg-AYqtMd {
+    display: none!important;
 }
