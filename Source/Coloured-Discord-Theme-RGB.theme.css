@@ -2048,7 +2048,7 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {
 	width: var(--chatavatar-size);
 	height: var(--chatavatar-size);
 	background-size: cover;
-	margin: -2px 12px 20px;
+	margin: -5px 12px;
 	border-radius: 2%;
 	border          : 5px solid rgba(var(--Red),var(--Green),var(--Blue),0.2);
 	border-radius   : 7px!important;
