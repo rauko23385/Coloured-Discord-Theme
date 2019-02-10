@@ -5,11 +5,11 @@
   display: block;
   padding-top: 5px;
   margin-bottom: -10px;
-  content: "CDT v3.05.010 by Waterin"; }
+  content: "CDT v3.05.011 by Waterin"; }
 /*Change Log*/
 #bd-settingspane-container .bda-slist::before,
 .app-2rEoOp button #bd-settingspane-container .bda-slist::before{
-  content:"Change Log - CDT 3.05.010\A\A 1• Added a Change Log to theme settings.\A 2• Updated Transparency.\A 3• Added Theme Dev | Patron | Contributor | Rauko's | Mitchell's | Nitro Tags to\A re-establish patron gifts.\A 4• Added Role Message Color.\A 5• Added a fix for reply icon from the plugin Reply System by Zerebos.\A 6• Added a PFP Fix temporarily.\A 7• New settings added to the theme.\A\A Support Server: https://discord.gg/ADn3Mqd";
+  content:"Change Log - CDT 3.05.011\A\A 1•\A\A Support Server: https://discord.gg/ADn3Mqd";
   font-family: Indie Flower;
   display: block;
   line-height:24px;
@@ -1911,8 +1911,7 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {
 :root { /*Defaults*/
 	--Tag-Anim1-Default:5s;
 	--Tag-Anim2-Default:5s;
-	--Tag-Anim1:5s;
-	--Tag-Anim2:5s;
+  	--Tag-Anim1-R1:20s;
 }
 /*Adjustements for tags*/
 .avatar-17mtNa,
@@ -2007,39 +2006,25 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {
 	100%{color: rgba(255, 255, 255, .1);content:'Mitchell';}
 }
 /*Rauko's Tag*/
-.avatar-17mtNa .image-33JSyf[style*='avatars/224518756964106242']::after {
-		font-weight: bold !important;
-		border-radius: 3px;
-		border-style:solid;
-		border-width: 0.5px;
-		flex-shrink: 0;
-		font-size: .655em;
-		font-weight: 700;
-		line-height: 1.3;
-		margin-left: -1ch;
-		padding: 1px 2px;
-		text-transform: uppercase;
-		text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-		vertical-align: middle;
-		background: rgba(131, 76, 60,0.25);
-		color: #000;
-		order: 2;
-		-webkit-animation: raukotag1 calc(4 * var(--Tag-Anim1, var(--Tag-Anim1-Default))) infinite,raukotag2 calc(4 * var(--Tag-Anim1, var(--Tag-Anim1-Default))) infinite;
-		background-size: 300% 120%;
+.avatar-17mtNa .image-33JSyf[style*="avatars/224518756964106242"]::after {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    background: rgba(131, 76, 60,0.25);
+    animation: raukotag1 var(--Tag-Anim1, var(--Tag-Anim1-R1)) infinite,raukotag2 var(--Tag-Anim1, var(--Tag-Anim1-R1)) infinite;
+    background-size: 300% 120%;
 }
 @-webkit-keyframes raukotag1 {
-	0%{background-position:0% 50%;}
-	25%{background-position:0% 50%;    color: darkred;    content: 'Contributor';     border-color: darkred;}
-	50%{background-position:0% 50%;    color: teal;    content: 'Tester';     border-color: teal}
-	75%{background-position:0% 50%;    color: cyan;    content: 'Regular';     border-color: cyan}
-	100%{background-position:0% 50%;     color: magenta;   content: 'Support';     border-color:magenta}
+    0%{color: darkred;content:'Contributor';border-color: darkred;}
+    25%{color: teal;content:'Tester';border-color: teal;}
+    50%{color: cyan;content:'Regular';border-color: cyan;}
+    75%{color: magenta;content:'Support';border-color:magenta;}
+    100%{color: darkred;content:'Contributor';border-color: darkred;}
 }
 @-webkit-keyframes raukotag2 {
-	0%{-webkit-box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.7);box-shadow: 0 0 0 3px rgba(0,0, 0, 0.7);}
-	25%{-webkit-box-shadow: 0 0 0 3px rgba(139, 0, 0, 0.7);box-shadow: 0 0 0 3px rgba(139, 0, 0, 0.7);}
-	50%{-webkit-box-shadow: 0 0 0 3px rgba(0, 128, 128 0.7);box-shadow: 0 0 0 3px rgba(0, 128, 128, 0.7);}
-	75%{-webkit-box-shadow: 0 0 0 3px rgba(0, 255, 255, 0.7);box-shadow: 0 0 0 3px rgba(0, 255, 255, 0.7);}
-	100%{-webkit-box-shadow: 0 0 0 3px rgba(255, 0, 255, 0.7);box-shadow: 0 0 0 3px rgba(255, 0, 255, 0.7);}
+    0%{box-shadow: 0 0 0 3px darkred;}
+    25%{box-shadow: 0 0 0 3px teal;}
+    50%{box-shadow: 0 0 0 3px cyan;}
+    75%{box-shadow: 0 0 0 3px magenta;}
+    100%{box-shadow: 0 0 0 3px darkred;}
 }
 /*Nitro's Tag*/
 .avatar-17mtNa .image-33JSyf[style*='/a_']::after{
@@ -2050,8 +2035,8 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {
 }
 .userPopout-3XzG_A {
     display:relative;
-    margin-left: 450px;
-    margin-top: 200px;
+    margin-left: 50%;
+    margin-top: 50%;
 }
 .timestampCozy-2hLAPV {
     order: 4;
