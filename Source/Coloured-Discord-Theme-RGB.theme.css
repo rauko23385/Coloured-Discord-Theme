@@ -5,11 +5,11 @@
   display: block;
   padding-top: 5px;
   margin-bottom: -10px;
-  content: "CDT v3.05.012 by Waterin"; }
+  content: "CDT v3.05.013 by Waterin"; }
 /*Change Log*/
 #bd-settingspane-container .bda-slist::before,
 .app-2rEoOp button #bd-settingspane-container .bda-slist::before{
-  content:"Change Log - CDT 3.05.011\A\A 1•\A\A Support Server: https://discord.gg/ADn3Mqd";
+  content:"Change Log - CDT 3.05.013\A\A 1• Fixed User popout.\A\A Support Server: https://discord.gg/ADn3Mqd";
   font-family: Indie Flower;
   display: block;
   line-height:24px;
@@ -2032,6 +2032,16 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {
     border-radius: 3px;
     background: #7289da;
     color: #fff;
+}
+.popoutRight-2ZVwL-.noArrow-3BYQ0Z {
+    display:relative;
+    margin-left: 50vw;
+    margin-top: 10vh;
+}
+#app-mount .userPopout-3XzG_A {
+    display:relative;
+    margin-left: 0;
+    margin-top: 0;
 }
 .timestampCozy-2hLAPV {
     order: 4;
