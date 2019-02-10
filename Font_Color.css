@@ -51,4 +51,1354 @@
   opacity: 1;
   pointer-events: none;
 }
+/*Channel SLide In*/
+/*Container 0*/
+.container-0 .da-containerDefault {
+    position:relative;
+    opacity:0;
+    animation: slide-in 1.2s ease;
+    animation-fill-mode:forwards;
+}
+.container-0 .da-containerDefault:nth-child(2) {
+    animation-delay:0s;
+}
+.container-0 .da-containerDefault:nth-child(3) {
+    animation-delay:0.2s;
+}
+.container-0 .da-containerDefault:nth-child(4) {
+    animation-delay:0.4s;
+}
+.container-0 .da-containerDefault:nth-child(5) {
+    animation-delay:0.6s;
+}
+.container-0 .da-containerDefault:nth-child(6) {
+    animation-delay:0.8s;
+}
+.container-0 .da-containerDefault:nth-child(7) {
+    animation-delay:1s;
+}
+.container-0 .da-containerDefault:nth-child(8) {
+    animation-delay:1.2s;
+}
+.container-0 .da-containerDefault:nth-child(9) {
+    animation-delay:1.4s;
+}
+.container-0 .da-containerDefault:nth-child(10) {
+    animation-delay:1.6s;
+}
+.container-0 .da-containerDefault:nth-child(11) {
+    animation-delay:1.8s;
+}
+.container-0 .da-containerDefault:nth-child(12) {
+    animation-delay:2s;
+}
+.container-0 .da-containerDefault:nth-child(13) {
+    animation-delay:2.2s;
+}
+.container-0 .da-containerDefault:nth-child(14) {
+    animation-delay:2.4s;
+}
+.container-0 .da-containerDefault:nth-child(15) {
+    animation-delay:2.6s;
+}
+.container-0 .da-containerDefault:nth-child(16) {
+    animation-delay:2.8s;
+}
+.container-0 .da-containerDefault:nth-child(17) {
+    animation-delay:3s;
+}
+.container-0 .da-containerDefault:nth-child(18) {
+    animation-delay:3.2s;
+}
+.container-0 .da-containerDefault:nth-child(19) {
+    animation-delay:3.4s;
+}
+.container-0 .da-containerDefault:nth-child(20) {
+    animation-delay:3.6s;
+}
+/*Container 1*/
+.container-1 .da-containerDefault {
+    position:relative;
+    opacity:0;
+    animation: slide-in 1.2s ease;
+    animation-fill-mode:forwards;
+}
+.container-1 .da-containerDefault:nth-child(2) {
+    animation-delay:0s;
+}
+.container-1 .da-containerDefault:nth-child(3) {
+    animation-delay:0.2s;
+}
+.container-1 .da-containerDefault:nth-child(4) {
+    animation-delay:0.4s;
+}
+.container-1 .da-containerDefault:nth-child(5) {
+    animation-delay:0.6s;
+}
+.container-1 .da-containerDefault:nth-child(6) {
+    animation-delay:0.8s;
+}
+.container-1 .da-containerDefault:nth-child(7) {
+    animation-delay:1s;
+}
+.container-1 .da-containerDefault:nth-child(8) {
+    animation-delay:1.2s;
+}
+.container-1 .da-containerDefault:nth-child(9) {
+    animation-delay:1.4s;
+}
+.container-1 .da-containerDefault:nth-child(10) {
+    animation-delay:1.6s;
+}
+.container-1 .da-containerDefault:nth-child(11) {
+    animation-delay:1.8s;
+}
+.container-1 .da-containerDefault:nth-child(12) {
+    animation-delay:2s;
+}
+.container-1 .da-containerDefault:nth-child(13) {
+    animation-delay:2.2s;
+}
+.container-1 .da-containerDefault:nth-child(14) {
+    animation-delay:2.4s;
+}
+.container-1 .da-containerDefault:nth-child(15) {
+    animation-delay:2.6s;
+}
+.container-1 .da-containerDefault:nth-child(16) {
+    animation-delay:2.8s;
+}
+.container-1 .da-containerDefault:nth-child(17) {
+    animation-delay:3s;
+}
+.container-1 .da-containerDefault:nth-child(18) {
+    animation-delay:3.2s;
+}
+.container-1 .da-containerDefault:nth-child(19) {
+    animation-delay:3.4s;
+}
+.container-1 .da-containerDefault:nth-child(20) {
+    animation-delay:3.6s;
+}
+/*Container 2*/
+.container-2 .da-containerDefault {
+    position:relative;
+    opacity:0;
+    animation: slide-in 1.2s ease;
+    animation-fill-mode:forwards;
+}
+.container-2 .da-containerDefault:nth-child(2) {
+    animation-delay:0s;
+}
+.container-2 .da-containerDefault:nth-child(3) {
+    animation-delay:0.2s;
+}
+.container-2 .da-containerDefault:nth-child(4) {
+    animation-delay:0.4s;
+}
+.container-2 .da-containerDefault:nth-child(5) {
+    animation-delay:0.6s;
+}
+.container-2 .da-containerDefault:nth-child(6) {
+    animation-delay:0.8s;
+}
+.container-2 .da-containerDefault:nth-child(7) {
+    animation-delay:1s;
+}
+.container-2 .da-containerDefault:nth-child(8) {
+    animation-delay:1.2s;
+}
+.container-2 .da-containerDefault:nth-child(9) {
+    animation-delay:1.4s;
+}
+.container-2 .da-containerDefault:nth-child(10) {
+    animation-delay:1.6s;
+}
+.container-2 .da-containerDefault:nth-child(11) {
+    animation-delay:1.8s;
+}
+.container-2 .da-containerDefault:nth-child(12) {
+    animation-delay:2s;
+}
+.container-2 .da-containerDefault:nth-child(13) {
+    animation-delay:2.2s;
+}
+.container-2 .da-containerDefault:nth-child(14) {
+    animation-delay:2.4s;
+}
+.container-2 .da-containerDefault:nth-child(15) {
+    animation-delay:2.6s;
+}
+.container-2 .da-containerDefault:nth-child(16) {
+    animation-delay:2.8s;
+}
+.container-2 .da-containerDefault:nth-child(17) {
+    animation-delay:3s;
+}
+.container-2 .da-containerDefault:nth-child(18) {
+    animation-delay:3.2s;
+}
+.container-2 .da-containerDefault:nth-child(19) {
+    animation-delay:3.4s;
+}
+.container-2 .da-containerDefault:nth-child(20) {
+    animation-delay:3.6s;
+}
+/*Container 3*/
+.container-3 .da-containerDefault {
+    position:relative;
+    opacity:0;
+    animation: slide-in 1.2s ease;
+    animation-fill-mode:forwards;
+}
+.container-3 .da-containerDefault:nth-child(2) {
+    animation-delay:0s;
+}
+.container-3 .da-containerDefault:nth-child(3) {
+    animation-delay:0.2s;
+}
+.container-3 .da-containerDefault:nth-child(4) {
+    animation-delay:0.4s;
+}
+.container-3 .da-containerDefault:nth-child(5) {
+    animation-delay:0.6s;
+}
+.container-3 .da-containerDefault:nth-child(6) {
+    animation-delay:0.8s;
+}
+.container-3 .da-containerDefault:nth-child(7) {
+    animation-delay:1s;
+}
+.container-3 .da-containerDefault:nth-child(8) {
+    animation-delay:1.2s;
+}
+.container-3 .da-containerDefault:nth-child(9) {
+    animation-delay:1.4s;
+}
+.container-3 .da-containerDefault:nth-child(10) {
+    animation-delay:1.6s;
+}
+.container-3 .da-containerDefault:nth-child(11) {
+    animation-delay:1.8s;
+}
+.container-3 .da-containerDefault:nth-child(12) {
+    animation-delay:2s;
+}
+.container-3 .da-containerDefault:nth-child(13) {
+    animation-delay:2.2s;
+}
+.container-3 .da-containerDefault:nth-child(14) {
+    animation-delay:2.4s;
+}
+.container-3 .da-containerDefault:nth-child(15) {
+    animation-delay:2.6s;
+}
+.container-3 .da-containerDefault:nth-child(16) {
+    animation-delay:2.8s;
+}
+.container-3 .da-containerDefault:nth-child(17) {
+    animation-delay:3s;
+}
+.container-3 .da-containerDefault:nth-child(18) {
+    animation-delay:3.2s;
+}
+.container-3 .da-containerDefault:nth-child(19) {
+    animation-delay:3.4s;
+}
+.container-3 .da-containerDefault:nth-child(20) {
+    animation-delay:3.6s;
+}
+/*Container 4*/
+.container-4 .da-containerDefault {
+    position:relative;
+    opacity:0;
+    animation: slide-in 1.2s ease;
+    animation-fill-mode:forwards;
+}
+.container-4 .da-containerDefault:nth-child(2) {
+    animation-delay:0s;
+}
+.container-4 .da-containerDefault:nth-child(3) {
+    animation-delay:0.2s;
+}
+.container-4 .da-containerDefault:nth-child(4) {
+    animation-delay:0.4s;
+}
+.container-4 .da-containerDefault:nth-child(5) {
+    animation-delay:0.6s;
+}
+.container-4 .da-containerDefault:nth-child(6) {
+    animation-delay:0.8s;
+}
+.container-4 .da-containerDefault:nth-child(7) {
+    animation-delay:1s;
+}
+.container-4 .da-containerDefault:nth-child(8) {
+    animation-delay:1.2s;
+}
+.container-4 .da-containerDefault:nth-child(9) {
+    animation-delay:1.4s;
+}
+.container-4 .da-containerDefault:nth-child(10) {
+    animation-delay:1.6s;
+}
+.container-4 .da-containerDefault:nth-child(11) {
+    animation-delay:1.8s;
+}
+.container-4 .da-containerDefault:nth-child(12) {
+    animation-delay:2s;
+}
+.container-4 .da-containerDefault:nth-child(13) {
+    animation-delay:2.2s;
+}
+.container-4 .da-containerDefault:nth-child(14) {
+    animation-delay:2.4s;
+}
+.container-4 .da-containerDefault:nth-child(15) {
+    animation-delay:2.6s;
+}
+.container-4 .da-containerDefault:nth-child(16) {
+    animation-delay:2.8s;
+}
+.container-4 .da-containerDefault:nth-child(17) {
+    animation-delay:3s;
+}
+.container-4 .da-containerDefault:nth-child(18) {
+    animation-delay:3.2s;
+}
+.container-4 .da-containerDefault:nth-child(19) {
+    animation-delay:3.4s;
+}
+.container-4 .da-containerDefault:nth-child(20) {
+    animation-delay:3.6s;
+}
+/*Container 5*/
+.container-5 .da-containerDefault {
+    position:relative;
+    opacity:0;
+    animation: slide-in 1.2s ease;
+    animation-fill-mode:forwards;
+}
+.container-5 .da-containerDefault:nth-child(2) {
+    animation-delay:0s;
+}
+.container-5 .da-containerDefault:nth-child(3) {
+    animation-delay:0.2s;
+}
+.container-5 .da-containerDefault:nth-child(4) {
+    animation-delay:0.4s;
+}
+.container-5 .da-containerDefault:nth-child(5) {
+    animation-delay:0.6s;
+}
+.container-5 .da-containerDefault:nth-child(6) {
+    animation-delay:0.8s;
+}
+.container-5 .da-containerDefault:nth-child(7) {
+    animation-delay:1s;
+}
+.container-5 .da-containerDefault:nth-child(8) {
+    animation-delay:1.2s;
+}
+.container-5 .da-containerDefault:nth-child(9) {
+    animation-delay:1.4s;
+}
+.container-5 .da-containerDefault:nth-child(10) {
+    animation-delay:1.6s;
+}
+.container-5 .da-containerDefault:nth-child(11) {
+    animation-delay:1.8s;
+}
+.container-5 .da-containerDefault:nth-child(12) {
+    animation-delay:2s;
+}
+.container-5 .da-containerDefault:nth-child(13) {
+    animation-delay:2.2s;
+}
+.container-5 .da-containerDefault:nth-child(14) {
+    animation-delay:2.4s;
+}
+.container-5 .da-containerDefault:nth-child(15) {
+    animation-delay:2.6s;
+}
+.container-5 .da-containerDefault:nth-child(16) {
+    animation-delay:2.8s;
+}
+.container-5 .da-containerDefault:nth-child(17) {
+    animation-delay:3s;
+}
+.container-5 .da-containerDefault:nth-child(18) {
+    animation-delay:3.2s;
+}
+.container-5 .da-containerDefault:nth-child(19) {
+    animation-delay:3.4s;
+}
+.container-5 .da-containerDefault:nth-child(20) {
+    animation-delay:3.6s;
+}
+/*Container 6*/
+.container-6 .da-containerDefault {
+    position:relative;
+    opacity:0;
+    animation: slide-in 1.5s ease;
+    animation-fill-mode:forwards;
+}
+.container-6 .da-containerDefault:nth-child(2) {
+    animation-delay:0s;
+}
+.container-6 .da-containerDefault:nth-child(3) {
+    animation-delay:0.2s;
+}
+.container-6 .da-containerDefault:nth-child(4) {
+    animation-delay:0.4s;
+}
+.container-6 .da-containerDefault:nth-child(5) {
+    animation-delay:0.6s;
+}
+.container-6 .da-containerDefault:nth-child(6) {
+    animation-delay:0.8s;
+}
+.container-6 .da-containerDefault:nth-child(7) {
+    animation-delay:1s;
+}
+.container-6 .da-containerDefault:nth-child(8) {
+    animation-delay:1.2s;
+}
+.container-6 .da-containerDefault:nth-child(9) {
+    animation-delay:1.4s;
+}
+.container-6 .da-containerDefault:nth-child(10) {
+    animation-delay:1.6s;
+}
+.container-6 .da-containerDefault:nth-child(11) {
+    animation-delay:1.8s;
+}
+.container-6 .da-containerDefault:nth-child(12) {
+    animation-delay:2s;
+}
+.container-6 .da-containerDefault:nth-child(13) {
+    animation-delay:2.2s;
+}
+.container-6 .da-containerDefault:nth-child(14) {
+    animation-delay:2.4s;
+}
+.container-6 .da-containerDefault:nth-child(15) {
+    animation-delay:2.6s;
+}
+.container-6 .da-containerDefault:nth-child(16) {
+    animation-delay:2.8s;
+}
+.container-6 .da-containerDefault:nth-child(17) {
+    animation-delay:3s;
+}
+.container-6 .da-containerDefault:nth-child(18) {
+    animation-delay:3.2s;
+}
+.container-6 .da-containerDefault:nth-child(19) {
+    animation-delay:3.4s;
+}
+.container-6 .da-containerDefault:nth-child(20) {
+    animation-delay:3.6s;
+}
+/*Container 7*/
+.container-7 .da-containerDefault {
+    position:relative;
+    opacity:0;
+    animation: slide-in 1.5s ease;
+    animation-fill-mode:forwards;
+}
+.container-7 .da-containerDefault:nth-child(2) {
+    animation-delay:0s;
+}
+.container-7 .da-containerDefault:nth-child(3) {
+    animation-delay:0.2s;
+}
+.container-7 .da-containerDefault:nth-child(4) {
+    animation-delay:0.4s;
+}
+.container-7 .da-containerDefault:nth-child(5) {
+    animation-delay:0.6s;
+}
+.container-7 .da-containerDefault:nth-child(6) {
+    animation-delay:0.8s;
+}
+.container-7 .da-containerDefault:nth-child(7) {
+    animation-delay:1s;
+}
+.container-7 .da-containerDefault:nth-child(8) {
+    animation-delay:1.2s;
+}
+.container-7 .da-containerDefault:nth-child(9) {
+    animation-delay:1.4s;
+}
+.container-7 .da-containerDefault:nth-child(10) {
+    animation-delay:1.6s;
+}
+.container-7 .da-containerDefault:nth-child(11) {
+    animation-delay:1.8s;
+}
+.container-7 .da-containerDefault:nth-child(12) {
+    animation-delay:2s;
+}
+.container-7 .da-containerDefault:nth-child(13) {
+    animation-delay:2.2s;
+}
+.container-7 .da-containerDefault:nth-child(14) {
+    animation-delay:2.4s;
+}
+.container-7 .da-containerDefault:nth-child(15) {
+    animation-delay:2.6s;
+}
+.container-7 .da-containerDefault:nth-child(16) {
+    animation-delay:2.8s;
+}
+.container-7 .da-containerDefault:nth-child(17) {
+    animation-delay:3s;
+}
+.container-7 .da-containerDefault:nth-child(18) {
+    animation-delay:3.2s;
+}
+.container-7 .da-containerDefault:nth-child(19) {
+    animation-delay:3.4s;
+}
+.container-7 .da-containerDefault:nth-child(20) {
+    animation-delay:3.6s;
+}
+/*Container 8*/
+.container-8 .da-containerDefault {
+    position:relative;
+    opacity:0;
+    animation: slide-in 1.5s ease;
+    animation-fill-mode:forwards;
+}
+.container-8 .da-containerDefault:nth-child(2) {
+    animation-delay:0s;
+}
+.container-8 .da-containerDefault:nth-child(3) {
+    animation-delay:0.2s;
+}
+.container-8 .da-containerDefault:nth-child(4) {
+    animation-delay:0.4s;
+}
+.container-8 .da-containerDefault:nth-child(5) {
+    animation-delay:0.6s;
+}
+.container-8 .da-containerDefault:nth-child(6) {
+    animation-delay:0.8s;
+}
+.container-8 .da-containerDefault:nth-child(7) {
+    animation-delay:1s;
+}
+.container-8 .da-containerDefault:nth-child(8) {
+    animation-delay:1.2s;
+}
+.container-8 .da-containerDefault:nth-child(9) {
+    animation-delay:1.4s;
+}
+.container-8 .da-containerDefault:nth-child(10) {
+    animation-delay:1.6s;
+}
+.container-8 .da-containerDefault:nth-child(11) {
+    animation-delay:1.8s;
+}
+.container-8 .da-containerDefault:nth-child(12) {
+    animation-delay:2s;
+}
+.container-8 .da-containerDefault:nth-child(13) {
+    animation-delay:2.2s;
+}
+.container-8 .da-containerDefault:nth-child(14) {
+    animation-delay:2.4s;
+}
+.container-8 .da-containerDefault:nth-child(15) {
+    animation-delay:2.6s;
+}
+.container-8 .da-containerDefault:nth-child(16) {
+    animation-delay:2.8s;
+}
+.container-8 .da-containerDefault:nth-child(17) {
+    animation-delay:3s;
+}
+.container-8 .da-containerDefault:nth-child(18) {
+    animation-delay:3.2s;
+}
+.container-8 .da-containerDefault:nth-child(19) {
+    animation-delay:3.4s;
+}
+.container-8 .da-containerDefault:nth-child(20) {
+    animation-delay:3.6s;
+}
+/*Container 9*/
+.container-9 .da-containerDefault {
+    position:relative;
+    opacity:0;
+    animation: slide-in 1.5s ease;
+    animation-fill-mode:forwards;
+}
+.container-9 .da-containerDefault:nth-child(2) {
+    animation-delay:0s;
+}
+.container-9 .da-containerDefault:nth-child(3) {
+    animation-delay:0.2s;
+}
+.container-9 .da-containerDefault:nth-child(4) {
+    animation-delay:0.4s;
+}
+.container-9 .da-containerDefault:nth-child(5) {
+    animation-delay:0.6s;
+}
+.container-9 .da-containerDefault:nth-child(6) {
+    animation-delay:0.8s;
+}
+.container-9 .da-containerDefault:nth-child(7) {
+    animation-delay:1s;
+}
+.container-9 .da-containerDefault:nth-child(8) {
+    animation-delay:1.2s;
+}
+.container-9 .da-containerDefault:nth-child(9) {
+    animation-delay:1.4s;
+}
+.container-9 .da-containerDefault:nth-child(10) {
+    animation-delay:1.6s;
+}
+.container-9 .da-containerDefault:nth-child(11) {
+    animation-delay:1.8s;
+}
+.container-9 .da-containerDefault:nth-child(12) {
+    animation-delay:2s;
+}
+.container-9 .da-containerDefault:nth-child(13) {
+    animation-delay:2.2s;
+}
+.container-9 .da-containerDefault:nth-child(14) {
+    animation-delay:2.4s;
+}
+.container-9 .da-containerDefault:nth-child(15) {
+    animation-delay:2.6s;
+}
+.container-9 .da-containerDefault:nth-child(16) {
+    animation-delay:2.8s;
+}
+.container-9 .da-containerDefault:nth-child(17) {
+    animation-delay:3s;
+}
+.container-9 .da-containerDefault:nth-child(18) {
+    animation-delay:3.2s;
+}
+.container-9 .da-containerDefault:nth-child(19) {
+    animation-delay:3.4s;
+}
+.container-9 .da-containerDefault:nth-child(20) {
+    animation-delay:3.6s;
+}
+/*Container 10*/
+.container-10 .da-containerDefault {
+    position:relative;
+    opacity:0;
+    animation: slide-in 1.5s ease;
+    animation-fill-mode:forwards;
+}
+.container-10 .da-containerDefault:nth-child(2) {
+    animation-delay:0s;
+}
+.container-10 .da-containerDefault:nth-child(3) {
+    animation-delay:0.2s;
+}
+.container-10 .da-containerDefault:nth-child(4) {
+    animation-delay:0.4s;
+}
+.container-10 .da-containerDefault:nth-child(5) {
+    animation-delay:0.6s;
+}
+.container-10 .da-containerDefault:nth-child(6) {
+    animation-delay:0.8s;
+}
+.container-10 .da-containerDefault:nth-child(7) {
+    animation-delay:1s;
+}
+.container-10 .da-containerDefault:nth-child(8) {
+    animation-delay:1.2s;
+}
+.container-10 .da-containerDefault:nth-child(9) {
+    animation-delay:1.4s;
+}
+.container-10 .da-containerDefault:nth-child(10) {
+    animation-delay:1.6s;
+}
+.container-10 .da-containerDefault:nth-child(11) {
+    animation-delay:1.8s;
+}
+.container-10 .da-containerDefault:nth-child(12) {
+    animation-delay:2s;
+}
+.container-10 .da-containerDefault:nth-child(13) {
+    animation-delay:2.2s;
+}
+.container-10 .da-containerDefault:nth-child(14) {
+    animation-delay:2.4s;
+}
+.container-10 .da-containerDefault:nth-child(15) {
+    animation-delay:2.6s;
+}
+.container-10 .da-containerDefault:nth-child(16) {
+    animation-delay:2.8s;
+}
+.container-10 .da-containerDefault:nth-child(17) {
+    animation-delay:3s;
+}
+.container-10 .da-containerDefault:nth-child(18) {
+    animation-delay:3.2s;
+}
+.container-10 .da-containerDefault:nth-child(19) {
+    animation-delay:3.4s;
+}
+.container-10 .da-containerDefault:nth-child(20) {
+    animation-delay:3.6s;
+}
+/*Container 11*/
+.container-11 .da-containerDefault {
+    position:relative;
+    opacity:0;
+    animation: slide-in 1.5s ease;
+    animation-fill-mode:forwards;
+}
+.container-11 .da-containerDefault:nth-child(2) {
+    animation-delay:0s;
+}
+.container-11 .da-containerDefault:nth-child(3) {
+    animation-delay:0.2s;
+}
+.container-11 .da-containerDefault:nth-child(4) {
+    animation-delay:0.4s;
+}
+.container-11 .da-containerDefault:nth-child(5) {
+    animation-delay:0.6s;
+}
+.container-11 .da-containerDefault:nth-child(6) {
+    animation-delay:0.8s;
+}
+.container-11 .da-containerDefault:nth-child(7) {
+    animation-delay:1s;
+}
+.container-11 .da-containerDefault:nth-child(8) {
+    animation-delay:1.2s;
+}
+.container-11 .da-containerDefault:nth-child(9) {
+    animation-delay:1.4s;
+}
+.container-11 .da-containerDefault:nth-child(10) {
+    animation-delay:1.6s;
+}
+.container-11 .da-containerDefault:nth-child(11) {
+    animation-delay:1.8s;
+}
+.container-11 .da-containerDefault:nth-child(12) {
+    animation-delay:2s;
+}
+.container-11 .da-containerDefault:nth-child(13) {
+    animation-delay:2.2s;
+}
+.container-11 .da-containerDefault:nth-child(14) {
+    animation-delay:2.4s;
+}
+.container-11 .da-containerDefault:nth-child(15) {
+    animation-delay:2.6s;
+}
+.container-11 .da-containerDefault:nth-child(16) {
+    animation-delay:2.8s;
+}
+.container-11 .da-containerDefault:nth-child(17) {
+    animation-delay:3s;
+}
+.container-11 .da-containerDefault:nth-child(18) {
+    animation-delay:3.2s;
+}
+.container-11 .da-containerDefault:nth-child(19) {
+    animation-delay:3.4s;
+}
+.container-11 .da-containerDefault:nth-child(20) {
+    animation-delay:3.6s;
+}
+/*Container 12*/
+.container-12 .da-containerDefault {
+    position:relative;
+    opacity:0;
+    animation: slide-in 1.5s ease;
+    animation-fill-mode:forwards;
+}
+.container-12 .da-containerDefault:nth-child(2) {
+    animation-delay:0s;
+}
+.container-12 .da-containerDefault:nth-child(3) {
+    animation-delay:0.2s;
+}
+.container-12 .da-containerDefault:nth-child(4) {
+    animation-delay:0.4s;
+}
+.container-12 .da-containerDefault:nth-child(5) {
+    animation-delay:0.6s;
+}
+.container-12 .da-containerDefault:nth-child(6) {
+    animation-delay:0.8s;
+}
+.container-12 .da-containerDefault:nth-child(7) {
+    animation-delay:1s;
+}
+.container-12 .da-containerDefault:nth-child(8) {
+    animation-delay:1.2s;
+}
+.container-12 .da-containerDefault:nth-child(9) {
+    animation-delay:1.4s;
+}
+.container-12 .da-containerDefault:nth-child(10) {
+    animation-delay:1.6s;
+}
+.container-12 .da-containerDefault:nth-child(11) {
+    animation-delay:1.8s;
+}
+.container-12 .da-containerDefault:nth-child(12) {
+    animation-delay:2s;
+}
+.container-12 .da-containerDefault:nth-child(13) {
+    animation-delay:2.2s;
+}
+.container-12 .da-containerDefault:nth-child(14) {
+    animation-delay:2.4s;
+}
+.container-12 .da-containerDefault:nth-child(15) {
+    animation-delay:2.6s;
+}
+.container-12 .da-containerDefault:nth-child(16) {
+    animation-delay:2.8s;
+}
+.container-12 .da-containerDefault:nth-child(17) {
+    animation-delay:3s;
+}
+.container-12 .da-containerDefault:nth-child(18) {
+    animation-delay:3.2s;
+}
+.container-12 .da-containerDefault:nth-child(19) {
+    animation-delay:3.4s;
+}
+.container-12 .da-containerDefault:nth-child(20) {
+    animation-delay:3.6s;
+}
+/*Container 13*/
+.container-13 .da-containerDefault {
+    position:relative;
+    opacity:0;
+    animation: slide-in 1.5s ease;
+    animation-fill-mode:forwards;
+}
+.container-13 .da-containerDefault:nth-child(2) {
+    animation-delay:0s;
+}
+.container-13 .da-containerDefault:nth-child(3) {
+    animation-delay:0.2s;
+}
+.container-13 .da-containerDefault:nth-child(4) {
+    animation-delay:0.4s;
+}
+.container-13 .da-containerDefault:nth-child(5) {
+    animation-delay:0.6s;
+}
+.container-13 .da-containerDefault:nth-child(6) {
+    animation-delay:0.8s;
+}
+.container-13 .da-containerDefault:nth-child(7) {
+    animation-delay:1s;
+}
+.container-13 .da-containerDefault:nth-child(8) {
+    animation-delay:1.2s;
+}
+.container-13 .da-containerDefault:nth-child(9) {
+    animation-delay:1.4s;
+}
+.container-13 .da-containerDefault:nth-child(10) {
+    animation-delay:1.6s;
+}
+.container-13 .da-containerDefault:nth-child(11) {
+    animation-delay:1.8s;
+}
+.container-13 .da-containerDefault:nth-child(12) {
+    animation-delay:2s;
+}
+.container-13 .da-containerDefault:nth-child(13) {
+    animation-delay:2.2s;
+}
+.container-13 .da-containerDefault:nth-child(14) {
+    animation-delay:2.4s;
+}
+.container-13 .da-containerDefault:nth-child(15) {
+    animation-delay:2.6s;
+}
+.container-13 .da-containerDefault:nth-child(16) {
+    animation-delay:2.8s;
+}
+.container-13 .da-containerDefault:nth-child(17) {
+    animation-delay:3s;
+}
+.container-13 .da-containerDefault:nth-child(18) {
+    animation-delay:3.2s;
+}
+.container-13 .da-containerDefault:nth-child(19) {
+    animation-delay:3.4s;
+}
+.container-13 .da-containerDefault:nth-child(20) {
+    animation-delay:3.6s;
+}
+/*Container 14*/
+.container-14 .da-containerDefault {
+    position:relative;
+    opacity:0;
+    animation: slide-in 1.5s ease;
+    animation-fill-mode:forwards;
+}
+.container-14 .da-containerDefault:nth-child(2) {
+    animation-delay:0s;
+}
+.container-14 .da-containerDefault:nth-child(3) {
+    animation-delay:0.2s;
+}
+.container-14 .da-containerDefault:nth-child(4) {
+    animation-delay:0.4s;
+}
+.container-14 .da-containerDefault:nth-child(5) {
+    animation-delay:0.6s;
+}
+.container-14 .da-containerDefault:nth-child(6) {
+    animation-delay:0.8s;
+}
+.container-14 .da-containerDefault:nth-child(7) {
+    animation-delay:1s;
+}
+.container-14 .da-containerDefault:nth-child(8) {
+    animation-delay:1.2s;
+}
+.container-14 .da-containerDefault:nth-child(9) {
+    animation-delay:1.4s;
+}
+.container-14 .da-containerDefault:nth-child(10) {
+    animation-delay:1.6s;
+}
+.container-14 .da-containerDefault:nth-child(11) {
+    animation-delay:1.8s;
+}
+.container-14 .da-containerDefault:nth-child(12) {
+    animation-delay:2s;
+}
+.container-14 .da-containerDefault:nth-child(13) {
+    animation-delay:2.2s;
+}
+.container-14 .da-containerDefault:nth-child(14) {
+    animation-delay:2.4s;
+}
+.container-14 .da-containerDefault:nth-child(15) {
+    animation-delay:2.6s;
+}
+.container-14 .da-containerDefault:nth-child(16) {
+    animation-delay:2.8s;
+}
+.container-14 .da-containerDefault:nth-child(17) {
+    animation-delay:3s;
+}
+.container-14 .da-containerDefault:nth-child(18) {
+    animation-delay:3.2s;
+}
+.container-14 .da-containerDefault:nth-child(19) {
+    animation-delay:3.4s;
+}
+.container-14 .da-containerDefault:nth-child(20) {
+    animation-delay:3.6s;
+}
+/*Container 15*/
+.container-15 .da-containerDefault {
+    position:relative;
+    opacity:0;
+    animation: slide-in 1.5s ease;
+    animation-fill-mode:forwards;
+}
+.container-15 .da-containerDefault:nth-child(2) {
+    animation-delay:0s;
+}
+.container-15 .da-containerDefault:nth-child(3) {
+    animation-delay:0.2s;
+}
+.container-15 .da-containerDefault:nth-child(4) {
+    animation-delay:0.4s;
+}
+.container-15 .da-containerDefault:nth-child(5) {
+    animation-delay:0.6s;
+}
+.container-15 .da-containerDefault:nth-child(6) {
+    animation-delay:0.8s;
+}
+.container-15 .da-containerDefault:nth-child(7) {
+    animation-delay:1s;
+}
+.container-15 .da-containerDefault:nth-child(8) {
+    animation-delay:1.2s;
+}
+.container-15 .da-containerDefault:nth-child(9) {
+    animation-delay:1.4s;
+}
+.container-15 .da-containerDefault:nth-child(10) {
+    animation-delay:1.6s;
+}
+.container-15 .da-containerDefault:nth-child(11) {
+    animation-delay:1.8s;
+}
+.container-15 .da-containerDefault:nth-child(12) {
+    animation-delay:2s;
+}
+.container-15 .da-containerDefault:nth-child(13) {
+    animation-delay:2.2s;
+}
+.container-15 .da-containerDefault:nth-child(14) {
+    animation-delay:2.4s;
+}
+.container-15 .da-containerDefault:nth-child(15) {
+    animation-delay:2.6s;
+}
+.container-15 .da-containerDefault:nth-child(16) {
+    animation-delay:2.8s;
+}
+.container-15 .da-containerDefault:nth-child(17) {
+    animation-delay:3s;
+}
+.container-15 .da-containerDefault:nth-child(18) {
+    animation-delay:3.2s;
+}
+.container-15 .da-containerDefault:nth-child(19) {
+    animation-delay:3.4s;
+}
+.container-15 .da-containerDefault:nth-child(20) {
+    animation-delay:3.6s;
+}
+/*Container 16*/
+.container-16 .da-containerDefault {
+    position:relative;
+    opacity:0;
+    animation: slide-in 1.5s ease;
+    animation-fill-mode:forwards;
+}
+.container-16 .da-containerDefault:nth-child(2) {
+    animation-delay:0s;
+}
+.container-16 .da-containerDefault:nth-child(3) {
+    animation-delay:0.2s;
+}
+.container-16 .da-containerDefault:nth-child(4) {
+    animation-delay:0.4s;
+}
+.container-16 .da-containerDefault:nth-child(5) {
+    animation-delay:0.6s;
+}
+.container-16 .da-containerDefault:nth-child(6) {
+    animation-delay:0.8s;
+}
+.container-16 .da-containerDefault:nth-child(7) {
+    animation-delay:1s;
+}
+.container-16 .da-containerDefault:nth-child(8) {
+    animation-delay:1.2s;
+}
+.container-16 .da-containerDefault:nth-child(9) {
+    animation-delay:1.4s;
+}
+.container-16 .da-containerDefault:nth-child(10) {
+    animation-delay:1.6s;
+}
+.container-16 .da-containerDefault:nth-child(11) {
+    animation-delay:1.8s;
+}
+.container-16 .da-containerDefault:nth-child(12) {
+    animation-delay:2s;
+}
+.container-16 .da-containerDefault:nth-child(13) {
+    animation-delay:2.2s;
+}
+.container-16 .da-containerDefault:nth-child(14) {
+    animation-delay:2.4s;
+}
+.container-16 .da-containerDefault:nth-child(15) {
+    animation-delay:2.6s;
+}
+.container-16 .da-containerDefault:nth-child(16) {
+    animation-delay:2.8s;
+}
+.container-16 .da-containerDefault:nth-child(17) {
+    animation-delay:3s;
+}
+.container-16 .da-containerDefault:nth-child(18) {
+    animation-delay:3.2s;
+}
+.container-16 .da-containerDefault:nth-child(19) {
+    animation-delay:3.4s;
+}
+.container-16 .da-containerDefault:nth-child(20) {
+    animation-delay:3.6s;
+}
+/*Container 17*/
+.container-17 .da-containerDefault {
+    position:relative;
+    opacity:0;
+    animation: slide-in 1.5s ease;
+    animation-fill-mode:forwards;
+}
+.container-17 .da-containerDefault:nth-child(2) {
+    animation-delay:0s;
+}
+.container-17 .da-containerDefault:nth-child(3) {
+    animation-delay:0.2s;
+}
+.container-17 .da-containerDefault:nth-child(4) {
+    animation-delay:0.4s;
+}
+.container-17 .da-containerDefault:nth-child(5) {
+    animation-delay:0.6s;
+}
+.container-17 .da-containerDefault:nth-child(6) {
+    animation-delay:0.8s;
+}
+.container-17 .da-containerDefault:nth-child(7) {
+    animation-delay:1s;
+}
+.container-17 .da-containerDefault:nth-child(8) {
+    animation-delay:1.2s;
+}
+.container-17 .da-containerDefault:nth-child(9) {
+    animation-delay:1.4s;
+}
+.container-17 .da-containerDefault:nth-child(10) {
+    animation-delay:1.6s;
+}
+.container-17 .da-containerDefault:nth-child(11) {
+    animation-delay:1.8s;
+}
+.container-17 .da-containerDefault:nth-child(12) {
+    animation-delay:2s;
+}
+.container-17 .da-containerDefault:nth-child(13) {
+    animation-delay:2.2s;
+}
+.container-17 .da-containerDefault:nth-child(14) {
+    animation-delay:2.4s;
+}
+.container-17 .da-containerDefault:nth-child(15) {
+    animation-delay:2.6s;
+}
+.container-17 .da-containerDefault:nth-child(16) {
+    animation-delay:2.8s;
+}
+.container-17 .da-containerDefault:nth-child(17) {
+    animation-delay:3s;
+}
+.container-17 .da-containerDefault:nth-child(18) {
+    animation-delay:3.2s;
+}
+.container-17 .da-containerDefault:nth-child(19) {
+    animation-delay:3.4s;
+}
+.container-17 .da-containerDefault:nth-child(20) {
+    animation-delay:3.6s;
+}
+/*Container 18*/
+.container-18 .da-containerDefault {
+    position:relative;
+    opacity:0;
+    animation: slide-in 1.5s ease;
+    animation-fill-mode:forwards;
+}
+.container-18 .da-containerDefault:nth-child(2) {
+    animation-delay:0s;
+}
+.container-18 .da-containerDefault:nth-child(3) {
+    animation-delay:0.2s;
+}
+.container-18 .da-containerDefault:nth-child(4) {
+    animation-delay:0.4s;
+}
+.container-18 .da-containerDefault:nth-child(5) {
+    animation-delay:0.6s;
+}
+.container-18 .da-containerDefault:nth-child(6) {
+    animation-delay:0.8s;
+}
+.container-18 .da-containerDefault:nth-child(7) {
+    animation-delay:1s;
+}
+.container-18 .da-containerDefault:nth-child(8) {
+    animation-delay:1.2s;
+}
+.container-18 .da-containerDefault:nth-child(9) {
+    animation-delay:1.4s;
+}
+.container-18 .da-containerDefault:nth-child(10) {
+    animation-delay:1.6s;
+}
+.container-18 .da-containerDefault:nth-child(11) {
+    animation-delay:1.8s;
+}
+.container-18 .da-containerDefault:nth-child(12) {
+    animation-delay:2s;
+}
+.container-18 .da-containerDefault:nth-child(13) {
+    animation-delay:2.2s;
+}
+.container-18 .da-containerDefault:nth-child(14) {
+    animation-delay:2.4s;
+}
+.container-18 .da-containerDefault:nth-child(15) {
+    animation-delay:2.6s;
+}
+.container-18 .da-containerDefault:nth-child(16) {
+    animation-delay:2.8s;
+}
+.container-18 .da-containerDefault:nth-child(17) {
+    animation-delay:3s;
+}
+.container-18 .da-containerDefault:nth-child(18) {
+    animation-delay:3.2s;
+}
+.container-18 .da-containerDefault:nth-child(19) {
+    animation-delay:3.4s;
+}
+.container-18 .da-containerDefault:nth-child(20) {
+    animation-delay:3.6s;
+}
+/*Container 19*/
+.container-19 .da-containerDefault {
+    position:relative;
+    opacity:0;
+    animation: slide-in 1.5s ease;
+    animation-fill-mode:forwards;
+}
+.container-19 .da-containerDefault:nth-child(2) {
+    animation-delay:0s;
+}
+.container-19 .da-containerDefault:nth-child(3) {
+    animation-delay:0.2s;
+}
+.container-19 .da-containerDefault:nth-child(4) {
+    animation-delay:0.4s;
+}
+.container-19 .da-containerDefault:nth-child(5) {
+    animation-delay:0.6s;
+}
+.container-19 .da-containerDefault:nth-child(6) {
+    animation-delay:0.8s;
+}
+.container-19 .da-containerDefault:nth-child(7) {
+    animation-delay:1s;
+}
+.container-19 .da-containerDefault:nth-child(8) {
+    animation-delay:1.2s;
+}
+.container-19 .da-containerDefault:nth-child(9) {
+    animation-delay:1.4s;
+}
+.container-19 .da-containerDefault:nth-child(10) {
+    animation-delay:1.6s;
+}
+.container-19 .da-containerDefault:nth-child(11) {
+    animation-delay:1.8s;
+}
+.container-19 .da-containerDefault:nth-child(12) {
+    animation-delay:2s;
+}
+.container-19 .da-containerDefault:nth-child(13) {
+    animation-delay:2.2s;
+}
+.container-19 .da-containerDefault:nth-child(14) {
+    animation-delay:2.4s;
+}
+.container-19 .da-containerDefault:nth-child(15) {
+    animation-delay:2.6s;
+}
+.container-19 .da-containerDefault:nth-child(16) {
+    animation-delay:2.8s;
+}
+.container-19 .da-containerDefault:nth-child(17) {
+    animation-delay:3s;
+}
+.container-19 .da-containerDefault:nth-child(18) {
+    animation-delay:3.2s;
+}
+.container-19 .da-containerDefault:nth-child(19) {
+    animation-delay:3.4s;
+}
+.container-19 .da-containerDefault:nth-child(20) {
+    animation-delay:3.6s;
+}
+/*Container 20*/
+.container-20 .da-containerDefault {
+    position:relative;
+    opacity:0;
+    animation: slide-in 1.5s ease;
+    animation-fill-mode:forwards;
+}
+.container-20 .da-containerDefault:nth-child(2) {
+    animation-delay:0s;
+}
+.container-20 .da-containerDefault:nth-child(3) {
+    animation-delay:0.2s;
+}
+.container-20 .da-containerDefault:nth-child(4) {
+    animation-delay:0.4s;
+}
+.container-20 .da-containerDefault:nth-child(5) {
+    animation-delay:0.6s;
+}
+.container-20 .da-containerDefault:nth-child(6) {
+    animation-delay:0.8s;
+}
+.container-20 .da-containerDefault:nth-child(7) {
+    animation-delay:1s;
+}
+.container-20 .da-containerDefault:nth-child(8) {
+    animation-delay:1.2s;
+}
+.container-20 .da-containerDefault:nth-child(9) {
+    animation-delay:1.4s;
+}
+.container-20 .da-containerDefault:nth-child(10) {
+    animation-delay:1.6s;
+}
+.container-20 .da-containerDefault:nth-child(11) {
+    animation-delay:1.8s;
+}
+.container-20 .da-containerDefault:nth-child(12) {
+    animation-delay:2s;
+}
+.container-20 .da-containerDefault:nth-child(13) {
+    animation-delay:2.2s;
+}
+.container-20 .da-containerDefault:nth-child(14) {
+    animation-delay:2.4s;
+}
+.container-20 .da-containerDefault:nth-child(15) {
+    animation-delay:2.6s;
+}
+.container-20 .da-containerDefault:nth-child(16) {
+    animation-delay:2.8s;
+}
+.container-20 .da-containerDefault:nth-child(17) {
+    animation-delay:3s;
+}
+.container-20 .da-containerDefault:nth-child(18) {
+    animation-delay:3.2s;
+}
+.container-20 .da-containerDefault:nth-child(19) {
+    animation-delay:3.4s;
+}
+.container-20 .da-containerDefault:nth-child(20) {
+    animation-delay:3.6s;
+}
+@keyframes slide-in {
+    0%{transform: matrix(1,0,0,1,-230,-1000);filter:blur(30px);opacity:1;}
+    20%{transform: matrix(1,0,0,1,-230,0);opacity:1;}
+    100%{transform: matrix(1,0,0,1,0,0);filter: blur(0px);opacity:1;}
+}
 
