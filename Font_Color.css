@@ -56,65 +56,65 @@
 .containerDefault-1ZnADq {
     position:relative;
     opacity:0;
-    animation: slide-in 1.2s ease;
+    animation: slide-in calc(1.2s / var(--slide-speed, 1)) ease;
     animation-fill-mode:forwards;
 }
 .containerDefault-1ZnADq:nth-child(2) {
     animation-delay:0s;
 }
 .containerDefault-1ZnADq:nth-child(3) {
-    animation-delay:0.2s;
+    animation-delay:calc(0.2s / var(--slide-interval, 1));
 }
 .containerDefault-1ZnADq:nth-child(4) {
-    animation-delay:0.4s;
+    animation-delay:calc(0.4s / var(--slide-interval, 1));
 }
 .containerDefault-1ZnADq:nth-child(5) {
-    animation-delay:0.6s;
+    animation-delay:calc(0.6s / var(--slide-interval, 1));
 }
 .containerDefault-1ZnADq:nth-child(6) {
-    animation-delay:0.8s;
+    animation-delay:calc(0.8s / var(--slide-interval, 1));
 }
 .containerDefault-1ZnADq:nth-child(7) {
-    animation-delay:1s;
+    animation-delay:calc(1s / var(--slide-interval, 1));
 }
 .containerDefault-1ZnADq:nth-child(8) {
-    animation-delay:1.2s;
+    animation-delay:calc(1.2s / var(--slide-interval, 1));
 }
 .containerDefault-1ZnADq:nth-child(9) {
-    animation-delay:1.4s;
+    animation-delay:calc(1.4s / var(--slide-interval, 1));
 }
 .containerDefault-1ZnADq:nth-child(10) {
-    animation-delay:1.6s;
+    animation-delay:calc(1.6s / var(--slide-interval, 1));
 }
 .containerDefault-1ZnADq:nth-child(11) {
-    animation-delay:1.8s;
+    animation-delay:calc(1.8s / var(--slide-interval, 1));
 }
 .containerDefault-1ZnADq:nth-child(12) {
-    animation-delay:2s;
+    animation-delay:calc(2s / var(--slide-interval, 1));
 }
 .containerDefault-1ZnADq:nth-child(13) {
-    animation-delay:2.2s;
+    animation-delay:calc(2.2s / var(--slide-interval, 1));
 }
 .containerDefault-1ZnADq:nth-child(14) {
-    animation-delay:2.4s;
+    animation-delay:calc(2.4s / var(--slide-interval, 1));
 }
 .containerDefault-1ZnADq:nth-child(15) {
-    animation-delay:2.6s;
+    animation-delay:calc(2.6s / var(--slide-interval, 1));
 }
 .containerDefault-1ZnADq:nth-child(16) {
-    animation-delay:2.8s;
+    animation-delay:calc(2.8s / var(--slide-interval, 1));
 }
 .containerDefault-1ZnADq:nth-child(17) {
-    animation-delay:3s;
+    animation-delay:calc(3s / var(--slide-interval, 1));
 }
 .containerDefault-1ZnADq:nth-child(18) {
-    animation-delay:3.2s;
+	animation-delay:calc(3.2s / var(--slide-interval, 1));
 }
 .containerDefault-1ZnADq:nth-child(19) {
-    animation-delay:3.4s;
+    animation-delay:calc(3.4s / var(--slide-interval, 1));
 }
 .containerDefault-1ZnADq:nth-child(20) {
-    animation-delay:3.6s;
+    animation-delay:calc(3.6s / var(--slide-interval, 1));
 }
 @keyframes slide-in {
     0%{transform: matrix(1,0,0,1,-230,-1000);filter:blur(30px);opacity:1;}
