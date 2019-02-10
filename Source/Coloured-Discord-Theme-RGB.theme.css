@@ -5,7 +5,7 @@
   display: block;
   padding-top: 5px;
   margin-bottom: -10px;
-  content: "CDT v3.05.011 by Waterin"; }
+  content: "CDT v3.05.012 by Waterin"; }
 /*Change Log*/
 #bd-settingspane-container .bda-slist::before,
 .app-2rEoOp button #bd-settingspane-container .bda-slist::before{
@@ -2032,11 +2032,6 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {
     border-radius: 3px;
     background: #7289da;
     color: #fff;
-}
-.userPopout-3XzG_A {
-    display:relative;
-    margin-left: 50%;
-    margin-top: 50%;
 }
 .timestampCozy-2hLAPV {
     order: 4;
