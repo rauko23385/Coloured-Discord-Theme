@@ -5,11 +5,11 @@
   display: block;
   padding-top: 5px;
   margin-bottom: -10px;
-  content: "CDT v3.05.015 by Waterin"; }
+  content: "CDT v3.05.016 by Waterin"; }
 /*Change Log*/
 #bd-settingspane-container .bda-slist::before,
 .app-2rEoOp button #bd-settingspane-container .bda-slist::before{
-  content:"Change Log - CDT 3.05.015\A\A 1• Fixed User popout.\A\A Support Server: https://discord.gg/ADn3Mqd";
+  content:"Change Log - CDT 3.05.016\A\A 1• Fixed User popout.\A\A Support Server: https://discord.gg/ADn3Mqd";
   font-family: Indie Flower;
   display: block;
   line-height:24px;
@@ -709,7 +709,7 @@ body{background: var(--main-bg)}
 }
 .lookOutlined-3sRXeN.colorBrand-3pXr91 {
 	color: rgba(calc(var(--Red) + 60),calc(var(--Green) + 60),calc(var(--Blue) + 60),1) !important;
-	border-color: rgba(calc(var(--Red) + 50),calc(var(--Green) + 50),calc(var(--Blue) + 50)) !important;
+	border-color: rgba(calc(var(--Red) + 50),calc(var(--Green) + 50),calc(var(--Blue) + 50),1) !important;
 }
 /*Spoiler Tags*/
 #app-mount .spoilerText-3p6IlD.hidden-HHr2R9{
@@ -1112,10 +1112,10 @@ transition: all 700ms ease;
 }
 .lookOutlined-3sRXeN.colorRed-1TFJan {
 	color: rgba(calc(var(--Red) + 60),calc(var(--Green) + 60),calc(var(--Blue) + 60),1) !important;
-	border-color: rgba(calc(var(--Red) + 50),calc(var(--Green) + 50),calc(var(--Blue) + 50)) !important;
+	border-color: rgba(calc(var(--Red) + 50),calc(var(--Green) + 50),calc(var(--Blue) + 50),1) !important;
 }
 #app-mount .input-cIJ7To.focused-1mmYsC {
-	border-color: rgba(calc(var(--Red) + 50),calc(var(--Green) + 50),calc(var(--Blue) + 50)) !important;
+	border-color: rgba(calc(var(--Red) + 50),calc(var(--Green) + 50),calc(var(--Blue) + 50),1) !important;
 }
 #app-mount .divider-3573oO {
 	background-color: rgba(var(--Red),var(--Green),var(--Blue),0.4) !important;
@@ -1130,7 +1130,7 @@ transition: all 700ms ease;
 	background: rgba(calc(var(--Red) + 50),calc(var(--Green) + 50),calc(var(--Blue) + 50),1) !important;
 }
 *[style*="background-color: rgb(114, 137, 218)"] {
-	border-color: rgba(calc(var(--Red) + 50),calc(var(--Green) + 50),calc(var(--Blue) + 50)) !important;
+	border-color: rgba(calc(var(--Red) + 50),calc(var(--Green) + 50),calc(var(--Blue) + 50),1) !important;
 }
 #app-mount .select-2TCrqx .Select-option.is-selected {
 	background-color: rgba(var(--Red),var(--Green),var(--Blue),1) !important;
