@@ -5,11 +5,11 @@
   display: block;
   padding-top: 5px;
   margin-bottom: -10px;
-  content: "CDT v3.05.016 by Waterin"; }
+  content: "CDT v3.05.017 by Waterin"; }
 /*Change Log*/
 #bd-settingspane-container .bda-slist::before,
 .app-2rEoOp button #bd-settingspane-container .bda-slist::before{
-  content:"Change Log - CDT 3.05.016\A\A 1• Fixed User popout.\A\A Support Server: https://discord.gg/ADn3Mqd";
+  content:"Change Log - CDT 3.05.017\A\A 1• Fixed User popout.\A\A Support Server: https://discord.gg/ADn3Mqd";
   font-family: Indie Flower;
   display: block;
   line-height:24px;
@@ -582,6 +582,31 @@ body{background: var(--main-bg)}
 .channelNotices-41mJbj .channelNotice-1-XFjC.invite-OjTXrW {
 	background: transparent;
 }
+.avatarSpeaking-1wJCNq, .avatarDefault-35WC3R, .avatarContainer-72bSfM {
+    border-color: transparent !important;
+    box-shadow: none !important;
+    z-index: 10;
+}
+
+.avatarSpeaking-1wJCNq::before {
+    content: "";
+    position: absolute;
+    left: -5px;
+    width: 4px;
+    height: 20px;
+    background: #43b581;
+}
+
+.avatarSpeaking-1wJCNq::after {
+    content: "";
+    position: absolute;
+    height: 20px;
+    left: -5px;
+    width: 100%;
+    background: linear-gradient(to right, #43b581 0%, transparent 35%);
+    opacity: 0.5;
+    z-index: -1;
+}
 /****************************************************************
 ****************************************************************
 ****************************************************************/
@@ -896,6 +921,7 @@ transition: all 700ms ease;
 	width:240px !important;
 	transition: width .4s;
 }
+
 /****************************************************************
 ****************************************************************
 ****************************************************************/
@@ -1903,6 +1929,18 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {
   top: -50vh;
   left: -50vw;
   opacity: 0.2;
+}
+/****************************************************************
+****************************************************************
+****************************************************************/
+/*Privacy*/
+.userInfoViewing-16kqK3 .flexChild-faoVW3 > div:nth-child(2) .viewBody-2Qz-jg.selectable-x8iAUj {
+    filter: blur(5px);
+    transition: 200ms cubic-bezier(.2, .11, 0, 1);
+}
+.userInfoViewing-16kqK3 .flexChild-faoVW3 > div:nth-child(2) .viewBody-2Qz-jg.selectable-x8iAUj:hover {
+    filter: none;
+    transition: 200ms cubic-bezier(.2, .11, 0, 1);
 }
 /****************************************************************
 ****************************************************************
