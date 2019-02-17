@@ -1,3 +1,5 @@
+## Copyright (c) 2019 Waterin
+
 ## Coloured-Discord-Theme 2.0
 
 # A theme that lets you choose the color that most suits you.
