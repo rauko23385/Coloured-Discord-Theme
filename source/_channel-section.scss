@@ -1,0 +1,53 @@
+// _channel-section.scss
+
+#app-mount .content-20Aix8:hover {
+    /*Channel Highlight Hovered*/
+    background-color: rgba(var(--Red), var(--Green), var(--Blue), 0.2);
+}
+
+#app-mount .contentSelectedText-3wUhMi {
+    /*Selected Channel Highlight*/
+    background-color: rgba(calc(var(--Red) + 20), calc(var(--Green) + 20), calc(var(--Blue) + 20), 0.2);
+    border-left: 4px solid rgba(calc(var(--Red) + 70), calc(var(--Green) + 70), calc(var(--Blue) + 70), 0.5);
+}
+
+#app-mount .unread-1Dp-OI {
+    /*Unread Message dot Color*/
+    background-color: rgba(calc(var(--Red) + 60), calc(var(--Green) + 60), calc(var(--Blue) + 60), 1);
+}
+
+
+.iconHovered-2L3-fB,
+.iconHoveredCollapsed-3caIIZ,
+.iconMuted-1HVBGH,
+.iconUnread-2eGkvX {
+    /*Category Font Color Hovered*/
+    color: rgba(calc(var(--Red) + 30), calc(var(--Green) + 30), calc(var(--Blue) + 30), 1) !important;
+}
+
+.nameCollapsed-34uFWo,
+.nameDefault-2DI02H,
+.nameHovered-1gxhWH,
+.nameHoveredCollapsed-2orEWB,
+.nameMuted-1MCOt4,
+.nameUnread-njOjIS {
+    /*Channel States*/
+    font-weight: 900 !important
+}
+
+#app-mount .unread-1xRYoj {
+    /*Channel Unread*/
+    background-color: rgba(var(--Red), var(--Green), var(--Blue), 1);
+}
+
+#app-mount .unread-1Dp-OI {
+    /*Channel Unread*/
+    height: 70% !important;
+    margin-top: -11px !important;
+}
+
+.channelNotices-41mJbj .channelNotice-1-XFjC.quickswitcher-35bYg4,
+.channelNotices-41mJbj .channelNotice-1-XFjC.invite-OjTXrW {
+    background: transparent;
+}
+

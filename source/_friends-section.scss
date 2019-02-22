@@ -1,0 +1,8 @@
+// _friends-section.scss
+
+.channel-2QD9_O.selected-1HYmZZ a, .channel-2QD9_O:hover a {
+	background-color: rgba(var(--Red),var(--Green),var(--Blue),0.2) !important;
+}
+.private-channels .channel.selected a {
+	background-color: rgba(calc(var(--Red) + 20),calc(var(--Green) + 20),calc(var(--Blue) + 20),0.5) !important;
+}

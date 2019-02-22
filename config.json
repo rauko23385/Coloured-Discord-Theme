@@ -1,0 +1,413 @@
+{
+    "info": {
+        "name": "Coloured Discord Theme v4",
+        "authors": [ 
+			{
+				"name": "Sly Jonas#4971",
+				"url": "https://discord.gg/9tyFPCB",
+				"discord_id": "288053351579648000",
+				"github_username": "Waterin",
+				"twitter_username": ""
+			}
+		],
+        "version": "4.00",
+        "description": "A theme that allows you to pick a color, background and much more!",
+        "icon": "icon.svg",
+        "icon_type": "image/svg+xml",
+        "type": "sass"
+    },
+    "main": "index.scss",
+    "defaultConfig": [
+        {
+            "category": "default",
+            "settings": [
+				{
+					"id": "main-bg",
+					"type": "text",
+					"value": "",
+					"text": "Background image",
+					"hint": "Insert a direct link to an image online. (Eg: https://i.imgur.com/Wg5oQwt.jpg)"
+				},
+				{
+                    "id": "Theme-Color",
+                    "type": "colour",
+                    "value": "#cccccc",
+                    "text": "Theme Color",
+                    "hint": "Changes the color of the theme"
+                },
+				{
+                    "id": "bg-brightness",
+                    "type": "text",
+                    "value": "50",
+					"text": "Background Brightness",
+                    "hint": "Change how bright background is. (0-100)"
+                },
+				{
+                    "id": "theme-font",
+                    "type": "text",
+                    "value": "Ubuntu",
+                    "text": "Theme Font",
+                    "hint": "Sets a font for the theme (All Google Fonts + Google Logo Font [Product Sans] are supported)"
+                },
+				{
+                    "id": "Font-Color",
+                    "type": "colour",
+                    "value": "#123456",
+                    "text": "Font Color |||Beta||| Requires Test Module",
+                    "hint": "Changes the color of the Font | Set #123456 to disable font coloring and get Discord default."
+                },
+				{
+                    "id": "font-thickness",
+                    "type": "dropdown",
+                    "value": "opt3",
+                    "text": "Font Thickness",
+                    "hint": "Change how thick the font is.",
+                    "options": [
+                        {
+                            "id": "opt1",
+                            "text": "Small",
+                            "value": "400"
+                        },
+                        {
+                            "id": "opt2",
+                            "text": "Medium",
+                            "value": "500"
+                        },
+                        {
+                            "id": "opt3",
+                            "text": "Big",
+                            "value": "700"
+                        },
+                        {
+                            "id": "opt4",
+                            "text": "Ultra",
+                            "value": "900"
+                        }
+                    ]
+                },
+				{
+                    "id": "avatar-size",
+                    "type": "dropdown",
+                    "value": "opt1",
+                    "text": "Chat Avatar Size",
+                    "hint": "Change how big avatars are in chat",
+                    "options": [
+                        {
+                            "id": "opt1",
+                            "text": "Small",
+                            "value": "Small"
+                        },
+                        {
+                            "id": "opt2",
+                            "text": "Medium",
+                            "value": "Medium"
+                        },
+                        {
+                            "id": "opt3",
+                            "text": "Big",
+                            "value": "Big"
+                        },
+                        {
+                            "id": "opt4",
+                            "text": "Ultra",
+                            "value": "Ultra"
+                        }
+                    ]
+                },
+				{
+                    "id": "avatar-size-hovered",
+                    "type": "dropdown",
+                    "value": "opt2",
+                    "text": "Chat Avatar Size on Hover",
+                    "hint": "Change how big avatars are in chat when hovered",
+                    "options": [
+                        {
+                            "id": "opt1",
+                            "text": "Disable",
+                            "value": "Disable"
+                        },
+                        {
+                            "id": "opt2",
+                            "text": "Small",
+                            "value": "Small"
+                        },
+                        {
+                            "id": "opt3",
+                            "text": "Medium",
+                            "value": "Medium"
+                        },
+                        {
+                            "id": "opt4",
+                            "text": "Big",
+                            "value": "Big"
+                        }
+                    ]
+                },
+				{
+                    "id": "slide-speed",
+                    "type": "dropdown",
+                    "value": "opt3",
+                    "text": "Channel Slide-In Speed |||Beta||| Requires Test Module",
+                    "hint": "Channel Slide-In animation speed.",
+                    "options": [
+                        {
+                            "id": "opt1",
+                            "text": "Disable",
+                            "value": "100"
+                        },
+                        {
+                            "id": "opt2",
+                            "text": "Slow",
+                            "value": "0.75"
+                        },
+                        {
+                            "id": "opt3",
+                            "text": "Normal",
+                            "value": "1"
+                        },
+                        {
+                            "id": "opt4",
+                            "text": "Fast",
+                            "value": "2"
+                        }
+                    ]
+                },
+				{
+                    "id": "slide-interval",
+                    "type": "dropdown",
+                    "value": "opt3",
+                    "text": "Channel Slide-In Interval |||Beta||| Requires Test Module",
+                    "hint": "Interval between each channel sliding in.",
+                    "options": [
+                        {
+                            "id": "opt1",
+                            "text": "Disable",
+                            "value": "0"
+                        },
+                        {
+                            "id": "opt2",
+                            "text": "Slow",
+                            "value": "0.5"
+                        },
+                        {
+                            "id": "opt3",
+                            "text": "Normal",
+                            "value": "1"
+                        },
+                        {
+                            "id": "opt4",
+                            "text": "Fast",
+                            "value": "2"
+                        }
+                    ]
+                },
+				{
+                    "id": "memberlist",
+                    "type": "bool",
+                    "value": true,
+                    "text": "Member List Hover Slide",
+                    "hint": "Member List will slide to reveal itself fully"
+                },
+				{
+                    "id": "Message-RoleColor",
+                    "type": "dropdown",
+                    "value": "opt2",
+                    "text": "Message Role Color",
+                    "hint": "Makes the message background get be the same color as the role.)",
+                    "options": [
+                        {
+                            "id": "opt1",
+                            "text": "Disable",
+                            "value": "none"
+                        },
+                        {
+                            "id": "opt2",
+                            "text": "Enable",
+                            "value": "currentColor"
+                        }
+                    ]
+                },
+				{
+                    "id": "Emoji",
+                    "type": "bool",
+                    "value": true,
+                    "text": "Emoji Module",
+                    "hint": "Toggles emoji animations."
+                },
+				{
+                    "id": "Unread",
+                    "type": "bool",
+                    "value": true,
+                    "text": "Unread Module",
+                    "hint": "Toggles unread animations."
+                },
+				{
+                    "id": "Tag-Anim1",
+                    "type": "dropdown",
+                    "value": "opt3",
+                    "text": "Tag Animation Speed |1|",
+                    "hint": "1st Tag Animation Speed (May cause lag on low end devices)",
+                    "options": [
+                        {
+                            "id": "opt1",
+                            "text": "Disable",
+                            "value": "0s"
+                        },
+                        {
+                            "id": "opt2",
+                            "text": "Slow",
+                            "value": "15s"
+                        },
+                        {
+                            "id": "opt3",
+                            "text": "Normal",
+                            "value": "10s"
+                        },
+                        {
+                            "id": "opt4",
+                            "text": "Fast",
+                            "value": "5s"
+                        },
+						{
+                            "id": "opt5",
+                            "text": "Ultra",
+                            "value": "2.5s"
+                        }
+                    ]
+                },
+				{
+                    "id": "Tag-Anim2",
+                    "type": "dropdown",
+                    "value": "opt3",
+                    "text": "Tag Animation Speed |2|",
+                    "hint": "2nd Tag Animation Speed (May cause lag on low end devices)",
+                    "options": [
+                        {
+                            "id": "opt1",
+                            "text": "Disable",
+                            "value": "0s"
+                        },
+                        {
+                            "id": "opt2",
+                            "text": "Slow",
+                            "value": "15s"
+                        },
+                        {
+                            "id": "opt3",
+                            "text": "Normal",
+                            "value": "10s"
+                        },
+                        {
+                            "id": "opt4",
+                            "text": "Fast",
+                            "value": "5s"
+                        },
+						{
+                            "id": "opt5",
+                            "text": "Ultra",
+                            "value": "2.5s"
+                        }
+                    ]
+                },
+				{
+                    "id": "Test",
+                    "type": "bool",
+                    "value": true,
+                    "text": "Test Module",
+                    "hint": "Toggles Test module on or off."
+                },
+				{
+                    "id": "Gift",
+                    "type": "bool",
+                    "value": true,
+                    "text": "Hide Gift Button |||Beta||| Requires Test Module",
+                    "hint": "Hides the Gift button in the input bar."
+                },
+				{
+                    "id": "Gif",
+                    "type": "bool",
+                    "value": true,
+                    "text": "Hide Gif Button |||Beta||| Requires Test Module",
+                    "hint": "Hides the Gif button in the input bar."
+                },
+				{
+                    "id": "MemberList-Role",
+                    "type": "bool",
+                    "value": true,
+                    "text": "Member List Role Color |||Beta||| Requires Test Module",
+                    "hint": "Makes usernames on member list white but with a background color same as role."
+                }
+            ]
+        }
+    ],
+	"configSchemes": [
+        {
+            "id": "scheme-1",
+            "name": "Wood",
+            "hint": "Sets background to wood.",
+            "icon_path": "images/Wood.jpg",
+            "categories": [
+                {
+                    "id": "default",
+                    "settings": [
+                        {
+                            "id": "main-bg",
+                            "value": "https://i.imgur.com/9s5zWxn.jpg"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "scheme-2",
+            "name": "Planet",
+            "hint": "Sets background to planet.",
+            "icon_path": "images/Planet.jpg",
+            "categories": [
+                {
+                    "id": "default",
+                    "settings": [
+                        {
+                            "id": "main-bg",
+                            "value": "https://i.imgur.com/2y9mWxj.jpg"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "scheme-3",
+            "name": "Moon",
+            "hint": "Sets background to moon.",
+            "icon_path": "images/DreamMoon.jpg",
+            "categories": [
+                {
+                    "id": "default",
+                    "settings": [
+                        {
+                            "id": "main-bg",
+                            "value": "https://i.imgur.com/Wg5oQwt.jpg"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "scheme-4",
+            "name": "Mountain",
+            "hint": "Sets background to mountain.",
+            "icon_path": "images/Mountain.jpg",
+            "categories": [
+                {
+                    "id": "default",
+                    "settings": [
+                        {
+                            "id": "main-bg",
+                            "value": "https://i.imgur.com/aaIfgaS.jpg"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+// _scrollbar.scss
+
+::-webkit-scrollbar {
+	background: transparent;
+}
+::-webkit-scrollbar-button {
+	display: none !important;
+}
+::-webkit-scrollbar-thumb {
+	background: rgba(var(--Red),var(--Green),var(--Blue),1) !important;
+	border: 2px solid rgba(0,0,0,0) !important;
+	border-radius: 10px !important;
+}
+::-webkit-scrollbar-thumb:hover {
+	background: rgba(calc(var(--Red) + 30),calc(var(--Green) + 30),calc(var(--Blue) + 30),1) !important;
+}
+::-webkit-scrollbar-thumb:active {
+	background: rgba(calc(var(--Red) - 30),calc(var(--Green) - 30),calc(var(--Blue) - 30),1) !important;
+}
+::-webkit-scrollbar-track {
+	display: none !important;
+}
+::-webkit-scrollbar-track-piece,
+::-webkit-scrollbar-track:hover {
+	display: none !important;
+}
+::-webkit-scrollbar-track:active {
+	display: none !important;
+}
+#app-mount .friends-table .scroller-wrap ::-webkit-scrollbar-track-piece, #app-mount .messages-wrapper .scroller-wrap ::-webkit-scrollbar-track-piece {
+	background-color: transparent !important;
+	border-color: transparent !important;
+}

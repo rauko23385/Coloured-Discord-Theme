@@ -1,0 +1,28 @@
+// _background.scss
+#app-mount {
+    background-color: rgba(0, 0, 0, calc(1 - (var(--bg-brightness)/100)))
+}
+
+body {
+    background: var(--main-bg) bottom/cover;
+}
+
+#app-mount .titleBar-AC4pGV {
+    background: transparent;
+}
+
+#app-mount .titleBar-AC4pGV::after {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 22px;
+}
+
+/* Titlebar layer */
+
+#app-mount .backdrop-1wrmKB {
+    background: rgba(0, 0, 0, 0.1) !important
+}

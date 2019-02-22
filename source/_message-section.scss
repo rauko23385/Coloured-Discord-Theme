@@ -1,0 +1,357 @@
+// _message-section.scss
+@import '../map';
+$avatar-size:Medium !default;
+$avatar-size-hovered:Medium !default;
+.messagesWrapper-3lZDfY .image-33JSyf {
+    /*Profile Image Animation Not Hovered*/
+    border: 5px solid rgba(var(--Red), var(--Green), var(--Blue), 0.2);
+    border-radius: 1;
+    background-size: cover;
+    transition: all .4s ease;
+    opacity: 1;
+    margin: 0;
+    @if $avatar-size==Small {
+        width: 35px;
+        height: 35px;
+        position: relative;
+        left: 10px;
+        top: 4px;
+    }
+    @else if $avatar-size==Medium {
+        width: 45px;
+        height: 45px;
+        position: relative;
+        top: -2px;
+    }
+    @else if $avatar-size==Big {
+        width: 55px;
+        height: 55px;
+        position: relative;
+        top: -7px;
+    }
+    @else if $avatar-size==Ultra {
+        width: 65px;
+        height: 65px;
+        position: relative;
+        top: -12px;
+        left: -6px;
+    }
+}
+
+.messagesWrapper-3lZDfY .wrapper-2F3Zv8 {
+    /*Chat Avatar*/
+    margin: -5px 5px 55px;
+    padding-right: 30px
+}
+
+.da-large {
+    opacity: 1 !important;
+}
+
+.messagesWrapper-3lZDfY .image-33JSyf:hover {
+    border: 5px solid rgba(var(--Red), var(--Green), var(--Blue), 0.2);
+    border-radius: 1;
+    background-size: cover;
+    transition: all .4s ease;
+    opacity: 1 !important;
+    margin: 0;
+    z-index: 3001;
+    @if $avatar-size-hovered==Disabled {
+        display: inherit;
+    }
+    @else if $avatar-size-hovered==Small {
+        width: 60px;
+        height: 60px;
+        position: relative;
+        top: -9px;
+        left: -2px;
+    }
+    @else if $avatar-size-hovered==Medium {
+        width: 70px;
+        height: 70px;
+        position: relative;
+        top: -14px;
+        left: -9px;
+    }
+    @else if $avatar-size-hovered==Big {
+        width: 80px;
+        height: 80px;
+        position: relative;
+        top: -19px;
+        left: -12px;
+    }
+}
+
+.newMessagesBar-mujexs {
+    /*Unread Message counter Bar*/
+    background-color: rgba(var(--Red), var(--Green), var(--Blue), 1) !important;
+}
+
+.containerCozy-jafyvG {
+    /*Message Separators*/
+    border-bottom: 2px solid rgba(var(--Red), var(--Green), var(--Blue), 0.4) !important;
+    border-top: 2px solid rgba(var(--Red), var(--Green), var(--Blue), 0.4) !important;
+    border-radius: 10px !important;
+    padding: 20px;
+    padding-left: 10px;
+    padding-right: 0px;
+    margin: 12px 13px 0px 20px;
+    background-color: rgba(var(--Red), var(--Green), var(--Blue), 0.07) !important;
+}
+
+#app-mount .autocomplete-1vrmpx,
+.autocompleteInner-zh20B_ {
+    /*AutoComplete List*/
+    background-color: rgba(calc(var(--Red) - 20), calc(var(--Green) - 20), calc(var(--Blue) - 20), 0.8) !important;
+}
+
+#app-mount .selectorSelected-1_M1WV {
+    /*AutoComplete List Selected/Hovered*/
+    background-color: rgba(calc(var(--Red) + 20), calc(var(--Green) + 20), calc(var(--Blue) + 20), 1) !important;
+}
+
+#app-mount .containerCozy-jafyvG .comment .markup code.inline,
+#app-mount .message-group .comment .markup pre code {
+    /*CodeBlocks Background*/
+    background-color: rgba(var(--Red), var(--Green), var(--Blue), 0.60) !important;
+}
+
+.markup-2BOw-j code,
+.markup-2BOw-j code.inline {
+    background-color: rgba(var(--Red), var(--Green), var(--Blue), 0.60) !important;
+}
+
+#app-mount .containerCozy-jafyvG .comment .markup pre {
+    /*CodeBlocks Border*/
+    border-color: rgba(calc(var(--Red) + 50), calc(var(--Green) + 50), calc(var(--Blue) + 50), 0.5) !important;
+}
+
+.isSending-1nPcL7 {
+    animation: messages-slide-up 600ms cubic-bezier(.3, 0, 0, 1), opacity 1000ms ease infinite;
+}
+
+@keyframes messages-slide-up {
+    from {
+        transform: translate(0, 20px);
+    }
+}
+
+#app-mount .messageGroupBlocked-3wrQQX {
+    display: var(--disable-blockedmsgs, none);
+}
+
+#app-mount .messagesPopoutWrap-1MQ1bW {
+    background-color: rgba(var(--Red), var(--Green), var(--Blue), 0.3) !important;
+}
+
+#app-mount .header-ykumBX {
+    background-color: rgba(calc(var(--Red) - 20), calc(var(--Green) - 20), calc(var(--Blue) - 20), 1) !important;
+    box-shadow: 0px 0px 0 rgba(0, 0, 0, 0) !important;
+}
+
+#app-mount .messageGroupWrapper-o-Zw7G {
+    background-color: transparent !important;
+}
+
+#app-mount .containerCozyBounded-1rKFAn:hover .actionButtons-1sUUug {
+    background-color: rgba(calc(var(--Red) + 10), calc(var(--Green) + 10), calc(var(--Blue) + 10), 1) !important;
+    box-shadow: 0 0 6px 4px rgba(calc(var(--Red) - 10), calc(var(--Green) - 10), calc(var(--Blue) - 10), 0.5) !important;
+}
+
+#app-mount .jumpButton-3DTcS_ {
+    /*Jump button*/
+    background-color: rgba(calc(var(--Red) + 10), calc(var(--Green) + 10), calc(var(--Blue) + 10), 1) !important;
+}
+
+#app-mount .mention {
+    /*Mention*/
+    background-color: rgba(calc(var(--Red) - 10), calc(var(--Green) - 10), calc(var(--Blue) - 10), 0.5) !important;
+    color: white;
+}
+
+#app-mount .mention:hover {
+    /*Mention Hover*/
+    background-color: rgba(calc(var(--Red) + 20), calc(var(--Green) + 20), calc(var(--Blue) + 20), 0.5) !important;
+}
+
+#app-mount .topic-2QX7LI a {
+    color: rgba(var(--Red), var(--Green), var(--Blue), 1) !important;
+}
+
+#app-mount .topic-2QX7LI:hover a {
+    color: rgba(calc(var(--Red) + 30), calc(var(--Green) + 30), calc(var(--Blue) + 30), 1) !important;
+}
+
+#app-mount .message-group a {
+    color: rgba(255, 255, 255, 1) !important;
+}
+
+#app-mount .message-group:hover a {
+    color: rgba(calc(var(--Red) + 30), calc(var(--Green) + 30), calc(var(--Blue) + 30), 1) !important;
+}
+
+#app-mount .attachPopout-1n-ZKM {
+    background-color: rgba(calc(var(--Red) + 10), calc(var(--Green) + 10), calc(var(--Blue) + 10), 1) !important;
+}
+
+#app-mount .attachPopoutRow-KrE-f6:hover {
+    background-color: rgba(calc(var(--Red) + 50), calc(var(--Green) + 50), calc(var(--Blue) + 50), 1) !important;
+}
+
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j {
+    border-color: rgba(calc(var(--Red) + 30), calc(var(--Green) + 30), calc(var(--Blue) + 30), 1) !important;
+}
+
+#app-mount .hasMore-3e72_v button {
+    color: rgba(255, 255, 255, 1) !important;
+}
+
+#app-mount .hasMore-3e72_v button,
+.channelNotices-41mJbj .channelNotice-1-XFjC .message-3SOT5P .btn-11C5_u {
+    background: rgba(var(--Red), var(--Green), var(--Blue), 0.5) !important;
+    border-color: rgba(calc(var(--Red) + 20), calc(var(--Green) + 20), calc(var(--Blue) + 20), 0) !important;
+}
+
+#app-mount .everyonePopout-nEbJY3 {
+    background: transparent;
+    border: 1px solid rgba(calc(var(--Red) + 50), calc(var(--Green) + 50), calc(var(--Blue) + 50), 0.5);
+}
+
+#app-mount .body-2iXqIL,
+#app-mount .footer-2aTx0s {
+    background: rgba(var(--Red), var(--Green), var(--Blue), 0.7);
+}
+
+.lookOutlined-3sRXeN.colorBrand-3pXr91 {
+    color: rgba(calc(var(--Red) + 60), calc(var(--Green) + 60), calc(var(--Blue) + 60), 1) !important;
+    border-color: rgba(calc(var(--Red) + 50), calc(var(--Green) + 50), calc(var(--Blue) + 50), 1) !important;
+}
+
+/*Spoiler Tags*/
+
+#app-mount .spoilerText-3p6IlD.hidden-HHr2R9 {
+    background: rgb(var(--Red), var(--Green), var(--Blue));
+    opacity: 0.50;
+}
+
+#app-mount .spoilerText-3p6IlD {
+    background: rgba(var(--Red), var(--Green), var(--Blue), 0);
+}
+
+#app-mount .spoilerText-3p6IlD.hidden-HHr2R9:hover {
+    background: rgb(var(--Red), var(--Green), var(--Blue));
+    animation: pulsespoiler 1.8s infinite;
+}
+
+@keyframes pulsespoiler {
+    0% {
+        opacity: 0.5;
+    }
+    25% {
+        opacity: 0.75;
+    }
+    50% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 0.75;
+    }
+    100% {
+        opacity: 0.5;
+    }
+}
+
+#app-mount .spoilerText-3p6IlD.hidden-HHr2R9:before {
+    content: "Spoiler";
+    color: var(--Font-Color);
+    position: relative;
+}
+
+/*New DM Popout*/
+
+#app-mount .private-channel-recipients-invite .friend {
+    background: transparent;
+}
+
+.private-channel-recipients-invite .body {
+    background: rgba(calc(var(--Red) - 10), calc(var(--Green) - 10), calc(var(--Blue) - 10), 1);
+}
+
+#app-mount .private-channel-recipients-invite .friend.selected,
+#app-mount .private-channel-recipients-invite .friend:hover {
+    background: rgba(var(--Red), var(--Green), var(--Blue), 1);
+}
+
+#app-mount .themed-popout {
+    background: transparent;
+}
+
+.private-channel-recipients-invite .header .search-bar {
+    background: transparent;
+}
+
+.bd-blue .private-channel-recipients-invite .footer button {
+    background: rgba(calc(var(--Red) + 10), calc(var(--Green) + 10), calc(var(--Blue) + 10), 1);
+}
+
+.video-1kutKI,
+.video-1FfuMD {
+    background: transparent;
+}
+
+.colorMutedText-36M8WR,
+.colorMutedVoice-3ghIuw {
+    background-image: url(map-get(map-get($Icons, Channels), ChatMuted));
+    transform: scale(1);
+    background-size: 100%;
+    color: rgba(120, 120, 120, 0.6)
+}
+
+#app-mount .message-2qRu38 {
+    background: transparent;
+    box-shadow: 0 0 0 0px transparent, 0 0px 0px 0 transparent;
+}
+
+/* <Blocked Messages> */
+
+#app-mount .friends-table .messages .message-group-blocked.revealed,
+#app-mount .messages-wrapper .messages .message-group-blocked.revealed {
+    background: transparent;
+    border-color: transparent;
+}
+
+#app-mount .messageGroupBlocked-3wrQQX {
+    background: transparent;
+    border-color: transparent;
+}
+
+#app-mount .messageGroupBlockedBtn-1PBBh- {
+    background: rgba(var(--Red), var(--Green), var(--Blue), 0.4);
+    border-radius: 5px;
+}
+
+/* </Blocked Messages> */
+
+#app-mount .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI:after,
+#app-mount .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI:before {
+    border-color: rgba(var(--Red), var(--Green), var(--Blue), 1);
+}
+
+/* <Input bar> */
+
+#app-mount form .inner-zqa7da {
+    min-height: 50px;
+    height: 10px;
+    bottom: -20px;
+    margin-top: -40px;
+    margin-left: -21px;
+    margin-right: -21px;
+    margin-bottom: -30px;
+    border-radius: 0px;
+}
+
+#app-mount .inner-zqa7da {
+    background-color: transparent !important;
+}
+
+/* </Input Bar> */

@@ -1,0 +1,48 @@
+// _members-section.scss
+
+#app-mount .memberOnline-1CIh-0 { /*Member Not Hovered*/
+	color: rgba(var(--Red),var(--Green),var(--Blue),1) !important;
+}
+#app-mount .member-3W1lQa:hover .content-OzHfo4 { /*Member Hovered*/
+	background-color: rgba(calc(var(--Red) + 20),calc(var(--Green) + 20),calc(var(--Blue) + 20),0.5) !important;
+	color: #fff;
+	border-left: 4px solid rgba(calc(var(--Red) + 70),calc(var(--Green) + 70),calc(var(--Blue) + 70),1) !important;
+}
+.membersGroup-v9BXpm { /*Roles Separator Not Hovered*/
+	color: rgba(150,150,150,1) !important;
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: .10em;
+	font-weight: 700;
+	padding: 10px 103px 9px 103px;
+	background-color: rgba(var(--Red),var(--Green),var(--Blue), 0.3);
+	border: 2px solid;
+	border-color: rgba(0,0,0,0.4);
+	border-radius: 5px;
+	width: 90px;
+	margin-left: 15px;
+	transition: all 700ms ease;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.membersGroup-v9BXpm:hover { /*Roles Separator Hover*/
+	border-radius: 30px;
+	transition: all 700ms ease;
+}
+$memberlist:okay!default;
+.membersWrap-2h-GB4 {
+  	@if $memberlist == true {
+    	width:50px;
+    	min-width:50px;
+    } @else {
+        width:240px;
+        min-width:240px;
+    }
+    	max-width:240px;
+    	transition:0.4s;
+}
+.membersWrap-2h-GB4:hover {
+    width:240px;
+    min-width:240px;
+}

@@ -1,0 +1,152 @@
+// _personalization.scss
+
+@import '../map';
+
+/*Tags*/
+/*Defaults for tags*/
+:root { /*Defaults*/
+	--Tag-Anim1-Default:5s;
+	--Tag-Anim2-Default:5s;
+  	--Tag-Anim1-R1:20s;
+}
+.da-username::after {
+    position:relative;
+    margin-left:5px;
+    margin-right:1px;
+    padding-right:3px;
+    padding-left:3px;
+    pointer-events:none;
+}
+/*Sly's Tag*/
+[data-user-id="288053351579648000"] .da-username::after {
+    content: 'Theme Dev';
+    border-radius: 3px;
+    background: linear-gradient(270deg, #ff0000, #0000ff);
+    color: #fff;
+	animation: creatortag var(--Tag-Anim1, var(--Tag-Anim1-Default)) ease infinite;
+	background-size: 700% 120%;
+}
+@keyframes creatortag {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+/*Mitchell's Tag*/
+[data-user-id="124989722668957700"] .da-username::after {
+    content: 'Taxpayer';
+	border-radius: 3px;
+	background: linear-gradient(270deg, rgb(255,102,102), rgb(128,212,255));
+	color: #fff;
+	text-shadow: none;
+	animation: mitchelltag1 calc(1.5 * var(--Tag-Anim1, var(--Tag-Anim1-Default))) ease infinite,mitchelltag2 calc(6 * var(--Tag-Anim1, var(--Tag-Anim1-Default))) linear infinite;
+	background-size: 500% 120%;
+}
+@keyframes mitchelltag1 {
+	0%{background-position:0% 50%;box-shadow: inset 0 0 5px 8px rgba(255, 255, 255, 0.5);box-shadow: inset 0 0 5px 8px rgba(255, 255, 255, 0.5);}
+	13%{box-shadow: inset 0 0 5px 10px rgba(255, 255, 255, 0);box-shadow: inset 0 0 5px 10px rgba(255, 255, 255, 0);}
+	25%{box-shadow: 0 0 0 1px rgba(240, 71, 71, 0.7);box-shadow: 0 0 0 1px rgba(240, 71, 71, 0.7);}
+	50%{background-position:100% 50%;}
+	75%{box-shadow: 0 0 0 5px rgba(240, 71, 71, 0);box-shadow: 0 0 0 5px rgba(240, 71, 71, 0);}
+	88%{box-shadow: inset 0 0 5px 1px rgba(255, 255, 255, 0.7);box-shadow: inset 0 0 5px 1px rgba(255, 255, 255, 0.7);}
+	100%{background-position:0% 50%;box-shadow: inset 0 0 5px 4px rgba(255, 255, 255, 0.6);box-shadow: inset 0 0 5px 4px rgba(255, 255, 255, 0.6);}
+}
+@keyframes mitchelltag2 {
+	0%{color: rgba(255, 255, 255, .1);content:'Contributor';}
+	10%{color: rgba(255, 255, 255, 1);content:'Contributor';}
+	23%{color: rgba(255, 255, 255, .0);}
+	35%{color: rgba(255, 255, 255, 1);content:'Taxpayer';}
+	48%{color: rgba(255, 255, 255, .0);}
+	60%{color: rgba(255, 255, 255, 1);content:'Tester';}
+	73%{color: rgba(255, 255, 255, .0);}
+	85%{color: rgba(255, 255, 255, 1);content:'Mitchell';}
+	98%{color: rgba(255, 255, 255, .0);}
+	100%{color: rgba(255, 255, 255, .1);content:'Mitchell';}
+}
+/*Rauko's Tag*/
+[data-user-id="224518756964106242"] .da-username::after {
+	content:'Contributor';
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    background: rgba(131, 76, 60,0.25);
+    animation: raukotag1 var(--Tag-Anim1, var(--Tag-Anim1-R1)) infinite,raukotag2 var(--Tag-Anim1, var(--Tag-Anim1-R1)) infinite;
+    background-size: 300% 120%;
+}
+@keyframes raukotag1 {
+    0%{color: darkred;content:'Contributor';border-color: darkred;}
+    25%{color: teal;content:'Tester';border-color: teal;}
+    50%{color: cyan;content:'Regular';border-color: cyan;}
+    75%{color: magenta;content:'Support';border-color:magenta;}
+    100%{color: darkred;content:'Contributor';border-color: darkred;}
+}
+@keyframes raukotag2 {
+    0%{box-shadow: 0 0 0 3px darkred;}
+    25%{box-shadow: 0 0 0 3px teal;}
+    50%{box-shadow: 0 0 0 3px cyan;}
+    75%{box-shadow: 0 0 0 3px magenta;}
+    100%{box-shadow: 0 0 0 3px darkred;}
+}
+/*Patron's Tag*/
+[data-user-id="ID"] .da-username::after {
+    content: 'Patron';
+    border-radius: 3px;
+    background: #ffd700;
+    color: darkred;
+}
+/*Contributor's Tag*/
+[data-user-id="ID"] .da-username::after {
+    content: 'Contributor';
+    border-radius: 3px;
+    background: rgb(231, 76, 60);
+    color: #000;
+}
+
+/*Server Owner Crown*/
+.bd-isGuildOwner .da-timestampCozy {
+    &::before {
+	    content:'   ';
+        position:relative;
+        margin-left:1px;
+        margin-right:3px;
+        padding-right:3px;
+        padding-left:3px;
+        border-radius: 3px;
+        top:-2px;
+        font-size:16px;
+        border-bottom: 2px solid linear-gradient(to left,transparent ,#faa61a,transparent);
+        color:transparent;
+        background-image: url(map-get(map-get($Icons, Channels), Crown));
+        background-repeat:no-repeat;
+        transition:all 0.4s ease;
+        padding-bottom:3px;
+        }
+    &:hover::before {
+        content: 'Owner';
+        background: rgba(0,0,0,0.7);
+        text-align: center;
+        color: #faa61a;
+        top:0;
+        padding:2px 3px;
+        font-size: 12px;
+        min-width: 80px;
+        border-radius: 3px;
+        transition:all 0.4s ease;
+    }
+}
+/*Role Color Messages*/
+.containerCozyBounded-1rKFAn .username-_4ZSMR {
+  position: relative;
+  text-shadow: 0 0 8px black;
+}
+.containerCozyBounded-1rKFAn .username-_4ZSMR::before {
+  content: "";
+  background: var(--Message-RoleColor, currentColor);
+  position: absolute;
+  width: 200vw;
+  height: 500vh;
+  z-index: -1;
+  top: -50vh;
+  left: -50vw;
+  opacity: 0.2;
+}
+.bd-profileBadgeDeveloper, .bd-profileBadgeWebdev, .bd-profileBadgeContributor {
+    display:none;
+}

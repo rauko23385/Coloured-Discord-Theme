@@ -1,0 +1,31 @@
+// _settings.scss
+
+$theme-font:'Ubuntu'!default;
+$font-thickness:900 !default;
+$bg-brightness:50 !default;
+$slide-speed:1.5 !default;
+$slide-interval:2 !default;
+$Tag-Anim1:0s !default;
+$Tag-Anim2:0s !default;
+$Font-Color:#123456 !default;
+$Message-RoleColor:none !default;
+$Redd:red($Theme-Color);
+$Greend:green($Theme-Color);
+$Blued:blue($Theme-Color);
+$main-bg: "https://i.imgur.com/9s5zWxn.jpg" !default;
+
+:root {
+    --Red:#{$Redd};
+    --Green:#{$Greend};
+    --Blue:#{$Blued};
+    --Message-RoleColor:#{$Message-RoleColor};
+    --font-thickness:#{$font-thickness};
+    --bg-brightness:#{$bg-brightness};
+    --Font-Color:#{$Font-Color};
+    --slide-interval:#{$slide-interval};
+    --slide-speed:#{$slide-speed};
+    --Tag-Anim1:#{$Tag-Anim1};
+    --Tag-Anim2:#{$Tag-Anim2};
+    --theme-font:#{$theme-font};
+    --main-bg: url(#{$main-bg});
+}

@@ -1,0 +1,190 @@
+// _others-section.scss
+/*Others*/
+
+#app-mount .keyboardShortcutsModal-3piNz7 {
+    /*Keyboard combos*/
+    background: rgba(calc(var(--Red) - 20), calc(var(--Green) - 20), calc(var(--Blue) - 20), 1);
+}
+
+
+.tooltip-1OS-Ti.black-2bmmnj {
+    /*Tooltip Color Editor*/
+    background-color: rgba(var(--Red), var(--Green), var(--Blue), 0.7) !important;
+}
+
+.tooltip-1OS-Ti.bottom-19kp6S:after {
+    /*Tooltip Color Editor Bottom Notch*/
+    border-bottom-color: rgba(var(--Red), var(--Green), var(--Blue), 0.7) !important
+}
+
+.tooltip-1OS-Ti.right-KM_vfY:after {
+    /*Tooltip Color Editor Right Notch*/
+    border-right-color: rgba(var(--Red), var(--Green), var(--Blue), 0.7) !important
+}
+
+.tooltip-1OS-Ti.top-1pTh1F:after {
+    /*Tooltip Color Editor Top Notch*/
+    border-top-color: rgba(var(--Red), var(--Green), var(--Blue), 0.7) !important
+}
+
+.tooltip-1OS-Ti.left-1wV7VO:after {
+    /*Tooltip Color Editor Top Notch*/
+    border-left-color: rgba(var(--Red), var(--Green), var(--Blue), 0.7) !important
+}
+
+.separator-2zcjq8 {
+    /*Server Pull Down Menu Separators*/
+    border-bottom: 1px solid rgba(30, 30, 30, 0.5) !important;
+}
+
+.popout section {
+    background-color: rgba(calc(var(--Red) + 10), calc(var(--Green) + 10), calc(var(--Blue) + 10), 0.7) !important;
+}
+
+.popout header {
+    background-color: rgba(calc(var(--Red) - 10), calc(var(--Green) - 10), calc(var(--Blue) - 10), 0.7) !important;
+}
+
+.popout.popout-top-right section:after,
+.popout.popout-top section:after {
+    border-top-color: rgba(calc(var(--Red) + 10), calc(var(--Green) + 10), calc(var(--Blue) + 10), 0.7) !important;
+}
+
+.container-3nXdBP hr {
+    border: 1px solid rgba(calc(var(--Red) + 70), calc(var(--Green) + 70), calc(var(--Blue) + 70), 1) !important;
+}
+
+.name-3YKhmS {
+    color: rgba(calc(var(--Red) + 30), calc(var(--Green) + 30), calc(var(--Blue) + 30), 1) !important;
+}
+
+.channelName-3stJzi.private-26pLvW {
+    color: rgba(calc(var(--Red) + 10), calc(var(--Green) + 10), calc(var(--Blue) + 10), 1) !important;
+}
+
+.emojiPicker-3m1S-j {
+    background-color: rgba(calc(var(--Red) - 20), calc(var(--Green) - 20), calc(var(--Blue) - 20), 1) !important;
+}
+
+.searchBarLight-1NxoDG {
+    background-color: rgba(calc(var(--Red) - 20), calc(var(--Green) - 20), calc(var(--Blue) - 20), 1) !important;
+}
+
+.searchBarLight-1NxoDG .searchBarInner-1_Tg2R,
+.emojiPicker-3m1S-j .category-2U57w6 {
+    background-color: rgba(var(--Red), var(--Green), var(--Blue), 1) !important;
+}
+
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.selected-39BZ4S {
+    border-bottom-color: rgba(calc(var(--Red) + 30), calc(var(--Green) + 30), calc(var(--Blue) + 30), 1) !important;
+}
+
+.emojiPicker-3m1S-j .stickyHeader-1SS0JU {
+    background-color: rgba(calc(var(--Red) - 20), calc(var(--Green) - 20), calc(var(--Blue) - 20), 1) !important;
+}
+
+.downloadLink-2oSgiF {
+    /*Image Viewer "Open Original" Button*/
+    color: rgba(calc(var(--Red) + 50), calc(var(--Green) + 50), calc(var(--Blue) + 50), 1) !important;
+}
+
+.weightMedium-2iZe9B {
+    /*"Open Original" Font Weight*/
+    font-weight: 700
+}
+
+#app-mount .attachment-33OFj0 {
+    background-color: rgba(var(--Red), var(--Green), var(--Blue), 0.3) !important;
+    border-color: rgba(calc(var(--Red) + 20), calc(var(--Green) + 20), calc(var(--Blue) + 20), 0.5) !important;
+}
+
+.uploadModal-2ifh8j {
+    background-color: rgba(var(--Red), var(--Green), var(--Blue), 1) !important;
+}
+
+.uploadModal-2ifh8j .footer-3mqk7D {
+    background-color: rgba(30, 30, 30, 1) !important;
+}
+
+.uploadModal-2ifh8j .footer-3mqk7D .button {
+    background-color: rgba(110, 110, 110, 1) !important;
+}
+
+.uploadModal-2ifh8j .footer-3mqk7D .button-primary {
+    background-color: rgba(calc(var(--Red) + 20), calc(var(--Green) + 20), calc(var(--Blue) + 20), 1) !important;
+    color: rgba(255, 255, 255, 1) !important;
+    left: -1px !important;
+}
+
+.uploadModal-2ifh8j .inner-3nWsbo {
+    border-color: rgba(30, 30, 30, 1) !important;
+}
+
+#app-mount .contextMenu-HLZMGh,
+#app-mount .container-3cGP6G {
+    background-color: rgba(var(--Red), var(--Green), var(--Blue), 1) !important;
+    box-shadow: 0 0 1px rgba(calc(var(--Red) + 20), calc(var(--Green) + 20), calc(var(--Blue) + 20), 1) !important;
+}
+
+#app-mount .itemGroup-1tL0uz {
+    border-color: rgba(calc(var(--Red) + 20), calc(var(--Green) + 20), calc(var(--Blue) + 20), 1) !important;
+}
+
+#app-mount .item-1Yvehc {
+    color: rgba(200, 200, 200, 1) !important;
+}
+
+#app-mount .item-1Yvehc:hover,
+#app-mount .item-2J1YMK:hover {
+    background-color: rgba(calc(var(--Red) + 20), calc(var(--Green) + 20), calc(var(--Blue) + 20), 1) !important;
+}
+
+.bda-dark #bda-qem-favourite-container,
+.bda-dark #bda-qem-twitch-container {
+    background-color: rgba(calc(var(--Red) - 20), calc(var(--Green) - 20), calc(var(--Blue) - 20), 1) !important;
+}
+
+.emote-container:hover {
+    background-color: rgba(calc(var(--Red) + 10), calc(var(--Green) + 10), calc(var(--Blue) + 10), 0.5) !important;
+}
+
+.bda-dark #bda-qem {
+    border-bottom-color: rgba(calc(var(--Red) + 20), calc(var(--Green) + 20), calc(var(--Blue) + 20), 1) !important;
+}
+
+.bda-dark #bda-qem button {
+    background-color: rgba(calc(var(--Red) - 20), calc(var(--Green) - 20), calc(var(--Blue) - 20), 1) !important;
+    box-shadow: rgba(calc(var(--Red) + 20), calc(var(--Green) + 20), calc(var(--Blue) + 20), 1) 1px 0 0 0 !important;
+    border-left-color: rgba(calc(var(--Red) + 20), calc(var(--Green) + 20), calc(var(--Blue) + 20), 1) !important;
+}
+
+.bda-dark #bda-qem button.active {
+    background-color: rgba(calc(var(--Red) - 10), calc(var(--Green) - 10), calc(var(--Blue) - 10), 1) !important;
+}
+
+#app-mount .itemSubMenu-1vN_Yn {
+    background-color: rgba(var(--Red), var(--Green), var(--Blue), 1) !important;
+}
+
+.guildInner-3DSoA4 {
+    background-color: rgba(var(--Red), var(--Green), var(--Blue), 1) !important;
+}
+
+.guildInner-3DSoA4:hover {
+    background-color: rgba(calc(var(--Red) + 20), calc(var(--Green) + 20), calc(var(--Blue) + 20), 1) !important;
+}
+
+.item-26Dhrx.marginBottom8-AtZOdT.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.cardPrimaryEditable-3KtE4g.card-3Qj_Yx {
+    border-color: transparent !important;
+}
+
+.bd-blue *[style*="background-color: rgb(114, 137, 218)"] {
+    background: rgba(calc(var(--Red) + 20), calc(var(--Green) + 20), calc(var(--Blue) + 20), 1) !important;
+}
+
+.titleText-3X-zRE .status {
+    max-width: 0px !important;
+    min-height: 49px;
+    border-radius: 0px !important;
+    margin-left: 0px !important;
+}

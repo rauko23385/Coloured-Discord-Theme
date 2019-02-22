@@ -1,0 +1,216 @@
+// _icons.scss
+
+@import '../map';
+
+[aria-label^="USER_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {
+    &:nth-child(2) {
+        &::before {
+            content:' ';
+            margin-right:4px;
+            position:relative;
+        	background:url(map-get(map-get($Icons, Discord-Settings), Account)) center/120% no-repeat;
+       	}
+    }
+    &:nth-child(3) {
+        &::before {
+            content:' ';
+            margin-right:4px;
+            position:relative;
+        	background:url(map-get(map-get($Icons, Discord-Settings), Privacy)) center/115% no-repeat;
+       	}
+    } 
+    &:nth-child(4) {
+        &::before {
+            content:' ';
+            margin-right:4px;
+            position:relative;
+        	background:url(map-get(map-get($Icons, Discord-Settings), AuthApps)) center/115% no-repeat;
+       	}
+    } 
+    &:nth-child(5) {
+        &::before {
+            content:' ';
+            margin-right:4px;
+            position:relative;
+        	background:url(map-get(map-get($Icons, Discord-Settings), Connections)) center/115% no-repeat;
+       	}
+    } 
+    &:nth-child(6) {
+        &::before {
+            content:' ';
+            margin-right:4px;
+            position:relative;
+        	background:url(map-get(map-get($Icons, Discord-Settings), Billing)) center/115% no-repeat;
+       	}
+    } 
+    &:nth-child(8) {
+        &::before {
+            content:' ';
+            margin-right:4px;
+            position:relative;
+        	background:url(map-get(map-get($Icons, Discord-Settings), Nitro)) center/150% no-repeat;
+       	}
+    }
+    &:nth-child(9) {
+        &::before {
+            content:' ';
+            margin-right:4px;
+            position:relative;
+        	background:url(map-get(map-get($Icons, Discord-Settings), HypeSquad)) center/150% no-repeat;
+       	}
+    }
+    &:nth-child(12) {
+        &::before {
+            content:' ';
+            margin-right:4px;
+            position:relative;
+        	background:url(map-get(map-get($Icons, Discord-Settings), VoiceandVideo)) center/115% no-repeat;
+       	}
+    }
+    &:nth-child(13) {
+        &::before {
+            content:' ';
+            margin-right:4px;
+            position:relative;
+        	background:url(map-get(map-get($Icons, Discord-Settings), Overlay)) center/115% no-repeat;
+       	}
+    }
+    &:nth-child(14) {
+        &::before {
+            content:' ';
+            margin-right:4px;
+            position:relative;
+        	background:url(map-get(map-get($Icons, Discord-Settings), Notif)) center/115% no-repeat;
+       	}
+    }
+    &:nth-child(15) {
+        &::before {
+            content:' ';
+            margin-right:4px;
+            position:relative;
+        	background:url(map-get(map-get($Icons, Discord-Settings), Keybinds)) center/115% no-repeat;
+       	}
+    }
+    &:nth-child(16) {
+        &::before {
+            content:' ';
+            margin-right:4px;
+            position:relative;
+        	background:url(map-get(map-get($Icons, Discord-Settings), GameAct)) center/115% no-repeat;
+       	}
+    }
+    &:nth-child(17) {
+        &::before {
+            content:' ';
+            margin-right:4px;
+            position:relative;
+        	background:url(map-get(map-get($Icons, Discord-Settings), GameLib)) center/115% no-repeat;
+       	}
+    }
+    &:nth-child(18) {
+        &::before {
+            content:' ';
+            margin-right:4px;
+            position:relative;
+        	background:url(map-get(map-get($Icons, Discord-Settings), TextandImages)) center/115% no-repeat;
+       	}
+    }
+    &:nth-child(19) {
+        &::before {
+            content:' ';
+            margin-right:4px;
+            position:relative;
+        	background:url(map-get(map-get($Icons, Discord-Settings), Appearance)) center/115% no-repeat;
+       	}
+    }
+    &:nth-child(20) {
+        &::before {
+            content:' ';
+            margin-right:4px;
+            position:relative;
+        	background:url(map-get(map-get($Icons, Discord-Settings), Stream)) center/115% no-repeat;
+       	}
+    }
+    &:nth-child(21) {
+        &::before {
+            content:' ';
+            margin-right:4px;
+            position:relative;
+        	background:url(map-get(map-get($Icons, Discord-Settings), Lang)) center/115% no-repeat;
+       	}
+    }
+    &:nth-child(22) {
+        &::before {
+            content:' ';
+            margin-right:4px;
+            position:relative;
+        	background:url(map-get(map-get($Icons, Discord-Settings), Windows)) center/115% no-repeat;
+       	}
+    }
+    &:nth-child(24) {
+        &::before {
+            content:' ';
+            margin-right:4px;
+            position:relative;
+        	background:url(map-get(map-get($Icons, Discord-Settings), ChangeLog)) center/115% no-repeat;
+       	}
+    }
+    &:nth-child(26) {
+        &::before {
+            content:' ';
+            margin-right:4px;
+            position:relative;
+        	background:url(map-get(map-get($Icons, Discord-Settings), Logout)) center/115% no-repeat;
+       	}
+    }
+}
+.bd-item {
+    &:nth-child(3):before {
+    		content:' ';
+    		position:relative;
+    		margin-right:5px;
+        background:url(map-get(map-get($Icons, BDV2), Connectivity)) 70%/115%;
+	}
+    &:nth-child(4):before {
+    		content:' ';
+    		position:relative;
+    		margin-right:5px;
+            background:url(map-get(map-get($Icons, BDV2), Core)) center/115% no-repeat;
+	}
+    &:nth-child(5):before {
+    		content:' ';
+    		position:relative;
+    		margin-right:5px;
+            background:url(map-get(map-get($Icons, BDV2), UI)) center/115% no-repeat;
+	}
+    &:nth-child(6):before {
+    		content:' ';
+    		position:relative;
+    		margin-right:5px;
+            background:url(map-get(map-get($Icons, BDV2), Emotes)) 60%/115%;
+	}
+    &:nth-child(7):before {
+    		content:' ';
+    		position:relative;
+    		margin-right:5px;
+            background:url(map-get(map-get($Icons, BDV2), SandP)) center/115% no-repeat;
+	}
+    &:nth-child(8):before {
+    		content:' ';
+    		position:relative;
+    		margin-right:5px;
+            background:url(map-get(map-get($Icons, BDV2), CSS)) center/130%;
+	}
+    &:nth-child(10):before {
+    		content:' ';
+    		position:relative;
+    		margin-right:5px;
+            background:url(map-get(map-get($Icons, BDV2), Plugins)) 80%/115%;
+	}
+    &:nth-child(11):before {
+    		content:' ';
+    		position:relative;
+    		margin-right:5px;
+            background:url(map-get(map-get($Icons, BDV2), Themes)) center/115%;
+	}
+}

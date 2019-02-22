@@ -1,0 +1,103 @@
+// _guild-section.scss
+*[style*="background-color: rgb(114, 137, 218)"] {
+    background-color: rgba(var(--Red), var(--Green), var(--Blue), 1) !important;
+    color: rgba(var(--Red), var(--Green), var(--Blue), 1) !important;
+}
+
+.item-1GzJrl:hover {
+    background-color: rgba(calc(var(--Red) + 10), calc(var(--Green) + 10), calc(var(--Blue) + 10), 1) !important;
+}
+
+#app-mount .guildsAdd-21_IdK {
+    /*Create/Join Server Icon*/
+    background: rgba(var(--Red), var(--Green), var(--Blue), 1) !important;
+}
+
+#app-mount .guildSeparator-1X4GQ1:after {
+    /*Friend/Server Separator*/
+    background: rgba(calc(var(--Red) - 10), calc(var(--Green) - 10), calc(var(--Blue) - 10), 0.4) !important;
+}
+
+#app-mount .guild-1EfMGQ.selected-ML3OIq:before{
+    /*Server Selected*/
+    background: rgba(calc(var(--Red) + 0), calc(var(--Green) + 0), calc(var(--Blue) + 0), 1) !important;
+}
+
+
+
+.guildInner-3DSoA4 {
+    /*Server Icons*/
+    background-color: rgba(var(--Red), var(--Green), var(--Blue), 1) !important;
+}
+
+/*Add server Popout*/
+
+.create-guild-container.deprecated .form.deprecated .form-inner,
+.form-deprecated .btn+.btn,
+.form.deprecated .btn+.btn {
+    background: rgba(var(--Red), var(--Green), var(--Blue), 1);
+}
+
+.form-deprecated .btn+.btn:hover,
+.form.deprecated .btn+.btn:hover {
+    background: rgba(calc(var(--Red) + 20), calc(var(--Green) + 20), calc(var(--Blue) + 20), 1);
+}
+
+.create-guild-container.deprecated .create-or-join header,
+.bd-blue .create-guild-container h5 {
+    color: white;
+}
+
+.form-deprecated .form-actions,
+.form.deprecated .form-actions,
+.create-guild-container.deprecated .form-actions .btn-default {
+    background: rgba(30, 30, 30, 1);
+    border-color: transparent;
+}
+
+.create-guild-container.deprecated .action {
+    background: rgba(calc(var(--Red) + 30), calc(var(--Green) + 30), calc(var(--Blue) + 30), 0.4);
+}
+
+.form.deprecated .control-group input[type=text] {
+    background: rgba(calc(var(--Red) + 20), calc(var(--Green) + 20), calc(var(--Blue) + 20), 1);
+    border-color: transparent;
+    border-radius: 4px;
+}
+
+.form.deprecated .control-group input[type=text]:hover {
+    border-color: transparent;
+}
+
+.regionSelect-3lf4eE button,
+.regionSelect-3lf4eE .regionSelectInner-24f4Ce {
+    border-color: transparent;
+}
+
+.regionSelect-3lf4eE button:hover,
+.regionSelect-3lf4eE .regionSelectInner-24f4Ce:hover,
+.regionSelect-3lf4eE:hover .regionSelectInner-24f4Ce,
+.regionSelect-3lf4eE:hover button {
+    border-color: rgba(30, 30, 30, 1);
+    background: transparent;
+}
+
+.regionSelect-3lf4eE button {
+    border-left: 1px solid rgba(30, 30, 30, 1);
+}
+
+.bd-blue .avatar-uploader-inner {
+    background: rgba(calc(var(--Red) + 20), calc(var(--Green) + 20), calc(var(--Blue) + 20), 1);
+    border-color: rgba(60, 60, 60, 1);
+}
+
+#app-mount .action-1lSjCi {
+    /*Add/Create bg and border*/
+    background: transparent;
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.or-3THJsp {
+    /*Or crap*/
+    display: none;
+}

@@ -1,0 +1,154 @@
+// _emoji.scss
+
+$Emoji:okay!default;
+
+img[alt*=":heart:"], 
+img[alt*=":hearts:"], 
+img[alt*=":green_heart:"], 
+img[alt*=":blue_heart:"], 
+img[alt*=":purple_heart:"],
+img[alt*=":yellow_heart:"], 
+img[alt*=":heartbeat:"], 
+img[alt*=":heartpulse:"], 
+img[alt*=":black_heart:"], 
+img[alt*=":sparkling_heart:"],
+img[alt*=":kiss:"],
+img[alt*=":heart_eyes:"],
+img[alt*=":heart_eyes_cat:"]{ 
+	@if $Emoji == true {
+		animation: heartbeat 1s infinite;
+    } @else {
+		animation: heartbeat 0s infinite;
+    }
+}
+img[alt*=":hammer:"],
+img[alt*=":pick:"] { 
+	@if $Emoji == true {
+		animation: wobble 0.5s infinite;
+    } @else {
+		animation: wobble 0s infinite;
+    }
+}
+img[alt*=":sneezing_face:"] {
+    @if $Emoji == true {
+		animation: wobble 1s infinite;
+    } @else {
+		animation: wobble 0s infinite;
+    }
+}
+img[alt*=":money_with_wings:"],
+img[alt*=":wave:"],
+img[alt*=":upside_down:"]{ 
+	@if $Emoji == true {
+		animation: wobble 2s infinite;
+    } @else {
+		animation: wobble 0s infinite;
+    }
+}
+img[alt*=":soccer:"],
+img[alt*=":basketball:"],
+img[alt*=":baseball:"],
+img[alt*=":tennis:"],
+img[alt*=":gear:"],
+img[alt*=":sunny:"],
+img[alt*=":snowflake:"],
+img[alt*=":cd:"],
+img[alt*=":dvd:"]{
+	@if $Emoji == true {
+		animation: rotate 2s infinite;
+    } @else {
+		animation: rotate 0s infinite;
+    }
+}
+img[alt*=":angry:"],
+.emoji[alt*="Angery"], 
+.emoji[alt*="Thonkery"] {
+    @if $Emoji == true {
+		animation: vibrate 0.2s infinite;
+    } @else {
+		animation: vibrate 0s infinite;
+    }
+}
+img[alt*=":bomb:"] {
+    @if $Emoji == true {
+		animation: bomb 2s infinite;
+    } @else {
+		animation: bomb 0s infinite;
+    }
+}
+img[alt*=":boom:"] {
+    @if $Emoji == true {
+		animation: boom 2s infinite;
+    } @else {
+		animation: boom 0s infinite;
+    }
+}
+img[alt*=":eyes:"] {
+    @if $Emoji == true {
+		animation: eyes 4s infinite;
+        animation-timing-function:steps(1);
+    } @else {
+		animation: eyes 0s infinite;
+    }
+}
+img[alt*=":laughing:"] {
+    @if $Emoji == true {
+        transform: rotate(-90deg);
+    } @else {
+		transform: rotate(0deg);
+    }
+}
+img[alt*=":joy_cat:"],
+img[alt*=":joy:"] {
+    @if $Emoji == true {
+		animation: joy 2s infinite;
+    } @else {
+		animation: joy 0s infinite;
+    }
+}
+img[alt*=":scream:"],
+img[alt*=":scream_cat:"] {
+    @if $Emoji == true {
+		animation: scare 2s infinite;
+    } @else {
+		animation: scare 0s infinite;
+    }
+}
+img[alt*=":rofl:"] {
+    @if $Emoji == true {
+		animation: rofl 2s infinite;
+    } @else {
+		animation: rofl 0s infinite;
+    }
+}
+img[alt*=":hourglass:"] {
+    @if $Emoji == true {
+		animation: hourglass 2s infinite;
+    } @else {
+		animation: hourglass 0s infinite;
+    }
+}
+@keyframes fadeScreen {
+from { opacity: 0;   }
+to {   opacity: 100; }
+}
+@keyframes wobble   {0%,100%{transform:rotate(20deg)}50%{transform:rotate(-20deg)}}
+@keyframes scare    {0%,100%{transform:rotate(9deg)}50%{transform:rotate(-9deg)}}
+@keyframes hourglass{0%,100%,41%{transform:rotate(0)}20%,40%{transform:rotate(-180deg)}}
+@keyframes rotate   {0%{transform:rotate(0)}100%{transform:rotate(360deg)}}
+@keyframes rofl     {0%{transform:rotate(45deg)}100%{transform:rotate(404deg)}}
+@keyframes heartbeat{0%,100%,40%,80%{transform:scale(.75)}20%,60%{transform:scale(1)}}
+@keyframes joy      {0%,100%,50%{transform:scale(.9)}25%,75%{transform:scale(1)}}
+@keyframes boom     {0% {transform:scale(.1)}20% {transform:scale(1)}80% {transform:scale(1);opacity: 1;}100%{opacity: 0;}}
+@keyframes bomb     {0%,100%,20%{transform:scale(1)}90%{transform:scale(.6)}95%{transform:scale(1.5)}}
+@keyframes eyes     {0%,25%,75%{transform:scaleX(1)}50%,100%{transform:scaleX(-1)}}
+@keyframes vibrate  {25%{transform: translateX(3px) translateY(-2px)}50%{transform: translateX(-1px) translateY(3px)}75%{transform: translateX(-4px) translateY(-2px)}100%{transform: translateX(2px) translateY(-1px)}}
+.emoji.jumboable {
+	transform: scale(1);
+	transition: all 100ms ease-in-out;
+}
+.emoji:hover,
+.emote:hover,
+.emoji.jumboable:hover {
+	transform: scale(1.5);
+}

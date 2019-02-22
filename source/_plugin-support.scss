@@ -1,0 +1,78 @@
+// _plugin-support.scss
+
+/*Role Members Plugin by Zerebos*/
+#app-mount .popoutList-T9CKZQ {
+	background:rgba(var(--Red),var(--Green),var(--Blue),.7);
+	border: 1px solid rgba(calc(var(--Red) + 20),calc(var(--Green) + 20),calc(var(--Blue) + 20),0.5);
+}
+#app-mount .elevationBorderHigh-2WYJ09 {
+	box-shadow:0 0 1px rgba(0,0,0,0), 0 1px 4px rgba(0,0,0,0);
+}
+#app-mount .searchBar-1MOL6S,
+#app-mount .selectableItem-1MP3MQ:hover {
+	background:rgba(calc(var(--Red) + 20),calc(var(--Green) + 20),calc(var(--Blue) + 20),.8);
+}
+/*View Guild Relationships*/
+.vgr-relationshipswindow-scroller-wrapper {
+	background: rgba(var(--Red),var(--Green),var(--Blue),.5)!important;
+}
+.vgr-friend-item:hover {
+	background: rgba(calc(var(--Red) + 20),calc(var(--Green) + 20),calc(var(--Blue) + 20),0.5);
+}
+/*Message Logger*/
+.metalloriff-changelog-scroller,
+.ml-scroller-wrapper {
+	background: rgba(var(--Red),var(--Green),var(--Blue),.5)!important;
+}
+.ml-tab-button.selected, ml-tab-button:active, .ml-filter-help-button:active {
+	background: rgba(var(--Red),var(--Green),var(--Blue),.5)!important;
+	border: 1px solid rgba(calc(var(--Red) + 30),calc(var(--Green) + 30),calc(var(--Blue) + 30),.5)
+}
+.ml-tab-button:hover, .ml-filter-help-button:hover {
+	background: rgba(calc(var(--Red) + 10),calc(var(--Green) + 10),calc(var(--Blue) + 10),.5)!important;
+}
+/*Member Count by Arashiryuu*/
+#app-mount #MemberCount {
+	color: rgba(150,150,150,1);
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: .10em;
+	font-weight: 900;
+	padding: 10px 103px 7px 103px;
+	background-color: rgba(var(--Red),var(--Green),var(--Blue), 0.3);
+	border: 2px solid;
+	border-color: rgba(0,0,0,0.4);
+	border-radius: 5px;
+	width: 90px;
+	margin-left: 15px;
+	display: flex;
+	align-items: center;
+	transform: translateY(-26px);
+	transition: all 0.2s ease-in-out;
+}
+#app-mount #MemberCount:hover {
+	transform: translateY(0px);
+}
+/*Plugin Update Notice*/
+.noticeInfo-3_iTE1{background:rgba(var(--Red),var(--Green),var(--Blue),.5)}
+/*Date Viewer Plugin*/
+#dv-mount {
+	background-color: rgba(var(--Red),var(--Green),var(--Blue),0.7) !important;
+}
+#pluginNotice {
+	background: rgba(var(--Red),var(--Green),var(--Blue),1);
+}
+/*Reply System by Zerebos*/
+.reply-icon {
+    order:3;
+    position:relative;
+    left:5px;
+    top:-3px;
+}
+.reply-list {
+    background: rgba(calc(var(--Red) - 30),calc(var(--Green) - 30),calc(var(--Blue) - 30),0.8);
+}
+.reply-item {
+    text-shadow: 0 0 4px black;
+    background:rgba(calc(var(--Red) - 0),calc(var(--Green) - 0),calc(var(--Blue) - 0),1);
+}
