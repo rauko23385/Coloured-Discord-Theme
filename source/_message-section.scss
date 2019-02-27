@@ -1,5 +1,6 @@
 // _message-section.scss
 @import '../map';
+
 $avatar-size:Medium !default;
 $avatar-size-hovered:Medium !default;
 .messagesWrapper-3lZDfY .image-33JSyf {
@@ -298,15 +299,44 @@ $avatar-size-hovered:Medium !default;
 .video-1FfuMD {
     background: transparent;
 }
-
+/* <Chat muted Icon> */
 .colorMutedText-36M8WR,
 .colorMutedVoice-3ghIuw {
-    background-image: url(map-get(map-get($Icons, Channels), ChatMuted));
+    background-image: url(map-get(map-get($Icons, Main-Screen), VolumeOff));
     transform: scale(1);
     background-size: 100%;
     color: rgba(120, 120, 120, 0.6)
 }
 
+/* </Chat muted icon> */
+/* <Attach Icon> */
+.attachButtonInner-1iyZ9F {
+    mask:url(map-get(map-get($Icons, Main-Screen), Attach)) center/95% !important;
+    -webkit-mask:url(map-get(map-get($Icons, Main-Screen), Attach)) center/95% !important;
+    opacity:.3;
+    background:#fff;
+    transition:100ms all linear;
+}
+.attachButtonInner-1iyZ9F:hover {
+    opacity:1;
+    transform:scale(1.1);
+}
+.attachButtonPlus-rUdX-B {
+    display:none;
+}
+/* </Attach Icon> */
+/* <Edit Icon> */
+.edited-DL9ECl {
+    background-image:url(map-get(map-get($Icons, Main-Screen), Edit));
+    background-size:123%;
+    background-repeat:no-repeat;
+    background-position:-1px -1px;
+	font-size:14px;
+	letter-spacing:-4.8px;
+    color:transparent!important;
+    opacity:0.7;
+}
+/* </Edit Icon> */
 #app-mount .message-2qRu38 {
     background: transparent;
     box-shadow: 0 0 0 0px transparent, 0 0px 0px 0 transparent;

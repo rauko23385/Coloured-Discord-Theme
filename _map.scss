@@ -1,5 +1,10 @@
 // _map.scss
 
+$ID:(
+    Sly:"288053351579648000",
+    Mitchell:"124989722668957700",
+    Rauko:"224518756964106242",
+);
 $Icons: (
     BDV2:(
 		Connectivity:"https://i.imgur.com/bQvyru1.png", 
@@ -21,7 +26,7 @@ $Icons: (
         HypeSquad:"https://i.imgur.com/BQL91yY.png",
         VoiceandVideo:"https://i.imgur.com/s5baFjh.png",
         Overlay:"https://i.imgur.com/cV9RC69.png",
-        Notif:"https://i.imgur.com/rEVysUw.png",
+        Notif:"https://i.imgur.com/4dV8uJo.png",
         Keybinds:"https://i.imgur.com/KSr1jyg.png",
         GameAct:"https://i.imgur.com/9UEN7MO.png",
         GameLib:"https://i.imgur.com/fdM3x1X.png",
@@ -33,8 +38,23 @@ $Icons: (
         ChangeLog:"https://i.imgur.com/BqEf5ME.png",
         Logout:"https://i.imgur.com/95xE6jS.png",
     ),
-    Channels:(
+    Main-Screen:(
         ChatMuted:"https://i.imgur.com/spR0PzM.png",
-        Crown:"https://i.imgur.com/NqYlnVI.png"
+        Crown:"https://i.imgur.com/NqYlnVI.png",
+        MicOn:"https://i.imgur.com/s5baFjh.png",
+        MicOff:"https://i.imgur.com/DVBQNn8.png",
+        VolumeOn:"https://i.imgur.com/6BNgp0c.png",
+        VolumeOff:"http s://i.imgur.com/cln9Eyu.png",
+        Attach:"https://i.imgur.com/rg00Tlw.png",
+        NotifOn:"https://i.imgur.com/4dV8uJo.png",
+        NotifOff:"https://i.imgur.com/yTtS6hi.png",
+        Pin:"Not Defined",
+        MemberOn:"https://i.imgur.com/gJjNzkO.png",
+        MemberOff:"https://i.imgur.com/XdPyoMC.png",
+        Mention:"https://i.imgur.com/lJPNvgs.png",
+        Help:"https://i.imgur.com/mk916fx.png",
+        AddFriend:"https://i.imgur.com/HsvPfsX.png",
+        Phone:"https://i.imgur.com/VeTsq4k.png",
+		Edit:"https://i.imgur.com/yH1uR31.png",
     )
 );

@@ -97,9 +97,7 @@
     border-radius: 3px;
     background: rgb(231, 76, 60);
     color: #000;
-}
-
-/*Server Owner Crown*/
+}/*Server Owner Crown*/
 .bd-isGuildOwner .da-timestampCozy {
     &::before {
 	    content:'   ';
@@ -113,7 +111,7 @@
         font-size:16px;
         border-bottom: 2px solid linear-gradient(to left,transparent ,#faa61a,transparent);
         color:transparent;
-        background-image: url(map-get(map-get($Icons, Channels), Crown));
+        background-image: url(map-get(map-get($Icons, Main-Screen), Crown));
         background-repeat:no-repeat;
         transition:all 0.4s ease;
         padding-bottom:3px;

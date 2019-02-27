@@ -6,3 +6,40 @@
 .private-channels .channel.selected a {
 	background-color: rgba(calc(var(--Red) + 20),calc(var(--Green) + 20),calc(var(--Blue) + 20),0.5) !important;
 }
+.privateChannels-1nO12o header {
+	text-align:center;
+	background:rgba(var(--Red),var(--Green),var(--Blue),0.5);
+}
+#app-mount .friendsTable-133bsv .friendsRow-2yicud:hover {
+	background:rgba(var(--Red),var(--Green),var(--Blue),0.5);
+}
+#app-mount .friendsRow-2yicud {
+	border-top:1px solid rgba(var(--Red),var(--Green),var(--Blue),0.5);
+}
+#app-mount .friendsTable-133bsv .friendsTableHeader-32yE7d {
+	border-bottom:1px solid rgba(var(--Red),var(--Green),var(--Blue),0.5);
+}
+#app-mount .friendsTableHeader-32yE7d .friendsColumnSeparator-3MqtMA {
+	background-color:rgba(var(--Red),var(--Green),var(--Blue),0.5);
+}
+#app-mount .headerBar-UHpsPw {
+	box-shadow:0 1px 0 rgba(0,0,0,.7), 0 2px 0 rgba(0,0,0,.06);
+}
+.homeIcon-1FoKUJ defs,
+.homeIcon-1FoKUJ g {
+	display: none;
+}
+.homeIcon-1FoKUJ {
+	background: #fff;
+	mask: url('data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjZmZmZmZmIiBoZWlnaHQ9IjQ4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSI0OCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PHBhdGggZD0iTTIxIDZoLTJ2OUg2djJjMCAuNTUuNDUgMSAxIDFoMTFsNCA0VjdjMC0uNTUtLjQ1LTEtMS0xem0tNCA2VjNjMC0uNTUtLjQ1LTEtMS0xSDNjLS41NSAwLTEgLjQ1LTEgMXYxNGw0LTRoMTBjLjU1IDAgMS0uNDUgMS0xeiIvPjwvc3ZnPg==');
+	-webkit-mask: url('data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjZmZmZmZmIiBoZWlnaHQ9IjQ4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSI0OCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PHBhdGggZD0iTTIxIDZoLTJ2OUg2djJjMCAuNTUuNDUgMSAxIDFoMTFsNCA0VjdjMC0uNTUtLjQ1LTEtMS0xem0tNCA2VjNjMC0uNTUtLjQ1LTEtMS0xSDNjLS41NSAwLTEgLjQ1LTEgMXYxNGw0LTRoMTBjLjU1IDAgMS0uNDUgMS0xeiIvPjwvc3ZnPg==');
+	mask-size: 26px;
+	-webkit-mask-size: 26px;
+	mask-repeat: no-repeat;
+	-webkit-mask-repeat: no-repeat;
+	mask-position: center;
+	-webkit-mask-position: center;
+}
+.tabBar-1E2ExX .primary-3j8BhM {
+	background-color:rgba(var(--Red),var(--Green),var(--Blue),0.5)!important;
+}

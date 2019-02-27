@@ -1,5 +1,5 @@
 // _base.scss
-
+@import '../map';
 /*Theme Version*/
 
 #bd-settings-sidebar>span>span::after,
@@ -8,14 +8,14 @@
     display: block;
     padding-top: 5px;
     margin-bottom: -10px;
-    content: "CDT v3.05.017 by Waterin";
-}
+    content: "CDT v4.00 by Waterin";
+} 
 
 /*Change Log*/
 
 #bd-settingspane-container .bda-slist::before,
 .app-2rEoOp button #bd-settingspane-container .bda-slist::before {
-    content: "Change Log - CDT 3.05.017\A\A 1• Fixed User popout.\A\A Support Server: https://discord.gg/ADn3Mqd";
+    content: "Change Log - CDT 4.00\A\A 1• Adapted code for BDV2\A\A Support Server: https://discord.gg/ADn3Mqd";
     font-family: Indie Flower;
     display: block;
     line-height: 24px;
@@ -53,7 +53,7 @@ textarea {
 /*Login Screen*/
 
 .authBox-hW6HRx {
-    background: rgba(120, 0, 0, 0.6)
+    background: rgba(var(--Red), var(--Green), var(--Blue), 0.7)
 }
 
 .image-2jyRAK,
@@ -66,6 +66,7 @@ textarea {
 .wrapper-3Q5DdO {
     background: transparent;
 }
+
 /****************************************************************
 ****************************************************************
 ****************************************************************/
@@ -337,4 +338,75 @@ textarea {
 .bd-sidebarView .bd-contentRegion {
     opacity: 0.95;
     background: rgb(0, 0, 0);
+}
+
+/****************************************************************
+****************************************************************
+****************************************************************/
+
+.title-3qD0b- .icon-1R19_H[name="Phone"] path,
+/*.title-3qD0b- .icon-1R19_H[name="Pin"] path,*/
+.title-3qD0b- .icon-1R19_H[name*="NotificationBell"] path,
+.title-3qD0b- .icon-1R19_H[name="People"] path,
+.title-3qD0b- .icon-1R19_H[name="Mention"] path,
+.title-3qD0b- .icon-1R19_H[name="QuestionMark"] path,
+.title-3qD0b- .icon-1R19_H[name="PersonPlus"] path {
+    visibility: hidden;
+}
+
+.title-3qD0b- .icon-1R19_H[name="NotificationBell"] {
+    background-image: url(map-get(map-get($Icons, Main-Screen), NotifOn)) !important;
+	background-position: center;
+	background-size:100%;
+	filter:invert(1);
+}
+
+.title-3qD0b- .icon-1R19_H[name="NotificationBellOff"] {
+    background-image: url(map-get(map-get($Icons, Main-Screen), NotifOff)) !important;
+	background-position: center;
+	background-size:100%;
+	filter:invert(1);
+}
+/*
+.title-3qD0b- .icon-1R19_H[name="Pin"] {
+    background-image: url(map-get(map-get($Icons, Main-Screen), Pin)) !important;
+	background-position: center;
+	background-size:100%;
+}*/
+
+.title-3qD0b- .icon-1R19_H[name="People"] {
+    background-image: url(map-get(map-get($Icons, Main-Screen), MemberOff)) !important;
+	background-position: center;
+	background-size:100%;
+}
+
+.title-3qD0b- .icon-1R19_H[name="People"].iconActive-AKd_jq {
+    opacity: 0.7;
+    background-image: url(map-get(map-get($Icons, Main-Screen), MemberOn)) !important;
+	background-position: center;
+	background-size:100%;
+}
+
+.title-3qD0b- .icon-1R19_H[name="QuestionMark"] {
+    background-image: url(map-get(map-get($Icons, Main-Screen), Help)) !important;
+	background-position: center;
+	background-size:100%;
+}
+
+.title-3qD0b- .icon-1R19_H[name="PersonPlus"] {
+    background-image: url(map-get(map-get($Icons, Main-Screen), AddFriend)) !important;
+	background-position: center;
+	background-size:100%;
+}
+
+.title-3qD0b- .icon-1R19_H[name="Phone"] {
+    background-image: url(map-get(map-get($Icons, Main-Screen), Phone)) !important;
+	background-position: center;
+	background-size:100%;
+}
+
+.title-3qD0b- .icon-1R19_H[name="Mention"] {
+    background-image: url(map-get(map-get($Icons, Main-Screen), Mention)) !important;
+	background-position: center;
+	background-size:100%;
 }

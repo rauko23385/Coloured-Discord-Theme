@@ -1,5 +1,5 @@
 // _channel-section.scss
-
+@import '../map';
 #app-mount .content-20Aix8:hover {
     /*Channel Highlight Hovered*/
     background-color: rgba(var(--Red), var(--Green), var(--Blue), 0.2);
@@ -15,7 +15,6 @@
     /*Unread Message dot Color*/
     background-color: rgba(calc(var(--Red) + 60), calc(var(--Green) + 60), calc(var(--Blue) + 60), 1);
 }
-
 
 .iconHovered-2L3-fB,
 .iconHoveredCollapsed-3caIIZ,
@@ -51,3 +50,40 @@
     background: transparent;
 }
 
+.small--aHOfS[aria-label="Mute"] {
+    background-image: url(map-get(map-get($Icons, Main-Screen), MicOn)) !important;
+    transform: scale(1.2);
+    top: -1px;
+    background-position: center;
+}
+
+.small--aHOfS[aria-label="Unmute"] {
+    background-image: url(map-get(map-get($Icons, Main-Screen), MicOff)) !important;
+    transform: scale(1.2);
+    top: -1px;
+    background-position: center;
+}
+
+.small--aHOfS[aria-label="Deafen"] {
+    background-image: url(map-get(map-get($Icons, Main-Screen), VolumeOn)) !important;
+    transform: scale(1.2);
+    top: -1px;
+    background-position: center;
+}
+
+.small--aHOfS[aria-label="Undeafen"] {
+    background-image: url(map-get(map-get($Icons, Main-Screen), VolumeOff)) !important;
+    transform: scale(1.2);
+    top: -1px;
+    background-position: center;
+    transition:all 0.25s ease;
+}
+.small--aHOfS[aria-label="Mute"],
+.small--aHOfS[aria-label="Unmute"],
+.small--aHOfS[aria-label="Deafen"],
+.small--aHOfS[aria-label="Undeafen"] {
+    &:hover{
+        transform:scale(1.5);
+        transition:all 0.15 ease;
+    }
+}
