@@ -5,7 +5,7 @@
   display: block;
   padding-top: 5px;
   margin-bottom: -10px;
-  content: "CDT v3.05.017 by Waterin"; }
+  content: "CDT v3.05.018 by Waterin"; }
 /*Change Log*/
 #bd-settingspane-container .bda-slist::before,
 .app-2rEoOp button #bd-settingspane-container .bda-slist::before{
@@ -1309,6 +1309,11 @@ transition: all 700ms ease;
 }
 .emojiPicker-3m1S-j {
 	background-color: rgba(calc(var(--Red) - 20),calc(var(--Green) - 20),calc(var(--Blue) - 20),1) !important;
+}
+.searchBarLight-1NxoDG .searchBarInner-1_Tg2R,
+.emojiPicker-3m1S-j .category-2U57w6,
+.searchBar-2_Yu-C.searchBarLight-1NxoDG input {
+    color:var(--Font-Color, #fff)
 }
 .searchBarLight-1NxoDG {
 	background-color: rgba(calc(var(--Red) - 20),calc(var(--Green) - 20),calc(var(--Blue) - 20),1) !important;
