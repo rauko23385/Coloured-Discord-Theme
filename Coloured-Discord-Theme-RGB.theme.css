@@ -1,6 +1,6 @@
 /*//META{"name":"Coloured-Discord-Theme-RGB","description":"A theme that allows you to pick a color and much more.","author":"Waterin","version":"3.05","website":"https://discord.gg/9tyFPCB", "source":"https://github.com/Waterin/Coloured-Discord-Theme"}*//**/
 /*Theme*/
-@import url('https://waterin.github.io/Coloured-Discord-Theme/Source/Coloured-Discord-Theme-RGB.theme.css');
+@import url('https://raw.githubusercontent.com/rauko23385/Coloured-Discord-Theme/master/Source/Coloured-Discord-Theme-RGB.theme.css');
 /*Fonts*/ /*Change link to be able to use your own font*/
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 /*Emoji Module*/
