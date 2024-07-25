@@ -1,0 +1,20 @@
+/**
+ * Put here to clean up the source file
+ * But useless since it doesn't function properly
+ */
+
+#app-mount .da-message .wrapper-2F3Zv8 > .da-large:hover { /*Profile Image Animation Hovered*/
+	/* width        : var(--chatavatar-size-on-hover);
+	height          : var(--chatavatar-size-on-hover);
+	border          : 1px solid rgba(0,0,0,0)!important;
+	border-radius   : 0px!important;
+	background-size : cover!important;
+	transition      : all .4s ease!important;
+	opacity         : 1!important;
+	animation       : pulse 2.5s linear infinite !important; FIXME: needs to be fixed before enabling again*/
+}
+@keyframes pulse{
+    0%{box-shadow: 1px 1px 20px rgba(0,0,0,0);}
+	50%{box-shadow: 1px 1px 20px rgba(calc(255 * var(--Red)),calc(255 * var(--Green)),calc(255 * var(--Blue)),1);}
+    100%{box-shadow: 1px 1px 20px rgba(0,0,0,0);}
+}
