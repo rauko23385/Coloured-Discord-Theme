@@ -1,0 +1,46 @@
+/****************************************************************
+*******************Avatar's and Statuses Section****************
+****************************************************************/
+.online-2S838R,
+.member-3W1lQa .status-2s6iDp.online-2S838R,
+.xsmall-3afG_L .status-2s6iDp.online-2S838R {
+  border: 2px solid #43B581 !important;
+  animation: pulse1 2.5 linear infinite !important;
+}
+@keyframes pulse1{     
+    0%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
+	50%{box-shadow: 1px 1px 20px #43B581;}
+    100%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
+}
+.idle-3DEnRT,
+.member-3W1lQa .status-2s6iDp.idle-3DEnRT,
+.xsmall-3afG_L .status-2s6iDp.idle-3DEnRT {
+  border: 2px solid #FAA61A !important;
+  animation: pulse2 2.5 linear infinite !important;
+}
+@keyframes pulse2{
+    0%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
+	50%{box-shadow: 1px 1px 20px #FAA61A;}
+    100%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
+}
+.dnd-1_xrcq,
+.member-3W1lQa .status-2s6iDp.dnd-1_xrcq,
+.xsmall-3afG_L .status-2s6iDp.dnd-1_xrcq {
+  border: 2px solid #F04747 !important;
+  animation: pulse3 2.5 linear infinite !important;
+}
+@keyframes pulse3{
+    0%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
+	50%{box-shadow: 1px 1px 20px #F04747;}
+    100%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
+}
+.streaming-2_dnHe,
+.member-3W1lQa .status-2s6iDp.streaming-2_dnHe {
+	border: 2px solid #593695 !important;
+	animation: pulse5 2.5 linear infinite !important;
+}
+@keyframes pulse5{
+    0%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
+	50%{box-shadow: 1px 1px 20px #593695;}
+    100%{box-shadow: 1px 1px 1px rgba(0,0,0,0);}
+}
