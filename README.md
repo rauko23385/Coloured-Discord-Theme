@@ -10,7 +10,7 @@
 
 * **Support and Contact:** Any help needed pls contact me through discord **@Waterin#1301** or **@Sly Jonas#1301**
 
-* [Donate](https://www.patreon.com/Waterin) [Or Here](https://www.paypal.me/Waterin)
+* [Donate](https://www.patreon.com/Waterin) or [Here](https://www.paypal.me/Waterin)
 
 ## Sample version Theme Preview - [Download](https://betterdiscord.net/ghdl?id=1885)
 ![alt text](https://imgur.com/jU2lhQW.jpg)
