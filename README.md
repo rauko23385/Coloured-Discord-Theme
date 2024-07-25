@@ -7,11 +7,8 @@
 * **Simple-Version:** Will get updates and fixes without having to redownload. Unless it's a file update (Don't happen often)
 
 * **Source Version:** Source needs to be downloaded again to update the file so Simple version is recommended unless you want to edit source on your own!
-* **Join my Support server for source editing help**
 
-* **Support and Contact:** Any help needed pls contact me through discord **@Waterin#1301** or **@Sly Jonas#1301** or join my [Support Server](https://discord.gg/ADn3Mqd)
-
-* Feel free to suggest in the [Discord Server](https://discord.gg/ADn3Mqd) . I'll try to implement if it is really good. ^^
+* **Support and Contact:** Any help needed pls contact me through discord **@Waterin#1301** or **@Sly Jonas#1301**
 
 * [Donate](https://www.patreon.com/Waterin) [Or Here](https://www.paypal.me/Waterin)
 
